@@ -6,14 +6,13 @@ navigation: 1
 
 # Media Owner and Content
 
-... put in information here ...
+Stefan Haslinger<br/>
+Vorgartenstraße 145/2/3, 1020 Wien
 
-# Links
-
-... put in information here ...
+@informatom<br/>
+stefan@panoptikum.io
 
 
 # License
 
-... use cc by as below or put in information here ...
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
