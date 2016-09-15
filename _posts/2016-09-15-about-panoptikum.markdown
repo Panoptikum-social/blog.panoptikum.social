@@ -43,8 +43,8 @@ podcaster and podcast listener and my main focus is to create a site where the p
 ## When will it be ready?
 
 I don't really know. Panoptikum is currently under heavy development. I am investing almost all of my time that is 
-not spent on maintaining legacy projects, on Panoptikum. It will be published, when it's ready, but you should 
-definitely see something usefull and ineteresting in late 2016.
+not spent on maintaining legacy projects, on Panoptikum. It will be published, when it's ready, but the podcasting 
+community should definitely see something usefull and ineteresting in late 2016.
 
 ## Can I contribute?
 
@@ -56,20 +56,23 @@ Parsing podcast feeds and building the network of podcast listeners are the firs
 So we need lists of podcasts, podcast listeners have subscribed to. Most podcatchers (= podcast listening apps)
 can export this list in opml format. We would be very happy, if you could send your list to 
 <stefan@panoptikum.io>. If your Podcatcher can't export opml or if you don't use one, a text file with a simple list of the URLs of your podcast feeds or even just the podcast sites would be fine, too.
-You will get early bird access to the site in compensation for your efforts.
+You will get early bird access to the site in October 2016 in compensation for your efforts.
 
 ### ... as a podcaster
 
 You could send me a list of your podcast feeds at <stefan@panoptikum.io> and you will get early bird access to the site in 
-compensation. We are also interested in your opinions in the ideas presented above, especially which features, that you 
-miss at other podcasting platforms you would like to see here. 
+October 2016 in compensation. We are also interested in your opinions in the ideas presented above, especially 
+which features you miss at other podcasting platforms and you would like to see here. Feel free to send this comments via 
+email or post them in the comment section below. 
 
 ### ... as a developer
 
 If you are a web developer, interested in this project, and also interesting in coding in Elixir and Phoenix, get in 
-touch via Twitter [@panoptikumIO](https://twitter.com/panoptikum.io), Email: <stefan@panoptikum.io> or visit our 
-[Github page](https://github.com/panoptikum.io). There you will find the source code for this marketing page (that is written using Jekyll and jekyll-Octopod), but more important the panoptikum web application itself in the Pan repository. 
+touch via Twitter [@panoptikumIO](https://twitter.com/panoptikumio), Email: <stefan@panoptikum.io> or visit our 
+[Github page](https://github.com/panoptikumio). There you will find the source code for this marketing page (that is written using Jekyll and jekyll-Octopod), but more important the panoptikum web application itself in the Pan repository. 
+
+If, by coincidence, you are located close to Vienna, Austria, there will be an Elixir & Phoenix study / hacking / meetup group or the like starting soon in September 2016. Get in touch with me (see above), if you are interested.
 
 ### ... as anybody else
 
-We are interested in your feedback! Send your message at <stefan@panoptikum.io>.
+We are interested in your feedback! Comment below or send your message to <stefan@panoptikum.io>.
