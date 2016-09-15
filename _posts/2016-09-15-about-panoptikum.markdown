@@ -26,7 +26,7 @@ I think it would also be interesting to see new podcasts coming into the scene, 
 
 Because it's another way of publishing your podcast. Panoptikum is an additional possibility for podcasters to get feedback and attract more attention than before.
 
-## Will Panoptikum.io allways be free?
+## Will Panoptikum.io always be free?
 
 Yes and no.
 
