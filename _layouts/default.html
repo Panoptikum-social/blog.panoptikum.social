@@ -12,6 +12,8 @@
   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/general_feed.xml" title="General Site Atom Feed (No Podcast Metadata!)" />
   {{ site | episode_feeds_html }}
 
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootflat.css">
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom_styles.css">
@@ -50,14 +52,6 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             {{ site | navigation_list:page }}
-
-          <form class="navbar-form navbar-right" action="https://google.com/search" method="get" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="search item">
-              <input type="hidden" name="q" value="site:{{ site.url | host_from_url }}" />
-            </div>
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
