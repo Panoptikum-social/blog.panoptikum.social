@@ -23,12 +23,12 @@ address.
 
 ### Where does the name Vienna BEAMers come from?
 
-Beam is the name of the Erlang virtual machine, on which Elixir is running, and we are an in person
+BEAM is the name of the Erlang virtual machine, on which Elixir is running, and we are an in person
 meetup in Vienna, Austria.
 
 The name was invented by Dave [@dch__](https://twitter.com/dch__), who has run
-a meetup group with this name for years and is the human being behing
+a meetup group with this name for years and is the human being behind
 [@viennaBEAMers](https://twitter.com/viennaBEAMers).
 
 Dave is probably the most experienced developer in our group -
-ask him a question, and he will be happy to prove it :-) .
+ask him a question, and he will be happy to prove it :-)
