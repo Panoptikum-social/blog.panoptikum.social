@@ -21,6 +21,7 @@ Send a short note to <stefan@panoptikum.io> to tell him, that you will show up a
 provide you with direction details. - It's quite tricky to find his flat, even now that you know the
 address.
 
+
 ### Where does the name Vienna BEAMers come from?
 
 BEAM is the name of the Erlang virtual machine, on which Elixir is running, and we are an in person
@@ -32,3 +33,14 @@ a meetup group with this name for years and is the human being behind
 
 Dave is probably the most experienced developer in our group -
 ask him a question, and he will be happy to prove it :-)
+
+
+### Can I join in remotely?
+
+Though it is just half the fun, you can join in on the IRC channel
+[Vienna BEAMers](irc://chat.freenode.net:6667/viennabeamers).
+
+If your browser does not support irc links, that is #viennabeamers on freenode\\
+In case you don't have an IRC client installed, you can use Freenode's [Web Chat](https://webchat.freenode.net/).
+
+We will be there at least during the study group hours (see above).
