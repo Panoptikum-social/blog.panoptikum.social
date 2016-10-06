@@ -77,7 +77,7 @@ Panoptikum is currently under heavy development.
 I am investing almost all of my time that is not spent on maintaining legacy projects, on
 Panoptikum.
 It will be published, when it's ready, but the podcasting community should definitely see
-something usefull and initeresting in late 2016.
+something usefull and interesting in late 2016.
 
 ## Can I contribute?
 
