@@ -30,7 +30,7 @@ Q: What are the benefits for me, if I register myself at Panoptikum?
 A: You can get recommendations based on your subscriptions list ("others that subscribed to this podcast also like ...") and you can post reviews regarding podcasts you have subscribed.
 
 ### Subscription List
-Q: At the moment listeners send their subscription list to me (<sonja@panoptikum.io>). How will it work in the future?
+Q: At the moment listeners send their subscription list to <sonja@panoptikum.io>. How will it work in the future?
 
 A: The listener will be registered at Panoptikum and after the login an upload function will be available. If you upload your subscription list more then once, the latest upload replaces the existing list.
 
