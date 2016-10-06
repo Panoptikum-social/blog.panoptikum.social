@@ -33,3 +33,7 @@ A: You can get recommendations based on your subscriptions list ("others that su
 Q: At the moment listeners send their subscription list to me (sonja@panoptikum.io). How will it work in the future?
 
 A: The listener will be registered at Panoptikum and after the login an upload function will be available. If you upload your subscription list more then once, the latest upload replaces the existing list.
+
+## Lanuages
+
+The project language of Panoptikum is English. But feel free to send questions and comments in one of the following languages to sonja@panoptikum.io: English, French and German.
