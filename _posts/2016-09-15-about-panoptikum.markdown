@@ -79,6 +79,13 @@ Panoptikum.
 It will be published, when it's ready, but the podcasting community should definitely see
 something usefull and interesting in late 2016.
 
+## Cannot stand waiting any longer?
+
+Ok, are you ready for an &nbsp;
+<a href="https://alpha.panoptikum.io" class="btn btn-danger btn-lg">
+  <i class="fa fa-exclamation-triangle"></i> &alpha; - Test <i class="fa fa-exclamation-triangle"></i>
+</a> ?
+
 ## Can I contribute?
 
 Definitely.
