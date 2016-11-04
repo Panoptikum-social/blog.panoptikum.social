@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Panoptikum.io Blog"
+date:   2016-10-02 18:00:00 +0200
+img:    "/assets/sticker.jpg"
+alt:    "Panoptikum Sticker"
+author: Sonja
+---
+
+Welcome to the Panoptikum.io blog. The aim is to give you insights into the development of the software and the community. I started as a community manager in September and my first tasks were the new [community page](https://www.panoptikum.io/community/) with a short introduction and the Q&A section.
+
+The questions and answers are the result of an interview with Stefan in which I asked every question regarding Panoptikum.io that came to my mind. Hopefully the list will evolve from First Asked Questions to Frequently Asked Questions with the inputs from the podcasters and the listeners that are sent to <sonja@panoptikum.io>.
+
+The next milestones in the Panoptikum.io projects are:
+* Alpha version ready for [SUBSCRIBE 8](http://das-sendezentrum.de/subscribe/sub8/) in Munich
+* Beta version ready for [33C3](https://events.ccc.de/tag/33c3/) in Hamburg
+
+In the next months I will keep you up-to-date with weekly blog posts regarding Panoptikum.io and its development.

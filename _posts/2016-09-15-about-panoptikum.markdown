@@ -3,6 +3,7 @@ layout: post
 title:  "About Panoptikum.io"
 date:   2016-09-15 12:53:43 +0200
 categories: meta
+author: Stefan
 ---
 
 Hi! I this is Stefan speaking, a freelance web developer from Vienna, Austria, and I am the creator

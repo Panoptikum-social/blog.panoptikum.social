@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Functionality Alpha Version"
+date:   2016-10-23 18:00:00 +0200
+img:    "/assets/sticker.jpg"
+alt:    "Panoptikum Sticker"
+author: Stefan
+---
+
+The Panoptikum.io [alpha version](https://alpha.panoptikum.io) includes basic functionality.
+
+The features are:
+* Category tree with podcasts
+* Podcasts with episodes
+* Data available (from 2016-10-13)
+  * 102 podcasts
+  * 5750 episodes
+  * 46 categories
+* Parser: reads feeds and fills the database
+* Podlove Webplayer
+* Scan to subscribe via QR-code
+* Responsive layout
+* Response time < 25 ms

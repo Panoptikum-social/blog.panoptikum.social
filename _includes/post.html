@@ -4,6 +4,9 @@
 {% endif %}
 <section id="{{ post.id | sha1:8 }}" class="active">
   {% include post_header.html %}
+  <em>Author {{ post.author }}, posted {{ post.date | date:"%B %-d, %Y" }}</em>
+  <br/>
+  <br/>
   {{ post.content }}
     {% if post.audio %}
       {% for file in post.audio %}
