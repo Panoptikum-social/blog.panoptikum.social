@@ -5,7 +5,9 @@ date:   2016-10-30 18:00:00 +0200
 author: Sonja
 ---
 
-Last week I attended the [Privacy Week](https://privacyweek.at/) in Vienna, as a speaker and as a volunteer. The title of my lecture was [Lebensraum Internet](https://fahrplan.privacyweek.at/events/10.html) in the track "Privatsphäre im digitalen Zeitalter". This lead (at least me) to the question: What about privacy in Panoptikum.io?
+Last week I attended the [Privacy Week](https://privacyweek.at/) in Vienna, as a speaker and as a volunteer.
+
+The title of my lecture was [Lebensraum Internet](https://fahrplan.privacyweek.at/events/10.html) in the track "Privatsphäre im digitalen Zeitalter". This lead (at least me) to the question: What about privacy in Panoptikum.io?
 
 The service is designed based on the principle of [Datensparsamkeit](http://martinfowler.com/bliki/Datensparsamkeit.html). Only what is needed is asked and stored. We do not intend to collect demographic data or to identify single persons. Three things are stored on a user basis: username, encrypted password and email address. Username and password are required for login. The email address is needed for password recovery. Panoptikum.io does require real names and does not check the identity of the user in any wa. Any username can be chosen as long as it has not ben taken yet within Panoptikum. The registration itself is necessary for updates of your subscription list and to store your reviews, comments and likes and prevent from faving the same item several times
 

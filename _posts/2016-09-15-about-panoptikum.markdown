@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Panoptikum.io"
+title:  About
 date:   2016-09-15 12:53:43 +0200
 categories: meta
 author: Stefan

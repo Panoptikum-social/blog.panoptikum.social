@@ -1,34 +1,26 @@
-<div class="page-header">
-
-<center>
-  <a href="https://alpha.panoptikum.io" class="btn btn-normal btn-lg">
-    Give it a try!
-  </a>
-</center>
-</div>
-
 <p class="text-center">
   <img width="200px"
        src="{{ site.url }}/img/logo.png"
        alt="{{ site.title }} logo">
 </p>
+<hr/>
 
-<h3>
-  {{ site.title }}
-  {% if site.subtitle %}
-    <br/><small>{{ site.subtitle }}</small>
-  {% endif %}
-</h3>
+<h4>Latest News</h4>
 
-{% assign post = site.posts.first %}
-  <div class="caption">
-    <h3>Latest News</h3>
-    <b><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b> -
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    {{ post.excerpt }}
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">...</a>
-  </div>
+{% for post in site.posts limit: 3%}
+  <p>
+    <b><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b> -
+    <em>{{ post.date | date: "%b %-d, %Y" }}</em><br/>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a><br/>
+  </p>
+{% endfor %}
+<hr/>
 
+<p class="text-center">
+  <a href="https://alpha.panoptikum.io" class="btn btn-normal btn-lg">
+    Give it a try!
+  </a>
+</p>
 <hr/>
 
 <h4>License</h4>
