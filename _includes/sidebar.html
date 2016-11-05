@@ -1,15 +1,8 @@
 <div class="page-header">
-  <h3>
-    {{ site.title }}
-    {% if site.subtitle %}
-      <br/><small>{{ site.subtitle }}</small>
-    {% endif %}
-  </h3>
 
-<hr/>
 <center>
-  <a href="https://alpha.panoptikum.io" class="btn btn-danger btn-lg">
-    <i class="fa fa-exclamation-triangle"></i> &alpha; - Test <i class="fa fa-exclamation-triangle"></i>
+  <a href="https://alpha.panoptikum.io" class="btn btn-normal btn-lg">
+    Give it a try!
   </a>
 </center>
 </div>
@@ -20,7 +13,21 @@
        alt="{{ site.title }} logo">
 </p>
 
-{% if site.description %}<p>{{ site.description }}</p>{% endif %}
+<h3>
+  {{ site.title }}
+  {% if site.subtitle %}
+    <br/><small>{{ site.subtitle }}</small>
+  {% endif %}
+</h3>
+
+{% assign post = site.posts.first %}
+  <div class="caption">
+    <h3>Latest News</h3>
+    <b><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b> -
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {{ post.excerpt }}
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">...</a>
+  </div>
 
 <hr/>
 

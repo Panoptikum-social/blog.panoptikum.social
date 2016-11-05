@@ -6,7 +6,7 @@ categories: meta
 author: Stefan
 ---
 
-Hi! I this is Stefan speaking, a freelance web developer from Vienna, Austria, and I am the creator
+Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and I am the creator
 and lead developer of Panoptikum.io.
 Panoptikum, the project this very site has been created for, aims to be a site for
 easy and pleasant discovery for new podcasts, as well as a site for communication with other
@@ -82,10 +82,11 @@ something usefull and interesting in late 2016.
 
 ## Cannot stand waiting any longer?
 
-Ok, are you ready for an &nbsp;
-<a href="https://alpha.panoptikum.io" class="btn btn-danger btn-lg">
-  <i class="fa fa-exclamation-triangle"></i> &alpha; - Test <i class="fa fa-exclamation-triangle"></i>
-</a> ?
+Ok, are you ready? &nbsp;
+<a href="https://alpha.panoptikum.io" class="btn btn-normal btn-lg">
+  Give it a try!
+</a>
+
 
 ## Can I contribute?
 
