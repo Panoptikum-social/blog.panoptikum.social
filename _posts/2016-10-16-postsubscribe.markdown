@@ -2,8 +2,6 @@
 layout: post
 title:  "Post SUBSCRIBE 8"
 date:   2016-10-16 18:00:00 +0200
-img:    "/assets/sticker.jpg"
-alt:    "Panoptikum Sticker"
 author: Sonja
 ---
 

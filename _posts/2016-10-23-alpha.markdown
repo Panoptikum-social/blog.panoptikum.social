@@ -2,9 +2,7 @@
 layout: post
 title:  "Functionality Alpha Version"
 date:   2016-10-23 18:00:00 +0200
-img:    "/assets/sticker.jpg"
-alt:    "Panoptikum Sticker"
-author: Stefan
+author: Sonja
 ---
 
 The Panoptikum.io [alpha version](https://alpha.panoptikum.io) includes basic functionality.
