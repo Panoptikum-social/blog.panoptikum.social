@@ -9,7 +9,11 @@ navigation: 8
 Vienna BEAMers is the in person meetup and study group for people interested and/or coding in
 Elixir and Phoenix. We meet every two weeks at Stefan's place: Vorgartenstraße 145/2/3, 1020 Wien
 
-The next meetups are Okt 5th, 19th and Nov 2nd 2016, each starting at 18:00 and lasting until 21:00 at most.
+The next meetups are
+* **#6 November 30th 2016**
+* **#7 December 14th 2016**
+* **#8 January 11th 2016**
+each starting at 18:00 and lasting until 21:00 at most. (We will skip Dec 28th 'cos I am not in Austria ;-) )
 
 There are no prerequesites besides showing up with a notebook and some interest in one of the
 languages, that run on the BEAM. We have also enthusiasts for Erlang, Lisp-Flavoured Erlang & Joxa
