@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Random"
+date:   2016-12-04 15:00:00 +0200
+author: Sonja
+---
+
+Discover podcasts outside your personal bubble!
+
+The new function Random presents a random choice. It presents a random category, a random podcast within this category and a random episode of that podcast.
+
+![random1](/img/random1.jpg){:class="img-responsive"}
+
+![random1](/img/random2.jpg){:class="img-responsive"}
+
+![random1](/img/random3.jpg){:class="img-responsive"}
+
+With each refresh a new random selection is presented.
+
+[Try it out](https://alpha.panoptikum.io/random)
+<hr/>
+
+The [start page](https://alpha.panoptikum.io/) now shows:
+* Categories
+  * duplicates are removed
+* Search: the full text search
+  * includes pagination
+  * shows no duplicates
+  * displays all hits
+  * and the number of search results
+* Top 10 Podcasts
+* Latest Podcasts
+* Latest Episodes
+<hr/>
+
+Last week I presented ways to try some of the new functionalities for real. Have you tried it out? This week further possibilties were added. After the login you can choose between
+
+![profile](/img/profile.jpg){:class="img-responsive"}
+
+[Register Now](https://alpha.panoptikum.io/users/new) or [Login](https://alpha.panoptikum.io/sessions/new) with the [password recovery function](https://alpha.panoptikum.io/forgot_password), if you have already submitted your OPML-file to the project.
