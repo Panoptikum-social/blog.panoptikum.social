@@ -12,7 +12,8 @@ Elixir and Phoenix. We meet every two weeks at Stefan's place: Vorgartenstraße 
 The next meetups are
 * **#6 November 30th 2016**
 * **#7 December 14th 2016**
-* **#8 January 11th 2016**
+* **#8 January 11th 2017**
+
 each starting at 18:00 and lasting until 21:00 at most. (We will skip Dec 28th 'cos I am not in Austria ;-) )
 
 There are no prerequesites besides showing up with a notebook and some interest in one of the
