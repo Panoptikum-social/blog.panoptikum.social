@@ -12,9 +12,23 @@
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       .remark-slide-content,.remark-code {font-size: 28px;}
 
-
       .inverse { background: #111; color: #eee; text-shadow: 0 0 20px #f00;}
       .inverse a{color: #eee;}
+
+      @page {
+        size: 1210px 681px;
+        margin: 0;
+      }
+
+      @media print {
+        .remark-slide-scaler {
+          width: 100% !important;
+          height: 100% !important;
+          transform: scale(1) !important;
+          top: 0 !important;
+          left: 0 !important;
+        }
+      }
     </style>
   </head>
   <body>
