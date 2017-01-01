@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "33C3 Lightning Talk"
+date:   2017-01-01 15:00:00 +0200
+author: Sonja
+---
+
+Watch Stefans Lightning Talk at 33C3 in Hamburg this week.
+
+His talk starts in minute [15](https://media.ccc.de/v/33c3-8089-lightning_talks_day_4#video&t=901) and gives in just three and a half minutes a good intro to Panoptikum.io. Today I received detailed feedback from one of the listeners in Hamburg - thanks again to A.
+
+Please follow this example - try out the [beta version](https://beta.panoptikum.io/) and send your comments and feedback to <sonja@panoptikum.io>. We really love to find out, what you think about Panoptikum.io.
+
+A HAPPY NEW YEAR - PROSIT NEUJAHR from your Panoptikum.io team!
