@@ -83,7 +83,7 @@ something usefull and interesting in late 2016.
 ## Cannot stand waiting any longer?
 
 Ok, are you ready? &nbsp;
-<a href="https://alpha.panoptikum.io" class="btn btn-normal btn-lg">
+<a href="https://beta.panoptikum.io" class="btn btn-normal btn-lg">
   Give it a try!
 </a>
 
