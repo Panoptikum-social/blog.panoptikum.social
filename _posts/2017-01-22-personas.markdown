@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Personas"
+date:   2017-01-22 15:00:00 +0200
+author: Sonja
+---
+
+Panoptikum.io introduces Personas.
+
+Within the Panoptikum.io universe each person can have different roles. There is the registered user, the user can login with username and password. There is the podcaster, this is a person that produces podcasts. One becomes a podcaster by owning a podcast or contributing to a podcast. But what about companies with podcasts or several people that produce a podcast together? This lead to personas.  
+
+Some examples:
+* I (Sonja) am a user. I am no podcaster and have no persona.
+* Stefan is a user, he produces a podcast together with Matthias [Aua-uff-code!](https://beta.panoptikum.io/podcasts/104), contributed for example to [Zeitsprung #64](https://beta.panoptikum.io/episodes/40276), visited the [IT-Keller](https://beta.panoptikum.io/podcasts/495), talks regulary at the [Biertaucher](https://beta.panoptikum.io/podcasts/119) and so on. He clearly is a podcaster (derived from the owner information of the feed of [Aua-uff-code!](https://beta.panoptikum.io/podcasts/104) and he has a persona Informatom where he could present all his achievements.
+
+The basic content of the persona page is automatically generated based on feed informations. The URL to the persona page is also generate automatically. In the future Panoptikum.io will offer the possibility to edit the content of the persona page and to get a "speaking" URL for it. This could then become the showcase for the portfolio of the individual podcaster. This will be the first premium functionality of Panoptikum.io.
+
+The possibilty to edit the presented information on the persona page helps to overcome the hurl of incomplete feed data. Not all podcast producers name all contributors in each episode or if several people own a podcast together, the feed lists them together.
