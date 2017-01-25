@@ -2,6 +2,7 @@
 title: Privacy
 layout: default
 navigation: 10
+permalink: privacy
 ---
 
 # Privacy Policy

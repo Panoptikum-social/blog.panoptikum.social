@@ -2,11 +2,10 @@
 title: CoC
 layout: default
 navigation: 9
+permalink: code_of_conduct
 ---
 
-
 # Berlin Code of Conduct
-
 
 ## Purpose
 

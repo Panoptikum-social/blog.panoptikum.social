@@ -2,6 +2,7 @@
 title: Community
 layout: default
 navigation: 3
+permalink: community
 ---
 
 # Community Page
