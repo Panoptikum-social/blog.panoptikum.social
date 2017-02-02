@@ -116,8 +116,12 @@ Feel free to send this comments via email or post them in the comment section be
 If you are a web developer, interested in this project, and also interesting in coding in Elixir
 and Phoenix, get in touch via Twitter [@panoptikumIO](https://twitter.com/panoptikumio),
 Email: <stefan@panoptikum.io> or visit our [Github page](https://github.com/panoptikumio).
-There you will find the source code for this marketing page (that is written using Jekyll
-and jekyll-Octopod), but more important the panoptikum web application itself in the Pan repository.
+There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.io) for this
+marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)),
+but more important the panoptikum web application itself in the
+[Pan repository](https://github.com/PanoptikumIO/pan).
+
+Panoptikum is [free and open source](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) software.
 
 If, by coincidence, you are located close to Vienna, Austria, there IS NOW an Elixir & Phoenix
 study group. See [Vienna BEAMers](/vienna-beamers) for details.
