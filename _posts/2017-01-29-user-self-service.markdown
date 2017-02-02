@@ -14,24 +14,14 @@ It is possible to edit the Persona master data. Delegation and redirection is av
 
 Why do we need Personas? Each podcast episode has only one author. If this author is actually a group of people, they are listed together and form then a new identity. Let's say "Max and Moritz" are the author of the podcast "Lausbubenstreiche", Max is the author of the podcast "Max, his point of view" and Moritz is the author of the podcast "Moritz - the untold stories". In this case we have 3 Persons: "Max and Moritz", "Max" and "Moritz".
 
-The persons are setup automatically based on the author information in the feeds. Coming back to Max and Moritz, the Personas are created and afterwards Max stumbles over Panoptikum.io. He registers himself as "Max Busch", sets "I am a podcaster myself" and now wants to set the connection between himself and the Persons. This claiming of the persona is done via email.
+The persons are setup automatically based on the author information in the feeds. Coming back to Max and Moritz, the Personas are created and afterwards Max stumbles over Panoptikum.io. He registers himself as "Max Busch", sets "I am a podcaster myself" and now wants to set the connection between himself and the Persons. This claiming of the Persona is done via email.
 
-He claims the Persona "Max" and delegates "Max and Moritz" to "Max".
+He claims both Personas ("Max", "Max and Moritz"). Claiming creates emails to the emails addresses used in the feeds. He confirms the ownership via links in the email. After the successful claiming he can delegate "Max and Moritz" to "Max".
 
-or MIf a Panoptikum user wants to claim a Persona The single persons can then delegate
-If Max now wants to present both podcasts in his Persona "Max", he will delegate the Persona "Max and Moritz" to the Persona "Max". Moritz can do the same with his Persona "Moritz" and the Persona "Max and Moritz".
+Some years ago Max produced another podcast using his nickname Maxi. Now he wants to get rid of his old identity and delegates and redirects the Persona Maxi to the Persona Max.
 
+A real world example is shown in the following diagram
 
-Personas: Your personas are your different identities when you are podcasting. You might be podcasting in the name of an organisation, a group or use an alias, when you appear contributing to a podcast. We call all these different identities personas.
+![diagram](/img/podcasts-personas-users.png){:class="img-responsive"}
 
-
-
-
-Bug random podcast dumps
-Admin interface: Easier pausing
-retired podcasts
-Admin interface to connect users to personas
-Remove and prevent episode duplicates
-Remove duplicate chapters and enclosures
-User self service: * Persona master data * Redirection of personas * Delegation of personas
-Claiming personas via email
+**And now to the part where YOU can do something: claim YOUR Personas!**
