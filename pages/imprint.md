@@ -2,6 +2,7 @@
 title: Imprint
 layout: default
 navigation: 2
+permalink: imprint/
 ---
 
 # Media Owner and Content

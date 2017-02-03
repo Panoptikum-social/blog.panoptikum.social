@@ -2,7 +2,7 @@
 title: Complaints
 layout: default
 navigation: 10
-permalink: complaints
+permalink: complaints/
 ---
 
 # Complaints

@@ -2,7 +2,7 @@
 title: Vienna BEAMers
 layout: default
 navigation: 8
-permalink: vienna-beamers
+permalink: vienna-beamers/
 ---
 
 # Vienna BEAMers
