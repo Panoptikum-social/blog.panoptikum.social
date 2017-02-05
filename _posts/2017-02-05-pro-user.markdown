@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Pro User"
+date:   2017-02-05 15:00:00 +0200
+author: Sonja
+---
+
+Panoptikum offers two levels: users and pro users.
+
+I'm sure it doesn't come unexpected that pro users get additional functions and will have to pay for that. The pro features give a user additonal possiblities around the personas. Everything around    the persons is created automatically. A pro user can improve her persona with:
+* pid update
+* image update
+* description update: the text field supports markdown
+* redirection of personas
+* delegation of personas
+
+Check out this example of the persona of a [pro user](https://beta.panoptikum.io/informatom) and this example of a [standard user](https://beta.panoptikum.io/c2608c42-0e3b-554d-b4c0-5b716610e71f) to see the difference. Note the difference between the URLs.
+
+After this intro to the pro user, let's come back to new features and improvements for all users:
+* missing user image: grey person
+* missing podcast image: grey podcaster
+* contributions get imported
+* 30x speed improvement for full text search
+* episode list on podcast show view in three columns
+* protection of user privacy by self hosting Ubuntu Font, Podlove Subscribe Button and Podigee Podcast Player
+
+And to improve the user experience some house cleaning was done - mainly regarding duplicates
+* remove and prevent episode duplicates
+* remove duplicate chapters and enclosures
+* removed duplicate content (description, summary)
+* remove empty boxes
+* duplicate prevention for gigs and engagements
