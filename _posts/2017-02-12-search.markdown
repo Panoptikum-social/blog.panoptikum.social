@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Full Text Search"
+date:   2017-02-12 15:00:00 +0200
+author: Sonja
+---
+
+Have you tried the search function of Panoptikum.io?
+
+One of the important functions of every website that provides information is the search function. Panoptikum.io offers a full text search and shows the results for podcasts, episodes, users and persons.
+
+This week changes brought also some improvements of the layout.
+
+* Improved episode layout
+* Proper contribution display
+* Feed shown more prominently on the feed detail page
