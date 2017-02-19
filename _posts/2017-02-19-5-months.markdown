@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "5 Months of Panoptikum Blog"
+date:   2017-02-19 15:00:00 +0200
+author: Sonja
+---
+
+After more then five months of this blog, it's time for a retrospection.
+
+What were the goals back in October and did I achieve them with my blog entries?
+
+The aim was (and still is) "to give you insights into the development of the software and the community". Each week you could read news regarding new and improved functionality. What I miss is your feedback! Please comment, what you think about the blog. Is it useful or a waste of time for you? What do you miss?
+
+New this week:
+* authorships are now part of the profile [example](https://beta.panoptikum.io/meszner)
+
+Please upload your updated OPML-files. What new podcasts have you discovered since your last upload?
+Or if you are a new user, why not sign up and upload your OPMW-file to increase our list of podcasts?
+
+Panoptikum.io (beta) presents itself now almost grown-up and matured. So Stefan will move the two sites in the next week. All the functionality can then be reached under https://panoptikum.io, while this blog moves to https://blog.panoptikum.io
+
+In case you have stored your password for beta.panoptikum.io the browser will not use it automatically for panoptikum.io.
+Use the forgot password link if you do not know it by heart.
