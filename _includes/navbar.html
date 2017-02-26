@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img src="{{ site.pan_url }}/images/panoptikum.io.png"
+             width="40"
+             style="margin-top: -10px;">
+      </a>
+      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+    </div>
+
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="{{ site.pan_url }}">Home</a></li>
+        </ul>
+        {{ site | navigation_list:page }}
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

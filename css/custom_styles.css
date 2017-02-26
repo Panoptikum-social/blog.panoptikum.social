@@ -2,6 +2,36 @@ div.audio-meta { vertical-align: baseline; }
 div.audio-player { padding: 5px 0 0 0; }
 div #footer small { color: #999; }
 body {background-color: #f1f2f6;}
-.navbar-default .navbar-brand { color: #434A54; }
 
 .page-header { border-bottom-color: #ccc; }
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .btn-link,
+.navbar-default .navbar-text,
+.navbar-default .navbar-link {
+  color: #aab2bd;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #e6e9ed;
+}
+
+.navbar-default {
+  padding: 15px;
+  margin-left: -25px;
+  margin-right: -15px;
+  padding-right: 0px;
+}
+
+.navbar-inverse {
+  background-color: #434a54;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu{
+  background-color: #333;
+}
