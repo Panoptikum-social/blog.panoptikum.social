@@ -14,7 +14,7 @@ I'm sure it doesn't come unexpected that pro users get additional functions and 
 * redirection of personas
 * delegation of personas
 
-Check out this example of the persona of a [pro user](https://beta.panoptikum.io/informatom) and this example of a [standard user](https://beta.panoptikum.io/c2608c42-0e3b-554d-b4c0-5b716610e71f) to see the difference. Note the difference between the URLs.
+Check out this example of the persona of a [pro user](https://panoptikum.io/informatom) and this example of a [standard user](https://panoptikum.io/c2608c42-0e3b-554d-b4c0-5b716610e71f) to see the difference. Note the difference between the URLs.
 
 After this intro to the pro user, let's come back to new features and improvements for all users:
 * missing user image: grey person

@@ -11,7 +11,7 @@ Within the Panoptikum.io universe each person can have different roles. There is
 
 Some examples:
 * I (Sonja) am a user. I am no podcaster and have no persona.
-* Stefan is a user, he produces a podcast together with Matthias [Aua-uff-code!](https://beta.panoptikum.io/podcasts/104), contributed for example to [Zeitsprung #64](https://beta.panoptikum.io/episodes/40276), visited the [IT-Keller](https://beta.panoptikum.io/podcasts/495), talks regulary at the [Biertaucher](https://beta.panoptikum.io/podcasts/119) and so on. He clearly is a podcaster (derived from the owner information of the feed of [Aua-uff-code!](https://beta.panoptikum.io/podcasts/104) and he has a persona Informatom where he could present all his achievements.
+* Stefan is a user, he produces a podcast together with Matthias [Aua-uff-code!](https://panoptikum.io/podcasts/104), contributed for example to [Zeitsprung #64](https://panoptikum.io/episodes/40276), visited the [IT-Keller](https://panoptikum.io/podcasts/495), talks regulary at the [Biertaucher](https://panoptikum.io/podcasts/119) and so on. He clearly is a podcaster (derived from the owner information of the feed of [Aua-uff-code!](https://panoptikum.io/podcasts/104) and he has a persona Informatom where he could present all his achievements.
 
 The basic content of the persona page is automatically generated based on feed informations. The URL to the persona page is also generate automatically. In the future Panoptikum.io will offer the possibility to edit the content of the persona page and to get a "speaking" URL for it. This could then become the showcase for the portfolio of the individual podcaster. This will be the first premium functionality of Panoptikum.io.
 

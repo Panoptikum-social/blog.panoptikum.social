@@ -5,7 +5,7 @@ date:   2016-10-02 18:00:00 +0200
 author: Sonja
 ---
 
-Welcome to the Panoptikum.io blog. The aim is to give you insights into the development of the software and the community. I started as a community manager in September and my first tasks were the new [community page](https://www.panoptikum.io/community/) with a short introduction and the Q&A section.
+Welcome to the Panoptikum.io blog. The aim is to give you insights into the development of the software and the community. I started as a community manager in September and my first tasks were the new [community page](https://blog.panoptikum.io/community/) for more information.) with a short introduction and the Q&A section.
 
 The questions and answers are the result of an interview with Stefan in which I asked every question regarding Panoptikum.io that came to my mind. Hopefully the list will evolve from First Asked Questions to Frequently Asked Questions with the inputs from the podcasters and the listeners that are sent to <sonja@panoptikum.io>.
 

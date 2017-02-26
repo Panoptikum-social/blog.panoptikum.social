@@ -11,4 +11,4 @@ SUBSCRIBE is a German conference for podcasters, which has its origins in the Po
 
 Attendees of Stefan's workshop have the opportunity to give input and feedback; and influence the features and roadmap of Panoptikum in the near future.
 
-The alpha version is (just in time) online - check it out [alpha](https://alpha.panoptikum.io).
+The alpha version is (just in time) online - check it out [alpha](https://panoptikum.io).

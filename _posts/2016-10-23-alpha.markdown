@@ -5,7 +5,7 @@ date:   2016-10-23 18:00:00 +0200
 author: Sonja
 ---
 
-The Panoptikum.io [alpha version](https://alpha.panoptikum.io) includes basic functionality.
+The Panoptikum.io [alpha version](https://panoptikum.io) includes basic functionality.
 
 The features are:
 * Category tree with podcasts

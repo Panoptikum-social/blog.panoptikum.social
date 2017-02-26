@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  About
+title:  Start
 date:   2016-09-15 12:53:43 +0200
 categories: meta
 author: Stefan
@@ -83,7 +83,7 @@ something usefull and interesting in late 2016.
 ## Cannot stand waiting any longer?
 
 Ok, are you ready? &nbsp;
-<a href="https://beta.panoptikum.io" class="btn btn-normal btn-lg">
+<a href="https://panoptikum.io" class="btn btn-normal btn-lg">
   Give it a try!
 </a>
 
@@ -95,8 +95,7 @@ Definitely.
 ### ... as a podcast listener
 
 Parsing podcast feeds and building the network of podcast listeners are the first major development
-efforts.
-So we need lists of podcasts, podcast listeners have subscribed to.
+efforts. So we need lists of podcasts, podcast listeners have subscribed to.
 Most podcatchers (= podcast listening apps) can export this list in opml format.
 We would be very happy, if you could send your list to <sonja@panoptikum.io>.
 If your Podcatcher can't export opml or if you don't use one, a text file with a simple list of

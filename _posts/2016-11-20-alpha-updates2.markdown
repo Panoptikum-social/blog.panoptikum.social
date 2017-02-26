@@ -26,4 +26,4 @@ At the episode level
 
 Another great new feature ist the full text search. Amazing (for me as user) it works and is really fast.
 
-[Try it out](https://alpha.panoptikum.io)
+[Try it out](https://panoptikum.io)

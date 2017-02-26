@@ -9,13 +9,13 @@ Did you read the last blog posts and are you eager to try it out?
 
 If you have supported Panoptikum.io with your OPML-file in the last months, then you are already registered.
 
-But what could be your password? Use the brand new password recovery function to set your own password. Use the link [Forgot password](https://alpha.panoptikum.io/forgot_password) in the login section and enter the email address you have used to send us your file.
+But what could be your password? Use the brand new password recovery function to set your own password. Use the link [Forgot password](https://panoptikum.io/forgot_password) in the login section and enter the email address you have used to send us your file.
 
 ![Category](/img/sc_forgot.jpg){:class="img-responsive"}
 
 You should receive an email with a secure login link, don't forget to set your password once you are inside Panoptikum.io.
 
-For those of you that are new (to us) use the link [Register](https://alpha.panoptikum.io/users/new).
+For those of you that are new (to us) use the link [Register](https://panoptikum.io/users/new).
 
 ![Category](/img/sc_new.jpg){:class="img-responsive"}
 
@@ -39,4 +39,4 @@ Last but not least further new functionalities with this week:
   * Categories, XY likes
   * Messages created by XY
 
-[Try it out](https://alpha.panoptikum.io)
+[Try it out](https://panoptikum.io)

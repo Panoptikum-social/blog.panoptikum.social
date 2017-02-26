@@ -12,7 +12,7 @@ What were the goals back in October and did I achieve them with my blog entries?
 The aim was (and still is) "to give you insights into the development of the software and the community". Each week you could read news regarding new and improved functionality. What I miss is your feedback! Please comment, what you think about the blog. Is it useful or a waste of time for you? What do you miss?
 
 New this week:
-* authorships are now part of the profile [example](https://beta.panoptikum.io/meszner)
+* authorships are now part of the profile [example](https://panoptikum.io/meszner)
 
 Please upload your updated OPML-files. What new podcasts have you discovered since your last upload?
 Or if you are a new user, why not sign up and upload your OPMW-file to increase our list of podcasts?

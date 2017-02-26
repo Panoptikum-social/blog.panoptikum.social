@@ -20,7 +20,7 @@ For those who want good old personal recommendations, is it possible to write re
 
 ![recommendation](/img/recommendation.jpg){:class="img-responsive"}
 
-[Register Now](https://alpha.panoptikum.io/users/new) or [Login](https://alpha.panoptikum.io/sessions/new) with the [password recovery function](https://alpha.panoptikum.io/forgot_password), if you have already submitted your OPML-file to the project.
+[Register Now](https://panoptikum.io/users/new) or [Login](https://panoptikum.io/sessions/new) with the [password recovery function](https://panoptikum.io/forgot_password), if you have already submitted your OPML-file to the project.
 
 Last but not least let me present the Panoptikum community manager in the Panoptikum Hoodie:
 
