@@ -35,3 +35,9 @@ body {background-color: #f1f2f6;}
 .dropdown-menu{
   background-color: #333;
 }
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  border-radius: 15px;
+}

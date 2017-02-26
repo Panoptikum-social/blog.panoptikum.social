@@ -12,12 +12,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand">
+      <a href="{{ site.pan_url }}" class="navbar-brand">
         <img src="{{ site.pan_url }}/images/panoptikum.io.png"
              width="40"
              style="margin-top: -10px;">
       </a>
-      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+      <a class="navbar-brand" href="{{ site.pan_url }}">
+        {{ site.title }}
+      </a>
     </div>
 
     <div id="navbar" class="collapse navbar-collapse">
