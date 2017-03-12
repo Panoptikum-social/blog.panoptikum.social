@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Quality Improvement"
+title:  "Quality"
 date:   2017-03-05 15:00:00 +0200
 author: Sonja
 ---
 
 To further improve the quality of Panoptikum an automatic exception notification is now sent to our lead developer.
 
-Before this automation Panoptikum relied on your error reports, to find out that "something went wrong". We still hope for feedback, to get your story behind the exception. But with the automatic notification if an exception occurs we get also the information from the system side.
+Before this automation Panoptikum relied on your error reports, to find out that “something went wrong”. We still hope for feedback, to get your story behind the exception. But with the automatic notification if an exception occurs we get also the information from the system side.
 
 Much effort behind the scenes brought a library update that lead to lots of broken stuff. These are fixed now.
