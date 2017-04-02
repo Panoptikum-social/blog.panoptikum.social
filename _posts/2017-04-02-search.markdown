@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Search II"
+date:   2017-04-02 15:00:00 +0200
+author: Sonja
+---
+
+Have you tried the search function of Panoptikum this week?
+
+Did you notice changes? One of the important functions of every website that provides information is the search function. That's the reason why Stefan has redone the search function for the third time - to offer fast and complete results. Panoptikum.io offers a full text search, including search strings with several words and shows the results for episodes, users and personas.
+
+Another important content at Panoptikum is the information regarding the latest episodes. This is provided with the automatic feed update. It checks for updates after 1 hour, then after 2 hours, then after 3 hours, ... till the end of time :-)
