@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Chatbot"
+date:   2017-04-10 15:00:00 +0200
+author: Sonja
+---
+
+Have you meet the Panoptikum chatbot?
+
+Check it out at the [Panoptikum](https://www.facebook.com/panoptikumio/) Facebook page and enter a search term at "Jetzt eine Nachricht senden".
+
+![Facebook](/img/fb_20170410.png){:class="img-responsive"}
+
+And almost immediatly follows the result. I entered "der will doch nur spielen"
+
+![Answer](/img/facebook_suche.jpg){:class="img-responsive"}
+
+This is the work of our second chief excutive programmer [Ramon](https://twitter.com/senorhuidobro)! Gracias, gran trabajo!
+
+Congratulations to Stefan: Panoptikum knows more than 202.000 episodes!
