@@ -14,62 +14,79 @@ Podcasting Social Network
 
 ---
 class: center, middle
-{% icon fa-podcast fa-4x %} = {% icon fa-file-audio-o fa-4x %} + {% icon fa-feed fa-4x %}
+# {% icon fa-podcast %} = {% icon fa-file-audio-o %} + {% icon fa-feed %}
 ---
 class: center, middle
-{% icon fa-apple fa-4x %}iTunes {% icon fa-google fa-4x %} {% icon fa-facebook fa-4x %}
 
-https://fyyd.de
+{{"1f1fa-1f1f8" | emoji}}
+{% icon fa-apple %}iTunes - {% icon fa-google  %} - {% icon fa-facebook  %}
 
-http://Podcast.de
+{{"1f1e9-1f1ea" | emoji}}
+https://fyyd.de - http://Podcast.de
 
+{{"1f1e6-1f1f9" | emoji}}
 https://gpodder.net
+
 ---
 class: center, middle
-{% icon fa-user-secret fa-4x %} ?
+# {% icon fa-user-secret fa-2x %} ?
 ---
 class: center, middle
-{{"1f474" | emoji}}
+# {{"1f474" | emoji}}
 ---
 class: center, middle
 ![Yahoo](/img/lw17/yahoo.jpg)
 ---
-
-Verzeichnis
-
+class: center, middle
+![Panoptikum](/img/lw17/panoptikum.io.png)
 ---
-Suchmaschine
+class: center, middle
+![Directory](/img/lw17/verzeichnis.png)
 ---
-Social Network
+class: center, middle
+![Search](/img/lw17/search.png)
 ---
-Profile
+class: center, middle
+![Persona-result](/img/lw17/persona-result.png)
+---
+class: center, middle
+<img width=65% src="/img/lw17/profile.png"/>
+---
+class: center, middle
+<img width=75% src="/img/lw17/podcast.png"/>
+---
+class: center, middle
+<img width=75% src="/img/lw17/episode.png"/>
+---
+* User wie Du<br/>
+  ... hören auch<br/>
+  ... mögen
+---
+class: center, middle
+![AGPL](/img/lw17/agpl.png)
+---
+class: center, middle
+![Ubuntu](/img/lw17/ubuntu.png)
+---
+class: center, middle
+
+# *f()*
+![Elixir](/img/lw17/elixir.jpg)
+
+Highlight: Parser
+---
+class: center, middle
+![Phoenix](/img/lw17/phoenix.png)
+---
+class: center, middle
+![Elasticsearch](/img/lw17/elasticsearch.png)
 ---
 
-Licence: AGPL
-
----
-Server: Linux - Ubuntu Server
-Development 99% Linux - Ubuntu Mate
----
-
-Development:
-
-Elixir = f()
-Phoenix
-Elasticsearch
-Nginx
-in AT
-
-----
 Feedback!
 
 Roles: User, Podcaster, Developer
 
 ---
-
-
-------------------------------t
-
 
 
 # Was kann Panoptikum derzeit?
@@ -79,33 +96,32 @@ einfacher zu verstehen, kennt man das Datenmodell ...
 # Das Datenmodell
 
 ```
-Podcasts (1:n) Feeds    (1:n) alternative Feeds
+podcasts (1:n) feeds       (1:n) alternate feeds
+         (1:n) engagements (n:1) personas
 
-         (1:n) Episoden (1:n) Kapitel
-                        (1:n) Enclosures (= Soundfiles)
-                        (n:m) Kontributoren (= Podcaster_innen)
+         (1:n) episoden (1:n) chapter
+                        (1:n) enclosures (= sound files)
+                        (1:n) gigs      (n:1) personas (= podcasters)
 
-         (n:1) Sprachen
-         (n:m) Kategorien (in Baumstruktur)
+         (n:1) languages
+         (n:m) categories (in a tree structure)
 
-         (n:m) Besitzer (1:1) Besucher
-         (n:m) Kontributoren (= Podcaster_innen = Besucher)
-         (n:m) Follower (= User)
-         (n:m) Hörer (= User)
+users (1:n) likes            (n:1) podcasts / episodes / chapters / users
+      (1:n) follows          (n:1) podcasts / episodes / chapters / users
+      (1:n) recommendatiions (n:1) podcasts / episodes / chapters
+      (1:n) subscriptions    (n:1) podcasts
+      (1:n) manifestations   (n:1) personas
 
-Besucher (n:m) Follower (= User)
+personas (1:n) delegations (n:1) personas
 ```
 ---
-# Features
+# Stats
 
-* Kategorienbaum mit Podcasts
-* Podcasts mit Episoden
-* Datenbestand<br/>
-  ... 102 Podcasts<br/>
-  ... 5750 Episoden<br/>
-  ... 46 Kategorien
-* Parser<br/>
-  ... liest Feeds und befüllt Datenbank
+* > 550 000 episodes
+* > 10 600 podcasts
+* > 140 categories
+
+---
 * Podlove Webplayer
 * Scan to subscribe<br/>
   ... per QR-Code
@@ -116,16 +132,16 @@ Besucher (n:m) Follower (= User)
 
 # Roadmap
 
-* Subscribe 08 (Oktober 2016)<br/>
-  Öffentliche Alpha ✓
+* Subscribe 08 (October 2016)<br/>
+  public Alpha ✓
 
-* 33C3 (Weihnachten 2016):<br/>
-  Öffentliche Beta
+* 33C3 (Christmas 2016):<br/>
+  public Beta ✓
 
-* Mitte 2017: Produktivstart
+* Summer 2017: 1.0
 
 ---
-# Themen
+# Topics
 
 Features nächste Folie ...
 
@@ -140,19 +156,6 @@ Features nächste Folie ...
 ---
 # Features Public Beta?
 
-* Kommentare<br/>
-  ... pro Podcast, pro Episode<br/>
-  ... erzeugen Nachrichten
-* Nachrichten<br/>
-  ...an Benutzer, an Besitzer
-* Nachrichtenkanäle<br/>
-  ... abbonierbar, pro Benutzer, Podcast, Episode
-  * Likes<br/>
-  ... um zu folgen<br/>
-  ... um zu vergleichen
-* User wie Du<br/>
-  ... hören auch<br/>
-  ... mögen
 
 ---
 class: center, middle
