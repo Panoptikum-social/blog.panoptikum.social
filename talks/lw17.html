@@ -1,0 +1,189 @@
+---
+layout: presentation
+title: "Panoptikum: Podcasting Social Network"
+permalink: /lw17/
+---
+class: center, middle
+# Panoptikum.io
+
+Podcasting Social Network
+
+[@panoptikum.io](https://twitter.com/panoptikumio)
+
+[https://panoptikum.io](https://panoptikum.io)
+
+---
+class: center, middle
+{% icon fa-podcast fa-4x %} = {% icon fa-file-audio-o fa-4x %} + {% icon fa-feed fa-4x %}
+---
+class: center, middle
+{% icon fa-apple fa-4x %}iTunes {% icon fa-google fa-4x %} {% icon fa-facebook fa-4x %}
+
+https://fyyd.de
+
+http://Podcast.de
+
+https://gpodder.net
+---
+class: center, middle
+{% icon fa-user-secret fa-4x %} ?
+---
+class: center, middle
+{{"1f474" | emoji}}
+---
+class: center, middle
+![Yahoo](/img/lw17/yahoo.jpg)
+---
+
+Verzeichnis
+
+---
+Suchmaschine
+---
+Social Network
+---
+Profile
+---
+
+Licence: AGPL
+
+---
+Server: Linux - Ubuntu Server
+Development 99% Linux - Ubuntu Mate
+---
+
+Development:
+
+Elixir = f()
+Phoenix
+Elasticsearch
+Nginx
+in AT
+
+----
+Feedback!
+
+Roles: User, Podcaster, Developer
+
+---
+
+
+------------------------------t
+
+
+
+# Was kann Panoptikum derzeit?
+
+einfacher zu verstehen, kennt man das Datenmodell ...
+---
+# Das Datenmodell
+
+```
+Podcasts (1:n) Feeds    (1:n) alternative Feeds
+
+         (1:n) Episoden (1:n) Kapitel
+                        (1:n) Enclosures (= Soundfiles)
+                        (n:m) Kontributoren (= Podcaster_innen)
+
+         (n:1) Sprachen
+         (n:m) Kategorien (in Baumstruktur)
+
+         (n:m) Besitzer (1:1) Besucher
+         (n:m) Kontributoren (= Podcaster_innen = Besucher)
+         (n:m) Follower (= User)
+         (n:m) Hörer (= User)
+
+Besucher (n:m) Follower (= User)
+```
+---
+# Features
+
+* Kategorienbaum mit Podcasts
+* Podcasts mit Episoden
+* Datenbestand<br/>
+  ... 102 Podcasts<br/>
+  ... 5750 Episoden<br/>
+  ... 46 Kategorien
+* Parser<br/>
+  ... liest Feeds und befüllt Datenbank
+* Podlove Webplayer
+* Scan to subscribe<br/>
+  ... per QR-Code
+* responsive Layout
+* Antwortzeiten unter 25ms
+
+---
+
+# Roadmap
+
+* Subscribe 08 (Oktober 2016)<br/>
+  Öffentliche Alpha ✓
+
+* 33C3 (Weihnachten 2016):<br/>
+  Öffentliche Beta
+
+* Mitte 2017: Produktivstart
+
+---
+# Themen
+
+Features nächste Folie ...
+
+* Lernen und Aufräumen
+* Security
+* Privacy
+* Parallelisieren
+* Messaging</br>
+  ...aka Likes, Kommentare, Empfehlungen,... </br>
+  ...incl. API
+
+---
+# Features Public Beta?
+
+* Kommentare<br/>
+  ... pro Podcast, pro Episode<br/>
+  ... erzeugen Nachrichten
+* Nachrichten<br/>
+  ...an Benutzer, an Besitzer
+* Nachrichtenkanäle<br/>
+  ... abbonierbar, pro Benutzer, Podcast, Episode
+  * Likes<br/>
+  ... um zu folgen<br/>
+  ... um zu vergleichen
+* User wie Du<br/>
+  ... hören auch<br/>
+  ... mögen
+
+---
+class: center, middle
+
+# Wie kann Panoptikum Dich Podcaster_in<br/>bei der Publizierung Deiner Podcasts<br/>unterstützen?
+
+Feature Requests, Bugs<br/>
+... [Github Issue](https://github.com/PanoptikumIO/pan/issues/new) erstellen<br/>
+... oder <sonja@panoptikum.io>
+---
+class: center, middle
+
+# Was wünschst Du als Podcasthörer_in<br/> Dir von Panoptikum?
+
+# Was möchtest Du lesen, kommentieren,<br/> finden oder erstellen?
+---
+class: center, middle
+
+Gibt es hier Entwickler_innen?
+
+#Was willst Du als Entwickler_in beitragen?
+
+---
+Check it out!
+More about on the about page!
+---
+class: center, middle
+
+Presentation is online: <br/>
+[https://panoptikum.io/lw17](https://panoptikum.io/lw17)
+
+mailto: <stefan@panoptikum.io>
+mailto: <sonja@panoptikum.io>
+twitter: [@panoptikumIO](https://www.twitter.com/panoptikumIO)
