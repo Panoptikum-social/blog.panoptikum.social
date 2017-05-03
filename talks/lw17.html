@@ -58,22 +58,33 @@ class: center, middle
 class: center, middle
 <img width=75% src="/img/lw17/episode.png"/>
 ---
-* User wie Du<br/>
-  ... hören auch<br/>
-  ... mögen
+class: center, middle
+![also listen](/img/lw17/also_listen.png)
+---
+class: center, middle
+![also like](/img/lw17/also_like.png)
+---
+class: center, middle
+# {% icon fa-cogs fa-2x %}
 ---
 class: center, middle
 ![AGPL](/img/lw17/agpl.png)
 ---
 class: center, middle
+![Ubuntu](/img/lw17/mate.png)
+---
+class: center, middle
 ![Ubuntu](/img/lw17/ubuntu.png)
 ---
 class: center, middle
-
-# *f()*
 ![Elixir](/img/lw17/elixir.jpg)
-
-Highlight: Parser
+---
+class: center, middle
+# &lambda;
+---
+class: center, middle
+{{"2728" | emoji}}
+Parser
 ---
 class: center, middle
 ![Phoenix](/img/lw17/phoenix.png)
@@ -81,20 +92,10 @@ class: center, middle
 class: center, middle
 ![Elasticsearch](/img/lw17/elasticsearch.png)
 ---
-
-Feedback!
-
-Roles: User, Podcaster, Developer
-
+class: center, middle
+# {% icon fa-archive fa-2x %}
+# {% icon fa-hdd-o fa-2x %}
 ---
-
-
-# Was kann Panoptikum derzeit?
-
-einfacher zu verstehen, kennt man das Datenmodell ...
----
-# Das Datenmodell
-
 ```
 podcasts (1:n) feeds       (1:n) alternate feeds
          (1:n) engagements (n:1) personas
@@ -106,87 +107,100 @@ podcasts (1:n) feeds       (1:n) alternate feeds
          (n:1) languages
          (n:m) categories (in a tree structure)
 
-users (1:n) likes            (n:1) podcasts / episodes / chapters / users
-      (1:n) follows          (n:1) podcasts / episodes / chapters / users
-      (1:n) recommendatiions (n:1) podcasts / episodes / chapters
-      (1:n) subscriptions    (n:1) podcasts
-      (1:n) manifestations   (n:1) personas
+users (1:n) likes           (n:1) podcasts / episodes / chapters / users
+      (1:n) follows         (n:1) podcasts / episodes / chapters / users
+      (1:n) recommendations (n:1) podcasts / episodes / chapters
+      (1:n) subscriptions   (n:1) podcasts
+      (1:n) manifestations  (n:1) personas
 
 personas (1:n) delegations (n:1) personas
+         (1:n) persona (redirection)
 ```
 ---
-# Stats
-
-* > 550 000 episodes
-* > 10 600 podcasts
-* > 140 categories
-
+class: center, middle
+<img width=75% src="/img/podcasts-personas-users.png"/>
 ---
-* Podlove Webplayer
-* Scan to subscribe<br/>
-  ... per QR-Code
-* responsive Layout
-* Antwortzeiten unter 25ms
-
+class: center, middle
+<img width=75% src="/img/lw17/personas.png"/>
 ---
 
+class: center, middle
+{{"1f4c8" | emoji}}
+
+> 140 categories
+
+> 10 600 podcasts
+
+> 550 000 episodes
+---
+class: center, middle
+<img width=75% src="/img/lw17/webplayer.png"/>
+---
+class: center, middle
+<img width=50% src="/img/lw17/subscribe.png"/>
+---
+class: center, middle
+<img width=25% src="/img/lw17/responsive.png"/>
+---
+class: center, middle
+<img width=50% src="/img/lw17/speed.png"/>
+---
 # Roadmap
 
 * Subscribe 08 (October 2016)<br/>
-  public Alpha ✓
+  public &alpha; ✓
 
 * 33C3 (Christmas 2016):<br/>
-  public Beta ✓
+  public &beta; ✓
 
 * Summer 2017: 1.0
 
 ---
-# Topics
-
-Features nächste Folie ...
-
-* Lernen und Aufräumen
-* Security
-* Privacy
-* Parallelisieren
-* Messaging</br>
-  ...aka Likes, Kommentare, Empfehlungen,... </br>
-  ...incl. API
-
+class: center, middle
+# ✓ it out!
 ---
-# Features Public Beta?
+class: center, middle
+{% icon fa-headphones fa-2x %} {% icon fa-user fa-2x %}
 
+{% icon fa-comment fa-2x %}
 
+{% icon fa-thumbs-o-up fa-2x %} {% icon fa-thumbs-o-down fa-2x %}
+
+{% icon fa-handshake-o fa-2x %}
+---
+class: center, middle
+{% icon fa-podcast fa-2x %} {% icon fa-user-o fa-2x %}
+
+{% icon fa-comment fa-2x %}
+
+{% icon fa-thumbs-o-up fa-2x %} {% icon fa-thumbs-o-down fa-2x %}
+
+{% icon fa-handshake-o fa-2x %}
+---
+class: center, middle
+{% icon fa-laptop fa-2x %} {% icon fa-user fa-2x %}
+
+{% icon fa-comment fa-2x %}
+
+{% icon fa-handshake-o fa-2x %}
+---
+class: center, middle
+found a {% icon fa-bug fa-2x %} ?
+
+{% icon fa-pencil fa-2x %} [Github Issue](https://github.com/PanoptikumIO/pan/issues/new)
 ---
 class: center, middle
 
-# Wie kann Panoptikum Dich Podcaster_in<br/>bei der Publizierung Deiner Podcasts<br/>unterstützen?
+{% icon fa-hand-spock-o fa-2x %}
 
-Feature Requests, Bugs<br/>
-... [Github Issue](https://github.com/PanoptikumIO/pan/issues/new) erstellen<br/>
-... oder <sonja@panoptikum.io>
----
-class: center, middle
+{% icon fa-podcast %} [https://panoptikum.io](https://panoptikum.io)
 
-# Was wünschst Du als Podcasthörer_in<br/> Dir von Panoptikum?
+{% icon fa-user-circle %} [https://blog.panoptikum.io](https://blog.panoptikum.io)
 
-# Was möchtest Du lesen, kommentieren,<br/> finden oder erstellen?
----
-class: center, middle
+{% icon fa-drivers-license-o %} [https://panoptikum.io/lw17](https://panoptikum.io/lw17)
 
-Gibt es hier Entwickler_innen?
+{% icon fa-user-circle %} <sonja@panoptikum.io>
 
-#Was willst Du als Entwickler_in beitragen?
+{% icon fa-cogs %} <stefan@panoptikum.io>
 
----
-Check it out!
-More about on the about page!
----
-class: center, middle
-
-Presentation is online: <br/>
-[https://panoptikum.io/lw17](https://panoptikum.io/lw17)
-
-mailto: <stefan@panoptikum.io>
-mailto: <sonja@panoptikum.io>
-twitter: [@panoptikumIO](https://www.twitter.com/panoptikumIO)
+{% icon fa-twitter %} [@panoptikumIO](https://www.twitter.com/panoptikumIO)
