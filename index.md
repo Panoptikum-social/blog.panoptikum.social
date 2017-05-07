@@ -86,7 +86,7 @@ main focus is to create a site where the podcasting community feels at home.
 
 To build the Panoptikum community two things are needed: users and the list of
 their podcast subscriptions. Most podcatchers (= podcast listening apps) can
-export this list in OPML format. We would be very happy, if you register and
+export this list in OPML format. We would be very happy, if you [register](https://panoptikum.io/users/new) and
 upload your OPML file. If you have questions before registration contact
 <sonja@panoptikum.io>.
 
