@@ -14,3 +14,5 @@ navigation: 7
   German talk on feeds ad Podcasting Meetup Vienna, Apr. 28th 2017
 * [Panoptikum: Podcasting Social Network](/lw17)\\
   Talk at Linux Wochen 2017, FH Technikum Vienna, May 5th 2017
+* [Panoptikum: Leveraging Phoenix for creating a Podcasting Social Network](/em01)\\
+  Talk at Elixir Vienna Meetup: State of Elixir in Vienna, Sektor 5, May 18th 2017
