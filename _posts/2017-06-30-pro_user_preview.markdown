@@ -5,9 +5,9 @@ date:   2017-06-30 06:00:00 +0200
 author: Sonja
 ---
 
-Let's start our pro user preview with my profile as an example. To get a pro account I paid my yearly fee to Panoptikum (details how-to-pay follow in the next weeks).
+A short journey through the pro user functionalities.
 
-After the login you can check your profile under **My Profile**
+Let's start our pro user preview with my profile as an example. To get a pro account I paid my yearly fee to Panoptikum (details how-to-pay follow in the next weeks). After the login you can check your profile under **My Profile**
 
 ![My Profile, basic account](/img/myProfile_basic.png){:class="img-responsive"}
 
