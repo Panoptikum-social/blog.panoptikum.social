@@ -7,7 +7,7 @@ author: Sonja
 
 Panoptikum.io now offers its first social network functionalities.
 
-Podcasts, Categories und Episodes can be liked. Categories and Podcasts can be followed. These are the manual basics, before the automatic recomendation algorithm. After your login you see additional buttons.
+Podcasts, Categories und Episodes can be liked. Categories and Podcasts can be followed. These are the manual basics, before the automatic recommendation algorithm. After your login you see additional buttons.
 
 At the category level
 ![Category](/img/Screenshot_kategorie.jpg){:class="img-responsive"}

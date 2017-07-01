@@ -7,6 +7,8 @@ author: Sonja
 
 Stefan was busy as a beaver in the last two weeks.
 
+![Biber](/img/biber.jpg){:class="img-responsive"}
+
 The data available increased significantly:
 
 |-|2016-10-13|2016-11-05|
@@ -25,5 +27,3 @@ What changed in the details:
 * For copyright reasons images, audio tags and video tags from shownotes are removed by the parser and a placeholder text is used.
 * Podcasts and episodes are now listed in alphabetically order.
 * The latest 5 podcasts and latest 5 episodes are prominently displayed on the alpha start page.
-
-![Biber](/img/biber.jpg){:class="img-responsive"}
