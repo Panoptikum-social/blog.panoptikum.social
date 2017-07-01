@@ -6,138 +6,57 @@ permalink: pro_features/
 
 # Pro Features
 
-Users with a Pro Account have access to additonal features regarding personas.
+Users with a Pro Account can claim personas and have access to the following functions (regarding the persona):
 
-<ul>
-  <li>pid update: get a "speaking" URL to your personas page</li>
-  <li>image update: upload a personal image to your personas page</li>
-  <li>description update: write about yourself on your personas page</li>
-  <li>redirection of personas
-delegation of personas
+* change URL
+* change image
+* change description
+* redirect personas
+* delegate personas
 
-</ul>
+## Persona Page URL
 
-<h2>URL to persona page</h2>
-<p>The automatically generated persona page has an URL that I find not easy to remember.</p>
-<p>A random example: https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c</p>
-<p>So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable.</p>
-<p>Another random example: https://panoptikum.io/waldgruber</p>
+The automatically generated persona page has an URL that ends with a PID. A random example [https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c). I find this rather difficult to remember.
 
-<p>The possibilty to edit the presented information on the persona page helps to overcome the hurl of incomplete feed data. Not all podcast producers name all contributors in each episode or if several people own a podcast together, the feed lists them together.</p>
+So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable. Another random example [https://panoptikum.io/waldgruber](https://panoptikum.io/waldgruber). I guess you get the point :-)
 
-  the text field supports markdown
-A pro user can improve her persona with:
+## Persona Page Content
 
-pid update
-image update
-description update: the text field supports markdown
-redirection of personas
-delegation of personas
+### Image
 
-<p>Login and try it out for free!</b>
+The default image acts as a placeholder for your personal image. Introduce yourself to listeners with additional visual information, beside your voice from the podcast(s).
 
-<%= link "My profile", to: user_frontend_path(@conn, :my_profile), class: "btn btn-primary" %>
+### Description
 
-# Berlin Code of Conduct
+Write about yourself on your persona page. What should interested listeners know about you?
 
-## Purpose
+The text field supports markdown - so you are free to use your creativity describing yourself.
 
-A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be
-inclusive to the largest number of contributors, with the most varied and diverse backgrounds
-possible. As such, we are committed to providing a friendly, safe and welcoming environment for
-all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status and religion
-(or lack thereof).
+### Delegation and Redirection
 
-This Code of Conduct outlines our expectations for all those who participate in our community, as
-well as the consequences for unacceptable behavior.
+The possibilty to edit the presented information on the persona page helps to overcome the hurl of incomplete feed data. Not all podcast producers name all contributors in each episode or if several people own a podcast together, the feed lists them together.
 
-We invite all those who participate in our events to help us create safe and positive experiences
-for everyone.
+* Delegation: A delegation lets the gigs (i.e. contributions to episodes) and engagements (i.e. contributions to podcasts) of the persona also appear on the profile page of the target persona.
+* Redirection: The redirection redirects the persona profile page to the profile page of the target persona.
 
+For more details information regarding personas please check out the blog post [2017-01-29](https://blog.panoptikum.io/2017/01/29/user-self-service.html#04b2080f).
 
-## Open [Source/Culture/Tech] Citizenship
+# Free Trial
 
+Try it free for 30 days! Login and try it out for free!
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship
-by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
+Claim your free pro account without any further obligations! Why? To to support Panoptikum or to unlock all pro features now!
 
-Communities mirror the societies in which they exist and positive action is essential to counteract
-the many forms of inequality and abuses of power that exist in society.
+Login and you find the "Start your free trial" Button under your profile.
 
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly,
-and encourages all participants to contribute to the fullest extent, we want to know.
+[Login](https://panoptikum.io/sessions/new)
 
+# Cost
 
-## Expected Behavior
+The price for a Panoptikum Pro Account is EUR 12,- per year. After one year you can either pay the EUR 12,- again or the account will be reduced to a standard account.
 
-* Participate in an authentic and active way. In doing so, you contribute to the health and
-  longevity of this community.
-* Exercise consideration and respect in your speech and actions.
-* Attempt collaboration before conflict.
-* Refrain from demeaning, discriminatory, or harassing behavior and speech.
-* Be mindful of your surroundings and of your fellow participants. Alert community leaders if you
-  notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if
-  they seem inconsequential.
+# Further Questions?
 
+Check out the blog post [2017-07-01](https://blog.panoptikum.io/2017/07/01/pro_user_preview.html#d0c08e0a) - it shows the steps to update your persona step-by-step.
 
-## Unacceptable Behavior
-
-Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or
-demeaning speech or actions by any participant in our community online, at all related events and
-in one-on-one communications carried out in the context of community business. Community event
-venues may be shared with members of the public; please be respectful to all patrons of these
-locations.
-
-Harassment includes: harmful or prejudicial verbal or written comments related to gender, sexual
-orientation, race, religion, disability; inappropriate use of nudity and/or sexual images in public
-spaces (including presentation slides); deliberate intimidation, stalking or following; harassing
-photography or recording; sustained disruption of talks or other events; inappropriate physical
-contact, and unwelcome sexual attention.
-
-
-## Consequences of Unacceptable Behavior
-
-Unacceptable behavior from any community member, including sponsors and those with decision-making
-authority, will not be tolerated.
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
-
-If a community member engages in unacceptable behavior, the community organizers may take any action
-they deem appropriate, up to and including a temporary ban or permanent expulsion from the community
-without warning (and without refund in the case of a paid event).
-
-
-## If You Witness or Are Subject to Unacceptable Behavior
-
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a
-community organizer as soon as possible. You can find a list of organizers to contact for each of
-the supporters of this code of conduct at the bottom of this page. Additionally, community
-organizers are available to help community members engage with local law enforcement or to
-otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person
-events, organizers will also provide escorts as desired by the person experiencing distress.
-
-
-## Addressing Grievances
-
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should
-notify one of the event organizers with a concise description of your grievance. Your grievance will
-be handled in accordance with our existing governing policies.
-
-
-## Scope
-
-We expect all community participants (contributors, paid or otherwise; sponsors; and other guests)
-to abide by this Code of Conduct in all community venues—online and in-person—as well as in all
-one-on-one communications pertaining to community business.
-
-
-## License and attribution
-
-Berlin Code of Conduct is distributed under a Creative Commons Attribution-ShareAlike license.
-It is based on the [pdx.rb code of conduct](http://pdxruby.org/codeofconduct), which is distributed
-under the same license.
-
-
-### Contact persons
-
-* Stefan Haslinger <stefan@panoptikum.io>
-* Sonja Waldgruber <sonja@panoptikum.io>
+Please send all your remaining questions regarding the pro user to <sonja@panoptikum.io>. After several months with Panoptikum I sometimes miss the obvious.
