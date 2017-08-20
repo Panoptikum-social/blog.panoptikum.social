@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Chatbot for Panoptikum"
+date:   2017-08-07 06:00:00 +0200
+author: Sonja
+---
+
+Check out Ramons blog post about the chatbot for Panoptikum.
+
+[Breathing Life into the Panoptikum Facebook Messenger Bot with Elixir and Phoenix](https://ramonhuidobro.com/podcasts/panoptikum/phoenix/elixir/2017/08/05/breathing-life-into-the-panoptikum-facebook-messenger-bot-with-elixir-and-phoenix/)
