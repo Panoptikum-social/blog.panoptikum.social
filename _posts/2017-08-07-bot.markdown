@@ -8,3 +8,9 @@ author: Sonja
 Check out Ramons blog post about the chatbot for Panoptikum.
 
 [Breathing Life into the Panoptikum Facebook Messenger Bot with Elixir and Phoenix](https://ramonhuidobro.com/podcasts/panoptikum/phoenix/elixir/2017/08/05/breathing-life-into-the-panoptikum-facebook-messenger-bot-with-elixir-and-phoenix/)
+
+The chatbot offers the following functionality: based on the reveived message the chatbot answers with some podcast recommendations.
+
+![Screenshot](/img/panoptikum-bot-screenshot.png){:class="img-responsive"}
+
+The blog post describes all the tiny details - I recommend it as a cookbook if you want to write your own chatbot. No frameworks are used, everthing is written by Ramon himself which leads to a lean application.
