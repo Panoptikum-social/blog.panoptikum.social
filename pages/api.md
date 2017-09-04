@@ -14,9 +14,13 @@ Currently all endpoints are available without authorization or throttling.
 
 Prepend all requests with `https://panoptikum.io/jsonapi`.
 
+All instances in "relationships" can be found with a link and a minimal set of attributes in "included".
+You can basically explore the whole API world of Panoptikum by starting at /categories and following
+links from there recursively.
+
 path | method | purpose | included
 --- | --- | ---
-`/categories` | GET | tree of categories | childen = subcategories
+`/categories` | GET | tree of categories | children = subcategories
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent
 `/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/languages` | GET | list of languages | -
