@@ -6,7 +6,7 @@ permalink: api/
 
 # API
 
-The API adheres to [json:api](https://jsonapi.org) standards.
+The API adheres to [json:api](http://jsonapi.org) standards.
 
 ## Endpoints
 
