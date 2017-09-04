@@ -4,9 +4,11 @@ layout: default
 permalink: api/
 ---
 
+# API
+
 The API adheres to [json:api](https://jsonapi.org) standards.
 
-# Endpoints
+## Endpoints
 
 Currently all endpoints are available without authorization or throttling.
 
