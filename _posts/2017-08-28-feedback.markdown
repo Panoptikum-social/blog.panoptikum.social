@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Great User Feedback"
+date:   2017-08-28 06:00:00 +0200
+author: Sonja
+---
+
+Panoptikum received great user feedback and we would like to know what you think we should improve asap - maybe later - not change at all.
+
+* Show contributors of single episodes already on the podcast page. At the moment the contributors of an episode are shown on the page of the episode itself. What's your opinion? Would you like to see the contributors in the summary of the episode on podcast level or do you think the podcast page offers already too much information in one view?
+
+* Use words like "und", "and" and "," in the field contributors of the podcast episode feed as a separatora. For instance the contributor "Florian and Stefan" would then become two contributors "Florian" and "Stefan". Would you see this as an improvement or do you think there are contributors that use those words as as part of their name and we would artificially split them in two?
+
+Please leave your comments regarding those two questions in the blog or send an email to <sonja@panoptikum.io>.
+
+We are also interested in your personal feedback, we'd love to read your personal review regarding Panoptikum. What do you like? What needs to be done to improve your experience with Panoptikum?
