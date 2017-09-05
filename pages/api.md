@@ -22,6 +22,7 @@ path | method | purpose | included
 --- | --- | ---
 `/categories` | GET | tree of categories | children = subcategories
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent
+`/podcasts` | GET | list of podcast, paginated, ordered (last imported first) | categories, engagements & personas
 `/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/podcasts/last_updated` | GET | last updated podcasts | paginated
 `/languages` | GET | list of languages | -
@@ -29,7 +30,7 @@ path | method | purpose | included
 `/engagements/:id` | GET | engagement | persona, podcast
 `/personas/:id` | GET | single persona | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 `/recommendations/:id` | GET | single recommendation | user-name, one of: podcast, episode, chapter |
-`/recommendations/random` | GET | random recommendation | episode within podcast within categtory |
+`/recommendations/random` | GET | random recommendation | episode, podcast, category;<br/> the episode belongs to that podcast, the podcast belongs to that category |
 `/feeds/:id` | GET | single feed | podcast, alternate_feed
 `/alternate_feeds/:id` | GET | single alternate feed | feed
 `/episodes/:id` | GET | single episode | podcast, chapters, enclosures, recommendations, gigs & contributors (= personas), like_count
