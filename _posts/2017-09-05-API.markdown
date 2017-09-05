@@ -1,20 +1,22 @@
 ---
 layout: post
-title:  "API "
-date:   2017-09-06 06:00:00 +0200
+title:  "API"
+date:   2017-09-05 06:00:00 +0200
 author: Sonja
 ---
 
-As promised in this [blog](https://blog.panoptikum.io/2017/08/14/sha-podstock.html) Stefan started with the API.
+As promised in this [post](https://blog.panoptikum.io/2017/08/14/sha-podstock.html) Stefan started with the API.
 
 The API adheres to [json:api](https://jsonapi.org/) standards. Currently all endpoints are available without authorization or throttling. Podcasts within a category, gigs for a persona and episodes for a podcast are paginated.
 
-Stefan not only implemented, but also documented the API. So please check out the [documentation](https://blog.panoptikum.io/api/) for the details. As always your feedback is welcome! Send it to <stefan@panoptikum.io>.
+Stefan not only implemented, but also documented the API. So please check out the [documentation](https://blog.panoptikum.io/api/) for details. As always your feedback is welcome! Send it to <stefan@panoptikum.io>.
 
 Panoptikum offers via the API almost the full functionality that you can use via manual clicks (without login). You can easily use data from Panoptikum in your application via the API.
 
 The following API functions will follow in the next weeks
 * search
 * top 10 lists
+* random recommendations
 
 Who wants to write a Panoptikum plugin for podlove publisher displaying the latest recommendations for your podcast?
+:-)
