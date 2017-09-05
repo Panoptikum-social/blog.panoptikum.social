@@ -22,7 +22,7 @@ path | method | purpose | included
 --- | --- | ---
 `/categories` | GET | tree of categories | children = subcategories
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent
-`/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, engagements & contributors (= personas)
+`/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, languages, engagements & contributors (= personas)
 `/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/podcasts/last_updated` | GET | last updated podcasts | paginated
 `/languages` | GET | list of languages | -
