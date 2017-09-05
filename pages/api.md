@@ -24,6 +24,8 @@ path | method | purpose | included
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent
 `/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, languages, engagements & contributors (= personas)
 `/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
+`/podcasts/most_liked` | GET | 10 most liked podcasts ordered by like count descending | -
+`/podcasts/most_subscribed` | GET | 10 most subscribed podcasts ordered by subscription count descending | -
 `/podcasts/last_updated` | GET | last updated podcasts | paginated
 `/languages` | GET | list of languages | -
 `/languages/:id` | GET | single language | -
