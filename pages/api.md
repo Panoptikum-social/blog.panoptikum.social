@@ -32,7 +32,8 @@ path | method | purpose | included
 `/engagements/:id` | GET | engagement | persona, podcast
 `/personas/:id` | GET | single persona | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 `/recommendations/:id` | GET | single recommendation | user-name, one of: podcast, episode, chapter |
-`/recommendations/random` | GET | random recommendation | episode, podcast, category;<br/> the episode belongs to that podcast, the podcast belongs to that category |
+`/recommendations` | GET | list of recommendations, paginated, order by insertion date descending | episode, podcast, chapter, user
+`/recommendations/random` | GET | random recommendation | episode, podcast, category;<br/> the episode belongs to that podcast, the podcast belongs to that category
 `/feeds/:id` | GET | single feed | podcast, alternate_feed
 `/alternate_feeds/:id` | GET | single alternate feed | feed
 `/episodes` | GET | list of episodes, paginated, ordered by publishing_date descending | podcast, gigs & contributors (= personas)
