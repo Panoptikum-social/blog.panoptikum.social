@@ -45,6 +45,17 @@ path | method | purpose | included
 `/gigs/:id` | GET | single gig | persona, episode
 {: .table .table-bordered}
 
+
+### Pagination
+
+Podcasts within a category, gigs for a persona and episodes for a podcast are paginated:
+
+* Example request: `https://panoptikum.io/jsonapi/personas/1?page[number]=1&page[size]=10`
+* page[number] ... page number; starts counting at 1, defaults to 1
+* page[size] ... number of items per page, defaults to 10
+* Links contain self, prev, next, last and first link (if appropriate).
+
+
 ### Full Text Search
 
 path | method | purpose | included
@@ -55,15 +66,6 @@ path | method | purpose | included
 <nobr><code class="highlighter-rouge">/episodes/search?filter=:term</code></nobr> | GET | searches for episodes with `:term` | podcast, gigs & contributors (= personas)
 <nobr><code class="highlighter-rouge">/personas/search?filter=:term</code></nobr> | GET | searches for personas with `:term` | redirect (= persona) , delegates (= personas), podcasts
 {: .table .table-bordered}
-
-### Pagination
-
-Podcasts within a category, gigs for a persona and episodes for a podcast are paginated:
-
-* Example request: `https://panoptikum.io/jsonapi/personas/1?page[number]=1&page[size]=10`
-* page[number] ... page number; starts counting at 1, defaults to 1
-* page[size] ... number of items per page, defaults to 10
-* Links contain self, prev, next, last and first link (if appropriate).
 
 
 ### Login
