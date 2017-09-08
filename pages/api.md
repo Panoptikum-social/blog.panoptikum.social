@@ -10,7 +10,9 @@ The API adheres to [json:api](http://jsonapi.org) standards.
 
 ## Endpoints
 
-Currently all endpoints are available without authorization or throttling.
+All endpoints are available without throttling.
+
+### Get data
 
 Prepend all requests with `https://panoptikum.io/jsonapi`.
 
@@ -62,3 +64,47 @@ Podcasts within a category, gigs for a persona and episodes for a podcast are pa
 * page[number] ... page number; starts counting at 1, defaults to 1
 * page[size] ... number of items per page, defaults to 10
 * Links contain self, prev, next, last and first link (if appropriate).
+
+
+### Login
+
+To be able to post data, it's necessary to post a token along side. To get a token,
+post username and password to recieve a token back, that's valid for one hour.
+
+Typically, you would call something a login, though it's only getting you a new token,
+we provide both routes as endpoints, take the one with the name you prefer.
+There is no session or cookie connected to that, so there is also no logout.
+
+path | method | params | purpose | included
+`/login` or `/get_token` | POST | `username`, `password` | get a token | token including validity data and user id
+{: .table .table-bordered}
+
+One user can access the application via the api from different devices simuntaneously. They are not device specific.
+
+#### *Example*
+
+If working with tokens is something new for you, an example might help to set the expectations right.
+
+Request: `curl --data "username=janedoe&password=secret" http://localhost:4000/jsonapi/login`
+
+Response:
+```
+{"jsonapi":
+  {"version":"1.0"},
+  "data":{"type":"session-api",
+          "id":"6",
+          "attributes":{"valid-until":"2017-09-08T16:46:08.393642Z",
+                        "valid-for":"1 hour",
+                        "token":"SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY",
+                        "created-at":"2017-09-08T15:46:08.393630Z"}}}
+```
+
+#### *A note on security*
+
+You get the token in a transport encrypted response via https. If you disclose the token, you basically disclose
+your password. This is the case because the token owner can change the password within the next hour,
+no matter if you recreated another token. So don't store it unencrypted.
+
+### Post data
+
+These actions are currently under development.
