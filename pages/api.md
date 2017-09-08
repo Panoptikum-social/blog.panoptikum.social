@@ -12,7 +12,7 @@ The API adheres to [json:api](http://jsonapi.org) standards.
 
 All endpoints are available without throttling.
 
-### Get data
+### Get public data
 
 Prepend all requests with `https://panoptikum.io/jsonapi`.
 
@@ -70,8 +70,8 @@ path | method | purpose | included
 
 ### Login
 
-To be able to post data, it's necessary to post a token along side. To get a token,
-post username and password to recieve a token back, that's valid for one hour.
+To be able to post data and receive your own private data, it's necessary to post a token along
+side. To get a token, post username and password to recieve a token back, that's valid for one hour.
 
 Typically, you would call something a login, though it's only getting you a new token,
 we provide both routes as endpoints, take the one with the name you prefer.
@@ -81,7 +81,8 @@ path | method | params | purpose | included
 `/login` or `/get_token` | POST | `username`, `password` | get a token | token including validity data and user id
 {: .table .table-bordered}
 
-One user can access the application via the api from different devices simuntaneously. They are not device specific.
+One user can access the application via the api from different devices simuntaneously. They are not
+device specific.
 
 #### *Example*
 
@@ -103,10 +104,10 @@ Response:
 
 #### *A note on security*
 
-You get the token in a transport encrypted response via https. If you disclose the token, you basically disclose
-your password. This is the case because the token owner can change the password within the next hour,
-no matter if you recreated another token. So don't store it unencrypted.
+You get the token in a transport encrypted response via https. If you disclose the token, you
+basically disclose your password. This is the case because the token owner can change the password
+within the next hour, no matter if you recreated another token. So don't store it unencrypted.
 
-### Post data
+### Post data and get private data
 
-These actions are currently under development.
+These endpoints are currently under development.
