@@ -21,8 +21,7 @@ links from there recursively.
 path | method | purpose | included
 --- | --- | ---
 `/categories` | GET | tree of categories | children = subcategories
-`/categories/:id` | GET | single category | children, (paginated) podcasts, parent ; podcasts ordered by last episode publishing date descending nulls last"
-[master fbe6883] api: podcasts for category ordered by last episode publishing date descending nulls last
+`/categories/:id` | GET | single category | children, (paginated) podcasts, parent ; podcasts ordered by last episode publishing date descending nulls last
 `/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, languages, engagements & contributors (= personas)
 `/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/podcasts/most_liked` | GET | 10 most liked podcasts ordered by like count descending | -
@@ -42,6 +41,17 @@ path | method | purpose | included
 `/chapters/:id` | GET | single chapter | episode, recommendations, like_count
 `/enclosure/:id` | GET | single enclosure | episode
 `/gigs/:id` | GET | single gig | persona, episode
+{: .table .table-bordered}
+
+### Full Text Search
+
+path | method | purpose | included
+--- | --- | ---
+<nobr><code class="highlighter-rouge">/search?filter[:type]=:term</code></nobr> | GET | redirects to the appropriate route below | type can be either `persona`,`category`,`podcast` or `episode`
+<nobr><code class="highlighter-rouge">/categories/search?filter=:term</code></nobr> | GET | searches for categories with `:term` | children = subcategories
+<nobr><code class="highlighter-rouge">/podcasts/search?filter=:term</code></nobr> | GET | searches for podcasts with `:term` | categories, languages, engagements & contributors (= personas)
+<nobr><code class="highlighter-rouge">/episodes/search?filter=:term</code></nobr> | GET | searches for episodes with `:term` | podcast, gigs & contributors (= personas)
+<nobr><code class="highlighter-rouge">/personas/search?filter=:term</code></nobr> | GET | searches for personas with `:term` | redirect (= persona) , delegates (= personas), podcasts
 {: .table .table-bordered}
 
 ### Pagination
