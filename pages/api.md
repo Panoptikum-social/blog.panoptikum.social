@@ -6,11 +6,7 @@ permalink: api/
 
 # API
 
-The API adheres to [json:api](http://jsonapi.org) standards.
-
-## Endpoints
-
-All endpoints are available without throttling.
+The API adheres to [json:api](http://jsonapi.org) standards. All endpoints are available without throttling.
 
 ### Get public data
 
