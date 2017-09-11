@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: default
-navigation: 3
+navigation: 4
 permalink: community/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Privacy
 layout: default
-navigation: 10
+navigation: 11
 permalink: privacy/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Imprint
 layout: default
-navigation: 2
+navigation: 3
 permalink: imprint/
 ---
 

@@ -2,13 +2,14 @@
 title: API
 layout: default
 permalink: api/
+navigation: 2
 ---
 
 # API
 
-The API adheres to [json:api](http://jsonapi.org) standards. All endpoints are available without throttling.
+The API adheres to [json:api](http://jsonapi.org) standards. exAll endpoints are available without throttling.
 
-### Get public data
+## Get public data
 
 Prepend all requests with `https://panoptikum.io/jsonapi`.
 
@@ -64,10 +65,11 @@ path | method | purpose | included
 {: .table .table-bordered}
 
 
-### Login
+## Login
 
 To be able to post data and receive your own private data, it's necessary to post a token along
 side. To get a token, post username and password to recieve a token back, that's valid for one hour.
+The token will also be provided in the header `token`.
 
 Typically, you would call something a login, though it's only getting you a new token,
 we provide both routes as endpoints, take the one with the name you prefer.
@@ -80,7 +82,7 @@ path | method | params | purpose | included
 One user can access the application via the api from different devices simuntaneously. They are not
 device specific.
 
-#### *Example*
+#### *Example:* Get a token
 
 If working with tokens is something new for you, an example might help to set the expectations right.
 
@@ -98,12 +100,49 @@ Response:
                         "created-at":"2017-09-08T15:46:08.393630Z"}}}
 ```
 
-#### *A note on security*
+### *A note on security*
 
 You get the token in a transport encrypted response via https. If you disclose the token, you
 basically disclose your password. This is the case because the token owner can change the password
 within the next hour, no matter if you recreated another token. So don't store it unencrypted.
 
-### Post data and get private data
+## Post data and get private data
 
-These endpoints are currently under development.
+For all these end points it is necessary to provide a valid token. Unless you do so,
+you will receive appropriate feedback, if the token is invalid, out of date or has not been
+provided at all.
+
+The token has to be provided as "Authentication: Bearer :token" header, where you exchange the
+variable :token with the token, that you aquired before as described above.
+
+Why didn'd we choose to support a token provided as a parameter, you might ask? We don't want to log
+tokens, which we would have done for get requests.
+
+Requests are done with or for the user identified by the token.
+
+path | method | params | purpose | included
+/pan/likes/toggle | POST | `category_id` or `podcast_id` | like or unlike a category or podcast | `deleted`: true / false <br/> `created`: true / false
+{: .table .table-bordered}
+
+#### *Example:* Like a podcast
+
+Here is an example how you would like (or unlike, it you liked it before) a podcast.
+
+Request:
+```
+curl --data "username=informatom&password=secret"
+     http://localhost:4000/jsonapi/login
+```
+
+Pick up the token from the response and provide it in the next request as a header.
+
+Request:
+```
+curl --data "podcast_id=104"
+     -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY"
+     http://localhost:4000/jsonapi/pan/likes/toggle
+```
+
+----
+
+Further endpoints are currently under development.
