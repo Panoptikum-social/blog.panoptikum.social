@@ -137,6 +137,7 @@ path | method | params | purpose | included
 /pan/likes/toggle | POST | `category_id` or `podcast_id` or `episode_id` or `chapter_id` or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
 /pan/follows/toggle | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
 /pan/subscriptions/toggle | POST | `podcast_id` | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
+/pan/gigs/toggle | POST | `episode_id` and `persona_id` | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
