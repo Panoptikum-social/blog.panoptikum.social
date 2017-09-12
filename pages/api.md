@@ -94,7 +94,9 @@ confirmed yet.
 
 If working with tokens is something new for you, an example might help to set the expectations right.
 
-Request: `curl --data "username=janedoe&password=secret" http://localhost:4000/jsonapi/login`
+Request:
+
+`curl --data "username=janedoe&password=secret" http://localhost:4000/jsonapi/login`
 
 Response:
 ```
@@ -138,20 +140,15 @@ path | method | params | purpose | included
 Here is an example how you would like (or unlike, it you liked it before) a podcast.
 
 Request:
-```
-curl --data "username=informatom&password=secret"
-     http://localhost:4000/jsonapi/login
-```
+
+`curl --data "username=informatom&password=secret" http://localhost:4000/jsonapi/login`
 
 Pick up the token from the response and provide it in the next request as a header.
 
 Request:
-```
-curl --data "podcast_id=104"
-     -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY"
-     http://localhost:4000/jsonapi/pan/likes/toggle
-```
 
-----
+`curl --data "podcast_id=104" -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY" http://localhost:4000/jsonapi/pan/likes/toggle`
+
+---
 
 Further endpoints are currently under development.
