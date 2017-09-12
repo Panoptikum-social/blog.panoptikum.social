@@ -43,6 +43,9 @@ path | method | purpose | included
 `/chapters/:id` | GET | single chapter | episode, recommendations, like_count
 `/enclosure/:id` | GET | single enclosure | episode
 `/gigs/:id` | GET | single gig | persona, episode
+`/subscription/:id` | GET | single subscription;<br/> only shown, when user shares | user, podcast
+`/follow/:id` | GET | single follow;<br/> only shown, when user shares | category, follower, user, podcast, persona
+`/like/:id` | GET | single like | category, enjoyer, user, podcast, chapter, persona, episode
 {: .table .table-bordered}
 
 
@@ -133,6 +136,7 @@ Requests are done with or for the user identified by the token.
 path | method | params | purpose | included
 /pan/likes/toggle | POST | `category_id` or `podcast_id` or `episode_id` or `chapter_id` or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
 /pan/follows/toggle | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
+/pan/subscriptions/toggle | POST | `podcast_id` | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
