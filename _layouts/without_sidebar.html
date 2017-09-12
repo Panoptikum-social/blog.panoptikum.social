@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{ site.title }} - {{ page.title | otherwise:site.subtitle }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {% if site.description %}<meta name="description" content="{{ site.description | markdownify | strip_html }}" />{% endif %}
+  {% if page.author %}<meta name="author" content="{{ page.author }}" />
+  {% elsif site.author %}<meta name="author" content="{{ site.author }}" />
+  {% endif %}
+
+  <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/general_feed.xml" title="General Site Atom Feed (No Podcast Metadata!)" />
+  {{ site | episode_feeds_html }}
+
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
+
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootflat.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom_styles.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/hopscotch.min.css" />
+
+  <script type='text/javascript' src="{{ site.url }}/podlove-web-player/js/vendor/html5shiv.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/podlove-web-player/js/vendor/jquery.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/icheck.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/jquery.fs.selecter.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/jquery.fs.stepper.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/hopscotch.min.js"></script>
+  <script type='text/javascript' src="{{ site.url }}/js/custom.js"></script>
+
+  {% if site.flattr_uid %}{% include flattr_loader.html %}{% endif %}
+  {% if site.disqus_shortname %}
+  <script>
+    {{ site | disqus_config }}
+  </script>
+  {% endif %}
+</head>
+
+<body>
+  <div class="container-fluid">
+    {% include navbar.html %}
+
+    <div class="container">
+      <div class="content">
+        {{ content }}
+      </div>
+      <div class="row" id="footer">
+        <small class="pull-right">Powered by <a href="https://github.com/pattex/octopod">Octopod</a> and <a href="http://jekyllrb.com/">Jekyll</a>.</small>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.container -->
+
+  {% include footer.html %}
+
+<script>
+  !function(d,s,id){
+    var js, fjs = d.getElementsByTagName(s)[0]
+      if (!d.getElementById(id)) {
+        js = d.createElement(s)
+        js.id = id
+        js.src = "//platform.twitter.com/widgets.js"
+        fjs.parentNode.insertBefore(js,fjs)
+      }
+  }(document,"script","twitter-wjs")
+</script>
+
+</html>

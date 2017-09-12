@@ -1,6 +1,6 @@
 ---
 title: API
-layout: default
+layout: without_sidebar
 permalink: api/
 navigation: 2
 ---
@@ -29,7 +29,10 @@ path | method | purpose | included
 `/languages` | GET | list of languages | -
 `/languages/:id` | GET | single language | -
 `/engagements/:id` | GET | engagement | persona, podcast
+`/personas/` | GET | list of personas | redirect
 `/personas/:id` | GET | single persona | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/users/` | GET | list of users | -
+`/users/:id` | GET | single user | users_i_like, categories_i_like, depending on preferences: podcasts_i_subscribed, podcasts_i_follow
 `/recommendations` | GET | list of recommendations, paginated, order by insertion date descending | episode, podcast, chapter, user
 `/recommendations/:id` | GET | single recommendation | user-name, one of: podcast, episode, chapter |
 `/recommendations/random` | GET | random recommendation | episode, podcast, category;<br/> the episode belongs to that podcast, the podcast belongs to that category
@@ -58,10 +61,10 @@ Podcasts within a category, gigs for a persona and episodes for a podcast are pa
 path | method | purpose | included
 --- | --- | ---
 <nobr><code class="highlighter-rouge">/search?filter[:type]=:term</code></nobr> | GET | redirects to the appropriate route below | type can be either `persona`,`category`,`podcast` or `episode`
-<nobr><code class="highlighter-rouge">/categories/search?filter=:term</code></nobr> | GET | searches for categories with `:term` | children = subcategories
-<nobr><code class="highlighter-rouge">/podcasts/search?filter=:term</code></nobr> | GET | searches for podcasts with `:term` | categories, languages, engagements & contributors (= personas)
-<nobr><code class="highlighter-rouge">/episodes/search?filter=:term</code></nobr> | GET | searches for episodes with `:term` | podcast, gigs & contributors (= personas)
-<nobr><code class="highlighter-rouge">/personas/search?filter=:term</code></nobr> | GET | searches for personas with `:term` | redirect (= persona) , delegates (= personas), podcasts
+`/categories/search?filter=:term` | GET | searches for categories with `:term` | children = subcategories
+`/podcasts/search?filter=:term` | GET | searches for podcasts with `:term` | categories, languages, engagements & contributors (= personas)
+`/episodes/search?filter=:term` | GET | searches for episodes with `:term` | podcast, gigs & contributors (= personas)
+`/personas/search?filter=:term` | GET | searches for personas with `:term` | redirect (= persona) , delegates (= personas), podcasts
 {: .table .table-bordered}
 
 
@@ -81,6 +84,11 @@ path | method | params | purpose | included
 
 One user can access the application via the api from different devices simuntaneously. They are not
 device specific.
+
+Only users with confirmed email address can aquire tokens. Please make sure, that you click the email
+confirmation link in the email that is sent to you after login via the web interface. There will
+be an approriate error message telling you to do so, if you request a token and your email is not
+confirmed yet.
 
 #### *Example:* Get a token
 
@@ -121,7 +129,8 @@ tokens, which we would have done for get requests.
 Requests are done with or for the user identified by the token.
 
 path | method | params | purpose | included
-/pan/likes/toggle | POST | `category_id` or `podcast_id` | like or unlike a category or podcast | `deleted`: true / false <br/> `created`: true / false
+/pan/likes/toggle | POST | `category_id` or `podcast_id` or `episode_id` or `chapter_id` or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
+/pan/follows/toggle | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
