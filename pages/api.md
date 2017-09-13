@@ -148,6 +148,9 @@ path | method | params | purpose | included
 `/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`) and `comment` | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast or episode or chapter ; user
 `/pan/like_all_subscribed_podcasts` | POST | - | creates likes for all subscribed podcasts not liked yet, returns all likes for podcasts | podcast, user
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
+`/opmls/` | GET | - | list of OPML files you uploaded | user
+`/opmls/:id` | GET | - | single OPML file | user
+
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
