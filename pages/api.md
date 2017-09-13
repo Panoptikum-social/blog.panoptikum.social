@@ -134,10 +134,17 @@ tokens, which we would have done for get requests.
 Requests are done with or for the user identified by the token.
 
 path | method | params | purpose | included
-/pan/likes/toggle | POST | `category_id` or `podcast_id` or `episode_id` or `chapter_id` or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
-/pan/follows/toggle | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
-/pan/subscriptions/toggle | POST | `podcast_id` | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
-/pan/gigs/toggle | POST | `episode_id` and `persona_id` | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
+`/pan/likes/toggle` | POST | `category_id` or `podcast_id`<br/> or `episode_id` or `chapter_id` <br/> or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
+`/pan/follows/toggle` | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
+`/pan/subscriptions/toggle` | POST | `podcast_id` | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
+`/pan/gigs/toggle` | POST | `episode_id` and `persona_id` | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
+`/pan/recommedations/my` | GET | - | list of my recommendations | podcast
+`/pan/podcasts/i_follow` | GET | - | list of podcasts i follow | categories, engagements, contributors and languages
+`/pan/podcasts/i_like` | GET | - | list of podcasts i like | categories, engagements, contributors and languages
+`/pan/podcasts/i_subscribed` | GET | - | list of podcasts i subscribed to | categories, engagements, contributors and languages
+`/pan/podcasts/also_listened_to` | GET | - | list of podcasts that listeners of the podcasts you listen to, also listen to | categories, engagements, contributors and languages
+`/pan/podcasts/also_liked` | GET | - | list of podcasts that listeners of the podcasts you like,  also like | categories, engagements, contributors and languages
+`/pan/categories/my` | GET | - | list of categories, the podcasts i subscribed to are assigned to | children, parent
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
