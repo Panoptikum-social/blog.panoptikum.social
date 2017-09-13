@@ -150,7 +150,6 @@ path | method | params | purpose | included
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
 `/opmls/` | GET | - | list of OPML files you uploaded | user
 `/opmls/:id` | GET | - | single OPML file | user
-
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
