@@ -145,7 +145,8 @@ path | method | params | purpose | included
 `/pan/podcasts/also_listened_to` | GET | - | list of 10 podcasts that listeners of the podcasts you listen to, also listen to | categories, engagements, contributors and languages
 `/pan/podcasts/also_liked` | GET | - | list of 10 podcasts that listeners of the podcasts you like,  also like | categories, engagements, contributors and languages
 `/pan/categories/my` | GET | - | list of 10 categories, the podcasts i subscribed to are assigned to | children, parent
-`/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`) and `comment` | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast, user
+`/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`) and `comment` | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast or episode or chapter ; user
+`/pan/likes/like_all_subscribed_podcasts` | POST | - | likes all subscribed podcasts, returns all likes for podcasts | podcast, user
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
