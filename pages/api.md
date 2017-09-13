@@ -142,9 +142,9 @@ path | method | params | purpose | included
 `/pan/podcasts/i_follow` | GET | - | list of podcasts i follow | categories, engagements, contributors and languages
 `/pan/podcasts/i_like` | GET | - | list of podcasts i like | categories, engagements, contributors and languages
 `/pan/podcasts/i_subscribed` | GET | - | list of podcasts i subscribed to | categories, engagements, contributors and languages
-`/pan/podcasts/also_listened_to` | GET | - | list of podcasts that listeners of the podcasts you listen to, also listen to | categories, engagements, contributors and languages
-`/pan/podcasts/also_liked` | GET | - | list of podcasts that listeners of the podcasts you like,  also like | categories, engagements, contributors and languages
-`/pan/categories/my` | GET | - | list of categories, the podcasts i subscribed to are assigned to | children, parent
+`/pan/podcasts/also_listened_to` | GET | - | list of 10 podcasts that listeners of the podcasts you listen to, also listen to | categories, engagements, contributors and languages
+`/pan/podcasts/also_liked` | GET | - | list of 10 podcasts that listeners of the podcasts you like,  also like | categories, engagements, contributors and languages
+`/pan/categories/my` | GET | - | list of 10 categories, the podcasts i subscribed to are assigned to | children, parent
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
