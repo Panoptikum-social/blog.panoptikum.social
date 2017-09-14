@@ -152,7 +152,7 @@ path | method | params | purpose | included
 `/opmls/:id` | GET | - | single OPML file | user
 `/opmls` | POST | upload | upload an OPML file, see curl example below | user
 `/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
-`/opmls/:id` | DELETE | - | delete single OPML file | user, deleted
+`/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
@@ -175,6 +175,13 @@ Request:
 To send a file from the local file system with the parameter upload, a curl request like this can be used:
 
 `curl -v -H "Authorization: Bearer :token" -F "upload=@/full/path/to/opml.xml" https://panoptikum.io/jsonapi/pan/opmls`
+
+
+### *Example:* Delete a file
+
+To delete a file via curl, you have to set the X flag:
+
+`curl -v -X "DELETE" -H "Authorization: Bearer :token" http://localhost:4000/jsonapi/pan/opmls/:id`
 
 ---
 
