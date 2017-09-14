@@ -151,6 +151,8 @@ path | method | params | purpose | included
 `/opmls/` | GET | - | list of OPML files you uploaded | user
 `/opmls/:id` | GET | - | single OPML file | user
 `/opmls` | POST | upload | upload an OPML file, see curl example below | user
+`/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
+`/opmls/:id` | DELETE | - | delete single OPML file | user, deleted
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
