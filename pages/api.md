@@ -179,7 +179,7 @@ To send a file from the local file system with the parameter upload, a curl requ
 
 ### *Example:* Delete a file
 
-To delete a file via curl, you have to set the X flag:
+To delete a file via curl, you have to set the request method via the X flag:
 
 `curl -v -X "DELETE" -H "Authorization: Bearer :token" http://localhost:4000/jsonapi/pan/opmls/:id`
 
