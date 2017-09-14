@@ -99,7 +99,7 @@ If working with tokens is something new for you, an example might help to set th
 
 Request:
 
-`curl --data "username=janedoe&password=secret" http://localhost:4000/jsonapi/login`
+`curl --data "username=janedoe&password=secret" https://panoptikum.io/jsonapi/login`
 
 Response:
 ```
@@ -150,6 +150,7 @@ path | method | params | purpose | included
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
 `/opmls/` | GET | - | list of OPML files you uploaded | user
 `/opmls/:id` | GET | - | single OPML file | user
+`/opmls` | POST | upload | upload an OPML file, see curl example below | user
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
@@ -158,13 +159,20 @@ Here is an example how you would like (or unlike, it you liked it before) a podc
 
 Request:
 
-`curl --data "username=informatom&password=secret" http://localhost:4000/jsonapi/login`
+`curl --data "username=informatom&password=secret" https://panoptikum.io/jsonapi/login`
 
 Pick up the token from the response and provide it in the next request as a header.
 
 Request:
 
-`curl --data "podcast_id=104" -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY" http://localhost:4000/jsonapi/pan/likes/toggle`
+`curl --data "podcast_id=104" -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY" https://panoptikum.io/jsonapi/pan/likes/toggle`
+
+
+### *Example:* Upload a file
+
+To send a file from the local file system with the parameter upload, a curl request like this can be used:
+
+`curl -v -H "Authorization: Bearer :token" -F "upload=@/full/path/to/opml.xml" https://panoptikum.io/jsonapi/pan/opmls`
 
 ---
 
