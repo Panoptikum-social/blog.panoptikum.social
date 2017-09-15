@@ -81,8 +81,8 @@ Typically, you would call something a login, though it's only getting you a new 
 we provide both routes as endpoints, take the one with the name you prefer.
 There is no session or cookie connected to that, so there is also no logout.
 
-path | method | params | purpose | included
-`/login` or `/get_token` | POST | `username`, `password` | get a token | token including validity data and user id
+path | method | params (* ... required) | purpose | included
+`/login` or `/get_token` | POST | `username`* , `password`* | get a token | token including validity data and user id
 {: .table .table-bordered}
 
 One user can access the application via the api from different devices simuntaneously. They are not
@@ -133,11 +133,11 @@ tokens, which we would have done for get requests.
 
 Requests are done with or for the user identified by the token.
 
-path | method | params | purpose | included
+path | method | params (* ... required) | purpose | included
 `/pan/likes/toggle` | POST | `category_id` or `podcast_id`<br/> or `episode_id` or `chapter_id` <br/> or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
 `/pan/follows/toggle` | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
-`/pan/subscriptions/toggle` | POST | `podcast_id` | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
-`/pan/gigs/toggle` | POST | `episode_id` and `persona_id` | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
+`/pan/subscriptions/toggle` | POST | `podcast_id`* | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
+`/pan/gigs/toggle` | POST | `episode_id`* , `persona_id`* | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
 `/pan/recommedations/my` | GET | - | list of my recommendations | podcast
 `/pan/podcasts/i_follow` | GET | - | list of podcasts i follow | categories, engagements, contributors and languages
 `/pan/podcasts/i_like` | GET | - | list of podcasts i like | categories, engagements, contributors and languages
@@ -145,20 +145,21 @@ path | method | params | purpose | included
 `/pan/podcasts/also_listened_to` | GET | - | list of 10 podcasts that listeners of the podcasts you listen to, also listen to | categories, engagements, contributors and languages
 `/pan/podcasts/also_liked` | GET | - | list of 10 podcasts that listeners of the podcasts you like,  also like | categories, engagements, contributors and languages
 `/pan/categories/my` | GET | - | list of 10 categories, the podcasts i subscribed to are assigned to | children, parent
-`/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`) and `comment` | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast or episode or chapter ; user
+`/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`), `comment`* | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast or episode or chapter ; user
 `/pan/like_all_subscribed_podcasts` | POST | - | creates likes for all subscribed podcasts not liked yet, returns all likes for podcasts | podcast, user
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
 `/opmls/` | GET | - | list of OPML files you uploaded | user
 `/opmls/:id` | GET | - | single OPML file | user
-`/opmls` | POST | `upload` | upload an OPML file, see curl example below | user
+`/opmls` | POST | `upload`* (file) | upload an OPML file, see curl example below | user
 `/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
 `/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
 `/feed_backlogs/:id` | GET | - | single feed in backlog | user
-`/feed_backlogs` | POST | `url` | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
+`/feed_backlogs` | POST | `url`* | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
 `/users/my` | GET | - | my user profile | personas
 `/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
 `/messages/my` | GET | - | my messages, paginated | creator, persona
-`/update_password` | POST or PATCH | `password` and `password_confirmation` | update password; server validates identicality and length > 5 | personas
+`/update_password` | POST | `password`* , `password_confirmation`* | update password; server validates identicality and length > 5 | personas
+`/update_password` | POST | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
