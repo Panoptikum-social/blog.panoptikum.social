@@ -156,6 +156,8 @@ path | method | params | purpose | included
 `/feed_backlogs/:id` | GET | - | single feed in backlog | user
 `/feed_backlogs` | POST | url | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
 `/users/my` | GET | - | my user profile | personas
+`/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
+`/messages/my` | GET | - | my messages, paginated | creator, persona
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
