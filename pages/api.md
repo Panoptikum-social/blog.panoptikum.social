@@ -150,14 +150,15 @@ path | method | params | purpose | included
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
 `/opmls/` | GET | - | list of OPML files you uploaded | user
 `/opmls/:id` | GET | - | single OPML file | user
-`/opmls` | POST | upload | upload an OPML file, see curl example below | user
+`/opmls` | POST | `upload` | upload an OPML file, see curl example below | user
 `/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
 `/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
 `/feed_backlogs/:id` | GET | - | single feed in backlog | user
-`/feed_backlogs` | POST | url | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
+`/feed_backlogs` | POST | `url` | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
 `/users/my` | GET | - | my user profile | personas
 `/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
 `/messages/my` | GET | - | my messages, paginated | creator, persona
+`/update_password` | POST or PATCH | `password` and ` password_confirmation` | update password | personas; provide both fields and let the server validate identity
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
