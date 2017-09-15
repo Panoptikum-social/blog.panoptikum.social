@@ -158,7 +158,7 @@ path | method | params | purpose | included
 `/users/my` | GET | - | my user profile | personas
 `/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
 `/messages/my` | GET | - | my messages, paginated | creator, persona
-`/update_password` | POST or PATCH | `password` and ` password_confirmation` | update password | personas; provide both fields and let the server validate identity
+`/update_password` | POST or PATCH | `password` and `password_confirmation` | update password; server validates identicality and length > 5 | personas
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
