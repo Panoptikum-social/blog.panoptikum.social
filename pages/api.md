@@ -154,7 +154,8 @@ path | method | params | purpose | included
 `/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
 `/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
 `/feed_backlogs/:id` | GET | - | single feed in backlog | user
-`/feed_backlogs` | POST | url | post a feed_url to the feed backlog | user
+`/feed_backlogs` | POST | url | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
+`/users/my` | GET | - | my user profile | personas
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
