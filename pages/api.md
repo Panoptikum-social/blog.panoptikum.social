@@ -71,6 +71,17 @@ path | method | purpose | included
 {: .table .table-bordered}
 
 
+### User generation
+
+You can use any user generated in the web interface for API access, but you can also create users
+via the API itself.
+
+path | method | params (* ... required)
+--- |--- | ---
+`/users` | POST | `username`* (>3), `password`* (>6), `password_confirmation`* , `email`* (>5, unique), `name`* (>3), <br/>`podcaster` (boolean), `share_subscriptions` (boolean), `share_follows` (boolean)
+{: .table .table-bordered}
+
+
 ## Login
 
 To be able to post data and receive your own private data, it's necessary to post a token along
