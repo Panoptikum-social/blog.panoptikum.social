@@ -202,6 +202,7 @@ path | method | params (* ... required) | purpose | included
 `/pro/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
 `/pro/personas/:id/redirect` | POST | `target_id`* | redirects persona to persona with id = target_id | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 `/pro/personas/:id/cancel_redirect` | POST | - | cancels a persona redirect | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pan/personas/:id/claim` | POST | - | claims a persona | detail: "An Email to the Persona has been sent"
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
