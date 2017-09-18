@@ -7,7 +7,9 @@ navigation: 2
 
 # API
 
-The API adheres to [json:api](http://jsonapi.org) standards. exAll endpoints are available without throttling.
+The API responses adheres to [json:api](http://jsonapi.org) standards. All endpoints are available
+without throttling.
+
 
 ## Get public data
 
@@ -73,7 +75,7 @@ path | method | purpose | included
 
 ### User generation
 
-You can use any user generated in the web interface for API access, but you can also create users
+You can use any user generated in the web interface for full API access, but you can also create users
 via the API itself.
 
 path | method | params (* ... required)
@@ -144,6 +146,29 @@ tokens, which we would have done for get requests.
 
 Requests are done with or for the user identified by the token.
 
+Post, patch and put requests have all params on top level, as we don't have nested resources
+available here, see documentation for the idividual requests below. E.g., instead of json:api style
+
+```
+PATCH /pan/personas/42
+
+data: {type: "personas",
+       id: "42",
+       attributes: {name: "My new name",
+                    uri: "https://uri/to/me"}}
+
+```
+
+you would simply post in a more REST style:
+
+```
+PATCH /pan/personas/42
+
+name: "My new name",
+uri: "https://uri/to/me"
+```
+
+
 path | method | params (* ... required) | purpose | included
 `/pan/likes/toggle` | POST | `category_id` or `podcast_id`<br/> or `episode_id` or `chapter_id` <br/> or `user_id` or `persona_id` | like or unlike a category, podcast, episode, chapter, user or persona | <nobr><code class="highlighter-rouge">deleted</code>: true / false</nobr> <br/> `created`: true / false
 `/pan/follows/toggle` | POST | `category_id` or `podcast_id` or `user_id` or `persona_id` | follow or unfollow a category, podcast, user or persona | `deleted`: true / false <br/> `created`: true / false
@@ -169,8 +194,12 @@ path | method | params (* ... required) | purpose | included
 `/users/my` | GET | - | my user profile | personas
 `/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
 `/messages/my` | GET | - | my messages, paginated | creator, persona
-`/update_password` | POST | `password`* , `password_confirmation`* | update password; server validates identicality and length > 5 | personas
-`/update_password` | POST | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
+`/update_password` | PATCH or PUT | `password`* , `password_confirmation`* | update password; server validates identicality and length > 5 | personas
+`/update_user` | PATCH or PUT | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
+`/update_persona` | PATCH or PUT | `name`* , `uri`* | update persona with user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/update_persona` | PATCH or PUT | `pid`* (unique), `name`* , `uri`* , `email`, `image_url`, `image_title`, `description` (gets used as header), `long_description` (markdown) | update persona with pro user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/delegations/:id` | GET | - | single delegation, only returned, if persona and delegate manfestate in user | persona, delegate
+`/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
