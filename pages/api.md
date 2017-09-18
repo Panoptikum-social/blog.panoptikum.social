@@ -184,22 +184,24 @@ path | method | params (* ... required) | purpose | included
 `/pan/recommendations` | POST | (`podcast_id` or `episode_id` or `chapter_id`), `comment`* | creates a recommendation for a podcast, an episode or a chapter and returns it | podcast or episode or chapter ; user
 `/pan/like_all_subscribed_podcasts` | POST | - | creates likes for all subscribed podcasts not liked yet, returns all likes for podcasts | podcast, user
 `/pan/follow_all_subscribed_podcasts` | POST | - | creates follows for all subscribed podcasts not followed yet, returns all follows for podcasts | podcast, user
-`/opmls/` | GET | - | list of OPML files you uploaded | user
-`/opmls/:id` | GET | - | single OPML file | user
-`/opmls` | POST | `upload`* (file) | upload an OPML file, see curl example below | user
-`/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
-`/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
-`/feed_backlogs/:id` | GET | - | single feed in backlog | user
-`/feed_backlogs` | POST | `url`* | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
-`/users/my` | GET | - | my user profile | personas
-`/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
-`/messages/my` | GET | - | my messages, paginated | creator, persona
-`/update_password` | PATCH or PUT | `password`* , `password_confirmation`* | update password; server validates identicality and length > 5 | personas
-`/update_user` | PATCH or PUT | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
-`/update_persona` | PATCH or PUT | `name`* , `uri`* | update persona with user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
-`/update_persona` | PATCH or PUT | `pid`* (unique), `name`* , `uri`* , `email`, `image_url`, `image_title`, `description` (gets used as header), `long_description` (markdown) | update persona with pro user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
-`/delegations/:id` | GET | - | single delegation, only returned, if persona and delegate manfestate in user | persona, delegate
-`/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
+`/pan/opmls/` | GET | - | list of OPML files you uploaded | user
+`/pan/opmls/:id` | GET | - | single OPML file | user
+`/pan/opmls` | POST | `upload`* (file) | upload an OPML file, see curl example below | user
+`/pan/opmls/:id/import` | GET | - | imports feeds from OPML file into feed backlog | user
+`/pan/opmls/:id` | DELETE | - | delete single OPML file; users can only delete OPML files they uploaded | user, deleted
+`/pan/feed_backlogs/:id` | GET | - | single feed in backlog | user
+`/pan/feed_backlogs` | POST | `url`* | post a feed_url to the feed backlog a.k.a. suggest a podcast | user
+`/pan/users/my` | GET | - | my user profile | personas
+`/pan/messages/:id` | GET | - | single messages, only returned, if targeted to user | creator, persona
+`/pan/messages/my` | GET | - | my messages, paginated | creator, persona
+`/pan/update_password` | PATCH or PUT | `password`* , `password_confirmation`* | update password; server validates identicality and length > 5 | personas
+`/pan/update_user` | PATCH or PUT | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
+`/pan/update_persona` | PATCH or PUT | `name`* , `uri`* | update persona with user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pro/update_persona` | PATCH or PUT | `pid`* (unique), `name`* , `uri`* , `email`, `image_url`, `image_title`, `description` (gets used as header), `long_description` (markdown) | update persona (pro user account) | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pan/delegations/:id` | GET | - | single delegation, only returned, if persona and delegate manfestate in user | persona, delegate
+`/pro/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
+`/pro/personas/:id/redirect` | POST | `target_id`* | redirects persona to persona with id = target_id | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pro/personas/:id/cancel_redirect` | POST | - | cancels a persona redirect | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 {: .table .table-bordered}
 
 #### *Example:* Like a podcast
