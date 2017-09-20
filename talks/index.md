@@ -16,3 +16,5 @@ navigation: 7
   Talk at Linux Wochen 2017, FH Technikum Vienna, May 5th 2017
 * [Panoptikum: Leveraging Phoenix for creating a Podcasting Social Network](/em01)\\
   Talk at Elixir Vienna Meetup: State of Elixir in Vienna, Sektor 5, May 18th 2017
+* [Channels and Stuff](/em02)\\
+  Talk at Elixir Vienna Meetup: Phoenix and Ecto, Sektor 5, September 21th 2017

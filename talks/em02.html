@@ -1,0 +1,41 @@
+---
+layout: presentation
+title: Channels and Stuff
+permalink: /em02/
+
+---
+class: center, middle, inverse
+
+# Channels and Stuff
+
+a Stefan talk is currently always about some aspect of [Panoptikum](https://panoptikum.io)
+
+* Channels
+  * Implementation follows [Programming Phoenix](https://pragprog.com/book/phoenix/programming-phoenix)  Book
+
+---
+
+* 1.3 whoop, whoop
+* api - namespacing (endpoints = ports)
+* channels for notifications and toggle buttons
+* demo!
+* code walkthrough
+* Frontend vs. Backend vs. API
+---
+
+* Javascript
+  * [Podcast](https://github.com/PanoptikumIO/pan/blob/master/assets/js/podcast.js)
+  * [Mailbox](https://github.com/PanoptikumIO/pan/blob/master/assets/js/mailbox.js)
+
+* Channel
+  * [PanWeb.PodcastChannel.handle(like, ...)](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/channels/podcast_channel.ex#L12)
+  * [PanWeb.UserSocket, channel podcast](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/channels/user_socket.ex#L8)
+  * [PanWeb.Podcast.like()](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/models/podcast.ex#L68)
+  * [PanWeb.Message.persist_event()](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/models/message.ex#L26)
+  * [PanWeb.Event.notify_subscribers()](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/models/event.ex#L24)
+
+* View
+  * [PanWeb.PodcastFrontendView.render "like_button.html"](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/frontend_views/podcast_frontend_view.ex#L21)
+  * [PanWeb.PodcastFrontendView.like_or_unlike()](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/frontend_views/podcast_frontend_view.ex#L37)
+
+  * [templates/podcast_frontend/_like_follow_unsubscribe_buttons.html.eex](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/podcast_frontend/_like_follow_unsubscribe_buttons.html.eex)
