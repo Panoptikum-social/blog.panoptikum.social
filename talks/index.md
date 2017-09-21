@@ -7,7 +7,7 @@ navigation: 7
 # Talks
 
 * [Subscribe 8](/sub8)\\
-  German talk at Podcasting Conference in Munich, Germany, Okt. 14th-16th 2016
+  German talk at Podcasting Conference in Munich, Germany, Oct. 14th-16th 2016
 * [33c3](/33c3)\\
   English talk at 33rd Chaos Communication Congress, Hamburg, Germany, Dec. 27th-30th 2016
 * [Feeds](https://aua-uff-co.de/feeds)\\
@@ -18,3 +18,5 @@ navigation: 7
   Talk at Elixir Vienna Meetup: State of Elixir in Vienna, Sektor 5, May 18th 2017
 * [Channels and Stuff](/em02)\\
   Talk at Elixir Vienna Meetup: Phoenix and Ecto, Sektor 5, September 21th 2017
+* [We are Legion!](/ganzohr17)\\
+  German talk at Ganzohr2017, Science Podcasting Conference, Innsbruck, Sept. 22nd-24th 2017
