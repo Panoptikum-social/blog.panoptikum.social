@@ -20,3 +20,5 @@ navigation: 7
   Talk at Elixir Vienna Meetup: Phoenix and Ecto, Sektor 5, September 21th 2017
 * [We are Legion!](/ganzohr17)\\
   German talk at Ganzohr2017, Science Podcasting Conference, Innsbruck, Sept. 22nd-24th 2017
+* [Deine Visitenkarte ist zu klein!](/sub9) - Dein Podcaster:innen - Profil in Panoptikum
+  German talk at Subscribe 9, Podcasting Conference, Munich, Okt. 27th-29th 2017
