@@ -57,7 +57,7 @@ Podcasts within a category, gigs for a persona and episodes for a podcast are pa
 
 * Example request: `https://panoptikum.io/jsonapi/personas/1?page[number]=1&page[size]=10`
 * page[number] ... page number; starts counting at 1, defaults to 1
-* page[size] ... number of items per page, defaults to 10
+* page[size] ... number of items per page, defaults to 10, maximum 1000
 * Links contain self, prev, next, last and first link (if appropriate).
 
 
