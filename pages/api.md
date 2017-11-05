@@ -2,7 +2,6 @@
 title: API
 layout: without_sidebar
 permalink: api/
-navigation: 2
 ---
 
 # API

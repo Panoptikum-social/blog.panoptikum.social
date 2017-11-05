@@ -1,55 +1,70 @@
-<p class="text-center">
-  <img width="200"
-       src="{{ site.url }}/img/logo.png"
-       alt="Logo">
-</p>
+<nav>
+  <ul class="nav navbar-inverse">
+    <h3 style="text-align: center;">
+      <li>
+        <a href="#" style="color: #fff;">Help</a>
+      </li>
+    </h3>
+
+    <li><a href="#" id="meta" data-toggle="collapse" data-target="#submenu-meta">Meta</a>
+      <ul class="nav collapse in" id="submenu-meta" role="menu" aria-labelledby="meta" style="padding-left: 20px;">
+        <li><a href="/">About</a></li>
+        <li><a href="/api">API</a></li>
+        <li><a href="/code_of_conduct">Code Of Conduct</a></li>
+        <li><a href="/complaints">Complaints</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a href="/imprint">Imprint</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/talks">Talks</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#" id="blog" data-toggle="collapse" data-target="#submenu-blog">Blog</a>
+      <ul class="nav collapse" id="submenu-blog" role="menu" aria-labelledby="blog" style="padding-left: 20px;">
+        {% for post in site.posts limit: 999%}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+
+    <li><a href="#" id="demo" data-toggle="collapse" data-target="#submenu-demo">Demo</a>
+      <ul class="nav collapse" id="submenu-demo" role="menu" aria-labelledby="demo" style="padding-left: 20px;">
+        <li><a id="tour" href="https://panoptikum.io#start_tour"><i class="fa fa-bus"></i> Tour</a></li>
+        <li><a href="{{ site.pan_url }}/recommendations/random">Random</a></li>
+        <li><a href="{{ site.pan_url }}/personas">Podcasters + Personas</a></li>
+        <li><a href="{{ site.pan_url }}/podcasts">New podcasts</a></li>
+        <li><a href="{{ site.pan_url }}/episodes">New episodes</a></li>
+        <li><a href="{{ site.pan_url }}/podcasts/buttons">Podcast Buttons</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#" id="support" data-toggle="collapse" data-target="#submenu-support" >Supported By</a>
+      <ul class="nav collapse" id="submenu-support" role="menu" aria-labelledby="support" style="padding-left: 20px;">
+        <li><a href="https://www.informatom.com">Stefan a.k.a. Informatom</a></li>
+        <li><a href="https://www.waldgruber.at">Community Manager Sonja</a></li>
+        <li><a href="http://ramonhuidobro.com">Bot Master Ramon</a></li>
+        <li><a href="https://www.mittenin.at">Mittenin.at</a></li>
+        <li><a href="https://blog.panoptikum.io/vienna-beamers">Vienna Beamers</a></li>
+      </ul>
+    </li>
+
+    <li><a href="{{ site.pan_url }}">Back</a></li>
+    <li class="navbar-brand">
+      <a href="https://panoptikum.io">
+        <img src="https://panoptikum.io/images/panoptikum.io.png" width="30" alt="Logo">
+        Panoptikum.io</h3>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 <hr/>
 
-<h4>Latest News</h4>
+<span >{{ site | flattr_button }}</span>
 
-{% for post in site.posts limit: 3%}
-  <p>
-    <b><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b> -
-    <em>{{ post.date | date: "%b %-d, %Y" }}</em><br/>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a><br/>
-  </p>
-{% endfor %}
-<hr/>
+<a href="https://twitter.com/{{ site.twitter_nick }}"
+   class="twitter-follow-button"
+   data-show-count="true">Follow @{{ site.twitter_nick }}</a>
 
-<p class="text-center">
-  <a href="https://panoptikum.io/users/new"
-     class="btn btn-info btn-lg btn-block">
-    Register
-  </a>
-  <a href="https://panoptikum.io/sessions/new"
-     class="btn btn-info btn-lg btn-block">
-    Log in
-  </a>
-
-</p>
-<hr/>
-
-<h4>License</h4>
-
-<a rel="license"
-   href="http://creativecommons.org/licenses/by-sa/4.0/">
-  <img alt="Creative Commons License"
-       style="border-width:0"
-       src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-</a><br />
-This work is licensed under a
-<a rel="license"
-   href="http://creativecommons.org/licenses/by-sa/4.0/">
-  Creative Commons Attribution-ShareAlike 4.0 International License
-</a>.
-<hr/>
-
-{% if site.flattr_uid %}
-  <span class="pull-left">{{ site | flattr_button }}</span>
-{% endif %}
-
-{% if site.twitter_nick %}
-  <a href="https://twitter.com/{{ site.twitter_nick }}"
-     class="twitter-follow-button"
-     data-show-count="false">Follow @{{ site.twitter_nick }}</a>
-{% endif %}

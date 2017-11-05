@@ -1,7 +1,6 @@
 ---
 title: "About"
 layout: default
-navigation: 0
 author: Stefan
 ---
 
@@ -90,7 +89,7 @@ Check out if you find your podcast and yourself as a [podcaster](https://panopti
 
 Your next step is the [registration](https://panoptikum.io/users/new). After the [Login](https://panoptikum.io/sessions/new) you can upload your OPML file including your podcast, configure your account and select (opt-in) what you want to share with the community.
 
-Spread the word. Ask your listeners to upload their OPML file and leave recommendations for your podcast at Panoptikum. This improves the ranking of your podcast at Panoptikum which is based on all uploaded OPML files and helps Panoptikum to get known. 
+Spread the word. Ask your listeners to upload their OPML file and leave recommendations for your podcast at Panoptikum. This improves the ranking of your podcast at Panoptikum which is based on all uploaded OPML files and helps Panoptikum to get known.
 
 We are also interested in your feedback, especially which features you miss at other podcasting platforms and you would like to see here. Feel free to send these comments to <sonja@panoptikum.io>.
 

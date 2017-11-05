@@ -1,7 +1,6 @@
 ---
 title: Talks
 layout: default
-navigation: 7
 ---
 
 # Talks

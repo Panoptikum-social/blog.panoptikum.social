@@ -40,29 +40,23 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    {% include navbar.html %}
+  <br/><br/>
+  <div class="container">
+    <div class="row ">
+      <div id="sidebar" class="col-sm-3">
+        {% include sidebar.html %}
+      </div>
+      <div class="col-sm-9">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
 
-    <div class="container">
-      <div class="row ">
-        <div class="col-sm-8">
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-        <div id="sidebar" class="col-sm-4">
-          <div class="well">
-            {% include sidebar.html %}
-          </div>
-        </div>
-      </div>
-      <div class="row" id="footer">
-        <small class="pull-right">Powered by <a href="https://github.com/pattex/octopod">Octopod</a> and <a href="http://jekyllrb.com/">Jekyll</a>.</small>
-      </div>
-    </div><!-- /.container -->
+    </div>
+    <div class="row" id="footer">
+      <small class="pull-right">Powered by <a href="https://github.com/pattex/octopod">Octopod</a> and <a href="http://jekyllrb.com/">Jekyll</a>.</small>
+    </div>
   </div><!-- /.container -->
-
-  {% include footer.html %}
 
 <script>
   !function(d,s,id){
