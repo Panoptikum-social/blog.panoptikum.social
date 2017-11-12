@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Talk at Suscribe 9"
+date:   2017-11-05 06:00:00 +0200
+author: Sonja
+---
+
+Watch Stefans [talk](https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC) at the [Subscribe 9](https://sendegate.de/) in Munich.
+
+Last weekend in October it was again time for the Subscribe. Stefan held a [talk](https://sendegate.de/t/subscribe9-deine-visitenkarte-ist-zu-klein/6191/3) which was followed by a [workshop](https://sendegate.de/t/subscribe9-mein-podcaster-innen-profil-in-panoptikum/6195).
+
+The title of the talk was "Deine Visitkarte ist zu klein" (Your Business Card is to small) and the workshop was a hands-on way to solve this problem with Panoptikum "Mein Podcaster:innen Profil in Panoptikum" (My podcaster profile in Panoptikum).
+
+For those of you who could not attend the talk you can find it at [youTube]((https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC)). The slides are available on this [page](https://blog.panoptikum.io/sub9/#1).
+
+Try it out with your premium accout (free for 30 days) and send your questions and comments to <sonja@panoptikum.io>.
