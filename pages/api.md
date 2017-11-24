@@ -174,7 +174,7 @@ path | method | params (* ... required) | purpose | included
 `/pan/subscriptions/toggle` | POST | `podcast_id`* | follow or unfollow a podcast | `deleted`: true / false <br/> `created`: true / false
 `/pan/gigs/toggle` | POST | `episode_id`* , `persona_id`* | proclaim a gig (= episode contribution) or retract it;<br/> only possible for owned personas | `deleted`: true / false <br/> `created`: true / false
 `/pan/recommedations/my` | GET | - | list of my recommendations | podcast
-`/pan/podcasts/:id/trigger_update` | GET | triggers immediate metadata update for a single podcast, available one an hour | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
+`/pan/podcasts/:id/trigger_update` | GET | - | triggers immediate metadata update for a single podcast, available once per hour | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/pan/podcasts/i_follow` | GET | - | list of podcasts i follow | categories, engagements, contributors and languages
 `/pan/podcasts/i_like` | GET | - | list of podcasts i like | categories, engagements, contributors and languages
 `/pan/podcasts/i_subscribed` | GET | - | list of podcasts i subscribed to | categories, engagements, contributors and languages
