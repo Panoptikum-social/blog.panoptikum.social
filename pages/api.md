@@ -137,7 +137,7 @@ For all these end points it is necessary to provide a valid token. Unless you do
 you will receive appropriate feedback, if the token is invalid, out of date or has not been
 provided at all.
 
-The token has to be provided as "Authentication: Bearer :token" header, where you exchange the
+The token has to be provided as "Authorization: Bearer :token" header, where you exchange the
 variable :token with the token, that you aquired before as described above.
 
 Why didn'd we choose to support a token provided as a parameter, you might ask? We don't want to log
