@@ -11,8 +11,8 @@ Elixir and Phoenix. We meet every two weeks at Stefan's place: Vorgartenstraße 
 
 The next meetups are
 * **#30 December 13th 2017**
-* **#31 January 10th 2017**
-* **#32 January 24th 2017**
+* **#31 January 10th 2018**
+* **#32 January 24th 2018**
 
 each starting at 18:00 and lasting until 21:00 at most.
 
