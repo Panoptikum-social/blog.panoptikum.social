@@ -10,10 +10,9 @@ Vienna BEAMers is the in person meetup and study group for people interested and
 Elixir and Phoenix. We meet every two weeks at Stefan's place: Vorgartenstraße 145/2/3, 1020 Wien
 
 The next meetups are
-* **#28 November 15th 2017**
-* **#29 November 29th 2017**
 * **#30 December 13th 2017**
-
+* **#31 January 10th 2017**
+* **#32 January 24th 2017**
 
 each starting at 18:00 and lasting until 21:00 at most.
 
