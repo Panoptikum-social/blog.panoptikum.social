@@ -8,7 +8,7 @@ permalink: complaints/
 
 ## Introduction
 
-We want panoptikum.io a pleasent experience to use. While we strive to reach this goal hard,
+The use of Panoptikum.io should be a pleasent experience. While we strive to reach this goal hard,
 we are aware, that it is de facto impossible to reach this goal and there must be a way to
 complain.
 

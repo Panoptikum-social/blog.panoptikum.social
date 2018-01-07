@@ -15,14 +15,14 @@ My name is Sonja and I am a podcast listener since 2005. As my interests changed
 To start this section I've interviewed Stefan and asked my questions. Hopefully YOUR questions will follow and this section grows.
 
 ### Information for Podcasters
-Q: Which information will Panoptikum offer to podcasters?
+Q: Which information does Panoptikum offer to podcasters?
 
-A: Panoptikum will show statistics regarding podcasts directly on the page. In the future an API will offer the possibility for podcasters to retrieve data to build their own statistics. No information regarding single listeners will be offered via the API.
+A: Panoptikum shows statistics regarding podcasts directly on the page. The API offers the possibility for podcasters to retrieve data to build their own statistics. No information regarding single listeners is be offered via the API.
 
 ### Privacy
 Q: What happens with the information (user registration, subscription list) I provide?
 
-A: Panoptikum tries to ask (and save) only information that is required to offer the service. It does not intend to collect demographic data or to identify single persons. During the registration you will be asked for an email address (required for password recovery), an user name (used for your reviews, comments and likes) and a password (for login). You can choose any user name as long as it has not ben taken yet within Panoptikum. Panoptikum will use your uploaded subscription list to add podcasts to the Panoptikum podcast list and store that you are a subscriber. Panoptikum will store your reviews, comments and likes.
+A: Panoptikum tries to ask (and save) only information that is required to offer the service. It does not intend to collect demographic data or to identify single persons. During the registration you are asked for an email address (required for password recovery), an user name (used for your reviews, comments and likes) and a password (for login). You can choose any user name as long as it has not ben taken yet within Panoptikum. Panoptikum uses your uploaded subscription list to add podcasts to the Panoptikum podcast list and store that you are a subscriber. Panoptikum stores your reviews, comments and likes.
 
 ### Registration
 Q: What are the benefits for me, if I register myself at Panoptikum?
@@ -30,9 +30,9 @@ Q: What are the benefits for me, if I register myself at Panoptikum?
 A: You can get recommendations based on your subscriptions list ("others that subscribed to this podcast also like ...") and you can post reviews regarding podcasts you have subscribed.
 
 ### Subscription List
-Q: At the moment listeners send their subscription list to <sonja@panoptikum.io>. How will it work in the future?
+Q: What is the subscription list?
 
-A: The listener will be registered at Panoptikum and after the login an upload function will be available. If you upload your subscription list more then once, the latest upload replaces the existing list.
+A: Your podcast catcher (for example gPodder) can export the list of your podcast subscriptions (gPodder: Abonnements - zu OPML-Datei exportieren). This OPML-file is your subscription list that you can upload to Panoptikum after registration. If you upload your subscription list more then once, the latest upload replaces the existing list.
 
 ## Languages
 

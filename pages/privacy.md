@@ -10,8 +10,8 @@ Panoptikum.io tries to store as much data as necessary and as little data as pos
 
 ## Registration
 
-During the registration you will be asked for an email address (required for password recovery), an user name (used for your reviews, comments and likes) and a password (for login). You can choose any user name as long as it has not ben taken yet within Panoptikum.
+During the registration you will be asked for an email address (required for password recovery), an user name (used for your reviews, comments and likes) and a password (for login). You can choose any user name as long as it has not been taken yet within Panoptikum.
 
 ## Collected Data
 
-Beside the information provided during registration, Panoptikum.io will use your uploaded subscription list (OPML file) to add podcasts to the Panoptikum.io podcast list. It will store and publish that you are a subscriber of the podcast. Panoptikum.io will store and pulish your reviews, comments and likes.
+Beside the information provided during registration, Panoptikum.io uses your uploaded subscription list (OPML file) to add podcasts to the Panoptikum.io podcast list. It stores and publishes that you are a subscriber of the podcast. Panoptikum.io stores and pulishes your reviews, comments and likes.
