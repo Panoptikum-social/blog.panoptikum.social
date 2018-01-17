@@ -23,7 +23,7 @@ path | method | purpose | included
 `/categories` | GET | tree of categories | children = subcategories
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent ; podcasts ordered by last episode publishing date descending nulls last
 `/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, languages, engagements & contributors (= personas)
-`/podcasts/:id` | GET | single podcast | (paginated) episodes, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
+`/podcasts/:id` | GET | single podcast | (paginated) episodes + enclosures, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
 `/podcasts/most_liked` | GET | 10 most liked podcasts ordered by like count descending | -
 `/podcasts/most_subscribed` | GET | 10 most subscribed podcasts ordered by subscription count descending | -
 `/podcasts/last_updated` | GET | last updated podcasts | paginated
