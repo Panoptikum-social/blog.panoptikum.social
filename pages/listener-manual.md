@@ -1,7 +1,7 @@
 ---
 title: Listener Manual
 layout: default
-permalink: listener-manual
+permalink: listener-manual/
 ---
 
 [Podcaster Manual](/podcaster-manual)

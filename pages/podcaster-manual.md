@@ -1,7 +1,7 @@
 ---
 title: Podcaster Manual
 layout: default
-permalink: podcaster-manual
+permalink: podcaster-manual/
 ---
 
 
@@ -28,7 +28,7 @@ Basis Functionality for Podcasters
 
 Panoptikum shows statistics regarding podcasts directly on the page. The API
 offers the possibility for podcasters to retrieve data for their own
-applications. No information regarding single listeners (besides your own) is 
+applications. No information regarding single listeners (besides your own) is
 offered via the API.
 
 WORK IN PROGRESS
