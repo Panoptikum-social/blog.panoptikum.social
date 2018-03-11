@@ -1,24 +1,28 @@
 <nav>
   <ul class="nav navbar-inverse">
-    <h3 style="text-align: center;">
-      <li>
-        <a href="#" style="color: #fff;">Help</a>
-      </li>
-    </h3>
-
-    <li><a href="#" id="meta" data-toggle="collapse" data-target="#submenu-meta">Meta ▾</a>
-      <ul class="nav collapse in" id="submenu-meta" role="menu" aria-labelledby="meta" style="padding-left: 20px;">
-        <li><a href="/">About</a></li>
-        <li><a href="/api">API</a></li>
-        <li><a href="/code_of_conduct">Code Of Conduct</a></li>
-        <li><a href="/complaints">Complaints</a></li>
-        <li><a href="/community">Community</a></li>
-        <li><a href="/imprint">Imprint</a></li>
-        <li><a href="/manuals">Manuals</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="/talks">Talks</a></li>
-      </ul>
+    <li class="navbar-brand">
+      <a href="https://panoptikum.io">
+        <img src="https://panoptikum.io/images/panoptikum.io.png" width="30" alt="Logo">
+        Panoptikum.io</h3>
+      </a>
     </li>
+  </ul>
+
+  <ul class="nav navbar-inverse">
+    <li><a href="/">About</a></li>
+    <li><a href="/manuals">Manuals</a></li>
+    <ul class="nav collapse in" style="padding-left: 20px;">
+      <li><a href="/manuals/m1">... for Listeners</a></li>
+      <li><a href="/manuals/m1">... for Podcasters</a></li>
+    </ul>
+
+    <li><a href="/api">API</a></li>
+    <li><a href="/code_of_conduct">Code Of Conduct</a></li>
+    <li><a href="/privacy">Privacy</a></li>
+    <li><a href="/complaints">Complaints</a></li>
+    <li><a href="/community">Community</a></li>
+    <li><a href="/talks">Talks</a></li>
+    <li><a href="/imprint">Imprint</a></li>
 
     <li><a href="#" id="blog" data-toggle="collapse" data-target="#submenu-blog">Blog ▾</a>
       <ul class="nav collapse" id="submenu-blog" role="menu" aria-labelledby="blog" style="padding-left: 20px;">
@@ -27,17 +31,6 @@
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </li>
         {% endfor %}
-      </ul>
-    </li>
-
-    <li><a href="#" id="demo" data-toggle="collapse" data-target="#submenu-demo">Demo ▾</a>
-      <ul class="nav collapse" id="submenu-demo" role="menu" aria-labelledby="demo" style="padding-left: 20px;">
-        <li><a id="tour" href="https://panoptikum.io#start_tour"><i class="fa fa-bus"></i> Tour</a></li>
-        <li><a href="{{ site.pan_url }}/recommendations/random">Random</a></li>
-        <li><a href="{{ site.pan_url }}/personas">Podcasters + Personas</a></li>
-        <li><a href="{{ site.pan_url }}/podcasts">New podcasts</a></li>
-        <li><a href="{{ site.pan_url }}/episodes">New episodes</a></li>
-        <li><a href="{{ site.pan_url }}/podcasts/buttons">Podcast Buttons</a></li>
       </ul>
     </li>
 
@@ -52,12 +45,7 @@
     </li>
 
     <li><a href="{{ site.pan_url }}">Back</a></li>
-    <li class="navbar-brand">
-      <a href="https://panoptikum.io">
-        <img src="https://panoptikum.io/images/panoptikum.io.png" width="30" alt="Logo">
-        Panoptikum.io</h3>
-      </a>
-    </li>
+    <li>&nbsp;</li>
   </ul>
 </nav>
 
