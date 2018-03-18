@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Manuals
+date:   2018-03-18 12:00:00 +0200
+author: Sonja
+---
+
+Manuals for listeners and podcasters are available now!
+
+Panoptikum offers a wide range of functionalities. To give new users a chance to
+use these two manuals are now available.
+
+* [Listener Manual](/listener-manual)
+* [Podcaster Manual](/podcaster-manual)
+
+The listener manual describes the use of Panoptikum from the listener perspektive.
+The podcaster manual describes the use of Panoptikum from the podcaster perspective.
+
+We tried to answer the most common questions regarding the use of Panoptikum from
+the last year. In the following weeks content from blog posts with more detailed
+descriptions will be added to the podcaster manual.
+
+Please send your questions regarding Panoptikum to <sonja@panoptikum.io> and help
+us to write a good manual.

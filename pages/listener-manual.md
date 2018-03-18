@@ -4,7 +4,7 @@ layout: default
 permalink: listener-manual/
 ---
 
-[Podcaster Manual](/podcaster-manual)
+(There is also a [Podcaster Manual](/podcaster-manual).)
 
 
 # Listener Manual
