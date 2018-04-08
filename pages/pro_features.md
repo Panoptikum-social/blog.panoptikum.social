@@ -22,6 +22,8 @@ So if you want to use the persona page as a showcase of your podcaster portfolio
 
 ### Persona Page Content
 
+You can now find the link(s) to a preview page of your persona(s) after login under myProfile.
+
 **Image**
 
 The default image acts as a placeholder for your personal image. Introduce yourself to listeners with additional visual information, beside your voice from the podcast(s).
