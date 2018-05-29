@@ -14,22 +14,19 @@
   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/general_feed.xml" title="General Site Atom Feed (No Podcast Metadata!)" />
   {{ site | episode_feeds_html }}
 
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
+  <link href='/css/ubuntu.css' rel='stylesheet' type='text/css' />
 
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootflat.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom_styles.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/hopscotch.min.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/custom_styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/hopscotch.min.css" />
 
-  <script type='text/javascript' src="{{ site.url }}/podlove-web-player/js/vendor/html5shiv.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/podlove-web-player/js/vendor/jquery.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/bootstrap.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/icheck.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/jquery.fs.selecter.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/jquery.fs.stepper.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/hopscotch.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/js/custom.js"></script>
+  <script type='text/javascript' src="/assets/js/jquery.min.js"></script>
+  <script type='text/javascript' src="/assets/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="/assets/js/icheck.min.js"></script>
+  <script type='text/javascript' src="/assets/js/jquery.fs.selecter.min.js"></script>
+  <script type='text/javascript' src="/assets/js/jquery.fs.stepper.min.js"></script>
+  <script type='text/javascript' src="/assets/js/custom.js"></script>
+  <script type='text/javascript' src="/js/hopscotch.min.js"></script>
 
   {% if site.flattr_uid %}{% include flattr_loader.html %}{% endif %}
   {% if site.disqus_shortname %}
