@@ -75,8 +75,13 @@ likes.
 
 ## Data access self service
 
-A data access self service is currently being implemented. Meanwhile, you can contact us using the
-contact details provided below.
+A data access self service is implemented. Registered users can manage their
+data stored at Panoptikum after the log in with the function My Data.
+My Data opens the page Account and offers all your data as a JSON-File with a
+Download button and shows you all your stored data. You can check what is stored
+the different areas and delete it per area. In the area itself you can either
+delete all entries or just individual entries. You find more information in the
+[Listener Manual](/listener-manual). 
 
 
 ## Your Rights
