@@ -195,22 +195,19 @@ stores and publishes your reviews, comments and likes.
 In the header of all non-documentation pages you find a symbol for
 [Log In](https://panoptikum.io/sessions/new). After log in you see your
 user name in the header of the non-documentation pages. A click on
-your user name offers a sub menu with the following functionalities:
+your user name (in the example below the user name is sonja)
+offers a sub menu with the following functionalities:
 
-* My profile
-* Change password
-* My messages
-* My podcasts
-* My recommendations
-* Suggest a podcast
-* My OPML files
-
+![mydata](/img/mydata.png){:class="img-responsive"}
 
 ### My Profile
 
 You can see and edit your data (name, username, email, podcaster y/n,
 share followings y/n, share subscriptions y/n).
 
+### Change Password
+
+You can change your password.
 
 ### My Messages
 
@@ -241,16 +238,16 @@ podcasts you didn't recommend yet.
 
 A podcast gets listed in Panoptikum when it is subscribed by at least
 one of it's registered users. If you want to add just one podcast, do
-so with
-[Suggest a new Podcast](https://panoptikum.io/pan/feed_backlogs/new).
+so with <kbd>Suggest a Podcast</kbd>.
+
 You will be counted as a subscriber in the database. If you want to
 suggest several or all the podcasts you listen to at once, you can
-upload an OPML file at [My OPMLs](https://panoptikum.io/pan/opmls) in
-your personal menu.
+upload an OPML file with <kbd>My OPMLs</kbd> in your personal menu.
 
 
-### My OPML files
+### My OPMLs
 
+<kbd>My OPMLs</kbd> open the upload dialogue for the OPML file.
 Your podcatcher (for example gPodder) can export the list of your
 podcast subscriptions (gPodder: Abonnements - zu OPML-Datei
 exportieren). This OPML-file is your subscription list that you can
@@ -259,6 +256,47 @@ list more than once, the latest upload amends the existing list.
 With your upload of the file you support Panoptikum - the information
 is needed for the listing of a podcast and the introduction
 to new podcasts based on your current subscriptions and likes.
+
+### My Data
+
+<kbd>My Data</kbd> opens the page Account and offers all your data as a
+JSON-File with a Download button and shows you all your stored data. You can
+check what is stored the different areas and delete it per area. In the
+area itself you can either delete all entries or just individual entries.
+
+Areas and possibilies
+* OPML File: list of uploaded files, manageable in My OPMLs
+* Personas: overview to your personas
+* Invoices: all your Panoptikum invoices with date and file
+* Subscribed Podcasts: list of all your subscriptions (links to podcast show
+  page)
+* Followed Podcasts: list of all podcasts followed by you (links to podcast show
+  page)
+* Liked Podcasts: list of all podcasts liked by you (links to podcast show
+  page)
+* Liked Episodes: list of all podcast episodes liked by you (links to episode
+  show page)
+* Liked Chapters: list of all podcast episode chapters liked by you (links to
+  episode show page)  
+* Liked Users: list of all users liked by you (links to user show page)
+* Followed Users: list of all users followed by you (links to user show page)
+* Followed Personas: list of all personas followed by you (links to persona show
+  page)
+* Liked Personas: list of all personas liked by you (links to persona show page)   
+* Followed Categories: list of all categories followed by you (links to category
+  show page)
+* Liked Categories: list of all categories liked by you (links to category
+  show page)  
+* Messages: list of all your messages with its text
+* Recommendations: list of all your recommendations with its text and the name
+  of the recommended podcast or podcast episode
+
+The page closes with the Danger Zone. You can directly delete your account there.
+With <kbd>Delete my account</kbd> your account including all the stored data is
+deleted.
+
+Panoptikum can not restore your account after this action, but you can always
+sign up for a new Panoptikum account.
 
 
 ## Recommendations and Likes

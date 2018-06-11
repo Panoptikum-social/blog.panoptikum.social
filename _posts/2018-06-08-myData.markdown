@@ -1,0 +1,59 @@
+---
+layout: post
+title:  my Data
+date:   2018-06-08 07:00:00 +0200
+author: Sonja
+---
+
+Control your own data at Panoptikum with <kbd>My Data</kbd>. Registered users
+can manage their data stored at Panoptikum after the log in.
+
+You find <kbd>My Data</kbd> as the latest entry below your username (example
+  with the user sonja)
+
+![mydata](/img/mydata.png){:class="img-responsive"}
+
+<kbd>My Data</kbd> opens the page Account and offers all your data as a
+JSON-File with a Download button and shows you all your stored data. You can
+check what is stored the different areas and delete it per area. In the
+area itself you can either delete all entries or just individual entries.
+
+Areas and possibilies
+* OPML File: list of uploaded files, manageable in My OPMLs
+* Personas: overview to your personas, you can delete individual or all
+  entries
+* Invoices: all your Panoptikum invoices with date and file
+* Subscribed Podcasts: list of all your subscriptions (links to podcast show
+  page), you can delete individual or all entries
+* Followed Podcasts: list of all podcasts followed by you (links to podcast show
+  page), you can delete individual or all entries
+* Liked Podcasts: list of all podcasts liked by you (links to podcast show
+  page), you can delete individual or all entries
+* Liked Episodes: list of all podcast episodes liked by you (links to episode
+  show page), you can delete individual or all entries
+* Liked Chapters: list of all podcast episode chapters liked by you (links to
+  episode show page), you can delete individual or all entries  
+* Liked Users: list of all users liked by you (links to user show page), you
+  can delete individual or all entries
+* Followed Users: list of all users followed by you (links to user show page),
+  you can delete individual or all entries  
+* Followed Personas: list of all personas followed by you (links to persona show
+  page), you can delete individual or all entries
+* Liked Personas: list of all personas liked by you (links to persona show page),
+  you can delete individual or all entries   
+* Followed Categories: list of all categories followed by you (links to category
+  show page), you can delete individual or all entries
+* Liked Categories: list of all categories liked by you (links to category
+  show page), you can delete individual or all entries  
+* Messages: list of all your messages with its text, you can delete individual
+  or all entries
+* Recommendations: list of all your recommendations with its text and the name
+  of the recommended podcast or podcast episode, you can delete individual or
+  all entries
+
+The page closes with the Danger Zone. You can directly delete your account there.
+With <kbd>Delete my account</kbd> your account including all the stored data is
+deleted.
+
+Panoptikum can not restore your account after this action, but you can always
+sign up for a new Panoptikum account.
