@@ -23,7 +23,7 @@ path | method | purpose | included
 `/categories` | GET | tree of categories | children = subcategories
 `/categories/:id` | GET | single category | children, (paginated) podcasts, parent ; podcasts ordered by last episode publishing date descending nulls last
 `/podcasts` | GET | list of podcast, paginated, ordered by insertion date descending | categories, languages, engagements & contributors (= personas)
-`/podcasts/:id` | GET | single podcast | (paginated) episodes + enclosures, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds
+`/podcasts/:id` | GET | single podcast | (paginated) episodes + enclosures, subscription_count, engagements, recommendations, categories, contributors (= personas, follower_count, likes_count, languages, feeds ; ETag
 `/podcasts/most_liked` | GET | 10 most liked podcasts ordered by like count descending | -
 `/podcasts/most_subscribed` | GET | 10 most subscribed podcasts ordered by subscription count descending | -
 `/podcasts/last_updated` | GET | last updated podcasts | paginated
@@ -49,6 +49,10 @@ path | method | purpose | included
 `/like/:id` | GET | single like | category, enjoyer, user, podcast, chapter, persona, episode
 {: .table .table-bordered}
 
+The ETag is is response header, containing the MD5 hash of the JSON to be sent. You can make
+a HEAD request, compare the ETag response header to the last one you have stored and know, that there isn't anything
+new, if the ETag has not changed. If there are changes, go on with the GET request and get the full
+JSON.
 
 ### Pagination
 
