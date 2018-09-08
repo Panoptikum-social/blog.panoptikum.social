@@ -52,6 +52,10 @@ logged in to be able to check, that you and only your browser sent the data.
 Sessions are not stored on the server, so by deleting the cookie in your browser,
 all facts about your session are gone and you will have to login again.
 
+A second cookie is set by the Podlove Webplayer on the episode show page to remember the play
+position in case you stop listening, leave the page and come back later. This cookie is not
+processed by the server.
+
 
 ## Tokens
 
@@ -81,7 +85,7 @@ My Data opens the page Account and offers all your data as a JSON-File with a
 Download button and shows you all your stored data. You can check what is stored
 the different areas and delete it per area. In the area itself you can either
 delete all entries or just individual entries. You find more information in the
-[Listener Manual](/listener-manual). 
+[Listener Manual](/listener-manual).
 
 
 ## Your Rights
