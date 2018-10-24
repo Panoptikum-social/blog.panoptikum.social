@@ -21,3 +21,5 @@ layout: default
   German talk at Ganzohr2017, Science Podcasting Conference, Innsbruck, Sept. 22nd-24th 2017
 * [Deine Visitenkarte ist zu klein!](/sub9) - Dein Podcaster:innen - Profil in Panoptikum
   German talk at Subscribe 9, Podcasting Conference, Munich, Okt. 27th-29th 2017
+* [Per Anhalter durch das Fediverse - in vier Teilen](/pw18)
+  German talk at Privacy Week 18, Vienna, Oct. 22nd-28th 2018

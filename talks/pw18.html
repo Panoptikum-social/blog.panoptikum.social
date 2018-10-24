@@ -1,0 +1,186 @@
+---
+layout: presentation
+title: Per Anhalter durch das Fediverse
+permalink: /pw18/
+
+---
+class: center, middle
+
+# Per Anhalter durch das Fediverse
+
+## in vier Teilen
+
+---
+class: center, middle
+
+# Vorstellung
+
+![Barcode](/img/sub9/barcode.png)
+
+https://panoptikum.io/informatom
+
+---
+# Die 4 Teile
+
+1. Vom Urknall bis 2018 - Entwicklung des Fediverse
+2. Protokolle und Dienste
+3. Hands-on
+4. Call-to-action: selber ein Service konzipieren und implementieren
+
+---
+
+# 1. Entwicklung des Fediverse
+
+
+* 2008 - identi.ca  Evan Prodromou
+  * Control Yourself -> Laconica -2009> Status.Net (PHP) -2013> pump.io (Node.js) & Gnu.Social -,
+  * Indenti.ca Service wechselte Software mehrmals
+  * Wikitravel (2003), Fuzzy.ai
+  * Stefan: Linux Outlaws
+  * alles Microblogging a.k.a. Twitter
+
+* 2016 Mastodon
+  * Microblogging
+  * Ruby on Rails
+  * nginx, React, Redux, Redis, node, yarn, imagemagick, ffmpeg, libprotobuf-dev, postgresql, let's encrypt, elasticsearch
+  * oftmals auf Docker oder auf Ubuntu Server installiert
+  * Stefan: Biddu ein Zombie? Twitter geht eh...
+
+* 2017 Pleroma
+  * Elixir & Phoenix
+  * weniger externe Abhängigkeiten: nginx, postgres, let's encrypt
+  * Ressourcenschonend, läuft auf Raspberry Pi 3
+  * auch Microblogging
+  * Stefan: gepackt :-) und begonnen nachzudenken
+
+---
+
+# Dienste und Protokolle
+
+* ownCloud (2011) mit Fork Nextcloud (2016)
+  * Filesharing
+  * Kalender
+  * Kontakte
+  * viele Plugins
+
+* Hubzilla
+  * Blogging
+
+* PeerTube (2015)
+  * Video Hosting
+
+* PixelFed
+  * Image Hosting
+
+* Funkwhale
+  * audio hosting and sharing (Fediverse Podcast, Episode 1)
+
+* aktuell 29 Plattformen auf Wikipediaseite genannt
+  * unterschiedliche Protokolle > 10
+  * d.h. Services könnnen großteils nicht miteinander sprechen
+
+---
+
+class: center, middle
+background-image: url(/img/sub9/suchergebnis.png)
+
+
+---
+
+# 4. Selbst ein Service konzipieren und implementieren
+
+* konkrete Beispiele sind gut!
+* [Panoptikum.io](https://www.panoptikum.io) - Podcast Verzeichnis
+* Einbetten eines Widgets der letzten Toots für einen Account
+* minimalistisch, macht aber noch sinn
+---
+
+background-image: url(/img/pw18/fediverse-widget.png)
+---
+
+* Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.io
+* Von der Adresse muss auf öffentliches Profil geschlossen werden<br/>
+  (etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
+* Aus öffentlichem Profil wird die Adresse der Outbox bezogen
+* Outbox Nachrichten werden eingelesen
+* Unterscheidung zwischen Toot und Boost (wir ignorieren Likes)
+* Toot kann einfach ausgegeben werden, wir müssen nur Profilbild ermitteln
+* Dazu sollte Profil gecached werden<br/>
+  (oder bereits sein ;-) )
+* Toots von Boosts müssen von Ursprungsserver gelesen werden
+* Profile sind von Ursprungsserver zu beziehen<br/>
+  (und am besten auch wieder zu cachen)
+* von allen Bildern reichen wir nur URL durch und cachen nicht<br/>
+  (das kann ein Privacy - Problem sein!)
+* Bau des HTMLs zur Ausgabe des Widgets
+
+---
+
+# Scope
+
+* kein Erstellen von Toots
+* kein Liken oder Boosten möglich
+* keine Authentifizierung
+* reine Clientfunktionalität
+* keinerlei Serverfunktionalität
+* also nur ein sehr kleiner Ausschnitt von ActivityPub
+* aber: Kompatibilität zu Mastodon und Pleroma!
+
+---
+
+Aufgaben sind eigentlich wenige:
+
+* [Web Requests](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/net.ex) absetzen <br/>
+  (16 Zeilen Elixir)
+* Antworten in JSON parsen (in Hashmaps o.ä.) <br/>
+  ([Parsen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/timeline.ex): 30 Zeilen +
+  [Aufbereitung](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/view.ex): 92 Zeilen)
+* [HTML erstellen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/activity_pub/widget.html.eex)<br/>
+  (26 Zeilen)
+---
+
+### Probleme
+
+* Header nicht gemäß Standard, richtig ist `application/activity+json`
+* Pleroma und Mastodon verwenden <> Datenstrukturen
+  * attributed_to vs actor
+  * Pleroma: erste Seite toots in der Outbox, bei Mastodon nicht
+  * -> ActivityPub ist nicht strikt standardisiert
+---
+
+### Aufwand
+
+* überraschend viele Requests -> Caching nötig
+* In Protokoll einlesen
+* Bibliotheken auswählen
+* in Responses einlesen und Links "nachlaufen"
+* Unterschiede Pleroma/Mastodon
+* ~ 10 Stunden
+
+---
+class: center, middle
+
+Diese Presentation ist online: <br/>
+[https://blog.panoptikum.io/pw18](https://blog.panoptikum.io/pw18)
+
+Stefan: <stefan@panoptikum.io>
+
+twitter: [@informatom](https://www.twitter.com/informatom)
+
+
+
+
+# 1. Vom Urknall bis 2018 - Entwicklung des Fediverse
+
+# 2. Protokolle und Dienste
+* dezentrale Natur der Services
+* ActivityPub, Activity-Streams und Json-LD
+* Aspekte: Privatsphäre, Backup und Redundanz
+* Ersetzen der zentralen Services von Twitter, Facebook, Instagram, Youtube, Itunes Podcast und Soundcloud durch föderierte, von der Community oder selbst gehostete Instanzen von Mastodon, Pleroma, Friendica, Gnu Social, Diaspora, Pixelfed, Nextcloud, PeerTube, Panoptikum und FunkWhale
+
+
+# 3. Hands-on
+* Instanz installieren
+* Accounts anlegen
+* Erste Experimente
+* Tools (Backup, Übertragen von Accounts)
