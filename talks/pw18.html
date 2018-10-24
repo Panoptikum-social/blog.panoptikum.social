@@ -7,9 +7,10 @@ permalink: /pw18/
 class: center, middle
 
 # Per Anhalter durch das Fediverse
+## ein~~e Trilogie~~ Drama in vier Teilen
 
-## in vier Teilen
-
+Ersetzen der zentralen Dienste von Twitter, Facebook, Instagram, Youtube, Itunes Podcast und
+Soundcloud durch föderierte, von der Community oder selbst gehostete Dienste
 ---
 class: center, middle
 
@@ -18,102 +19,149 @@ class: center, middle
 ![Barcode](/img/sub9/barcode.png)
 
 https://panoptikum.io/informatom
-
 ---
+
 # Die 4 Teile
 
 1. Vom Urknall bis 2018 - Entwicklung des Fediverse
-2. Protokolle und Dienste
-3. Hands-on
-4. Call-to-action: selber ein Service konzipieren und implementieren
-
+2. Protokolle, Dienste und Privcacy
+3. Hands-on: Installation einer Pleroma Instanz
+4. Call-to-action: ein Service konzipieren und implementieren
 ---
 
 # 1. Entwicklung des Fediverse
 
+## 2008
 
-* 2008 - identi.ca  Evan Prodromou
+* identi.ca Evan Prodromou
   * Control Yourself -> Laconica -2009> Status.Net (PHP) -2013> pump.io (Node.js) & Gnu.Social -,
   * Indenti.ca Service wechselte Software mehrmals
   * Wikitravel (2003), Fuzzy.ai
   * Stefan: Linux Outlaws
   * alles Microblogging a.k.a. Twitter
 
-* 2016 Mastodon
+---
+
+## 2016
+
+* Mastodon
   * Microblogging
   * Ruby on Rails
   * nginx, React, Redux, Redis, node, yarn, imagemagick, ffmpeg, libprotobuf-dev, postgresql, let's encrypt, elasticsearch
   * oftmals auf Docker oder auf Ubuntu Server installiert
   * Stefan: Biddu ein Zombie? Twitter geht eh...
-
-* 2017 Pleroma
+  * 2017 Pleroma
   * Elixir & Phoenix
   * weniger externe Abhängigkeiten: nginx, postgres, let's encrypt
   * Ressourcenschonend, läuft auf Raspberry Pi 3
   * auch Microblogging
   * Stefan: gepackt :-) und begonnen nachzudenken
-
+---
+class: center, middle
+background-image: url(/img/pw18/userzahlen.png)
 ---
 
-# Dienste und Protokolle
+# 2. Dienste, Protokolle und Privacy
 
-* ownCloud (2011) mit Fork Nextcloud (2016)
-  * Filesharing
-  * Kalender
-  * Kontakte
-  * viele Plugins
-
-* Hubzilla
-  * Blogging
-
-* PeerTube (2015)
-  * Video Hosting
-
-* PixelFed
-  * Image Hosting
-
-* Funkwhale
-  * audio hosting and sharing (Fediverse Podcast, Episode 1)
-
-* aktuell 29 Plattformen auf Wikipediaseite genannt
-  * unterschiedliche Protokolle > 10
-  * d.h. Services könnnen großteils nicht miteinander sprechen
-
+* Was ist ein Dienst, was eine Instanz?
+* Was ist in diesem Kontext ein Protokoll?
+* Hilft mir das Fediverse, meine Privatsphäre zu wahren?
 ---
 
 class: center, middle
-background-image: url(/img/sub9/suchergebnis.png)
+background-image: url(/img/pw18/dienste.png)
+---
 
+# Dienste
 
+* ownCloud (2011) mit Fork Nextcloud (2016)<br/>
+  Filesharing, Kalender, Kontakte, viele Plugins
+
+* Hubzilla: Blogging
+
+* PeerTube (2015): Video Hosting
+
+* PixelFed: Image Hosting
+
+* Funkwhale: audio hosting and sharing (Fediverse Podcast, Episode 1)
+
+* aktuell 29 Plattformen auf Wikipediaseite genannt
+---
+
+# Protokolle
+
+* unterschiedliche Protokolle > 10<br/>
+  d.h. Services könnnen großteils nicht miteinander sprechen
+
+* Webfinger
+* ActivityPub, Activity-Streams und Json-LD (und oStatus)
+
+* WebDAV
+
+* diaspora
+
+* XMPP
+---
+class: center, middle
+background-image: url(/img/pw18/protokolle.png)
+---
+
+# Und die Privacy?
+
+* keine Verschlüsselung der Nachrichten
+* Transport Verschlüsselung (https)
+* Moderation der Instanzen
+* Der Fall Wil Wheaton (Wesley Crusher in Raumschiff Enterprise)
+  oder: Technologie löst oder verhindert in keiner Weise Konflike zwischen Menschen
+---
+
+# 3. Installation einer Pleroma Instanz
+
+* Warum Pleroma als Beispiel?
+* mit 32 EUR für einen Raspberry Pi bist Du dabei
+* (das stimmt so nicht!)
+---
+
+# Disclaimer und Argumente gegen das Selbsthosting
+
+* Wartung: Sicherheitsupdates einspielen
+* Administration: verhalten sich die User:innen den Richtlinien der Instanz / der Gesetzeslage entsprechend?
+* Backup: besser 2 als 1, dezentral
+* Redundanz ist relativ schwer zu erreichen
+
+* Also vielleicht doch besser auf einer fremden Instanz, der man vertraut?
+* Admins können alle Nachrichten lesen
+* Instanz mit User:innen ähnlicher Interessenslage können großen Vorteil der Timeline und der
+lokalen Suche bieten
+* Es spricht nichts gegen mehrere Accounts auf mehreren Servern
 ---
 
 # 4. Selbst ein Service konzipieren und implementieren
-
 * konkrete Beispiele sind gut!
 * [Panoptikum.io](https://www.panoptikum.io) - Podcast Verzeichnis
 * Einbetten eines Widgets der letzten Toots für einen Account
 * minimalistisch, macht aber noch sinn
 ---
-
 background-image: url(/img/pw18/fediverse-widget.png)
 ---
 
+# Schritte
+
 * Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.io
-* Von der Adresse muss auf öffentliches Profil geschlossen werden<br/>
-  (etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
+* Von der Adresse muss auf öffentliches Profil geschlossen werden<br />
+(etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
 * Aus öffentlichem Profil wird die Adresse der Outbox bezogen
 * Outbox Nachrichten werden eingelesen
 * Unterscheidung zwischen Toot und Boost (wir ignorieren Likes)
 * Toot kann einfach ausgegeben werden, wir müssen nur Profilbild ermitteln
-* Dazu sollte Profil gecached werden<br/>
-  (oder bereits sein ;-) )
+* Dazu sollte Profil gecached werden<br />
+(oder bereits sein ;-) )
 * Toots von Boosts müssen von Ursprungsserver gelesen werden
-* Profile sind von Ursprungsserver zu beziehen<br/>
-  (und am besten auch wieder zu cachen)
-* von allen Bildern reichen wir nur URL durch und cachen nicht<br/>
-  (das kann ein Privacy - Problem sein!)
+* Profile sind von Ursprungsserver zu beziehen<br />
+(und am besten auch wieder zu cachen)
+* von allen Bildern reichen wir nur URL durch und cachen nicht<br />
+(das kann ein Privacy - Problem sein!)
 * Bau des HTMLs zur Ausgabe des Widgets
-
 ---
 
 # Scope
@@ -125,62 +173,92 @@ background-image: url(/img/pw18/fediverse-widget.png)
 * keinerlei Serverfunktionalität
 * also nur ein sehr kleiner Ausschnitt von ActivityPub
 * aber: Kompatibilität zu Mastodon und Pleroma!
-
 ---
 
-Aufgaben sind eigentlich wenige:
+# Aufgaben
 
-* [Web Requests](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/net.ex) absetzen <br/>
-  (16 Zeilen Elixir)
-* Antworten in JSON parsen (in Hashmaps o.ä.) <br/>
-  ([Parsen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/timeline.ex): 30 Zeilen +
-  [Aufbereitung](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/view.ex): 92 Zeilen)
-* [HTML erstellen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/activity_pub/widget.html.eex)<br/>
+sind eigentlich nur wenige zu erledigen:
+* [Web Requests](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/net.ex)
+  absetzen (16 Zeilen Elixir)
+
+* Antworten in JSON parsen (in Hashmaps o.ä.) <br />
+([Parsen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/timeline.ex): 34 Zeilen +
+[Aufbereitung](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/view.ex): 117 Zeilen)
+
+* [HTML erstellen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/activity_pub/widget.html.eex)
   (26 Zeilen)
 ---
 
-### Probleme
+# Probleme
 
 * Header nicht gemäß Standard, richtig ist `application/activity+json`
-* Pleroma und Mastodon verwenden <> Datenstrukturen
-  * attributed_to vs actor
-  * Pleroma: erste Seite toots in der Outbox, bei Mastodon nicht
-  * -> ActivityPub ist nicht strikt standardisiert
+* Pleroma <-> Mastodon: unterschiedliche Datenstrukturen
+    * `attributedTo` vs `actor`
+    * Pleroma: hat bereits die erste Seite Toots in der Outbox, Mastodon nicht
+
+-> ActivityPub ist nicht strikt standardisiert
 ---
 
-### Aufwand
+# Aufwand
 
 * überraschend viele Requests -> Caching nötig
-* In Protokoll einlesen
+* sich in das Protokoll ActivityPub einlesen
 * Bibliotheken auswählen
 * in Responses einlesen und Links "nachlaufen"
 * Unterschiede Pleroma/Mastodon
 * ~ 10 Stunden
+---
 
+# Lesetipps 1
+
+* Wikipedia Seite [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
+* Ausführlicher Blogpost mit vielen weiteren Aspekten von Matthias Meißer:
+[Erfahrungsbericht Mastodon](https://workpress.plattform32.de/2018/09/erfahrungsbericht-mastodon/)
+* Blogpost [What is Pleroma](https://blog.soykaf.com/post/what-is-pleroma/) von Pleroma Entwickler Lain
+* [The Federation](https://the-federation.info/) - Statistik Server zum Fediverse
+* [Privacy and Tracking on the Fediverse](https://blog.soykaf.com/post/privacy-and-tracking-on-the-fediverse/)
+* Vergleich, wie groß Email noch immer ist:
+[DomainTools Internet Statistics - Mailservers](http://research.domaintools.com/statistics/mailservers/)
+* [fediverse.space](https://fediverse.space/) - Visualisierung der Vernetzung zwischen den Instanzen
+* [Twitter Mastodon Bridge](https://bridge.joinmastodon.org/) - finde deine Freunde auf Mastodon
+* Liste von [Mastodon Tools](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md)
+  auf Github <br/>
+  Fragmentierung wird deutlich
+---
+
+# Lesetipps 2
+
+* Der Fall Wil Wheaton
+  * Statement auf seinem Blog:
+    [The world is a terrible place right now, and that’s largely because it is what we make it.](http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/)
+  * Blog Post by Amber Enderton: [Wil Wheaton Has a Listening Problem
+](https://medium.com/@AmberEnderton/wil-wheaton-has-a-listening-problem-accdf6277b88)
+  * Artikel auf The Verge:
+[Twitter rival Mastodon isn’t safe from online mobs either](https://www.theverge.com/2018/8/31/17801404/mastodon-harassment-wil-wheaton-mobs-twitter)
+
+* [activitypub rocks](http://activitypub.rocks/) test suide
+* [ActivityPub](https://www.w3.org/TR/activitypub/) - der W3C Standard
 ---
 class: center, middle
 
-Diese Presentation ist online: <br/>
+Diese Presentation ist online: <br />
+
 [https://blog.panoptikum.io/pw18](https://blog.panoptikum.io/pw18)
 
 Stefan: <stefan@panoptikum.io>
 
 twitter: [@informatom](https://www.twitter.com/informatom)
 
+fediverse [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
 
+---
 
+# Todo
 
-# 1. Vom Urknall bis 2018 - Entwicklung des Fediverse
-
-# 2. Protokolle und Dienste
-* dezentrale Natur der Services
-* ActivityPub, Activity-Streams und Json-LD
-* Aspekte: Privatsphäre, Backup und Redundanz
-* Ersetzen der zentralen Services von Twitter, Facebook, Instagram, Youtube, Itunes Podcast und Soundcloud durch föderierte, von der Community oder selbst gehostete Instanzen von Mastodon, Pleroma, Friendica, Gnu Social, Diaspora, Pixelfed, Nextcloud, PeerTube, Panoptikum und FunkWhale
-
+* Privatsphäre Post einbauen
 
 # 3. Hands-on
-* Instanz installieren
-* Accounts anlegen
-* Erste Experimente
-* Tools (Backup, Übertragen von Accounts)
+  * Instanz installieren
+  * Accounts anlegen
+  * Erste Experimente
+  * Tools (Backup, Übertragen von Accounts)
