@@ -11,6 +11,8 @@ class: center, middle
 
 Ersetzen der zentralen Dienste von Twitter, Facebook, Instagram, Youtube, Itunes Podcast und
 Soundcloud durch föderierte, von der Community oder selbst gehostete Dienste
+
+Alles Links sind am Schluss gebündelt in den Linktipps.
 ---
 class: center, middle
 
@@ -115,20 +117,91 @@ background-image: url(/img/pw18/protokolle.png)
   oder: Technologie löst oder verhindert in keiner Weise Konflike zwischen Menschen
 ---
 
-# 3. Installation einer Pleroma Instanz
+# 3. Hands-on:
+
+## Installation einer Pleroma Instanz
 
 * Warum Pleroma als Beispiel?
 * mit 32 EUR für einen Raspberry Pi bist Du dabei
 * (das stimmt so nicht!)
+* less moving parts verglichen zu Mastodon, weniger Ressourcenintensiv
+* full disclosure: war Ruby on Rails dev, nun Elixir & Phoenix dev
+---
+
+# Voraussetzungen
+
+* Linux Betriebssystem (Ubuntu 16.04)
+* Nginx Webserver
+* PostgresQL Datenbank
+* aktuelles Elixir (Erlang Runtime) von Erlang Solutions
+* git
+* Openssh, Openssl
+* Certbot (für Let's Encrypt Zertifikat)
+
+---
+
+# Installationsschritte 1
+
+* User pleroma anlegen
+* Repo clonen
+* Abhängigkeiten installieren
+* Konfiguration generieren lassen
+* Konfiguration anpassen
+* Datenbank genarieren lassen
+* Datenbankstruktur generieren lassen
+* Pleroma zum test lokal starten (ohne Nginx)
+* ... und wieder stoppen
+
+* Nginx konfigurieren
+* SSL-Zertifikat installieren
+* Nginx starten
+---
+
+# Installationsschritte 2
+
+* Systemd service Konfiguration erzeugen lassen
+* Service Konfiguration anpassen
+* Service starten
+
+* ersten (eigenen) User erzeugen
+* User zum Moderator machen
+
+* Backup konfigurieren: besser 2 als 1, dezentral
+  * Datenbank
+  * Konfiguration (Applikationsverzeichnis)
+
+* Terms of Service hinterlegen
+  (wird Usern bei der Registrierung gezeigt)
+---
+
+# Kontinuierliche Tasks
+
+* Accounts anlegen
+* oder Anmeldelinks erzeugen
+* Passwörter rücksetzen
+* User löschen
+* User deaktivieren
+* Wartung: Sicherheitsupdates einspielen (System und Applikation)
+* Administration: verhalten sich die User:innen den Richtlinien der Instanz
+  / der Gesetzeslage entsprechend?
+* Backup testen
+
+---
+
+# Accounts
+
+* -> Accounts anyone?
+* have fun!
+
+* Webinterface unter https://pleroma.panoptikum.io
+* Mastodon FE Interface unter https://pleroma.panoptikum.io/web
+* Verbindung mit Pleroma (oder Mastodon ;-) ) fähigen-Clients sollten funktionieren.
+
 ---
 
 # Disclaimer und Argumente gegen das Selbsthosting
 
-* Wartung: Sicherheitsupdates einspielen
-* Administration: verhalten sich die User:innen den Richtlinien der Instanz / der Gesetzeslage entsprechend?
-* Backup: besser 2 als 1, dezentral
 * Redundanz ist relativ schwer zu erreichen
-
 * Also vielleicht doch besser auf einer fremden Instanz, der man vertraut?
 * Admins können alle Nachrichten lesen
 * Instanz mit User:innen ähnlicher Interessenslage können großen Vorteil der Timeline und der
@@ -238,6 +311,9 @@ sind eigentlich nur wenige zu erledigen:
 
 * [activitypub rocks](http://activitypub.rocks/) test suide
 * [ActivityPub](https://www.w3.org/TR/activitypub/) - der W3C Standard
+* Pleroma Installationsanleitung:
+  [Installing on debian based distributions](https://git.pleroma.social/pleroma/pleroma/wikis/Installing%20on%20debian%20based%20distributions)
+* [Pleroma Wiki](https://git.pleroma.social/pleroma/pleroma/wikis/home)
 ---
 class: center, middle
 
@@ -256,9 +332,4 @@ fediverse [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/user
 # Todo
 
 * Privatsphäre Post einbauen
-
-# 3. Hands-on
-  * Instanz installieren
-  * Accounts anlegen
-  * Erste Experimente
-  * Tools (Backup, Übertragen von Accounts)
+* Tools (Backup, Übertragen von Accounts)
