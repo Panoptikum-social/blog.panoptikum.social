@@ -49,15 +49,23 @@ https://panoptikum.io/informatom
 * Mastodon
   * Microblogging
   * Ruby on Rails
-  * nginx, React, Redux, Redis, node, yarn, imagemagick, ffmpeg, libprotobuf-dev, postgresql, let's encrypt, elasticsearch
+  * nginx, React, Redux, Redis, node, yarn, imagemagick, ffmpeg, libprotobuf-dev, postgresql,
+    let's encrypt, elasticsearch
   * oftmals auf Docker oder auf Ubuntu Server installiert
   * Stefan: Biddu ein Zombie? Twitter geht eh...
-  * 2017 Pleroma
+---
+
+## 2017
+
+* Pleroma
   * Elixir & Phoenix
   * weniger externe Abhängigkeiten: nginx, postgres, let's encrypt
   * Ressourcenschonend, läuft auf Raspberry Pi 3
   * auch Microblogging
-  * Stefan: gepackt :-) und begonnen nachzudenken
+
+## 2018
+
+* Stefan: gepackt :-) und begonnen nachzudenken
 ---
 class: center, middle
 background-image: url(/img/pw18/userzahlen.png)
@@ -110,11 +118,28 @@ background-image: url(/img/pw18/protokolle.png)
 
 # Und die Privacy?
 
-* keine Verschlüsselung der Nachrichten
-* Transport Verschlüsselung (https)
-* Moderation der Instanzen
-* Der Fall Wil Wheaton (Wesley Crusher in Raumschiff Enterprise)
-  oder: Technologie löst oder verhindert in keiner Weise Konflike zwischen Menschen
+* keine Ende-zu-Ende Verschlüsselung der Nachrichten
+  * Transport Verschlüsselung (https) de facto Standard (nicht erzwungen)
+* Moderatoren der Instanzen können alles lesen, auch DMs
+* Tracking
+  * Daten in Datenbank
+  * Server Logs
+  * Cookies
+  * Elastic Search Server bei Mastodon
+  * i.a. keine externen Tracker, aber keine technische Garantie
+* Authentizität
+  * nicht garantiert, auch wenn öffentlicher Schlüssel im Profil verfügbar
+* keine Werbung (nicht erzwungen)
+* keine Firmen involviert (nicht erzwungen, z.B. pawoo.net)
+* Terms and Conditions on mastodon.social
+---
+
+# Der Fall Wil Wheaton
+
+* Wesley Crusher in Raumschiff Enterprise
+* Von 60 Usern dem Instanz-Admin gemeldet, der Account suspendiert hat
+* Technologie löst oder verhindert in keiner Weise Konflike zwischen Menschen
+* Haupt-Unterschied: meist keine Firmenrichtlinien involviert
 ---
 
 # 3. Hands-on:
@@ -282,6 +307,18 @@ sind eigentlich nur wenige zu erledigen:
 * ~ 10 Stunden
 ---
 
+# Pro Tipp
+
+Pretty print json for user profile:
+
+``` bash
+curl -H "Accept: application/activity+json"
+        https://pleroma.panoptikum.io/users/informatom
+| python -m json.tool`
+```
+
+---
+
 # Lesetipps 1
 
 * Wikipedia Seite [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
@@ -314,6 +351,8 @@ sind eigentlich nur wenige zu erledigen:
 * Pleroma Installationsanleitung:
   [Installing on debian based distributions](https://git.pleroma.social/pleroma/pleroma/wikis/Installing%20on%20debian%20based%20distributions)
 * [Pleroma Wiki](https://git.pleroma.social/pleroma/pleroma/wikis/home)
+* QR-Code Generator: [qrencode](https://wiki.ubuntuusers.de/qrencode/)
+* [Terms and Conditions](https://mastodon.social/terms) von mastodon.social
 ---
 class: center, middle
 
@@ -325,11 +364,4 @@ Stefan: <stefan@panoptikum.io>
 
 twitter: [@informatom](https://www.twitter.com/informatom)
 
-fediverse [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
-
----
-
-# Todo
-
-* Privatsphäre Post einbauen
-* Tools (Backup, Übertragen von Accounts)
+fediverse: [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
