@@ -12,15 +12,18 @@ class: center, middle
 Ersetzen der zentralen Dienste von Twitter, Facebook, Instagram, Youtube, Itunes Podcast und
 Soundcloud durch föderierte, von der Community oder selbst gehostete Dienste
 
-Alles Links sind am Schluss gebündelt in den Linktipps.
+<small>Alles Links sind am Schluss gebündelt in den Linktipps.</small>
 ---
-class: center, middle
-
 # Vorstellung
 
-![Barcode](/img/sub9/barcode.png)
+Stefan: https://panoptikum.io/informatom
 
-https://panoptikum.io/informatom
+![qr-code stefan](/img/sub9/barcode.png)
+
+Slides: https://blog.panoptikum.io/pw18/ https://blog.panoptikum.io/talks/pw18.pdf
+
+![qr-code slides](/img/pw18/qr.png)
+
 ---
 
 # Die 4 Teile
@@ -30,18 +33,18 @@ https://panoptikum.io/informatom
 3. Hands-on: Installation einer Pleroma Instanz
 4. Call-to-action: ein Service konzipieren und implementieren
 ---
-
+class: center, middle
 # 1. Entwicklung des Fediverse
+---
 
 ## 2008
 
 * identi.ca Evan Prodromou
   * Control Yourself -> Laconica -2009> Status.Net (PHP) -2013> pump.io (Node.js) & Gnu.Social -,
   * Indenti.ca Service wechselte Software mehrmals
-  * Wikitravel (2003), Fuzzy.ai
-  * Stefan: Linux Outlaws
-  * alles Microblogging a.k.a. Twitter
-
+  * Prodromou: Wikitravel (2003), Fuzzy.ai
+  * Stefan: hört Linux Outlaws
+  * alles Microblogging a.k.a. Twitter ... Facebook
 ---
 
 ## 2016
@@ -65,24 +68,31 @@ https://panoptikum.io/informatom
 
 ## 2018
 
-* Stefan: gepackt :-) und begonnen nachzudenken
+* Stefan: gepackt :-)
+* und begonnen nachzudenken über Thema Feedback
 ---
 class: center, middle
 background-image: url(/img/pw18/userzahlen.png)
 ---
-
+class: center, middle
 # 2. Dienste, Protokolle und Privacy
+---
 
+* Fediverse = portmanteau = Kofferwort aus Federation + Universe
+* Was ist Federation?
 * Was ist ein Dienst, was eine Instanz?
 * Was ist in diesem Kontext ein Protokoll?
-* Hilft mir das Fediverse, meine Privatsphäre zu wahren?
+* Hilft mir das Fediverse, meine Privatsphäre zu wahren? (s.u.)
+* Vergleich zu Email und Twitter
 ---
 
 class: center, middle
 background-image: url(/img/pw18/dienste.png)
 ---
 
-# Dienste
+# Dienste oder Plattformen
+
+* Mastodon + Pleroma + ...
 
 * ownCloud (2011) mit Fork Nextcloud (2016)<br/>
   Filesharing, Kalender, Kontakte, viele Plugins
@@ -93,7 +103,7 @@ background-image: url(/img/pw18/dienste.png)
 
 * PixelFed: Image Hosting
 
-* Funkwhale: audio hosting and sharing (Fediverse Podcast, Episode 1)
+* Funkwhale: Audio hosting and sharing (Fediverse Podcast, Episode 1)
 
 * aktuell 29 Plattformen auf Wikipediaseite genannt
 ---
@@ -108,9 +118,13 @@ background-image: url(/img/pw18/dienste.png)
 
 * WebDAV
 
-* diaspora
+* Diaspora
 
 * XMPP
+
+---
+class: center, middle
+background-image: url(/img/pw18/matrix.png)
 ---
 class: center, middle
 background-image: url(/img/pw18/protokolle.png)
@@ -131,18 +145,20 @@ background-image: url(/img/pw18/protokolle.png)
   * nicht garantiert, auch wenn öffentlicher Schlüssel im Profil verfügbar
 * keine Werbung (nicht erzwungen)
 * keine Firmen involviert (nicht erzwungen, z.B. pawoo.net)
-* Terms and Conditions on mastodon.social
+* Terms and Conditions (z.B. mastodon.social)
 ---
 
 # Der Fall Wil Wheaton
 
-* Wesley Crusher in Raumschiff Enterprise
-* Von 60 Usern dem Instanz-Admin gemeldet, der Account suspendiert hat
+* Wil wer? -> Wesley Crusher in Raumschiff Enterprise
+* Von 60 Usern dem Instanz-Admin gemeldet
+* Admin hat Account suspendiert
 * Technologie löst oder verhindert in keiner Weise Konflike zwischen Menschen
 * Haupt-Unterschied: meist keine Firmenrichtlinien involviert
 ---
-
-# 3. Hands-on:
+class: center, middle
+# 3. Hands-on
+---
 
 ## Installation einer Pleroma Instanz
 
@@ -174,9 +190,8 @@ background-image: url(/img/pw18/protokolle.png)
 * Konfiguration anpassen
 * Datenbank genarieren lassen
 * Datenbankstruktur generieren lassen
-* Pleroma zum test lokal starten (ohne Nginx)
+* Pleroma zum Test lokal starten (ohne Nginx)
 * ... und wieder stoppen
-
 * Nginx konfigurieren
 * SSL-Zertifikat installieren
 * Nginx starten
@@ -187,14 +202,11 @@ background-image: url(/img/pw18/protokolle.png)
 * Systemd service Konfiguration erzeugen lassen
 * Service Konfiguration anpassen
 * Service starten
-
 * ersten (eigenen) User erzeugen
 * User zum Moderator machen
-
 * Backup konfigurieren: besser 2 als 1, dezentral
   * Datenbank
   * Konfiguration (Applikationsverzeichnis)
-
 * Terms of Service hinterlegen
   (wird Usern bei der Registrierung gezeigt)
 ---
@@ -207,58 +219,63 @@ background-image: url(/img/pw18/protokolle.png)
 * User löschen
 * User deaktivieren
 * Wartung: Sicherheitsupdates einspielen (System und Applikation)
-* Administration: verhalten sich die User:innen den Richtlinien der Instanz
-  / der Gesetzeslage entsprechend?
 * Backup testen
-
+* Moderation: verhalten sich die User:innen den Richtlinien der Instanz
+  / der Gesetzeslage entsprechend?
 ---
 
 # Accounts
 
 * -> Accounts anyone?
 * have fun!
-
 * Webinterface unter https://pleroma.panoptikum.io
 * Mastodon FE Interface unter https://pleroma.panoptikum.io/web
-* Verbindung mit Pleroma (oder Mastodon ;-) ) fähigen-Clients sollten funktionieren.
-
+* Verbindung mit allen Mastodon-Clients sollte funktionieren.
+  * Android: Mastalab
 ---
 
 # Disclaimer und Argumente gegen das Selbsthosting
 
 * Redundanz ist relativ schwer zu erreichen
-* Also vielleicht doch besser auf einer fremden Instanz, der man vertraut?
+* Aufwand: Also vielleicht doch besser auf einer fremden Instanz, der man vertraut?
 * Admins können alle Nachrichten lesen
 * Instanz mit User:innen ähnlicher Interessenslage können großen Vorteil der Timeline und der
 lokalen Suche bieten
 * Es spricht nichts gegen mehrere Accounts auf mehreren Servern
 ---
-
+class: center, middle
 # 4. Selbst ein Service konzipieren und implementieren
+---
+
 * konkrete Beispiele sind gut!
 * [Panoptikum.io](https://www.panoptikum.io) - Podcast Verzeichnis
 * Einbetten eines Widgets der letzten Toots für einen Account
-* minimalistisch, macht aber noch sinn
+* minimalistisch, ergibt aber noch Sinn
 ---
+class: center, middle
 background-image: url(/img/pw18/fediverse-widget.png)
 ---
 
-# Schritte
+# Entwicklungsschritte 1
 
-* Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.io
+* einziger Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.io
 * Von der Adresse muss auf öffentliches Profil geschlossen werden<br />
-(etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
+  (etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
 * Aus öffentlichem Profil wird die Adresse der Outbox bezogen
 * Outbox Nachrichten werden eingelesen
 * Unterscheidung zwischen Toot und Boost (wir ignorieren Likes)
 * Toot kann einfach ausgegeben werden, wir müssen nur Profilbild ermitteln
 * Dazu sollte Profil gecached werden<br />
-(oder bereits sein ;-) )
+  (oder bereits sein ;-) )
+---
+
+# Entwicklungsschritte 2
+
 * Toots von Boosts müssen von Ursprungsserver gelesen werden
 * Profile sind von Ursprungsserver zu beziehen<br />
 (und am besten auch wieder zu cachen)
 * von allen Bildern reichen wir nur URL durch und cachen nicht<br />
-(das kann ein Privacy - Problem sein!)
+  (das kann ein Privacy - Problem sein!)
 * Bau des HTMLs zur Ausgabe des Widgets
 ---
 
@@ -277,14 +294,12 @@ background-image: url(/img/pw18/fediverse-widget.png)
 
 sind eigentlich nur wenige zu erledigen:
 * [Web Requests](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/net.ex)
-  absetzen (16 Zeilen Elixir)
-
-* Antworten in JSON parsen (in Hashmaps o.ä.) <br />
-([Parsen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/timeline.ex): 34 Zeilen +
-[Aufbereitung](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/view.ex): 117 Zeilen)
-
-* [HTML erstellen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/activity_pub/widget.html.eex)
-  (26 Zeilen)
+  absetzen: 16 Zeilen Elixir
+* Antworten -> JSON parsen in Hashmaps o.ä.
+  * [Parsen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/timeline.ex): 34 Zeilen
+  * [Aufbereitung](https://github.com/PanoptikumIO/pan/blob/master/lib/pan/activity_pub/view.ex): 117 Zeilen
+* [HTML erstellen](https://github.com/PanoptikumIO/pan/blob/master/lib/pan_web/templates/activity_pub/widget.html.eex):
+  26 Zeilen
 ---
 
 # Probleme
@@ -300,11 +315,100 @@ sind eigentlich nur wenige zu erledigen:
 # Aufwand
 
 * überraschend viele Requests -> Caching nötig
-* sich in das Protokoll ActivityPub einlesen
-* Bibliotheken auswählen
-* in Responses einlesen und Links "nachlaufen"
+* sich in das Protokoll ActivityPub einlesen (W3C Standard)
+* Bibliotheken auswählen (für JSON parsing und Web Requests)
+* JSON aus Responses auslesen, Implementierung interpretieren und Links "nachlaufen"
 * Unterschiede Pleroma/Mastodon
 * ~ 10 Stunden
+---
+
+# Danke für die Aufmerksamkeit!
+
+im Anhang gibt's, für alle, die weiter machen wollen:
+
+* Beispiel Response eines Boosts
+* Pro Tipp für terminal based debugging: JSON pretty printing
+* Leseliste
+---
+
+# Fragen?
+
+Diese Presentation ist online: [https://blog.panoptikum.io/pw18](https://blog.panoptikum.io/pw18)
+
+![qr-code](/img/pw18/qr.png)
+
+* Stefan:
+  * <stefan@panoptikum.io>
+  * [@informatom](https://www.twitter.com/informatom)
+  * [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
+---
+class: center, middle
+# Anhang
+---
+
+# JSON - Response 1
+
+``` json
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://w3id.org/security/v1",
+        {
+            "Emoji": "toot:Emoji",
+            "Hashtag": "as:Hashtag",
+            "atomUri": "ostatus:atomUri",
+            "conversation": "ostatus:conversation",
+            "inReplyToAtomUri": "ostatus:inReplyToAtomUri",
+            "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+            "ostatus": "http://ostatus.org#",
+            "sensitive": "as:sensitive",
+            "toot": "http://joinmastodon.org/ns#"
+        }
+    ],
+```
+---
+
+# JSON - Response 2
+
+``` json
+"actor": "https://pleroma.panoptikum.io/users/informatom",
+"attachment": [],
+"attributedTo": "https://pleroma.panoptikum.io/users/informatom",
+"cc": [
+    "https://www.w3.org/ns/activitystreams#Public"
+],
+"context": "tag:mastodon.social,2018-10-13:
+            objectId=59079113:
+            objectType=Conversation",
+"context_id": 63603,
+"conversation": "tag:mastodon.social,2018-10-13:
+                 objectId=59079113:objectType=Conversation",
+"id": "https://pleroma.panoptikum.io/activities/
+       13a89a6b-fc73-4045-9f06-8e8858859869",
+```
+---
+
+# JSON - Response 3
+
+``` json
+"object": "https://mastodon.social/users/DavitMasia/
+           statuses/100889097331394363",
+"published": "2018-10-14T05:26:39.582310Z",
+"sensitive": false,
+"tag": [
+    {
+        "href": "https://mastodon.social/users/DavitMasia",
+        "name": "@DavitMasia@mastodon.social",
+        "type": "Mention"
+    }
+],
+"to": [
+    "https://pleroma.panoptikum.io/users/informatom/followers",
+    "https://mastodon.social/users/DavitMasia"
+],
+"type": "Announce"
+```
+
 ---
 
 # Pro Tipp
@@ -316,12 +420,12 @@ curl -H "Accept: application/activity+json"
         https://pleroma.panoptikum.io/users/informatom
 | python -m json.tool`
 ```
-
 ---
 
 # Lesetipps 1
 
 * Wikipedia Seite [Fediverse](https://en.wikipedia.org/wiki/Fediverse)
+* [Portmanteau](https://en.wikipedia.org/wiki/Portmanteau) in Wikipedia
 * Ausführlicher Blogpost mit vielen weiteren Aspekten von Matthias Meißer:
 [Erfahrungsbericht Mastodon](https://workpress.plattform32.de/2018/09/erfahrungsbericht-mastodon/)
 * Blogpost [What is Pleroma](https://blog.soykaf.com/post/what-is-pleroma/) von Pleroma Entwickler Lain
@@ -353,17 +457,3 @@ curl -H "Accept: application/activity+json"
 * [Pleroma Wiki](https://git.pleroma.social/pleroma/pleroma/wikis/home)
 * QR-Code Generator: [qrencode](https://wiki.ubuntuusers.de/qrencode/)
 * [Terms and Conditions](https://mastodon.social/terms) von mastodon.social
----
-class: center, middle
-
-Diese Presentation ist online: <br />
-
-![qr-code](/img/pw18/qr.png)
-
-[https://blog.panoptikum.io/pw18](https://blog.panoptikum.io/pw18)
-
-Stefan: <stefan@panoptikum.io>
-
-twitter: [@informatom](https://www.twitter.com/informatom)
-
-fediverse: [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
