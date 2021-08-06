@@ -15,8 +15,8 @@ Transfer EUR 12,- to the Panoptikum account via your own ebanking application.
 Use the following information:
 
 | Recipient | **Informatom EDV-Dienstleistungen e.U.** |
-| BIC | **BAWAATWW** |
-| IBAN | **AT241400005010241598** |
+| BIC | **SPBAATWWXXX** |
+| IBAN | **AT67 1912 0000 6626 7911** |
 | Payment Reference | **[your payment reference]** |
 {: .table}
 
@@ -26,12 +26,12 @@ If you have a Pro Account: The new expiration date will be the old expiration da
 If you had a Pro Account: The new expiration date will the account booking date plus 12 months.
 
 If you want to receive a printed bill via snail mail please update your profile:
+
 * Check this to receive a printed bill via snail mail
 * Enter your Name and Billing Address. Please write it exactly as it should be printed on the envelope.
 
 Currently we have stored the following billing address:
 <pre>[your billing address]</pre>
-
 
 ### Further Questions?
 
