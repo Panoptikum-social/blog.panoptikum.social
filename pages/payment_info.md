@@ -15,7 +15,7 @@ Transfer EUR 12,- to the Panoptikum account via your own ebanking application.
 Use the following information:
 
 | Recipient | **Informatom EDV-Dienstleistungen e.U.** |
-| BIC | **SPBAATWWXXX** |
+| BIC | **SPBAATWW** |
 | IBAN | **AT67 1912 0000 6626 7911** |
 | Payment Reference | **[your payment reference]** |
 {: .table}
