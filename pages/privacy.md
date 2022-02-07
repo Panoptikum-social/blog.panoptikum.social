@@ -99,4 +99,4 @@ Vorgartenstrasse 145/2/3
 
 {% icon fa-phone %} +43 680 213 3030
 
-{% icon fa-envelope %} <mailto://stefan@panoptikum.io>
+{% icon fa-envelope %} <stefan@panoptikum.io>
