@@ -13,13 +13,11 @@ Panoptikum.io tries to store as much data as necessary and as little data as pos
 All the data collected is required to offer the service. Panoptikum.io does not intend to collect
 demographic data or to identify single persons.
 
-
 ## Communication with Us
 
 If you send us an email, we store your data to be able to handle your request
 and for the case of follow up questions for six months. This data we do not
 share with anybody else.
-
 
 ## Logging
 
@@ -40,7 +38,6 @@ These requsts do not contain IP Addresses, just time stamps and the request path
 Panoptikum does not use a web analytics service or a content delivery service.
 No data is transfered to any third parties.
 
-
 ## Cookies
 
 This documentation website blog.panoptikum.io uses no cookies
@@ -56,11 +53,9 @@ A second cookie is set by the Podlove Webplayer on the episode show page to reme
 position in case you stop listening, leave the page and come back later. This cookie is not
 processed by the server.
 
-
 ## Tokens
 
 API access is not handled via cookies, but with signed tokens, which only contain your `user_id`
-
 
 ## Registration
 
@@ -68,14 +63,12 @@ During the registration you will be asked for an email address (required for pas
 user name (used for your reviews, comments and likes) and a password (for login). You can choose
 any user name as long as it has not been taken yet within Panoptikum.
 
-
 ## Collected Data
 
 Beside the information provided during registration, Panoptikum.io uses your uploaded subscription
 list (OPML file) to add podcasts to the Panoptikum.io podcast list. It stores and publishes that
 you are a subscriber of the podcast. Panoptikum.io stores and pulishes your reviews, comments and
 likes.
-
 
 ## Data access self service
 
@@ -87,7 +80,6 @@ the different areas and delete it per area. In the area itself you can either
 delete all entries or just individual entries. You find more information in the
 [Listener Manual](/listener-manual).
 
-
 ## Your Rights
 
 You have the right of information, correction, deletion, restriction
@@ -97,17 +89,14 @@ privacy demands are refused in any kind, you can complain at the local
 controlling institution. In Austria, this is
 [Datenschutzbehörde](https://www.dsb.gv.at/).
 
-
 ## Contact
 
 You can contact us via:
 
-Mag Stefan Haslinger<br/>
-Vorgartenstrasse 145/2/3<br/>
-1020 Wien, Austria<br/>
+Mag Stefan Haslinger  
+Vorgartenstrasse 145/2/3  
+1020 Wien, Austria  
 
 {% icon fa-phone %} +43 680 213 3030
 
-[{% icon fa-envelope %} stefan@podcasterei.at](mailto://stefan@panod.io)
-
-<br/>
+[{% icon fa-envelope %} <mailto://stefan@panoptikum.io>
