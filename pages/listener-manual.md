@@ -6,14 +6,14 @@ permalink: listener-manual/
 
 (There is also a [Podcaster Manual](/podcaster-manual).)
 
-
-# Listener Manual
+## Listener Manual
 
 This manual describes the use of Panoptikum from the listener perspective.
 Panoptikum.social offers basic functionality plus additional functionality for
 registered users.
 
 Basic functionality for listeners
+
 * Latest recommendations
 * Latest podcasts
 * Latest episodes
@@ -24,12 +24,10 @@ Basic functionality for listeners
 Panoptikum offers you the chance to discover new podcasts for your
 podcatcher.
 
-
 ## Start Page
 
 The start page of Panoptikum offers you a wide range of possibilities
 to discover new podcasts.
-
 
 ### Latest Recommendations
 
@@ -38,11 +36,11 @@ lastest recommendations you see the name of the podcast, the username of the
 recommender, the date of the recommendation and the recommendation text.
 
 With a click on ...
+
 * the name of the podcast you reach the Panoptikum page of this podcast
   with further information
 * the username you get a list of all the podcasts liked by this user
 * more... you get the latest 15 personal recommendations and more
-
 
 ### Latest Podcasts
 
@@ -53,12 +51,12 @@ contributors, the date, when the podcast was added (available since)
 and the description of the podcast.
 
 With a click on ...
+
 * the name of the podcast you reach the Panoptikum page of this
   podcast with further information
 * the name of a contributor you reach the Panoptikum page of the
   contributor with further information
 * more... you get the 10 latest podcasts and more
-
 
 ### Latest Epsiodes
 
@@ -69,6 +67,7 @@ You see the  title of the episode, the name of the podcast, the
 names of the contributors and date plus publishing time.
 
 With a click on ...
+
 * the title of the episode you reach the Panoptikum page of this
   episode with further information and you can directly listen to it
   via the embedded player
@@ -77,7 +76,6 @@ With a click on ...
 * the name of a contributor you reach the Panoptikum page of the
   contributor with further information on gigs and contributions
 * more... you get the 10 latest episodes and more
-
 
 ### Top 10 subscribed Podcasts
 
@@ -100,7 +98,6 @@ page of this podcast with further information.
 
 Rationale: You could still like a podcast, even if you don't find to
 listen to it any more. There are just too many good podcasts out there :-)
-
 
 ### Podcast Discovery: Categories, Random, Search
 
@@ -125,7 +122,6 @@ Search: Just enter one or more terms in the search field and
 Panoptikum will show you all results in podcasts, episodes and
 personas ordered by relevance.
 [Example](https://panoptikum.social/search?search[searchstring]=Stefan&page=1)
-
 
 ### Listen to Episode
 
@@ -161,15 +157,14 @@ you can see how many podcasts are available per language. As the
 podcasts have to be counted on the fly, building this page takes a
 little more time. Please be patient!
 
-
 ## Registration
 
 Panoptikum offers additional functionality after the log in:
+
 * Recommendations and likes of podcasts and episodes
 * Introduction to new podcasts based on current subscriptions and likes
 * Suggesting a new podcast
 * Uploading OPML files to suggest several podcasts at once
-
 
 ### Sign up
 
@@ -188,7 +183,6 @@ registration, Panoptikum uses your uploaded subscription list (OPML
 file) to add podcasts to the Panoptikum podcast database. It stores
 and publishes that you are a subscriber of the podcast. Panoptikum
 stores and publishes your reviews, comments and likes.
-
 
 ## Additional Functionality After Log In
 
@@ -214,25 +208,24 @@ You can change your password.
 You see the latest messages from all users whom you subscribed to and
 who want to share their followings (likes and recommendations).
 
-
 ### My Podcasts
 
 You see information about you
+
 * Subscriptions
 * Podcasts I like
 * Podcasts I follow
 
 and get suggestions for new podcasts based on this information
+
 * Listeners of the podcasts you listen to, also listen to
 * Users, who like the same podcasts as you, also like
 * The categories my podcasts are assigned to
-
 
 ### My Recommendations
 
 You see your podcast recommendations and can recommend subscribed
 podcasts you didn't recommend yet.
-
 
 ### Suggest a Podcast
 
@@ -243,7 +236,6 @@ so with <kbd>Suggest a Podcast</kbd>.
 You will be counted as a subscriber in the database. If you want to
 suggest several or all the podcasts you listen to at once, you can
 upload an OPML file with <kbd>My OPMLs</kbd> in your personal menu.
-
 
 ### My OPMLs
 
@@ -265,6 +257,7 @@ check what is stored the different areas and delete it per area. In the
 area itself you can either delete all entries or just individual entries.
 
 Areas and possibilies
+
 * OPML File: list of uploaded files, manageable in My OPMLs
 * Personas: overview to your personas
 * Invoices: all your Panoptikum invoices with date and file
@@ -298,10 +291,10 @@ deleted.
 Panoptikum can not restore your account after this action, but you can always
 sign up for a new Panoptikum account.
 
-
 ## Recommendations and Likes
 
 After log in you have addional possibilites on the different pages
+
 * Podcast: recommend, like and follow
 * Episode: recommend and like
 * Chapters of an episode: recommend

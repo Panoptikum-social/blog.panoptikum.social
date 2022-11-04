@@ -4,7 +4,7 @@ layout: default
 permalink: privacy/
 ---
 
-# Privacy Policy
+## Privacy Policy
 
 We process your data only according to law regulations (DSGVO, TKG2003). In this privacy policy we
 inform you about the most important aspects of data processisng within our website.

@@ -10,12 +10,10 @@ Copy the QR-code for the subscription of YOUR podcast!
 The QR-code on the page of your podcast at Panoptikum.social does not only make it easier for interested people to subscribe your podcast. You can also use it! Just copy the QR-image to your own site, stickers, business cards, what ever you use to spread the news about your podcast and the subscription to your podcast is just a scan away.
 
 Stefan was really productive the last two weeks:
+
 * Since last week Panoptikum offers besides the audio player additionaly a video player for video podcasts. Try it out: [Extra 3](https://panoptikum.social/episodes/690398)
-
 * Search results are now enriched by persona engagements and gigs. Persona results show podcast engagements. Podcasts and episodes show language Emoji.
-
 * On the page myPodcasts (after your login) you find now a third list: it shows the top 10 categories of the podcasts you have subscribed. So maybe it could be interesting to check out your top category for new podcasts.
 ![MyPodcasts](/img/myPodcasts_top10.png){:class="img-responsive"}
-
 * Improvements on the persona page. Duplicates based on different roles in one feed are removed. The persona and its gigs and engagements now clearer presented.
 ![Persona Panoptikum](/img/persona-informatom.png){:class="img-responsive"}

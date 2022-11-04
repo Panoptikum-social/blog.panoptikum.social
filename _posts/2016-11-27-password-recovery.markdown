@@ -19,7 +19,6 @@ For those of you that are new (to us) use the link [Register](https://panoptikum
 
 ![Category](/img/sc_new.jpg){:class="img-responsive"}
 
-<br/>
 Panoptikum.social is still in the alpha phase and although additional functionality comes almost every day, it is still about a month until beta phase. So please enjoy what is available now und look forword to what is still coming.
 
 Please send immediate feedback that you just must tell us NOW to <sonja@panoptikum.social>.
