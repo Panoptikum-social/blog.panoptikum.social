@@ -11,6 +11,6 @@ Panoptikum received great user feedback and we would like to know what you think
 
 * Use words like "und", "and" and "," in the field contributors of the podcast episode feed as a separatora. For instance the contributor "Florian and Stefan" would then become two contributors "Florian" and "Stefan". Would you see this as an improvement or do you think there are contributors that use those words as as part of their name and we would artificially split them in two?
 
-Please leave your comments regarding those two questions in the blog or send an email to <sonja@panoptikum.io>.
+Please leave your comments regarding those two questions in the blog or send an email to <sonja@panoptikum.social>.
 
 We are also interested in your personal feedback, we'd love to read your personal review regarding Panoptikum. What do you like? What needs to be done to improve your experience with Panoptikum?

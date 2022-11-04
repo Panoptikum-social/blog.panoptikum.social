@@ -11,7 +11,7 @@ without throttling.
 
 ## Get public data
 
-Prepend all requests with `https://panoptikum.io/jsonapi`.
+Prepend all requests with `https://panoptikum.social/jsonapi`.
 
 All instances in "relationships" can be found with a link and a minimal set of attributes in "included".
 You can basically explore the whole API world of Panoptikum by starting at /categories and following
@@ -57,7 +57,7 @@ JSON.
 
 Podcasts within a category, gigs for a persona and episodes for a podcast are paginated:
 
-* Example request: `https://panoptikum.io/jsonapi/personas/1?page[number]=1&page[size]=10`
+* Example request: `https://panoptikum.social/jsonapi/personas/1?page[number]=1&page[size]=10`
 * page[number] ... page number; starts counting at 1, defaults to 1
 * page[size] ... number of items per page, defaults to 10, maximum 1000
 * Links contain self, prev, next, last and first link (if appropriate).
@@ -111,7 +111,7 @@ If working with tokens is something new for you, an example might help to set th
 
 Request:
 
-`curl --data "username=janedoe&password=secret" https://panoptikum.io/jsonapi/login`
+`curl --data "username=janedoe&password=secret" https://panoptikum.social/jsonapi/login`
 
 Response:
 
@@ -210,19 +210,19 @@ Here is an example how you would like (or unlike, it you liked it before) a podc
 
 Request:
 
-`curl --data "username=informatom&password=secret" https://panoptikum.io/jsonapi/login`
+`curl --data "username=informatom&password=secret" https://panoptikum.social/jsonapi/login`
 
 Pick up the token from the response and provide it in the next request as a header.
 
 Request:
 
-`curl --data "podcast_id=104" -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY" https://panoptikum.io/jsonapi/pan/likes/toggle`
+`curl --data "podcast_id=104" -H "Authorization: Bearer SFMyNTY.g3QAAAACdwRk....yNXj3wvSs9a9Ps5wO6yrY" https://panoptikum.social/jsonapi/pan/likes/toggle`
 
 ### *Example:* Upload a file
 
 To send a file from the local file system with the parameter upload, a curl request like this can be used:
 
-`curl -v -H "Authorization: Bearer :token" -F "upload=@/full/path/to/opml.xml" https://panoptikum.io/jsonapi/pan/opmls`
+`curl -v -H "Authorization: Bearer :token" -F "upload=@/full/path/to/opml.xml" https://panoptikum.social/jsonapi/pan/opmls`
 
 ### *Example:* Delete a file
 

@@ -27,7 +27,7 @@ Panoptikum shows statistics regarding podcasts directly on the page. The API off
 
 Your podcast gets listed on Panoptikum, if it is included in at least one uploaded OPML-file of a registered user. You can also add your podcast personally after registration. Registered users can use the "suggest a podcast" function offered in the sub menu below your user name. Please see the [Listener Manual](/listener-manual) for more information regarding registration and listing of podcasts.
 
-If you want to remove your podcast from Panoptikum, please send an email to <stefan@panoptikum.io>. There is no need to give a reason. This is a manual procedure.
+If you want to remove your podcast from Panoptikum, please send an email to <stefan@panoptikum.social>. There is no need to give a reason. This is a manual procedure.
 
 Panoptikum stops to check for updates of a Podcast after 10 failed attempts. You can reset the counter (after login) by a successfull "Metadata Update" (more details at the section "Metadata Update").
 
@@ -53,33 +53,33 @@ Panoptikum offers an API for other appilications. This gives you the possibility
 Using full text search your program can search in categories, podcasts, episodes and personas.
 
 Examples
-* [https://panoptikum.io/jsonapi/search?filter[persona]=Sonja](https://panoptikum.io/jsonapi/search?filter[persona]=Sonja) to search for all personas with the name Sonja
-* [https://panoptikum.io/jsonapi/search?filter[episode]=coding](https://panoptikum.io/jsonapi/search?filter[episode]=coding) to find episodes including the term coding in title, description, show notes, etc.
-* [https://panoptikum.io/jsonapi/podcasts/most_liked](https://panoptikum.io/jsonapi/podcasts/most_liked)
+* [https://panoptikum.social/jsonapi/search?filter[persona]=Sonja](https://panoptikum.social/jsonapi/search?filter[persona]=Sonja) to search for all personas with the name Sonja
+* [https://panoptikum.social/jsonapi/search?filter[episode]=coding](https://panoptikum.social/jsonapi/search?filter[episode]=coding) to find episodes including the term coding in title, description, show notes, etc.
+* [https://panoptikum.social/jsonapi/podcasts/most_liked](https://panoptikum.social/jsonapi/podcasts/most_liked)
   for the top 10 liked podcasts ordered by like count descending.  
-* [https://panoptikum.io/jsonapi/podcasts/most_subscribed](https://panoptikum.io/jsonapi/podcasts/most_subscribed)
+* [https://panoptikum.social/jsonapi/podcasts/most_subscribed](https://panoptikum.social/jsonapi/podcasts/most_subscribed)
   for the top 10 subscribed podcasts ordered by subscription count descending.
-* [https://panoptikum.io/jsonapi/podcasts/last_updated](https://panoptikum.io/jsonapi/podcasts/last_updated)
+* [https://panoptikum.social/jsonapi/podcasts/last_updated](https://panoptikum.social/jsonapi/podcasts/last_updated)
   for the last updated podcasts (paginated - you define the amount, default is 10).
 
-Please check out the [API documentation](https://blog.panoptikum.io/api/) for details.
+Please check out the [API documentation](https://blog.panoptikum.social/api/) for details.
 
 ### Personas
 
 Within the Panoptikum universe each person can have different roles. There is the registered user, this user can login with username and password. Then there is the podcaster, this is a person that produces podcasts. One becomes a podcaster by owning a podcast or contributing to a podcast. But what about companies with podcasts or several people that produce a podcast together? This leads to personas.  
 
-Based on the contributors of podcasts personas are automatically created. These are listed under the menu item [Podcasters](https://panoptikum.io/personas).
-Use the search on the [personas page](https://panoptikum.io/personas) to find your persona(s). The search results are updated with each key stroke while you enter the search string. Often you don't need to enter a complete search term to find your persona.
+Based on the contributors of podcasts personas are automatically created. These are listed under the menu item [Podcasters](https://panoptikum.social/personas).
+Use the search on the [personas page](https://panoptikum.social/personas) to find your persona(s). The search results are updated with each key stroke while you enter the search string. Often you don't need to enter a complete search term to find your persona.
 
 Two examples:
 * Mathilda is a podcast listener. She is no podcaster and has no persona.
 * Stefan is a listener and a podcaster. He produces a podcast together with Matthias
-[Aua-uff-code!](https://panoptikum.io/podcasts/104), contributed for example to
-[Zeitsprung #64](https://panoptikum.io/episodes/40276), visited the
-[IT-Keller](https://panoptikum.io/podcasts/495), talked regulary at the
-[Biertaucher](https://panoptikum.io/podcasts/119) and so on. He clearly is a podcaster
+[Aua-uff-code!](https://panoptikum.social/podcasts/104), contributed for example to
+[Zeitsprung #64](https://panoptikum.social/episodes/40276), visited the
+[IT-Keller](https://panoptikum.social/podcasts/495), talked regulary at the
+[Biertaucher](https://panoptikum.social/podcasts/119) and so on. He clearly is a podcaster
 (derived from the owner information of the feed of
-[Aua-uff-code!](https://panoptikum.io/podcasts/104)) and he has a persona Informatom, where he can present all his achievements.
+[Aua-uff-code!](https://panoptikum.social/podcasts/104)) and he has a persona Informatom, where he can present all his achievements.
 
 ## Functionality for Registered Podcasters
 
@@ -91,7 +91,7 @@ Benefits for registered podcasters:
 * Write recommendations
 * Claim personas
 
-Based on the contributors of podcasts personas are automatically created. These are listed under [Podcasters](https://panoptikum.io/personas) on the Panoptikum page.
+Based on the contributors of podcasts personas are automatically created. These are listed under [Podcasters](https://panoptikum.social/personas) on the Panoptikum page.
 
 ### Claim Personas
 
@@ -153,19 +153,19 @@ Payment does not change the listing of your podcast on Panoptikum in any way.
 
 ### Your Podcaster Profile in Panoptikum
 
-Stefan held a talk at the last subscribe about the possibilites of using Panoptikum for your podcaster profile. The title of the talk was "Deine Visitkarte ist zu klein" (Your Business Card is to small). You can find it at [youTube]((https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC)). The slides are available on this [page](https://blog.panoptikum.io/sub9/#1).
+Stefan held a talk at the last subscribe about the possibilites of using Panoptikum for your podcaster profile. The title of the talk was "Deine Visitkarte ist zu klein" (Your Business Card is to small). You can find it at [youTube]((https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC)). The slides are available on this [page](https://blog.panoptikum.social/sub9/#1).
 
 ### Persona Page URL
 
 The automatically generated persona page has an URL that ends with a PID.
 
 A random example
-[https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c).
+[https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c).
 This is this rather difficult to remember.
 
 So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable.
 
-Another random example [https://panoptikum.io/waldgruber](https://panoptikum.io/waldgruber).
+Another random example [https://panoptikum.social/waldgruber](https://panoptikum.social/waldgruber).
 
 ### Persona Page Content
 
@@ -188,7 +188,7 @@ The possibilty to edit the presented information on the persona page helps to ov
 * Delegation: A delegation lets the gigs (i.e. contributions to episodes) and engagements (i.e. contributions to podcasts) of the persona also appear on the profile page of the target persona.
 * Redirection: The redirection redirects the persona profile page to the profile page of the target persona.
 
-For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.io/2017/01/29/user-self-service.html#04b2080f).
+For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.social/2017/01/29/user-self-service.html#04b2080f).
 
 
 ### Journey Through Pro Features
@@ -224,7 +224,7 @@ With **Edit persona** the information can be changed
 ![Edit persona - default](/img/edit-persona1.png){:class="img-responsive"}
 
 Changes
-* PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.io/waldgruber
+* PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.social/waldgruber
 * Image url: inserted the link to my picture on the internet (I used a picture from my personal homepage to have it in full controll, but you can use any picture published on the internet)
 * Image title: This is the alternative text for the picture.
 * Description header
@@ -232,7 +232,7 @@ Changes
 
 ![Edit persona - changed](/img/edit-persona2.png){:class="img-responsive"}
 
-After clicking **Submit** the persona can be reached via https://panoptikum.io/waldgruber and looks like this ![Persona - changes submitted](/img/persona-waldgruber.png){:class="img-responsive"}
+After clicking **Submit** the persona can be reached via https://panoptikum.social/waldgruber and looks like this ![Persona - changes submitted](/img/persona-waldgruber.png){:class="img-responsive"}
 
 This is now a page, that I can use as the reference to all my podcast related activities.
 
@@ -263,7 +263,7 @@ Why?
 
 Login and you find the "Start your free trial" button in your profile.
 
-[Login](https://panoptikum.io/sessions/new)
+[Login](https://panoptikum.social/sessions/new)
 
 
 ### Costs

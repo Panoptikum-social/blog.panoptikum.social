@@ -7,7 +7,7 @@ author: Sonja
 
 Today I want to introduce a new project [Panod.io](https://panod.io/).
 
-[Panoptikum.io](https://panoptikum.io/) has now reached a certain level of maturity. It has a database with over 1,800,000 episodes from over 30,000 podcasts, a good user base including several pro-users, a great [API](https://blog.panoptikum.io/api/) and is growing with each uploaded OPML-file from its users and each new released episode of the podcasts listed. For the general user it offers solid functionality,
+[Panoptikum.social](https://panoptikum.social/) has now reached a certain level of maturity. It has a database with over 1,800,000 episodes from over 30,000 podcasts, a good user base including several pro-users, a great [API](https://blog.panoptikum.social/api/) and is growing with each uploaded OPML-file from its users and each new released episode of the podcasts listed. For the general user it offers solid functionality,
 
 ... BUT ...
 
@@ -15,4 +15,4 @@ for those interested in podcasts that can't read or type in a web-browser the so
 
 Check out the project page [Panod.io](https://panod.io/) - the homepage is available in English and German - for more details. Or watch the video with Ramon, Sonja and Stefan - I hope you have as much fun watching it as we had creating it: [Video](https://www.youtube.com/embed/6qM2ztyehzc?cc_lang_pref=en&cc_load_policy=1&hl=en)
 
-As always we are quite interested what you think about it. Is it a great idea and can you think about several use-cases or do you know why we should not do it? Please let us know - mail to <sonja@panoptikum.io>
+As always we are quite interested what you think about it. Is it a great idea and can you think about several use-cases or do you know why we should not do it? Please let us know - mail to <sonja@panoptikum.social>

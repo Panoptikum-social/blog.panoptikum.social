@@ -14,7 +14,7 @@ Vorgartenstraße 145/2/3<br/>
 Austria
 
 Twitter: [@panoptikumIO](https://www.twitter.com/panoptikumio)<br/>
-Email: <stefan@panoptikum.io>
+Email: <stefan@panoptikum.social>
 
 
 ## License
@@ -37,5 +37,5 @@ Email: <stefan@panoptikum.io>
 
 ## Hosting
 
-Panoptikum.io is hosted by<br/>
+Panoptikum.social is hosted by<br/>
 <a href="https://www.informatom.com">Informatom EDV-Dienstleistungen e.U.</a>

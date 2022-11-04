@@ -7,8 +7,8 @@ author: Sonja
 
 As promised last week Stefan moved the two sites this week.
 
-All the functionality can now be reached under https://panoptikum.io and the
-blog moved to https://blog.panoptikum.io. If you are a podcaster you can now
+All the functionality can now be reached under https://panoptikum.social and the
+blog moved to https://blog.panoptikum.social. If you are a podcaster you can now
 communicate the link to your persona page at Panoptikum as the URL is stable.
 The persona could become your business card as a podcaster.
 

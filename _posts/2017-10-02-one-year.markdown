@@ -5,7 +5,7 @@ date:   2017-10-02 06:00:00 +0200
 author: Sonja
 ---
 
-Exactly one year ago started the Panoptikum blog with the word [Welcome](https://blog.panoptikum.io/2016/10/02/beginn.html#751a331d).
+Exactly one year ago started the Panoptikum blog with the word [Welcome](https://blog.panoptikum.social/2016/10/02/beginn.html#751a331d).
 
 Since then 49 posts kept you informed what happened within and around Panoptikum. Thanks to all our readers and for the feedback and encouragement the project received the last twelve months.
 
@@ -15,4 +15,4 @@ Now it's time for your comments again. The Panoptikum project is published via [
 
 What do you think is important? Which ideas need more description for your evaluation? Did we miss something really basic?
 
-Send your thoughts to <sonja@panoptikum.io> or start a discussion on the Panoptikum page under this post.
+Send your thoughts to <sonja@panoptikum.social> or start a discussion on the Panoptikum page under this post.

@@ -5,9 +5,9 @@ date:   2017-02-12 15:00:00 +0200
 author: Sonja
 ---
 
-Have you tried the search function of Panoptikum.io?
+Have you tried the search function of Panoptikum.social?
 
-One of the important functions of every website that provides information is the search function. Panoptikum.io offers a full text search and shows the results for podcasts, episodes, users and persons.
+One of the important functions of every website that provides information is the search function. Panoptikum.social offers a full text search and shows the results for podcasts, episodes, users and persons.
 
 This week changes brought also some improvements of the layout.
 

@@ -53,7 +53,7 @@ Basis Functionality for Podcasters
 ## Additonal Information
 
 Please send all your questions, that could not be answered within the manuals to
-<sonja@panoptikum.io>.
+<sonja@panoptikum.social>.
 
 The project language of Panoptikum is English. But feel free to write in
 English, French or German.

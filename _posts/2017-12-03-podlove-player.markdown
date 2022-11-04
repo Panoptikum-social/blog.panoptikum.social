@@ -36,7 +36,7 @@ You can increase or descrese the speed and adjust the volume
 
 ![Audio](/img/podlove-audio.png){:class="img-responsive"}
 
-Try it out and please send us feedback (<sonja@panoptikum.io>).
+Try it out and please send us feedback (<sonja@panoptikum.social>).
 * What do you think about the change?
 * Is it an improvement or was it a move in the wrong direction?
 * What do you miss?

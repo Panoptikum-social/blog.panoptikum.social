@@ -9,8 +9,8 @@ permalink: privacy/
 We process your data only according to law regulations (DSGVO, TKG2003). In this privacy policy we
 inform you about the most important aspects of data processisng within our website.
 
-Panoptikum.io tries to store as much data as necessary and as little data as possible about you.
-All the data collected is required to offer the service. Panoptikum.io does not intend to collect
+Panoptikum.social tries to store as much data as necessary and as little data as possible about you.
+All the data collected is required to offer the service. Panoptikum.social does not intend to collect
 demographic data or to identify single persons.
 
 ## Communication with Us
@@ -40,7 +40,7 @@ No data is transfered to any third parties.
 
 ## Cookies
 
-This documentation website blog.panoptikum.io uses no cookies
+This documentation website blog.panoptikum.social uses no cookies
 
 Panoptikum uses a cookie to identify your session. It is called `_pan_key` and signed to be prevented
 from tampering. It contains the session, mostly a CSRF token and your `user_id`, in case you are
@@ -65,9 +65,9 @@ any user name as long as it has not been taken yet within Panoptikum.
 
 ## Collected Data
 
-Beside the information provided during registration, Panoptikum.io uses your uploaded subscription
-list (OPML file) to add podcasts to the Panoptikum.io podcast list. It stores and publishes that
-you are a subscriber of the podcast. Panoptikum.io stores and pulishes your reviews, comments and
+Beside the information provided during registration, Panoptikum.social uses your uploaded subscription
+list (OPML file) to add podcasts to the Panoptikum.social podcast list. It stores and publishes that
+you are a subscriber of the podcast. Panoptikum.social stores and pulishes your reviews, comments and
 likes.
 
 ## Data access self service
@@ -99,4 +99,4 @@ Vorgartenstrasse 145/2/3
 
 {% icon fa-phone %} +43 680 213 3030
 
-{% icon fa-envelope %} <stefan@panoptikum.io>
+{% icon fa-envelope %} <stefan@panoptikum.social>

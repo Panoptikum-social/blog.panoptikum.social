@@ -5,7 +5,7 @@ date:   2018-01-07 12:00:00 +0200
 author: Sonja
 ---
 
-Thank you for several [recommendations](https://panoptikum.io/recommendations) last year and the first recommendation of 2018.
+Thank you for several [recommendations](https://panoptikum.social/recommendations) last year and the first recommendation of 2018.
 
 Panoptikum has currently 232 registered users and those users have written 122
 recommendations and gave 1 530 likes. It is clear, that likes are less effort

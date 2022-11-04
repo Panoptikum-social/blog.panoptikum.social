@@ -11,6 +11,6 @@ The Easterhegg 2017 opens April 14th in Mühlheim am Main. Easterhegg is an annu
 
 The SHA2017, a non profit outdoor Hacker camp/conference, takes places in Zeewolde, 55km east of Amsterdam from August 4th until 11th. Tickets are still available and we would also like to meet you there.
 
-For both occasions send me an email <sonja@panoptikum.io> so that we can arrange a meeting. You can also identifiy us (at least under 20 degrees Celsius) via our Panoptikum Hoodies :-)
+For both occasions send me an email <sonja@panoptikum.social> so that we can arrange a meeting. You can also identifiy us (at least under 20 degrees Celsius) via our Panoptikum Hoodies :-)
 
 ![Hoodie](/img/hoodieside.jpg){:class="img-responsive"}

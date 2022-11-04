@@ -5,7 +5,7 @@ date:   2016-11-20 09:00:00 +0200
 author: Sonja
 ---
 
-Panoptikum.io now offers its first social network functionalities.
+Panoptikum.social now offers its first social network functionalities.
 
 Podcasts, Categories und Episodes can be liked. Categories and Podcasts can be followed. These are the manual basics, before the automatic recommendation algorithm. After your login you see additional buttons.
 
@@ -26,4 +26,4 @@ At the episode level
 
 Another great new feature ist the full text search. Amazing (for me as user) it works and is really fast.
 
-[Try it out](https://panoptikum.io)
+[Try it out](https://panoptikum.social)

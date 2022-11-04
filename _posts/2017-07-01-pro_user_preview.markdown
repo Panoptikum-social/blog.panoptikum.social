@@ -38,7 +38,7 @@ With **Edit persona** the information can be changed
 ![Edit persona - default](/img/edit-persona1.png){:class="img-responsive"}
 
 I change
-* PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.io/waldgruber
+* PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.social/waldgruber
 * Image url: I insert the link to my picture in the internet (I used a picture from my homepage to have it under control, but you can use any picture)
 * Image title: This is the alternative text for the picture.
 * Description header
@@ -46,7 +46,7 @@ I change
 
 ![Edit persona - changed](/img/edit-persona2.png){:class="img-responsive"}
 
-After the **Submit** the persona can be reached via https://panoptikum.io/waldgruber and looks like this
+After the **Submit** the persona can be reached via https://panoptikum.social/waldgruber and looks like this
 
 ![Persona - changes submitted](/img/persona-waldgruber.png){:class="img-responsive"}
 

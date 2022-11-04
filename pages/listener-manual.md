@@ -10,7 +10,7 @@ permalink: listener-manual/
 # Listener Manual
 
 This manual describes the use of Panoptikum from the listener perspective.
-Panoptikum.io offers basic functionality plus additional functionality for
+Panoptikum.social offers basic functionality plus additional functionality for
 registered users.
 
 Basic functionality for listeners
@@ -107,14 +107,14 @@ listen to it any more. There are just too many good podcasts out there :-)
 In the header of the start page several symbols and a search field are
 displayed.
 
-[Categories](https://panoptikum.io/categories): A podcast can be
+[Categories](https://panoptikum.social/categories): A podcast can be
 assigned to categories. Based on this information Panoptikum shows
 which listed podcasts are available in each category. There are top
 level categories and subcategories. With a click on a category you
 reach the Panoptikum page for this category and see the subcategories
 and all the listed podcasts (sorted by language) within this category.
 
-[Random](https://panoptikum.io/recommendations/random): Panoptikum
+[Random](https://panoptikum.social/recommendations/random): Panoptikum
 offers many structured ways to discover new podcasts. You can use
 recommendations, latest podcasts, latest episodes, top subscribed,
 top liked and the category tree. With random you discover a new
@@ -124,7 +124,7 @@ of the podcasts listed in Panoptikum is presented with an episode.
 Search: Just enter one or more terms in the search field and
 Panoptikum will show you all results in podcasts, episodes and
 personas ordered by relevance.
-[Example](https://panoptikum.io/search?search[searchstring]=Stefan&page=1)
+[Example](https://panoptikum.social/search?search[searchstring]=Stefan&page=1)
 
 
 ### Listen to Episode
@@ -150,13 +150,13 @@ the volume
 ### Statistics
 
 Panoptikum offers a great overview with its
-[categories](https://panoptikum.io/categories) page. For those among
+[categories](https://panoptikum.social/categories) page. For those among
 us who just love figures and want to know exactly how many podcasts
 are in one categorie there are the hidden statistics. Try it out
-[https://panoptikum.io/categories/stats](https://panoptikum.io/categories/stats).
+[https://panoptikum.social/categories/stats](https://panoptikum.social/categories/stats).
 The number of podcasts per category are added to the update view of
 the categories page. It also works within the category. For example within
-[https://panoptikum.io/categories/13/stats](https://panoptikum.io/categories/13/stats)
+[https://panoptikum.social/categories/13/stats](https://panoptikum.social/categories/13/stats)
 you can see how many podcasts are available per language. As the
 podcasts have to be counted on the fly, building this page takes a
 little more time. Please be patient!
@@ -174,7 +174,7 @@ Panoptikum offers additional functionality after the log in:
 ### Sign up
 
 In the header of all non-documentation pages you find a symbol to log
-in. You can [Sign Up](https://panoptikum.io/users/new) on the log in
+in. You can [Sign Up](https://panoptikum.social/users/new) on the log in
 page and become a registered user.
 
 You are asked for an email address (required for password recovery),
@@ -193,7 +193,7 @@ stores and publishes your reviews, comments and likes.
 ## Additional Functionality After Log In
 
 In the header of all non-documentation pages you find a symbol for
-[Log In](https://panoptikum.io/sessions/new). After log in you see your
+[Log In](https://panoptikum.social/sessions/new). After log in you see your
 user name in the header of the non-documentation pages. A click on
 your user name (in the example below the user name is sonja)
 offers a sub menu with the following functionalities:

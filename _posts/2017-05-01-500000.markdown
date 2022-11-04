@@ -9,6 +9,6 @@ This week Panoptikum reached the number of 500000 podcast episodes.
 
 All of them are listed with their show notes and additional information, e.g. the podcast itself. With these high figures addional orientation help was needed and added this week: Podcasts are now ordered by language in the category show views.
 
-Check it out with the category [History](https://panoptikum.io/categories/24) or try the category [Language Courses](https://panoptikum.io/categories/54) and select your language of choice.
+Check it out with the category [History](https://panoptikum.social/categories/24) or try the category [Language Courses](https://panoptikum.social/categories/54) and select your language of choice.
 
 I hope the next Panoptikum feature will bring 25 hours days, so that I can listen to my podcasts backlog :-) In the last weeks I have discoverd some great new podcasts and I'm looking forward to listening ...

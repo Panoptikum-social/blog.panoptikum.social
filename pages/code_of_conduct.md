@@ -105,5 +105,5 @@ under the same license.
 
 ### Contact persons
 
-* Stefan Haslinger <stefan@panoptikum.io>
-* Sonja Waldgruber <sonja@panoptikum.io>
+* Stefan Haslinger <stefan@panoptikum.social>
+* Sonja Waldgruber <sonja@panoptikum.social>

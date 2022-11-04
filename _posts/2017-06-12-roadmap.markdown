@@ -7,7 +7,7 @@ author: Sonja
 
 Check out the Panoptikum [roadmap](https://github.com/PanoptikumIO/pan/projects/2) at GitHub!
 
-The Panoptikum [roadmap]((https://github.com/PanoptikumIO/pan/projects/2)) is now published at the [project site](https://github.com/PanoptikumIO/pan) at GitHub. After several months with only an "internal" roadmap, it is now open for everybody. Check it out and send your feedback to <sonja@panoptikum.io>.
+The Panoptikum [roadmap]((https://github.com/PanoptikumIO/pan/projects/2)) is now published at the [project site](https://github.com/PanoptikumIO/pan) at GitHub. After several months with only an "internal" roadmap, it is now open for everybody. Check it out and send your feedback to <sonja@panoptikum.social>.
 
 * What's your opinion?
 * What's missing or has the wrong priority?

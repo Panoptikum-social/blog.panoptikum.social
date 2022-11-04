@@ -13,9 +13,9 @@ The last weeks brought several improvements
 
 * Panoptikum stops to check for updates of a Podcast after 10 failed attempts.
 * The persona of a podcaster is created automatically.
-* The new podcast show view puts more focus on the episode contributors. [Check it out](https://panoptikum.io/podcasts/23963)
+* The new podcast show view puts more focus on the episode contributors. [Check it out](https://panoptikum.social/podcasts/23963)
 * Stefan updated the category Frauenstimmen. It includes now 557 podcasts.
-* Find personas faster with the new search on the [personas page](https://panoptikum.io/personas). The search results are updated while you enter your search string. Often you don't need to enter your complete search string as you reach 1 entry earlier. Let's say you want to find "Waldgruber":
+* Find personas faster with the new search on the [personas page](https://panoptikum.social/personas). The search results are updated while you enter your search string. Often you don't need to enter your complete search string as you reach 1 entry earlier. Let's say you want to find "Waldgruber":
   * all personas 61,037 entries
   * "W" 11,928 entries (filtered from 61,037 total entries)
   * "Wa" 2,379 entries (filtered from 61,037 total entries)

@@ -16,11 +16,11 @@ Soundcloud durch föderierte, von der Community oder selbst gehostete Dienste
 ---
 # Vorstellung
 
-Stefan: https://panoptikum.io/informatom
+Stefan: https://panoptikum.social/informatom
 
 ![qr-code stefan](/img/sub9/barcode.png)
 
-Slides: https://blog.panoptikum.io/pw18/ https://blog.panoptikum.io/talks/pw18.pdf
+Slides: https://blog.panoptikum.social/pw18/ https://blog.panoptikum.social/talks/pw18.pdf
 
 ![qr-code slides](/img/pw18/qr.png)
 
@@ -228,8 +228,8 @@ class: center, middle
 
 * -> Accounts anyone?
 * have fun!
-* Webinterface unter https://pleroma.panoptikum.io
-* Mastodon FE Interface unter https://pleroma.panoptikum.io/web
+* Webinterface unter https://pleroma.panoptikum.social
+* Mastodon FE Interface unter https://pleroma.panoptikum.social/web
 * Verbindung mit allen Mastodon-Clients sollte funktionieren.
   * Android: Mastalab
 ---
@@ -248,7 +248,7 @@ class: center, middle
 ---
 
 * konkrete Beispiele sind gut!
-* [Panoptikum.io](https://www.panoptikum.io) - Podcast Verzeichnis
+* [Panoptikum.social](https://www.panoptikum.social) - Podcast Verzeichnis
 * Einbetten eines Widgets der letzten Toots für einen Account
 * minimalistisch, ergibt aber noch Sinn
 ---
@@ -258,7 +258,7 @@ background-image: url(/img/pw18/fediverse-widget.png)
 
 # Entwicklungsschritte 1
 
-* einziger Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.io
+* einziger Parameter ist Adresse, z.B.: @informatom@pleroma.panoptikum.social
 * Von der Adresse muss auf öffentliches Profil geschlossen werden<br />
   (etwa durch Webfinger, wir "erraten hier" der richtigen Pfad)
 * Aus öffentlichem Profil wird die Adresse der Outbox bezogen
@@ -333,14 +333,14 @@ im Anhang gibt's, für alle, die weiter machen wollen:
 
 # Fragen?
 
-Diese Presentation ist online: [https://blog.panoptikum.io/pw18](https://blog.panoptikum.io/pw18)
+Diese Presentation ist online: [https://blog.panoptikum.social/pw18](https://blog.panoptikum.social/pw18)
 
 ![qr-code](/img/pw18/qr.png)
 
 * Stefan:
-  * <stefan@panoptikum.io>
+  * <stefan@panoptikum.social>
   * [@informatom](https://www.twitter.com/informatom)
-  * [@informatom@pleroma.panoptikum.io](https://pleroma.panoptikum.io/users/informatom)
+  * [@informatom@pleroma.panoptikum.social](https://pleroma.panoptikum.social/users/informatom)
 ---
 class: center, middle
 # Anhang
@@ -371,9 +371,9 @@ class: center, middle
 # JSON - Response 2
 
 ``` json
-"actor": "https://pleroma.panoptikum.io/users/informatom",
+"actor": "https://pleroma.panoptikum.social/users/informatom",
 "attachment": [],
-"attributedTo": "https://pleroma.panoptikum.io/users/informatom",
+"attributedTo": "https://pleroma.panoptikum.social/users/informatom",
 "cc": [
     "https://www.w3.org/ns/activitystreams#Public"
 ],
@@ -383,7 +383,7 @@ class: center, middle
 "context_id": 63603,
 "conversation": "tag:mastodon.social,2018-10-13:
                  objectId=59079113:objectType=Conversation",
-"id": "https://pleroma.panoptikum.io/activities/
+"id": "https://pleroma.panoptikum.social/activities/
        13a89a6b-fc73-4045-9f06-8e8858859869",
 ```
 ---
@@ -403,7 +403,7 @@ class: center, middle
     }
 ],
 "to": [
-    "https://pleroma.panoptikum.io/users/informatom/followers",
+    "https://pleroma.panoptikum.social/users/informatom/followers",
     "https://mastodon.social/users/DavitMasia"
 ],
 "type": "Announce"
@@ -417,7 +417,7 @@ Pretty print json for user profile:
 
 ``` bash
 curl -H "Accept: application/activity+json"
-        https://pleroma.panoptikum.io/users/informatom
+        https://pleroma.panoptikum.social/users/informatom
 | python -m json.tool`
 ```
 ---

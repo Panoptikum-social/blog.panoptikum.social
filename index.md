@@ -7,7 +7,7 @@ author: Stefan
 # {{ site.title }}
 
 Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and
-I am the creator and lead developer of Panoptikum.io.
+I am the creator and lead developer of Panoptikum.social.
 
 Panoptikum, the project this very site has been created for, aims to be three things
 * a site for easy and pleasant discovery for new podcasts
@@ -53,11 +53,11 @@ on the site.
 * For you as a podcast listener: it's a chance to share your opinions and
   recommendations and get other listener's opinions, thoughts and recommendations.
 
-## Will Panoptikum.io always be free?
+## Will Panoptikum.social always be free?
 
 Yes and no.
 
-All the software, that has been written and will be written for Panoptikum.io is
+All the software, that has been written and will be written for Panoptikum.social is
 free and open source software and is licensed under the AGPL license.
 
 * For podcast listeners, access to the full functionality of the site will be
@@ -81,29 +81,29 @@ It's definetely not the plan to make huge amounts of money with this site. Some 
 
 ### ... as a podcast listener
 
-To build the Panoptikum community two things are needed: users and the list of their podcast subscriptions. Most podcatchers (= podcast listening apps) can export this list in OPML format. We would be very happy, if you [register](https://panoptikum.io/users/new) and upload your OPML file. If you have questions before registration contact <sonja@panoptikum.io>.
+To build the Panoptikum community two things are needed: users and the list of their podcast subscriptions. Most podcatchers (= podcast listening apps) can export this list in OPML format. We would be very happy, if you [register](https://panoptikum.social/users/new) and upload your OPML file. If you have questions before registration contact <sonja@panoptikum.social>.
 
 ### ... as a podcaster
 
-Check out if you find your podcast and yourself as a [podcaster](https://panoptikum.io/personas). If none of your listeners have uploaded their OPML file including your podcast or your podcast is brand new, you can add your podcast to Panoptikum via the upload of any OPML file including your podcast feed.
+Check out if you find your podcast and yourself as a [podcaster](https://panoptikum.social/personas). If none of your listeners have uploaded their OPML file including your podcast or your podcast is brand new, you can add your podcast to Panoptikum via the upload of any OPML file including your podcast feed.
 
-Your next step is the [registration](https://panoptikum.io/users/new). After the [Login](https://panoptikum.io/sessions/new) you can upload your OPML file including your podcast, configure your account and select (opt-in) what you want to share with the community.
+Your next step is the [registration](https://panoptikum.social/users/new). After the [Login](https://panoptikum.social/sessions/new) you can upload your OPML file including your podcast, configure your account and select (opt-in) what you want to share with the community.
 
 Spread the word. Ask your listeners to upload their OPML file and leave recommendations for your podcast at Panoptikum. This improves the ranking of your podcast at Panoptikum which is based on all uploaded OPML files and helps Panoptikum to get known.
 
-We are also interested in your feedback, especially which features you miss at other podcasting platforms and you would like to see here. Feel free to send these comments to <sonja@panoptikum.io>.
+We are also interested in your feedback, especially which features you miss at other podcasting platforms and you would like to see here. Feel free to send these comments to <sonja@panoptikum.social>.
 
 ### ... as a developer
 
 If you are a web developer, interested in this project, and in coding in Elixir and Phoenix, get in touch via Twitter [@panoptikumIO](https://twitter.com/panoptikumio),
-Email: <stefan@panoptikum.io> or visit our [Github page](https://github.com/panoptikumio).
+Email: <stefan@panoptikum.social> or visit our [Github page](https://github.com/panoptikumio).
 
-There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.io) for this marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)), but more important the Panoptikum web application itself in the [Panrepository](https://github.com/PanoptikumIO/pan). Panoptikum is [free and open source](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) software.
+There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.social) for this marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)), but more important the Panoptikum web application itself in the [Panrepository](https://github.com/PanoptikumIO/pan). Panoptikum is [free and open source](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) software.
 
 If, by coincidence, you are located close to Vienna, Austria, there is an Elixir & Phoenix study group. See [Vienna BEAMers](/vienna-beamers) for details.
 
 # The Team
 
 * Ramon - bot developer
-* Sonja - community manager, marketing <sonja@panoptikum.io>
-* Stefan - creator, lead developer <stefan@panoptikum.io>
+* Sonja - community manager, marketing <sonja@panoptikum.social>
+* Stefan - creator, lead developer <stefan@panoptikum.social>

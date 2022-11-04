@@ -7,7 +7,7 @@ author: Stefan
 ---
 
 Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and I am the creator
-and lead developer of Panoptikum.io.
+and lead developer of Panoptikum.social.
 Panoptikum, the project this very site has been created for, aims to be a site for
 easy and pleasant discovery for new podcasts, as well as a site for communication with other
 podcast listeners and podcasters.
@@ -47,11 +47,11 @@ It would be also nice to have a quick chat to other users, that are currently on
 * For you as a podcast listener: it's a chance to share your opinions and recommendations and
   get other listener's opinions, thoughts and recommendations.
 
-## Will Panoptikum.io always be free?
+## Will Panoptikum.social always be free?
 
 Yes and no.
 
-All the software, that has been written and will be written for Panoptikum.io is free and open
+All the software, that has been written and will be written for Panoptikum.social is free and open
 source software and is licensed under the AGPL license.
 
 For podcast listeners, access to the full functionality of the site will be free forever.
@@ -83,7 +83,7 @@ something usefull and interesting in late 2016.
 ## Cannot stand waiting any longer?
 
 Ok, are you ready? &nbsp;
-<a href="https://panoptikum.io" class="btn btn-normal btn-lg">
+<a href="https://panoptikum.social" class="btn btn-normal btn-lg">
   Give it a try!
 </a>
 
@@ -97,14 +97,14 @@ Definitely.
 Parsing podcast feeds and building the network of podcast listeners are the first major development
 efforts. So we need lists of podcasts, podcast listeners have subscribed to.
 Most podcatchers (= podcast listening apps) can export this list in opml format.
-We would be very happy, if you could send your list to <sonja@panoptikum.io>.
+We would be very happy, if you could send your list to <sonja@panoptikum.social>.
 If your Podcatcher can't export opml or if you don't use one, a text file with a simple list of
 the URLs of your podcast feeds or even just the podcast sites would be fine, too.
 You will get early bird access to the site in October 2016 in compensation for your efforts.
 
 ### ... as a podcaster
 
-You could send me a list of your podcast feeds at <sonja@panoptikum.io> and you will get early
+You could send me a list of your podcast feeds at <sonja@panoptikum.social> and you will get early
 bird access to the site in October 2016 in compensation for your efforts.
 We are also interested in your opinions in the ideas presented above, especially which features
 you miss at other podcasting platforms and you would like to see here.
@@ -114,8 +114,8 @@ Feel free to send this comments via email or post them in the comment section be
 
 If you are a web developer, interested in this project, and also interesting in coding in Elixir
 and Phoenix, get in touch via Twitter [@panoptikumIO](https://twitter.com/panoptikumio),
-Email: <stefan@panoptikum.io> or visit our [Github page](https://github.com/panoptikumio).
-There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.io) for this
+Email: <stefan@panoptikum.social> or visit our [Github page](https://github.com/panoptikumio).
+There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.social) for this
 marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)),
 but more important the panoptikum web application itself in the
 [Pan repository](https://github.com/PanoptikumIO/pan).
@@ -129,9 +129,9 @@ study group. See [Vienna BEAMers](/vienna-beamers) for details.
 
 We are interested in your feedback!
 Also if you want to contribute to Panoptikum in any other way not described above,
-comment below or send your message to <sonja@panoptikum.io>.
+comment below or send your message to <sonja@panoptikum.social>.
 
 # The Team
 
-* Sonja: <sonja@panoptikum.io> - community manager, marketing
-* Stefan: <stefan@panoptikum.io> - creator, lead developer
+* Sonja: <sonja@panoptikum.social> - community manager, marketing
+* Stefan: <stefan@panoptikum.social> - creator, lead developer

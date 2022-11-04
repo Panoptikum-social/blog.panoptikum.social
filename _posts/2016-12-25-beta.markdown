@@ -8,8 +8,8 @@ author: Sonja
 As promised beta will be online tomorrow, just in time for the 33C3.
 
 To prepare for the wider audience some issues that should help us keep the project clear were implemented:
-* Each recommendation panel now includes the link to our [complaints page](https://blog.panoptikum.io/complaints/) in the right corner. So if you want to report an offending recommendation please follow the instructions.
-* The [Privacy Policy](https://blog.panoptikum.io/privacy/) was added and can be reached via the link in the footer. Future users also see the link during the [registration](https://panoptikum.io/users/new) process.
+* Each recommendation panel now includes the link to our [complaints page](https://blog.panoptikum.social/complaints/) in the right corner. So if you want to report an offending recommendation please follow the instructions.
+* The [Privacy Policy](https://blog.panoptikum.social/privacy/) was added and can be reached via the link in the footer. Future users also see the link during the [registration](https://panoptikum.social/users/new) process.
 
 Further improvements of the last week:
 * All registered users, that sent an OPML file before registration via email, can now see this file listed with the date of the email under "My OPML"
@@ -20,7 +20,7 @@ Further improvements of the last week:
 * Last recommendation teaser on Alpha home page and long version on podcast show page
 * Three new community driven categories: Museum Podcasts, Podcasterei (Austrian podcasting meetup) and Science Podcasts
 
-Attendees of the 33C3: Stefan prepared a [ligthning talk](https://blog.panoptikum.io/33c3). Watch out for him (the guy with the Panoptikum.io hoodie) and get stickers!
+Attendees of the 33C3: Stefan prepared a [ligthning talk](https://blog.panoptikum.social/33c3). Watch out for him (the guy with the Panoptikum.social hoodie) and get stickers!
 
 Some numbers to finish this year proudly
 * 77 Categories

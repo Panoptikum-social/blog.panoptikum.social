@@ -7,7 +7,7 @@ author: Sonja
 
 One of the great features is the subscription of a podcast via QR-code.
 
-As a non iTunes user I often have problems to find the rss-feed to subscribe a podcast. The feed is often really good hidden on the homepage of the podcast. With the QR-code that Panoptikum.io shows for each podcast, I can subscribe with my smartphone in just a few steps:
+As a non iTunes user I often have problems to find the rss-feed to subscribe a podcast. The feed is often really good hidden on the homepage of the podcast. With the QR-code that Panoptikum.social shows for each podcast, I can subscribe with my smartphone in just a few steps:
 * scan the code with the smartphone
 * touch Abonnieren on the smartphone
 * the next screen shows the logo, the title and a short description of the podcast
@@ -16,7 +16,7 @@ As a non iTunes user I often have problems to find the rss-feed to subscribe a p
 * continue within your podcatcher
 
 I really love that feature! No searching for the feed on unknown websites and no typing of the url (which often needs several attempts due to typos).
-[Try it out](https://panoptikum.io) - this feature is up- and running! No registration required! The only limitation is the limited number (464) of podcasts available at the moment.
+[Try it out](https://panoptikum.social) - this feature is up- and running! No registration required! The only limitation is the limited number (464) of podcasts available at the moment.
 
 ![QR-Code](/img/qrcode.jpg){:class="img-responsive"}
 
@@ -28,4 +28,4 @@ I selected gPodder and after a confirmation that Panoptium.io is allowed to open
 
 ![gpodder](/img/gpodder.jpg){:class="img-responsive"}
 
-[Try it out](https://panoptikum.io)
+[Try it out](https://panoptikum.social)

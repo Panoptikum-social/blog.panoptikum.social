@@ -15,4 +15,4 @@ Some minor details of Panoptikum needed improvement and this week came their tim
 * And the charts (Top 10 subscribed Podcasts, Top 5 liked Podcasts) now offer their results ex aequo.
 ![Charts](/img/charts.png){:class="img-responsive"}
 
-Please report further details that you discover that need improvements. Mail to <sonja@panoptikum.io> or leave a comment under this post.
+Please report further details that you discover that need improvements. Mail to <sonja@panoptikum.social> or leave a comment under this post.

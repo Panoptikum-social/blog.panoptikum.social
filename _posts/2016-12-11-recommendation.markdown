@@ -8,7 +8,7 @@ author: Sonja
 Login to see proposals based on subscribed podcasts and likes.
 
 At last one of the core features (in my humble opinion) arrived.
-Panoptikum.io shows two brand new lists:
+Panoptikum.social shows two brand new lists:
 * Listeners of the podcasts you listen to, also listen to
 * Users, who like the same podcasts as you, also like
 
@@ -20,7 +20,7 @@ For those who want good old personal recommendations, is it possible to write re
 
 ![recommendation](/img/recommendation.jpg){:class="img-responsive"}
 
-[Register Now](https://panoptikum.io/users/new) or [Login](https://panoptikum.io/sessions/new) with the [password recovery function](https://panoptikum.io/forgot_password), if you have already submitted your OPML-file to the project.
+[Register Now](https://panoptikum.social/users/new) or [Login](https://panoptikum.social/sessions/new) with the [password recovery function](https://panoptikum.social/forgot_password), if you have already submitted your OPML-file to the project.
 
 Last but not least let me present the Panoptikum community manager in the Panoptikum Hoodie:
 

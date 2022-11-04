@@ -16,9 +16,9 @@ Users with a Pro Account can claim personas and have access to the following fun
 
 ### Persona Page URL
 
-The automatically generated persona page has an URL that ends with a PID. A random example [https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.io/9e113027-16d7-5534-a6d5-1711c00e822c). I find this rather difficult to remember.
+The automatically generated persona page has an URL that ends with a PID. A random example [https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c). I find this rather difficult to remember.
 
-So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable. Another random example [https://panoptikum.io/waldgruber](https://panoptikum.io/waldgruber). I guess you get the point :-)
+So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable. Another random example [https://panoptikum.social/waldgruber](https://panoptikum.social/waldgruber). I guess you get the point :-)
 
 ### Persona Page Content
 
@@ -41,7 +41,7 @@ The possibilty to edit the presented information on the persona page helps to ov
 * Delegation: A delegation lets the gigs (i.e. contributions to episodes) and engagements (i.e. contributions to podcasts) of the persona also appear on the profile page of the target persona.
 * Redirection: The redirection redirects the persona profile page to the profile page of the target persona.
 
-For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.io/2017/01/29/user-self-service.html#04b2080f).
+For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.social/2017/01/29/user-self-service.html#04b2080f).
 
 
 ### Free Trial
@@ -57,7 +57,7 @@ Why?
 
 Login and you find the "Start your free trial" Button under your profile.
 
-[Login](https://panoptikum.io/sessions/new)
+[Login](https://panoptikum.social/sessions/new)
 
 
 ### Cost
@@ -69,6 +69,6 @@ Your way to the paid account is the 30 days free Pro Account. You get the paymen
 
 ### Further Questions?
 
-Check out the blog post [Pro User Preview](https://blog.panoptikum.io/2017/07/01/pro_user_preview.html#d0c08e0a) - it shows the steps to update your persona step-by-step.
+Check out the blog post [Pro User Preview](https://blog.panoptikum.social/2017/07/01/pro_user_preview.html#d0c08e0a) - it shows the steps to update your persona step-by-step.
 
-Please send all your remaining questions regarding the pro user to <sonja@panoptikum.io>. After several months with Panoptikum I sometimes miss the obvious.
+Please send all your remaining questions regarding the pro user to <sonja@panoptikum.social>. After several months with Panoptikum I sometimes miss the obvious.

@@ -5,7 +5,7 @@ date:   2017-08-14 06:00:00 +0200
 author: Sonja
 ---
 
-Two thirds of the Panoptium core team were at the hacker camp [SHA2017](https://sha2017.org/) in Zeewolde in the Netherlands and at [Podstock.de](https://panoptikum.io/podcasts/15527) in Sohrschied in Germany.
+Two thirds of the Panoptium core team were at the hacker camp [SHA2017](https://sha2017.org/) in Zeewolde in the Netherlands and at [Podstock.de](https://panoptikum.social/podcasts/15527) in Sohrschied in Germany.
 
 Stefan could gather a lot of input and feedback for Panoptikum.
 

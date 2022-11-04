@@ -35,6 +35,6 @@ Currently we have stored the following billing address:
 
 ### Further Questions?
 
-Please send all your remaining questions regarding the Pro Account and payment to <sonja@panoptikum.io>.
+Please send all your remaining questions regarding the Pro Account and payment to <sonja@panoptikum.social>.
 
 Do not hesitate to ask, after several months with Panoptikum I sometimes miss the obvious.

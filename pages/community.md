@@ -8,7 +8,7 @@ permalink: community/
 
 ## Introduction
 
-My name is Sonja and I am a podcast listener since 2005. As my interests changed my feed list changed as well, but a constant is that each new podcast I suscribed to in the past was a personal recommendation. That's why I think the idea of Panoptikum is great - it could widen the circle of recommendations for me based on my current subscription list. I support this project with my time in the role of a communty manager. So if you have any questions, don't hesitate to contact me via <sonja@panoptikum.io>.
+My name is Sonja and I am a podcast listener since 2005. As my interests changed my feed list changed as well, but a constant is that each new podcast I suscribed to in the past was a personal recommendation. That's why I think the idea of Panoptikum is great - it could widen the circle of recommendations for me based on my current subscription list. I support this project with my time in the role of a communty manager. So if you have any questions, don't hesitate to contact me via <sonja@panoptikum.social>.
 
 ## First Asked Questions
 
@@ -36,4 +36,4 @@ A: Your podcast catcher (for example gPodder) can export the list of your podcas
 
 ## Languages
 
-The project language of Panoptikum is English. But feel free to send questions and comments in one of the following languages to <sonja@panoptikum.io>: English, French and German.
+The project language of Panoptikum is English. But feel free to send questions and comments in one of the following languages to <sonja@panoptikum.social>: English, French and German.
