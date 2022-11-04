@@ -8,10 +8,12 @@ author: Sonja
 As promised beta will be online tomorrow, just in time for the 33C3.
 
 To prepare for the wider audience some issues that should help us keep the project clear were implemented:
+
 * Each recommendation panel now includes the link to our [complaints page](https://blog.panoptikum.social/complaints/) in the right corner. So if you want to report an offending recommendation please follow the instructions.
 * The [Privacy Policy](https://blog.panoptikum.social/privacy/) was added and can be reached via the link in the footer. Future users also see the link during the [registration](https://panoptikum.social/users/new) process.
 
 Further improvements of the last week:
+
 * All registered users, that sent an OPML file before registration via email, can now see this file listed with the date of the email under "My OPML"
 * Improved layout of "My Recommendations" and the character counter actually works now for every field ;-) ![My Recommendations](/img/recommendation_text.jpg){:class="img-responsive"}
 * Alphabetic ordering of all three podcast lists in "My Podcasts"
@@ -23,6 +25,7 @@ Further improvements of the last week:
 Attendees of the 33C3: Stefan prepared a [ligthning talk](https://blog.panoptikum.social/33c3). Watch out for him (the guy with the Panoptikum.social hoodie) and get stickers!
 
 Some numbers to finish this year proudly
+
 * 77 Categories
 * 638 Podcasts
 * 50226 Episodes

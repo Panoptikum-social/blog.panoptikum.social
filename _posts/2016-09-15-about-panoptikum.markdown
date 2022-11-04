@@ -87,7 +87,6 @@ Ok, are you ready? &nbsp;
   Give it a try!
 </a>
 
-
 ## Can I contribute?
 
 Definitely.
@@ -131,7 +130,7 @@ We are interested in your feedback!
 Also if you want to contribute to Panoptikum in any other way not described above,
 comment below or send your message to <sonja@panoptikum.social>.
 
-# The Team
+## The Team
 
 * Sonja: <sonja@panoptikum.social> - community manager, marketing
 * Stefan: <stefan@panoptikum.social> - creator, lead developer

@@ -8,6 +8,7 @@ author: Sonja
 One of the great features is the subscription of a podcast via QR-code.
 
 As a non iTunes user I often have problems to find the rss-feed to subscribe a podcast. The feed is often really good hidden on the homepage of the podcast. With the QR-code that Panoptikum.social shows for each podcast, I can subscribe with my smartphone in just a few steps:
+
 * scan the code with the smartphone
 * touch Abonnieren on the smartphone
 * the next screen shows the logo, the title and a short description of the podcast

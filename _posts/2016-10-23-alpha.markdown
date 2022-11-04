@@ -8,6 +8,7 @@ author: Sonja
 The Panoptikum.social [alpha version](https://panoptikum.social) includes basic functionality.
 
 The features are:
+
 * Category tree with podcasts
 * Podcasts with episodes
 * Data available (from 2016-10-13)

@@ -25,6 +25,7 @@ Panoptikum.social is still in the alpha phase and although additional functional
 Please send immediate feedback that you just must tell us NOW to <sonja@panoptikum.social>.
 
 Last but not least further new functionalities with this week:
+
 * Liking of chapters
 * The categories in which a podcast falls are now listed in the Podcast page.
 * Liking and following of users
