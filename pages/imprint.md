@@ -32,5 +32,4 @@ This work is licensed under a
 
 ## Hosting
 
-Panoptikum.social is hosted by  
-["https://www.informatom.com"](Informatom EDV-Dienstleistungen e.U.)
+Panoptikum.social is hosted by [Informatom EDV-Dienstleistungen e.U.](https://www.informatom.com)

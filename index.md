@@ -10,6 +10,7 @@ Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and
 I am the creator and lead developer of Panoptikum.social.
 
 Panoptikum, the project this very site has been created for, aims to be three things
+
 * a site for easy and pleasant discovery for new podcasts
 * the number one site for podcasters hosting their podcsting timeline and profile
 * a network for communication with other podcast listeners and podcasters
@@ -102,7 +103,7 @@ There you will find the [source code](https://github.com/PanoptikumIO/panoptikum
 
 If, by coincidence, you are located close to Vienna, Austria, there is an Elixir & Phoenix study group. See [Vienna BEAMers](/vienna-beamers) for details.
 
-# The Team
+## The Team
 
 * Ramon - bot developer
 * Sonja - community manager, marketing <sonja@panoptikum.social>
