@@ -15,7 +15,7 @@ complain.
 ### Howto
 
 Actually, it's quite easy to complain about panoptikum.social.
-Please send an email with your complaint to our community manager <sonja@informatom.com> and we
+Please send an email with your complaint to our community manager <sonja@panoptikum.social> and we
 will try to mitigate the issue as fast as possible.
 
 ### Our Guidelines
