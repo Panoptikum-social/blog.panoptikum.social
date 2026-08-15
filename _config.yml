@@ -18,9 +18,9 @@ timecontrolsVisible: false
 chaptersVisible: true
 sharebuttonsVisible: false
 
-ssh_host: stefan@mittenin.at
+ssh_host: stefan@alpha
 ssh_port: 22
-document_root: /var/www/panoptikum.social/
+document_root: /var/www/blog.panoptikum.social/html
 rsync_delete: true
 
 fediverse_url: https://fosstodon.org/@panoptikum
