@@ -1,8 +1,8 @@
-<div class="row">
-  <div class="col-md-6">
+<div class="columns">
+  <div class="column is-half">
     <b><a class='episode_title' href='{{ site.url }}{{ post.url }}#{{ post.id | sha1:8 }}'>{{ post.title }}</a></b>
   </div>
-  <div class="col-md-6">
+  <div class="column is-half">
     <small>{{ post.date | date:"%B %-d, %Y" }}</small>
   </div>
 </div>

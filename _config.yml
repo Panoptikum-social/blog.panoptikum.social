@@ -1,0 +1,34 @@
+title: Panoptikum.social
+url: https://blog.panoptikum.social
+pan_url: https://panoptikum.social
+subtitle: Podcast discovery and community
+description: ... because there is no neat way to discover new podcasts or share your experiences with other listeners
+author: Stefan Haslinger
+email: mail@panoptikum.social
+keywords: [panoptikum, podcast, discovery, community]
+itunes_categories: [Technology]
+episodes_per_feed_page: 100
+
+poster: /img/logo-360x360.png
+alwaysShowHours: true
+startVolume: 0.8
+width: auto
+summaryVisible: false
+timecontrolsVisible: false
+chaptersVisible: true
+sharebuttonsVisible: false
+
+ssh_host: stefan@mittenin.at
+ssh_port: 22
+document_root: /var/www/panoptikum.social/
+rsync_delete: true
+
+fediverse_url: https://fosstodon.org/@panoptikum
+language: en
+explicit: 'no'  # 'yes'/'no'/clean
+license: CC BY 4.0
+
+itunes_url: "https://itunes.apple.com/at/podcast/myname/id#myid#"
+
+plugins: [jekyll-octopod]
+theme: jekyll-octopod-bulma

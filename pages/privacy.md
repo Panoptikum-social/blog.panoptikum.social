@@ -97,6 +97,6 @@ Mag Stefan Haslinger
 Vorgartenstrasse 145/2/3  
 1020 Wien, Austria  
 
-{% icon fa-phone %} +43 680 213 3030
+{% icon la-phone %} +43 680 213 3030
 
-{% icon fa-envelope %} <stefan@panoptikum.social>
+{% icon la-envelope %} <stefan@panoptikum.social>

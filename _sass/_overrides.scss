@@ -1,0 +1,7 @@
+// Use the bundled Ubuntu webfont (assets/css/ubuntu.css) as the site's body font, matching this
+// site's font choice before the Bulma migration (jekyll-octopod-bulma's own _sass has no
+// _overrides.scss of its own, unlike jekyll-bulma - a site-level file is required for the
+// "@use overrides" in assets/css/main.scss to resolve at all).
+:root {
+  --bulma-body-family: Ubuntu, Helvetica, Arial, sans-serif;
+}

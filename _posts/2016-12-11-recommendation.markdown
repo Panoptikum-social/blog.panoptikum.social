@@ -25,12 +25,12 @@ For those who want good old personal recommendations, is it possible to write re
 
 Last but not least let me present the Panoptikum community manager in the Panoptikum Hoodie:
 
-<div class="column">
-<div markdown="1" class="col-md-6">
+<div class="columns">
+<div markdown="1" class="column is-half">
 ![hoodiefront](/img/hoodiefront.jpg){:class="img-responsive"}
 </div>
 
-<div markdown="1" class="col-md-6">
+<div markdown="1" class="column is-half">
 ![hoodieside](/img/hoodieside.jpg){:class="img-responsive"}
 </div>
 </div>

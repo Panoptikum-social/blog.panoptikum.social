@@ -3,35 +3,5 @@ div.audio-player { padding: 5px 0 0 0; }
 div #footer small { color: #999; }
 body {background-color: #f1f2f6;}
 
-.page-header { border-bottom-color: #ccc; }
-
-.nav>li>a {
-  color: #aab2bd;
-  padding: 5px 0px 5px 10px;
-  margin: 0px 20px 0px 20px;
-}
-
-.navbar-brand {
-  font-weight: 700;
-  font-size: 20px;
-  color: #e6e9ed;
-  padding-bottom: 60px;
-}
-
-.navbar-inverse {
-  background-color: #434a54;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-weight: 500;
-}
-
-h1, .h1 { font-size: 29px; }
-h2, .h2 { font-size: 26px; }
-h3, .h3 { font-size: 23px; }
-h4, .h4 { font-size: 20px; }
-h5, .h5 { font-size: 17px; }
-h6, .h6 { font-size: 14px; }
-
 .content img { margin-top: 50px;
                margin-bottom: 50px;}
