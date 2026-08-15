@@ -4,4 +4,46 @@
 // "@use overrides" in assets/css/main.scss to resolve at all).
 :root {
   --bulma-body-family: Ubuntu, Helvetica, Arial, sans-serif;
+
+  // Bulma's default link color ($link: $blue, hsl(233deg, 100%, 63%)) is fully saturated and
+  // reads as quite an intense blue. Desaturate and darken it, keeping the same hue - link/button
+  // colors across the theme derive from these three custom properties (see --bulma-link-base
+  // etc. in the compiled CSS), so overriding them here covers every link on the site at once.
+  //
+  // Plain inline link text (a { color: var(--bulma-link-text) }) doesn't actually read
+  // --bulma-link-l though - it reads --bulma-link-on-scheme-l, a separate contrast-adjusted
+  // lightness Bulma computes and bakes in at Sass-compile time (light mode: 58%), so it has to be
+  // overridden separately too or the most visible links on the page (plain text, not buttons)
+  // stay at their original lightness. Dark mode registers its own --bulma-link-on-scheme-l (73%)
+  // in a media-query-guarded block with higher specificity, so it isn't affected by this.
+  --bulma-link-s: 45%;
+  --bulma-link-l: 42%;
+  --bulma-link-on-scheme-l: 42%;
+}
+
+// The sidebar's three collapsible sections (Manuals, Blog, Supported By - see sidebar.html) are
+// plain <details>/<summary>, with class="menu-item" added to the <summary> so Bulma styles it the
+// same as the sidebar's other menu-list entries (background, padding, hover). But Bulma's
+// .menu-item rule sets `display: block`, which overrides the `display: list-item` a <summary>
+// normally gets from the browser - and that's what draws its native disclosure triangle. Losing
+// display: list-item loses the triangle too, so redraw one by hand.
+summary.menu-item {
+  cursor: pointer;
+  list-style: none;
+  // <summary> isn't covered by Bulma's global `box-sizing: border-box` reset, so it's left at the
+  // browser default `content-box` - meaning .menu-item's own `width: 100%` gets its 0.75em/side
+  // padding added on top instead of counted inside it, pushing the row past the sidebar's right
+  // edge by roughly that padding width (easy to mistake for the triangle marker's own width).
+  box-sizing: border-box;
+}
+summary.menu-item::-webkit-details-marker {
+  display: none;
+}
+summary.menu-item::before {
+  content: "▸";
+  display: inline-block;
+  width: 1em;
+}
+details[open] > summary.menu-item::before {
+  content: "▾";
 }

@@ -1,6 +1,6 @@
 <aside class="menu">
-  <p class="menu-label">
-    <a href="https://panoptikum.social">
+  <p class="title is-5">
+    <a href="https://panoptikum.social" class="has-text-inherit">
       <img src="https://panoptikum.social/images/panoptikum.social.png" width="30" alt="Logo">
       Panoptikum.social
     </a>
@@ -9,8 +9,8 @@
   <ul class="menu-list">
     <li><a href="/">About</a></li>
     <li>
-      <details open>
-        <summary>Manuals</summary>
+      <details{% if page.url == "/listener-manual/" or page.url == "/podcaster-manual/" %} open{% endif %}>
+        <summary class="menu-item">Manuals</summary>
         <ul>
           <li><a href="/listener-manual">... for Listeners</a></li>
           <li><a href="/podcaster-manual">... for Podcasters</a></li>
@@ -26,8 +26,8 @@
     <li><a href="/imprint">Imprint</a></li>
 
     <li>
-      <details>
-        <summary>Blog</summary>
+      <details{% if page.layout == "post" or page.url == "/blog/" %} open{% endif %}>
+        <summary class="menu-item">Blog</summary>
         <ul>
           {% for post in site.posts limit: 999%}
             <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -37,8 +37,8 @@
     </li>
 
     <li>
-      <details>
-        <summary>Supported By</summary>
+      <details{% if page.url == "/vienna-beamers/" %} open{% endif %}>
+        <summary class="menu-item">Supported By</summary>
         <ul>
           <li><a href="https://www.informatom.com">Stefan a.k.a. Informatom</a></li>
           <li><a href="https://www.waldgruber.at">Community Manager Sonja</a></li>
