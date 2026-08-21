@@ -8,7 +8,7 @@ permalink: podcaster-manual/
 
 # Podcaster Manual
 
-This [Podcaster Manual](/podcaster-manual) describes the use of Panoptikum from the podcaster perspective. Please read the [Listener Manual](/listener-manual) before this one. Panoptikum uses metadata in the RSS feeds to identify contributors and presents information regarding those persons. Podcasters, who want to enhance and manage their automatically generated business cards, can upgrade to a Panoptikum pro account.
+This [Podcaster Manual](/podcaster-manual) describes the use of Panoptikum from the podcaster perspective. Please read the [Listener Manual](/listener-manual) before this one. Panoptikum uses metadata in the RSS feeds to identify contributors and presents information regarding those persons. Podcasters can enhance and manage their automatically generated business cards for free.
 
 ## Functionality Independent from Registration
 
@@ -90,6 +90,8 @@ Benefits for registered podcasters:
 * Suggest your own podcast
 * Write recommendations
 * Claim personas
+* Edit your persona page (URL, image, description)
+* Redirect and delegate personas
 
 Based on the contributors of podcasts personas are automatically created. These are listed under [Podcasters](https://panoptikum.social/personas) on the Panoptikum page.
 
@@ -103,6 +105,39 @@ The usual claiming process is based on the email address of the persona.
 persona will be established. This solution is based on trust - we trust you, that you will use it responsibly and not claim personas, that should not be connected to you. In the unlikely case of severe misuse we will have to remove this feature again.
 ![Persona ohne Mail](/img/persona-ohne-mail.png){:class="img-responsive"}
 ![Warnung](/img/warnung-claim-ohne-mail.png){:class="img-responsive"}
+
+### Editing Your Persona Page
+
+The automatically generated persona page has an URL that ends with a PID.
+
+A random example
+[https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c).
+This is this rather difficult to remember.
+
+So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable.
+
+Another random example [https://panoptikum.social/waldgruber](https://panoptikum.social/waldgruber).
+
+You can find the link(s) to the preview page of your persona(s) after login under myProfile.
+
+**Image**
+
+The default image acts as a placeholder for your personal image. Introduce yourself to listeners with additional visual information, beside your voice from the podcast(s).
+
+**Description**
+
+Write about yourself on your persona page. What should interested listeners know about you?
+
+The text field supports markdown - so you are free to use your creativity describing yourself.
+
+### Delegating and Redirecting Personas
+
+The possibilty to edit the presented information on the persona page helps to overcome the hurl of incomplete feed data. Not all podcast producers name all contributors in each episode or if several people own a podcast together, the feed lists them together.
+
+* Delegation: A delegation lets the gigs (i.e. contributions to episodes) and engagements (i.e. contributions to podcasts) of the persona also appear on the profile page of the target persona.
+* Redirection: The redirection redirects the persona profile page to the profile page of the target persona.
+
+For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.social/2017/01/29/user-self-service.html#04b2080f).
 
 ### Not Listed as Contributor?
 
@@ -136,64 +171,13 @@ With "Metadata Update" you can also reset the counter in Panoptikum, that sets a
 ![Retired podcast](/img/retired-podcast.png){:class="img-responsive"} If your feed could be read successfully, the counter is reset to zero and the podcast will be rechecked regularly.
 
 
-## Functionality for Paying Podcasters
-
-With EUR 12,- per year you can support the project Panoptikum and get a pro account. Users with a pro account have access to the following functions
-(regarding the persona):
-
-* Change URL
-* Change image
-* Change description
-* Redirect personas
-* Delegate personas
-
-Panoptikum also offers a 30 days trial phase: Login and try it out for free!
-
-Payment does not change the listing of your podcast on Panoptikum in any way.
-
 ### Your Podcaster Profile in Panoptikum
 
 Stefan held a talk at the last subscribe about the possibilites of using Panoptikum for your podcaster profile. The title of the talk was "Deine Visitkarte ist zu klein" (Your Business Card is to small). You can find it at [youTube]((https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC)). The slides are available on this [page](https://blog.panoptikum.social/sub9/#1).
 
-### Persona Page URL
+### Walkthrough: Claiming and Editing a Persona
 
-The automatically generated persona page has an URL that ends with a PID.
-
-A random example
-[https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c](https://panoptikum.social/9e113027-16d7-5534-a6d5-1711c00e822c).
-This is this rather difficult to remember.
-
-So if you want to use the persona page as a showcase of your podcaster portfolio change the URL to something more memorable.
-
-Another random example [https://panoptikum.social/waldgruber](https://panoptikum.social/waldgruber).
-
-### Persona Page Content
-
-You can find the link(s) to the preview page of your persona(s) after login under myProfile.
-
-**Image**
-
-The default image acts as a placeholder for your personal image. Introduce yourself to listeners with additional visual information, beside your voice from the podcast(s).
-
-**Description**
-
-Write about yourself on your persona page. What should interested listeners know about you?
-
-The text field supports markdown - so you are free to use your creativity describing yourself.
-
-**Delegation and Redirection**
-
-The possibilty to edit the presented information on the persona page helps to overcome the hurl of incomplete feed data. Not all podcast producers name all contributors in each episode or if several people own a podcast together, the feed lists them together.
-
-* Delegation: A delegation lets the gigs (i.e. contributions to episodes) and engagements (i.e. contributions to podcasts) of the persona also appear on the profile page of the target persona.
-* Redirection: The redirection redirects the persona profile page to the profile page of the target persona.
-
-For more details information regarding personas please check out the blog post [User Self Service](https://blog.panoptikum.social/2017/01/29/user-self-service.html#04b2080f).
-
-
-### Journey Through Pro Features
-
-Let's start our pro user journey with my profile as an example. The steps to a pro account are: registration, log in and unlock the pro features with the button under My Profile.
+Let's walk through claiming and editing a persona using my profile as an example: registration, log in and claim a persona from **My Profile**.
 
 After the login you can check your profile under **My Profile**
 
@@ -205,7 +189,7 @@ and change it with **Edit your data**
 
 There is no connection between your user and any persona (that why there are no personas listed under "My Profile"). Several personas can exist (based on the information in podcast feeds) that you recognise as manifestations of you, but this is not known to the world. You have to claim a manifestation within Panoptikum to make this connection visible.
 
-Only pro account users can claim personas. So my next step is a search for personas with "Sonja" in the name and beside many others I find the persona Sonja Waldgruber. I use the button **Claim** below the table with the gigs.
+So my next step is a search for personas with "Sonja" in the name and beside many others I find the persona Sonja Waldgruber. I use the button **Claim** below the table with the gigs.
 
 ![Claim Persona](/img/claim-persona.jpg){:class="img-responsive"}
 
@@ -218,7 +202,7 @@ If your address is stored for this persona (also derived from the podcast feed),
 ![Claim Request](/img/claim-request.png){:class="img-responsive"}
 
 After you have used the **Grant Access** link in the email your profile has changed. The claimed persona is shown.
-![My Profile, pro account](/img/myProfile_pro1.png){:class="img-responsive"}
+![My Profile, with claimed persona](/img/myProfile_pro1.png){:class="img-responsive"}
 
 With **Edit persona** the information can be changed
 ![Edit persona - default](/img/edit-persona1.png){:class="img-responsive"}
@@ -250,27 +234,7 @@ The main persona has no delegation what so ever.
 
 Personas, that are only delegated and not used as a reference page, are not edited to look nicer. To hide them, I could redirect them to the main persona.
 
-### Free Trial
-
-Try it free for 30 days! Login and try it out for free!
-
-Claim your free Pro Account without any further obligations!
-
-Why?
-* To unlock all pro features
-* To get a payment reference if you want to pay
-* To support Panoptikum
-
-Login and you find the "Start your free trial" button in your profile.
-
-[Login](https://panoptikum.social/sessions/new)
-
-
-### Costs
-
-The price for a Panoptikum pro account is EUR 12,- per year. After one year you can either pay the EUR 12,- again or the account will be reduced to a standard account.
-
-Your way to the paid account is the 30 days free Pro Account. You get the payment information in your profile of the Pro Account. You won't loose any free days, if you pay within the trial period.
+[Login](https://panoptikum.social/sessions/new) to get started - no trial, no payment, just log in.
 
 
 ## General Tips

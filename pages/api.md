@@ -195,12 +195,11 @@ path | method | params (\* ... required) | purpose | included
 `/pan/users/my` | GET | - | my user profile | personas
 `/pan/update_password` | PATCH or PUT | `password`\* , `password_confirmation`\* | update password; server validates identicality and length > 5 | personas
 `/pan/update_user` | PATCH or PUT | `email`* (>5 unique), `name`* (>3) , `username`* (>3 unique), `podcaster` (boolean), `share_follows` (boolean), `paper_bill` (boolean), `share_subscriptions` (boolean), `billing_address`(preformatted) | updates account data| personas
-`/pan/update_persona` | PATCH or PUT | `name`* , `uri`* | update persona with user account | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
-`/pro/update_persona` | PATCH or PUT | `pid`* (unique), `name`* , `uri`* , `email`, `image_url`, `image_title`, `description` (gets used as header), `long_description` (markdown) | update persona (pro user account) | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pan/personas/:id` | PATCH or PUT | `pid`* (unique), `name`* , `uri`* , `email`, `image_url`, `image_title`, `description` (gets used as header), `long_description` (markdown) | update persona | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 `/pan/delegations/:id` | GET | - | single delegation, only returned, if persona and delegate manfestate in user | persona, delegate
-`/pro/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
-`/pro/personas/:id/redirect` | POST | `target_id`* | redirects persona to persona with id = target_id | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
-`/pro/personas/:id/cancel_redirect` | POST | - | cancels a persona redirect | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pan/delegations/toggle` | POST | `persona_id`* , `delegate_id`* | toggles and returns delegation; persona and delegate need to manifest in user | persona, delegate
+`/pan/personas/:id/redirect` | POST | `target_id`* | redirects persona to persona with id = target_id | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
+`/pan/personas/:id/cancel_redirect` | POST | - | cancels a persona redirect | redirect, engagements & podcasts, (paginated) gigs & episodes, delegates
 `/pan/personas/:id/claim` | POST | - | claims a persona | detail: "An Email to the Persona has been sent"
 {: .table .table-bordered}
 

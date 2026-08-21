@@ -38,9 +38,8 @@ This [Podcaster Manual](/podcaster-manual) describes the use of Panoptikum from 
 podcaster perspective. Please read the [Listener Manual](/listener-manual)
 before this one to understand what listeners read about your podcast in
 Panoptikum. Panoptikum uses metadata in the RSS feeds to identify contributors and presents information
-regarding those persons. Podcasters, that want to enhance and manage their
-automatically generated business cards, can upgrade to a Panoptikum
-pro-account.
+regarding those persons. Podcasters can enhance and manage their
+automatically generated business cards for free.
 
 Basis Functionality for Podcasters
 * Listing of the podcast at Panoptikum in the categories, assigned in the feed
