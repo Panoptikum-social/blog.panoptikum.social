@@ -12,7 +12,7 @@ I am the creator and lead developer of Panoptikum.social.
 Panoptikum, the project this very site has been created for, aims to be three things
 
 * a site for easy and pleasant discovery for new podcasts
-* the number one site for podcasters hosting their podcsting timeline and profile
+* the number one site for podcasters hosting their podcasting timeline and profile
 * a network for communication with other podcast listeners and podcasters
 
 You could classify Panoptikum as a social media network focussed around podcasts.
@@ -31,7 +31,7 @@ podcast and the individual episodes in an easy readable form.
 ## Why another podcasting platform?
 
 There are other platforms out there, Apple's Itunes being probably the most
-prominent of these,there are even search engines dedicated to podcasts out there,
+prominent of these, there are even search engines dedicated to podcasts out there,
 e.g. Fyyd, but all of them never felt inviting to me, neither as a podcast
 listener nor as a podcaster (a podcast producer).
 
@@ -50,33 +50,23 @@ on the site.
 * For you as a podcaster: it's another way of publishing your podcast. And
   Panoptikum is an additional possibility for you to get in touch with the
   community of podcast listeners, especially your current listeners. Hopefully,
-  it helps lets you attract more attention than before.
+  it helps you attract more attention than before.
 * For you as a podcast listener: it's a chance to share your opinions and
   recommendations and get other listener's opinions, thoughts and recommendations.
 
 ## Will Panoptikum.social always be free?
 
-Yes and no.
+Yes.
 
 All the software, that has been written and will be written for Panoptikum.social is
 free and open source software and is licensed under the AGPL license.
 
 * For podcast listeners, access to the full functionality of the site will be
   free forever.
-* For podcasters, a basic listing and introduction of you and your podcasts will
-  always be free.
+* For podcasters, listing, introduction and management of your podcasts and
+  persona pages will always be free.
 
-But unfortunately, writing and maintaining software and operating a site costs
-time and money. So there is the plan to create paid plans for podcasters
-providing extra value, this could be:
-
-* detailled statistics
-* different forms of engaging with the listeners like polls or feedback forms
-* episode or podcast features
-* interviews with podcasters
-* and many more
-
-It's definetely not the plan to make huge amounts of money with this site. Some of us are dedicated podcasters and all of us are podcast listeners and our main focus is to create a site where the podcasting community feels at home.
+It's not the plan to make huge amounts of money with this site. Some of us are dedicated podcasters and all of us are podcast listeners and our main focus is to create a site where the podcasting community feels at home.
 
 ## Can I contribute?
 

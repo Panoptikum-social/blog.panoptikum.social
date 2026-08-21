@@ -8,7 +8,7 @@ permalink: complaints/
 
 ### Introduction
 
-The use of Panoptikum.social should be a pleasent experience. While we strive to reach this goal hard,
+The use of Panoptikum.social should be a pleasant experience. While we strive hard to reach this goal,
 we are aware, that it is de facto impossible to reach this goal and there must be a way to
 complain.
 
@@ -20,5 +20,5 @@ will try to mitigate the issue as fast as possible.
 
 ### Our Guidelines
 
-We will follow along the Berlin [Code of Coduct](/code_of_conduct) to reach a pleasant and safe
+We will follow along the Berlin [Code of Conduct](/code_of_conduct) to reach a pleasant and safe
 experience for all of us.

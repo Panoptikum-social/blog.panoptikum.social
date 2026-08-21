@@ -8,7 +8,7 @@ permalink: vienna-beamers/
 
 Vienna BEAMers is the in ~~person~~ online (due to the Corona pandemic) meetup and study group for
 people interested and/or coding in Elixir and Phoenix. We meet every two weeks at Stefan's
-self hosted Jitsi Server https://floridsdorf.mittenin.at/vienna-beamers . Nothing is recorded,
+self-hosted Jitsi Server https://floridsdorf.mittenin.at/vienna-beamers . Nothing is recorded,
 comments in the chat are deleted, when the last person leaves the room.
 
 The next meetups are
@@ -19,7 +19,7 @@ The next meetups are
 
 each starting at 18:30 and lasting until 20:00 at most. You won't be kicked out, though ;-)
 
-There are no prerequesites besides showing up with a notebook and some interest in one of the
+There are no prerequisites besides showing up with a notebook and some interest in one of the
 languages, that run on the BEAM. We have also enthusiasts for Erlang, Lisp-Flavoured Erlang & Joxa
 within our group.
 

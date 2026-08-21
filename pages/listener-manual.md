@@ -32,7 +32,7 @@ to discover new podcasts.
 ### Latest Recommendations
 
 Registered users can write personal recommendations for podcasts. Under
-lastest recommendations you see the name of the podcast, the username of the
+latest recommendations you see the name of the podcast, the username of the
 recommender, the date of the recommendation and the recommendation text.
 
 With a click on ...
@@ -58,10 +58,10 @@ With a click on ...
   contributor with further information
 * more... you get the 10 latest podcasts and more
 
-### Latest Epsiodes
+### Latest Episodes
 
 Under latest episodes you find those podcast episodes, that were
-recently published. Panoptikum regulary checks the listed podcast
+recently published. Panoptikum regularly checks the listed podcast
 feeds for new episodes and gets the episode information from the feed.
 You see the  title of the episode, the name of the podcast, the
 names of the contributors and date plus publishing time.
@@ -80,23 +80,23 @@ With a click on ...
 ### Top 10 subscribed Podcasts
 
 The registered users can upload the OPML-file exported from their
-podcatcher. Each podcast included in the OMPL-file is then listed in
+podcatcher. Each podcast included in the OPML-file is then listed in
 Panoptikum. Based on the number of registered users that listed the
 same podcast Panoptikum can derive, which are the top 10 subscribed
-podcasts of its registered users. You see the name of the podcast and t
-he number of users that have subscribed to this podcast. With a click
+podcasts of its registered users. You see the name of the podcast and the
+number of users that have subscribed to this podcast. With a click
 on the name of the podcast you reach the Panoptikum page of this
 podcast with further information.
 
 ### Top 5 Liked Podcasts
 
-The registered users can like a podcast. This is independant from the
+The registered users can like a podcast. This is independent from the
 subscription. A user can like a podcast without a subscription to it.
 You see the name of the podcast and the number of users that have
 liked it. With a click on name of the podcast you reach the Panoptikum
 page of this podcast with further information.
 
-Rationale: You could still like a podcast, even if you don't find to
+Rationale: You could still like a podcast, even if you don't find time to
 listen to it any more. There are just too many good podcasts out there :-)
 
 ### Podcast Discovery: Categories, Random, Search
@@ -230,7 +230,7 @@ podcasts you didn't recommend yet.
 ### Suggest a Podcast
 
 A podcast gets listed in Panoptikum when it is subscribed by at least
-one of it's registered users. If you want to add just one podcast, do
+one of its registered users. If you want to add just one podcast, do
 so with <kbd>Suggest a Podcast</kbd>.
 
 You will be counted as a subscriber in the database. If you want to
@@ -256,7 +256,7 @@ JSON-File with a Download button and shows you all your stored data. You can
 check what is stored the different areas and delete it per area. In the
 area itself you can either delete all entries or just individual entries.
 
-Areas and possibilies
+Areas and possibilities
 
 * OPML File: list of uploaded files, manageable in My OPMLs
 * Personas: overview to your personas
@@ -293,7 +293,7 @@ sign up for a new Panoptikum account.
 
 ## Recommendations and Likes
 
-After log in you have addional possibilites on the different pages
+After log in you have additional possibilities on the different pages
 
 * Podcast: recommend, like and follow
 * Episode: recommend and like

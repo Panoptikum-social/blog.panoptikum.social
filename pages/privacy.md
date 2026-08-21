@@ -7,7 +7,7 @@ permalink: privacy/
 ## Privacy Policy
 
 We process your data only according to law regulations (DSGVO, TKG2003). In this privacy policy we
-inform you about the most important aspects of data processisng within our website.
+inform you about the most important aspects of data processing within our website.
 
 Panoptikum.social tries to store as much data as necessary and as little data as possible about you.
 All the data collected is required to offer the service. Panoptikum.social does not intend to collect
@@ -21,22 +21,22 @@ share with anybody else.
 
 ## Logging
 
-We are logging the requsts to our web server for one week to be able to fix errors of our application
+We are logging the requests to our web server for one week to be able to fix errors of our application
 and server infrastructure.
 These contain the following data:
 
 * User-Agent: i.e. browser type, browser version and operation system as sent
   by your browser
-* Referrer URL, i.e. on which sie was the link located, that did bring you to
+* Referrer URL, i.e. on which site was the link located, that did bring you to
   our site
 * IP address
 * Time and Date
 
 We are also logging your requests on the application server for one hour for sole debugging reasons.
-These requsts do not contain IP Addresses, just time stamps and the request path.
+These requests do not contain IP Addresses, just time stamps and the request path.
 
 Panoptikum does not use a web analytics service or a content delivery service.
-No data is transfered to any third parties.
+No data is transferred to any third parties.
 
 ## Cookies
 
@@ -67,7 +67,7 @@ any user name as long as it has not been taken yet within Panoptikum.
 
 Beside the information provided during registration, Panoptikum.social uses your uploaded subscription
 list (OPML file) to add podcasts to the Panoptikum.social podcast list. It stores and publishes that
-you are a subscriber of the podcast. Panoptikum.social stores and pulishes your reviews, comments and
+you are a subscriber of the podcast. Panoptikum.social stores and publishes your reviews, comments and
 likes.
 
 ## Data access self service
@@ -82,7 +82,7 @@ delete all entries or just individual entries. You find more information in the
 
 ## Your Rights
 
-You have the right of information, correction, deletion, restriction
+You have the right of information, correction, deletion, restriction,
 transfer, cancellation and protest on principle. If you believe, that the
 processing of your data does not adhere to data privacy laws or your
 privacy demands are refused in any kind, you can complain at the local
