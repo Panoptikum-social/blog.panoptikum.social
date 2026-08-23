@@ -93,6 +93,6 @@ There you will find the [source code](https://github.com/PanoptikumIO/panoptikum
 
 ## The Team
 
-* Ramon - bot developer
+* Carmen - bot developer
 * Sonja - community manager, marketing <sonja@panoptikum.social>
 * Stefan - creator, lead developer <stefan@panoptikum.social>
