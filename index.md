@@ -91,8 +91,6 @@ Email: <stefan@panoptikum.social> or visit our [Github page](https://github.com/
 
 There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.social) for this marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)), but more important the Panoptikum web application itself in the [Panrepository](https://github.com/PanoptikumIO/pan). Panoptikum is [free and open source](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) software.
 
-If, by coincidence, you are located close to Vienna, Austria, there is an Elixir & Phoenix study group. See [Vienna BEAMers](/vienna-beamers) for details.
-
 ## The Team
 
 * Ramon - bot developer
