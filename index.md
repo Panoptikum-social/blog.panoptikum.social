@@ -66,7 +66,7 @@ free and open source software and is licensed under the AGPL license.
 * For podcasters, listing, introduction and management of your podcasts and
   persona pages will always be free.
 
-It's not the plan to make huge amounts of money with this site. Some of us are dedicated podcasters and all of us are podcast listeners and our main focus is to create a site where the podcasting community feels at home.
+It's not the plan to make money with this site. Some of us are dedicated podcasters and all of us are podcast listeners and our main focus is to create a site where the podcasting community feels at home.
 
 ## Can I contribute?
 
