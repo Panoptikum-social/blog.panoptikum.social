@@ -205,11 +205,6 @@ share followings y/n, share subscriptions y/n).
 
 You can change your password.
 
-### My Messages
-
-You see the latest messages from all users whom you subscribed to and
-who want to share their followings (likes and recommendations).
-
 ### My Podcasts
 
 You see information about you
@@ -282,7 +277,6 @@ Areas and possibilities
   show page)
 * Liked Categories: list of all categories liked by you (links to category
   show page)  
-* Messages: list of all your messages with its text
 * Recommendations: list of all your recommendations with its text and the name
   of the recommended podcast or podcast episode
 

@@ -126,9 +126,9 @@ The default image acts as a placeholder for your personal image. Introduce yours
 
 **Description**
 
-Write about yourself on your persona page. What should interested listeners know about you?
+Write about yourself on your persona page. What should interested listeners know about you? The Description is a short line, shown as the heading, the Long description the text below it.
 
-The text field supports markdown - so you are free to use your creativity describing yourself.
+The Long description supports markdown - so you are free to use your creativity describing yourself.
 
 ### Delegating and Redirecting Personas
 
@@ -175,9 +175,7 @@ Stefan held a talk at the last subscribe about the possibilites of using Panopti
 
 ### Walkthrough: Claiming and Editing a Persona
 
-Let's walk through claiming and editing a persona using my profile as an example: registration, log in and claim a persona from **My Profile**.
-
-The pictures show a demo user instead, "Demo Podcaster" with the main persona demo-podcaster.
+Let's walk through claiming and editing a persona with a demo user, "Demo Podcaster", as an example: registration, log in and claim a persona from **My Profile**.
 
 After the login you can check your profile under **My Profile**
 
@@ -187,48 +185,50 @@ and change it with **Edit your data**
 
 ![Update Profile](/media/manual-update-profile.png)
 
-There is no connection between your user and any persona (that why there are no personas listed under "My Profile"). Several personas can exist (based on the information in podcast feeds) that you recognise as manifestations of you, but this is not known to the world. You have to claim a manifestation within Panoptikum to make this connection visible.
+Because I checked "I am a podcaster myself", Panoptikum created a persona with my full name, Demo Podcaster, at my first login. Several more personas can exist (based on the information in podcast feeds) that you recognise as manifestations of you, but this is not known to the world. You have to claim a manifestation within Panoptikum to make this connection visible.
 
-So my next step is a search for personas with "Sonja" in the name and beside many others I find the persona Sonja Waldgruber. I use the button **Claim** in the Claiming panel next to the persona.
+So my next step is a search for personas with "Demo" in the name and beside many others I find the persona Demo Co-Host. It has an email address, so I use the button **Claim** in the Claiming panel next to the persona.
 
-![Claim Persona](/media/manual-claim-panel.png)
+![Claim Persona](/media/manual-claim-panel-2.png)
 
 This initiates an email, and Panoptikum confirms that it has been sent.
 
-If your address is stored for this persona (also derived from the podcast feed), you receive an email with the subject "Panoptikum - Persona manifestation confirmation request". If you don't find the email in your inbox check out the spam folder (that's where my request landed).
+If your address is stored for this persona (also derived from the podcast feed), you receive an email with the subject "Panoptikum - Persona manifestation confirmation request". If you don't find the email in your inbox check out the spam folder. For Demo Co-Host the email goes to demo-cohost@example.com, another address of mine.
 
 ![Claim Request](/media/manual-claim-request-mail.png)
 
-After you have used the **Grant Access** link in the email your profile has changed. The claimed persona is shown.
-![My Profile, with claimed persona](/media/manual-profile-persona-expanded.png)
+After you have used the **Grant Access** link in the email your profile has changed. The claimed persona is shown. I have also claimed D. Podcaster, a persona without email address (see "Claim Personas" above), so My Profile lists three personas now.
+![My Profile, with claimed personas](/media/manual-profile-persona-expanded.png)
 
 With **Edit persona** the information can be changed
 ![Edit persona - default](/media/manual-edit-persona-1.png)
 
 Changes
-* PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.social/waldgruber
-* Image url: inserted the link to my picture on the internet (I used a picture from my personal homepage to have it in full controll, but you can use any picture published on the internet)
+* PanoptikumID: from the default value to demo-podcaster - so the new URL to the persona is panoptikum.social/demo-podcaster
+* Image URL: the link to a picture on the internet (best one you have in full control, for example on your personal homepage, but you can use any picture published on the internet)
 * Image title: This is the alternative text for the picture.
-* Description header
-* Description
+* Description: a short line, shown as the heading of the text about you
+* Long description: the text about you, with markdown (left empty here)
+
+Uri (a link to your own website, shown on the persona page) and Fediverse Address (experimental, not shown yet) stay as they are.
 
 ![Edit persona - changed](/media/manual-edit-persona-2.png)
 
-After clicking **Submit** the persona can be reached via https://panoptikum.social/waldgruber and looks like this ![Persona - changes submitted](/media/manual-persona-public.png)
+After clicking **Submit** the persona can be reached via https://panoptikum.social/demo-podcaster and looks like this ![Persona - changes submitted](/media/manual-persona-public.png)
 
 This is now a page, that I can use as the reference to all my podcast related activities.
 
 If I find other personas, whom I wish to claim, I follow the same steps. I claim the persona and if I want to show the gigs (from episodes) and the engagements (from podcasts) of those further personas under one "main" persona I delegate them to the persona, I decided to be the main one.
 
-In my case I find 4 personas, that I claim. I decide that "waldgruber" is my main persona and delegate 2 other personas to "waldgruber".
+In my case I have 3 personas. I decide that "demo-podcaster" is my main persona and delegate the 2 other personas, D. Podcaster and Demo Co-Host, to it: on My Profile I open each of them and use **Delegate** next to Demo Podcaster.
 
-![Persona - sms](/media/manual-persona-entry-1.png)
+![D. Podcaster, delegated to Demo Podcaster](/media/manual-persona-entry-1.png)
 
-![Persona - ss](/media/manual-persona-entry-2.png)
+![Demo Co-Host, delegated to Demo Podcaster](/media/manual-persona-entry-2.png)
 
 The main persona has no delegation what so ever.
 
-![Persona - s](/media/manual-persona-entry-0.png)
+![Demo Podcaster, the main persona](/media/manual-persona-entry-0.png)
 
 Personas, that are only delegated and not used as a reference page, are not edited to look nicer. To hide them, I could redirect them to the main persona.
 
