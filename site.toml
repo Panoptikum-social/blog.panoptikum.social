@@ -1,3 +1,10 @@
 title = "Panoptikum.social"
 language = "en"
 mark_external_links = true
+theme = "catppuccin-latte"
+base_url = "https://blog.panoptikum.social"
+page_width = "wide"
+profiles = ["https://fosstodon.org/@panoptikum"]
+
+[dark]
+theme = "catppuccin-mocha"
