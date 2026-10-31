@@ -1,7 +1,7 @@
 +++
 title = "Complaints"
 description = "How to complain about something on Panoptikum.social."
-menu = "main"
+menu = "footer"
 weight = 60
 +++
 

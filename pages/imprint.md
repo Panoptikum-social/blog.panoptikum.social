@@ -1,7 +1,7 @@
 +++
 title = "Imprint"
 description = "Media owner, license and hosting of Panoptikum.social."
-menu = "main"
+menu = "footer"
 weight = 80
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Privacy"
 description = "How Panoptikum.social processes your data."
-menu = "main"
+menu = "footer"
 weight = 50
 +++
 

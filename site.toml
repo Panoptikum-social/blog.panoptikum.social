@@ -1,5 +1,6 @@
 title = "Panoptikum.social"
 language = "en"
+logo = "logo.png"
 mark_external_links = true
 theme = "catppuccin-latte"
 base_url = "https://blog.panoptikum.social"
@@ -8,3 +9,35 @@ profiles = ["https://fosstodon.org/@panoptikum"]
 
 [dark]
 theme = "catppuccin-mocha"
+
+[[main_menu]]
+page = ""
+title = "About"
+
+[[main_menu]]
+title = "Manuals"
+
+[[main_menu.items]]
+page = "manuals"
+title = "Overview"
+
+[[main_menu.items]]
+page = "manuals/listener-manual"
+title = "... for Listeners"
+
+[[main_menu.items]]
+page = "manuals/podcaster-manual"
+title = "... for Podcasters"
+
+[[main_menu]]
+page = "api"
+
+[[main_menu]]
+page = "talks"
+
+[[main_menu]]
+page = "blog"
+
+[[main_menu]]
+title = "Back to panoptikum.social"
+link = "https://panoptikum.social"

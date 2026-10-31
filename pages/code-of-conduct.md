@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct"
 description = "The Berlin Code of Conduct, which Panoptikum.social follows."
-menu = "main"
+menu = "footer"
 weight = 40
 hide_title = true
 redirect_from = ["/code_of_conduct"]
