@@ -48,6 +48,26 @@ Basis Functionality for Podcasters
 * API to retrieve data
 * Personas
 
+## Moderator Manual
+
+This [Moderator Manual](/manuals/moderator-manual) is for the moderators of
+Panoptikum's [communities](https://panoptikum.social/communities), groups of
+podcasts and podcasters around a shared theme.
+
+What Moderators Do
+* Add podcasts to their community and remove them again
+* Correct podcast, episode and feed data
+* Check the API errors of their community
+* Assign curators
+* Create and manage the pads of their community
+
+## Curator Manual
+
+This [Curator Manual](/manuals/curator-manual) is for the curators of a
+community. Curators assess the podcasts of their community with a grade and a
+text. These curations are only visible to the community's curators and
+moderators.
+
 ## Additonal Information
 
 Please send all your questions, that could not be answered within the manuals to
