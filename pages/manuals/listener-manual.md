@@ -101,7 +101,7 @@ listen to it any more. There are just too many good podcasts out there :-)
 
 ### Podcast Discovery: Categories, Random, Search
 
-In the header of the start page several symbols and a search field are
+In the sidebar of every page several symbols and a search field are
 displayed.
 
 [Categories](https://panoptikum.social/categories): A podcast can be
@@ -131,17 +131,19 @@ episode page. This offers you several functions for listening to a
 podcast episode directly on the Panoptikum episode page:
 
 Chapters: You can use the chapters for navigation directly in the web
-player
-![Kapitel](/media/podlove-kapitel.png)
+player. The chapter you are listening to is marked.
+![The chapters tab of the web player](/media/manual-podlove-chapters.png)
+Speed and Volume: You can increase or decrease the speed (the button 1.0x
+left of the controls) and adjust the volume (the speaker right of the
+controls), see the picture above.
+
 Share episode: You can share the complete episode
-![Teilen](/media/podlove-teilen.png)
-Share one chapter:
-![Teilen](/media/podlove-teilen-kapitel.png)
-Share a minute:
-![Teilen](/media/podlove-teilen-minute.png)
-Speed and Volume: You can increase or decrease the speed and adjust
-the volume
-![Audio](/media/podlove-audio.png)
+![The share tab of the web player](/media/manual-podlove-share.png)
+Share from a position: Tick "Share current position" to share the episode
+from where you are listening right now.
+![Sharing the episode from minute 22:30](/media/manual-podlove-share-position.png)
+Files: You can download the audio file of the episode.
+![The files tab of the web player](/media/manual-podlove-files.png)
 
 ### Statistics
 
@@ -168,7 +170,7 @@ Panoptikum offers additional functionality after the log in:
 
 ### Sign up
 
-In the header of all non-documentation pages you find a symbol to log
+In the sidebar of all non-documentation pages you find a link to log
 in. You can [Sign Up](https://panoptikum.social/users/new) on the log in
 page and become a registered user.
 
@@ -186,13 +188,13 @@ stores and publishes your reviews, comments and likes.
 
 ## Additional Functionality After Log In
 
-In the header of all non-documentation pages you find a symbol for
+In the sidebar of all non-documentation pages you find a link to
 [Log In](https://panoptikum.social/sessions/new). After log in you see your
-user name in the header of the non-documentation pages. A click on
-your user name (in the example below the user name is sonja)
-offers a sub menu with the following functionalities:
+user name in the sidebar of the non-documentation pages (in the example
+below the user name is demo). Below your user name you find a menu with
+the following functionalities:
 
-![mydata](/media/mydata.png)
+![The personal menu in the sidebar](/media/manual-user-menu.png)
 
 ### My Profile
 
@@ -299,40 +301,33 @@ After log in you have additional possibilities on the different pages
 * Episode: recommend and like
 * Chapters of an episode: recommend
 
+On the page of a podcast you write your recommendation into the field
+"Your recommendation" and send it with <kbd>Recommend</kbd>.
+![The recommendation form on a podcast page](/media/manual-recommend-form.png)
+
 You have written a great recommendation of your favourite podcast and
 want to spread the word outside Panoptikum?
 
-Above your recommendation in Panoptikum wait three buttons for you to
-tweet, share or email your recommendation.
-![Buttons](/media/recommendation-buttons.png)
-
-### Twitter (logged in)
-
-"Tweet it" leads to the following screen (if you are already logged
-in Twitter). You can edit the text before your tweet.
-![Tweet 1](/media/tweet-recommendation1.png)
+Below your name, next to your recommendation in Panoptikum, wait two
+buttons for you to tweet or email your recommendation.
+![Your recommendation with the buttons tweet and mail](/media/manual-recommendation-buttons.png)
 
 ### Twitter
 
-If you are not already logged in to Twitter you have one additional
-step, but it leads to the same result.
-![Tweet 2](/media/tweet-recommendation2.png)
-
-### Facebook (logged in)
-
-"Share it" leads to the following screen (if you are already logged in
-Facebook). Facebook does not support the automatic insertion of the
-text, but you can copy it manually.
-![Share 1](/media/auf-fb-teilen.png)
-
-### Facebook
-
-If you are not already logged in to Facebook you have one additional
-step, but it leads to the same result.
+"tweet" opens X (Twitter) with your recommendation and the link to the
+podcast as text, which you can edit before you post it.
 
 ### e-Mail
 
-"Send an e-Mail" creates an email in your standard mail program. The
-subject includes your recommendation and the mail body the link to the
-recommended podcast. You can edit both before send.
-![Mail](/media/mail-recommendation.png)
+"mail" creates an email in your standard mail program. The subject
+includes the podcast and your recommendation, the mail body the link to the
+recommended podcast. You can edit both before send. For the recommendation
+above it looks like this:
+
+```
+Subject: 👍 Aua-uff-Code!
+         💬 Two developers build a computer from logic gates up to a compiler, great to listen along to while reading the book.
+         🔊
+
+https://panoptikum.social/podcasts/104
+```

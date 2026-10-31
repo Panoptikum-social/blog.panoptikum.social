@@ -99,12 +99,12 @@ Based on the contributors of podcasts personas are automatically created. These 
 
 The usual claiming process is based on the email address of the persona.
 
-* Persona with email address: You can send an email to the owner of this persona and ask her for permission to add you as a manifestation of this persona. Your name, username and email address will be sent alongside in the email to give the owner a chance to get in contact with you.
+* Persona with email address: You can send an email to the owner of this persona and ask for permission to add you as a manifestation of this persona. Your name, username and email address will be sent alongside in the email to give the owner a chance to get in contact with you.
 
-* Persona without email address: A warning is shown, if you use the "Claim" button. If you continue you will gain access to this persona and your email address will be added to this persona. It will be used to send emails to other users aiming to claim this persona as well. A permanent connection between your account and this
+* Persona without email address: A warning is shown, if you use the "Start claiming process" button. If you continue you will gain access to this persona and your email address will be added to this persona. It will be used to send emails to other users aiming to claim this persona as well. A permanent connection between your account and this
 persona will be established. This solution is based on trust - we trust you, that you will use it responsibly and not claim personas, that should not be connected to you. In the unlikely case of severe misuse we will have to remove this feature again.
-![Persona ohne Mail](/media/persona-ohne-mail.png)
-![Warnung](/media/warnung-claim-ohne-mail.png)
+![A persona without email address, with the button Start claiming process](/media/manual-persona-without-email.png)
+![The warning before claiming a persona without email address](/media/manual-claim-warning.png)
 
 ### Editing Your Persona Page
 
@@ -148,15 +148,13 @@ Panoptikum gives these forgotten contributors a way to claim their contribution 
 * Find the episode with your (not yet shown) contribution.
 * Add your personal contribution on any episode detail page by a single click
 
-![Add Con](/media/add-contribution.png)
+![An episode page with the buttons to claim a contribution](/media/manual-add-contribution.png)
 
 This adds you to the list of contributors
 
-![Added Con](/media/added-contribution.png)
+![The episode page after claiming the contribution](/media/manual-added-contribution.png)
 
-Please note the (i) after your name. This informs the viewer that the contribution was added manuelly by the contributor and was not derived from the feed. If you want to remove your contribution to this episode (maybe you made a mistake) just withdraw it by clicking once more.
-
-![Withdraw Con](/media/withdraw-contribution.png)
+Please note the (i) after your name. This informs the viewer that the contribution was added manuelly by the contributor and was not derived from the feed. If you want to remove your contribution to this episode (maybe you made a mistake) just withdraw it by clicking once more: after the claim the button shows a person with a minus (see the picture above).
 
 ### Metadata Update
 
@@ -165,10 +163,10 @@ Panoptikum has its own update cycle regarding the podcasts feeds. It checks for 
 * Login to Panoptikum
 * Go to the page of your podcast
 * Use the "Metadata Update" button
-![Metadata Update](/media/metadata-update.png)
+![A podcast page with the button Metadata Update](/media/manual-metadata-update.png)
 
 With "Metadata Update" you can also reset the counter in Panoptikum, that sets a podcast in the status retired. Let's say you were busy (with other stuff) and after several months / years you publish the next episode - use the "Metadata Update" button to give Panoptikum the chance to find out that your feed is active again.
-![Retired podcast](/media/retired-podcast.png) If your feed could be read successfully, the counter is reset to zero and the podcast will be rechecked regularly.
+![The notice on the page of a retired podcast](/media/manual-retired-podcast.png) If your feed could be read successfully, the counter is reset to zero and the podcast will be rechecked regularly.
 
 
 ### Your Podcaster Profile in Panoptikum
@@ -179,33 +177,33 @@ Stefan held a talk at the last subscribe about the possibilites of using Panopti
 
 Let's walk through claiming and editing a persona using my profile as an example: registration, log in and claim a persona from **My Profile**.
 
+The pictures show a demo user instead, "Demo Podcaster" with the main persona demo-podcaster.
+
 After the login you can check your profile under **My Profile**
 
-![My Profile, basic account](/media/myprofile-basic.png)
+![My Profile, basic account](/media/manual-my-profile.png)
 
 and change it with **Edit your data**
 
-![Update Profile](/media/updateprofile.png)
+![Update Profile](/media/manual-update-profile.png)
 
 There is no connection between your user and any persona (that why there are no personas listed under "My Profile"). Several personas can exist (based on the information in podcast feeds) that you recognise as manifestations of you, but this is not known to the world. You have to claim a manifestation within Panoptikum to make this connection visible.
 
-So my next step is a search for personas with "Sonja" in the name and beside many others I find the persona Sonja Waldgruber. I use the button **Claim** below the table with the gigs.
+So my next step is a search for personas with "Sonja" in the name and beside many others I find the persona Sonja Waldgruber. I use the button **Claim** in the Claiming panel next to the persona.
 
-![Claim Persona](/media/claim-persona.jpg)
+![Claim Persona](/media/manual-claim-panel.png)
 
-This initiates an email
-
-![Claim Email](/media/claim-email.png)
+This initiates an email, and Panoptikum confirms that it has been sent.
 
 If your address is stored for this persona (also derived from the podcast feed), you receive an email with the subject "Panoptikum - Persona manifestation confirmation request". If you don't find the email in your inbox check out the spam folder (that's where my request landed).
 
-![Claim Request](/media/claim-request.png)
+![Claim Request](/media/manual-claim-request-mail.png)
 
 After you have used the **Grant Access** link in the email your profile has changed. The claimed persona is shown.
-![My Profile, with claimed persona](/media/myprofile-pro1.png)
+![My Profile, with claimed persona](/media/manual-profile-persona-expanded.png)
 
 With **Edit persona** the information can be changed
-![Edit persona - default](/media/edit-persona1.png)
+![Edit persona - default](/media/manual-edit-persona-1.png)
 
 Changes
 * PID: from the default value to waldgruber - so the new URL to the persona is panoptikum.social/waldgruber
@@ -214,9 +212,9 @@ Changes
 * Description header
 * Description
 
-![Edit persona - changed](/media/edit-persona2.png)
+![Edit persona - changed](/media/manual-edit-persona-2.png)
 
-After clicking **Submit** the persona can be reached via https://panoptikum.social/waldgruber and looks like this ![Persona - changes submitted](/media/persona-waldgruber.png)
+After clicking **Submit** the persona can be reached via https://panoptikum.social/waldgruber and looks like this ![Persona - changes submitted](/media/manual-persona-public.png)
 
 This is now a page, that I can use as the reference to all my podcast related activities.
 
@@ -224,13 +222,13 @@ If I find other personas, whom I wish to claim, I follow the same steps. I claim
 
 In my case I find 4 personas, that I claim. I decide that "waldgruber" is my main persona and delegate 2 other personas to "waldgruber".
 
-![Persona - sms](/media/persona-sms.png)
+![Persona - sms](/media/manual-persona-entry-1.png)
 
-![Persona - ss](/media/persona-ss.png)
+![Persona - ss](/media/manual-persona-entry-2.png)
 
 The main persona has no delegation what so ever.
 
-![Persona - s](/media/persona-s.png)
+![Persona - s](/media/manual-persona-entry-0.png)
 
 Personas, that are only delegated and not used as a reference page, are not edited to look nicer. To hide them, I could redirect them to the main persona.
 
