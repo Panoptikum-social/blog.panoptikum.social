@@ -29,6 +29,14 @@ title = "... for Listeners"
 page = "manuals/podcaster-manual"
 title = "... for Podcasters"
 
+[[main_menu.items]]
+page = "manuals/moderator-manual"
+title = "... for Moderators"
+
+[[main_menu.items]]
+page = "manuals/curator-manual"
+title = "... for Curators"
+
 [[main_menu]]
 page = "api"
 

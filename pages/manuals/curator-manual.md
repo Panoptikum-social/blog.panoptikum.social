@@ -13,15 +13,21 @@ Panoptikum's [communities](https://panoptikum.social/communities) are curated gr
 
 Curations are not public. Only the curators and moderators of the community and the Panoptikum admins can read them, never the podcasters or other users. They don't show up in the search or the API either. A podcast that belongs to several communities is curated in each of them separately, and it can get different grades there.
 
+The pictures show a demo user, "Demo Podcaster", as curator of the community Wisspod, with example curations.
+
 ## Becoming a Curator
 
 A moderator of the community makes you a curator and assigns you to the community. Just tell them your username on Panoptikum. The admins can do that too.
 
 As a curator you find the entry **My Curations** in the menu below your user name in the sidebar.
 
+![The personal menu with My Curations](/media/manual-cur-user-menu.png)
+
 ## My Curations
 
 **My Curations** lists the communities you curate. A click on a community opens its curations.
+
+![My Curations with the community Wisspod](/media/manual-cur-my-curations.png)
 
 ## The Curations of a Community
 
@@ -30,6 +36,8 @@ The page "Curations in" and the name of the community lists the podcasts that ar
 * **Podcast**: the podcast's title, linked to its curation page.
 * **Grades**: the grades the podcast got so far, for example "2× recommended" and "1× indifferent".
 * **Curated by me**: a ✓ if you have curated the podcast already.
+
+![The open podcasts of Wisspod with "Podcast" in the title](/media/manual-cur-community.png)
 
 New podcasts in a community are open for curation from the start. When the moderators decide that a podcast is curated enough, they mark it as done, and it disappears from your list.
 
@@ -45,6 +53,12 @@ Under **My curation** you write your own:
 * **Text (Markdown)**: why you graded the podcast that way. The text supports Markdown, for example **bold**, lists, tables and links. Images aren't shown, only their alternative text.
 * **Save** stores your curation.
 
+![The form for your curation, filled in](/media/manual-cur-podcast-form.png)
+
+After saving, your curation shows above the form:
+
+![The saved curation](/media/manual-cur-podcast-saved.png)
+
 You have one curation per podcast in each community. When you open the page again, the form shows your curation, and **Save** replaces it with your changes. Curations can't be deleted, but you can change them as long as the podcast is open for curation.
 
 If a podcast is done, its page shows "Curation of this podcast is done." and no form any more.
@@ -55,5 +69,7 @@ Moderators of a community can read all its curations under **My Curations**, eve
 
 * **open – mark done** marks the podcast as done, after you have confirmed it. It disappears from the curators' list.
 * **done – reopen** makes it open for curation again.
+
+![The curations of Wisspod as moderators see them, all podcasts with "Digital" in the title](/media/manual-mod-curations.png)
 
 To write curations, moderators assign themselves as curators of the community, see the [Moderator Manual](/manuals/moderator-manual).
