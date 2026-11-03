@@ -115,6 +115,8 @@ Curators assess the podcasts of a community, see the [Curator Manual](/manuals/c
 * **Make curator & assign**: enter the exact username of any Panoptikum user. This makes them a curator and assigns them to the community in one step.
 * **Remove** next to a curator removes them from the community, after you have confirmed it. Their curations stay. Only admins can take the curator role away completely.
 
+![The curators of Wisspod, with the fields to assign another one](/media/manual-mod-curators.png)
+
 ## Curations
 
 As a moderator you can read all curations of your communities under **My Curations**, even if you aren't a curator yourself. You also decide which podcasts are still open for curation: in the overview of a community you can filter by "open for curation", "done" and "all", and mark a podcast as done or reopen it. The [Curator Manual](/manuals/curator-manual) describes these pages.
