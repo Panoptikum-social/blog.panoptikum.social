@@ -105,6 +105,8 @@ The columns:
 * **Status**, **Failed** (how often in the last 24 hours) and **Last failure**.
 * **Endpoints**: which requests failed. "show" reads the podcast's data, "trigger_episode_update" asks Panoptikum to fetch new episodes.
 
+![The API errors of Wisspod, with the podcast names blurred](/media/manual-mod-api-errors.png)
+
 ## Curators
 
 Curators assess the podcasts of a community, see the [Curator Manual](/manuals/curator-manual). The link **Assign curators to my communities** on **My Moderations** opens the page "Curators of my communities". It lists every community you moderate with its curators.
