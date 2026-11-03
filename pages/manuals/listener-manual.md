@@ -208,7 +208,13 @@ page and become a registered user.
 You are asked for an email address (required for password recovery),
 a user name (used for your reviews, comments and likes) and a password
 (to log in). You can choose any user name as long as it has not been
-taken yet within Panoptikum.
+taken yet within Panoptikum. The form also asks for your name, whether you
+are a podcaster, and a small question that tells humans from bots.
+
+![The Sign Up form](/media/manual-lis-signup.png)
+
+After **Create Account** Panoptikum sends you an email with a link to verify
+your email address. You can log in once you have used that link.
 
 Panoptikum tries to ask for (and save) only information, that is
 required to offer the service. Besides the information provided during
