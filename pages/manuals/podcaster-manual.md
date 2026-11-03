@@ -6,7 +6,7 @@ weight = 20
 redirect_from = ["/podcaster-manual"]
 +++
 
-(There  is  also a [Listener Manual](/manuals/listener-manual).)
+(There are also a [Listener Manual](/manuals/listener-manual), a [Moderator Manual](/manuals/moderator-manual) and a [Curator Manual](/manuals/curator-manual), see the [overview of all manuals](/manuals).)
 
 This [Podcaster Manual](/manuals/podcaster-manual) describes the use of Panoptikum from the podcaster perspective. Please read the [Listener Manual](/manuals/listener-manual) before this one. Panoptikum uses metadata in the RSS feeds to identify contributors and presents information regarding those persons. Podcasters can enhance and manage their automatically generated business cards for free.
 
@@ -27,7 +27,7 @@ Panoptikum shows statistics regarding podcasts directly on the page. The API off
 
 Your podcast gets listed on Panoptikum, if it is included in at least one uploaded OPML-file of a registered user. You can also add your podcast personally after registration. Registered users can use the "suggest a podcast" function offered in the sub menu below your user name. Please see the [Listener Manual](/manuals/listener-manual) for more information regarding registration and listing of podcasts.
 
-If you want to remove your podcast from Panoptikum, please send an email to <stefan@panoptikum.social>. There is no need to give a reason. This is a manual procedure.
+If you want to remove your podcast from Panoptikum, please send an email to <sonja@panoptikum.social>. There is no need to give a reason. This is a manual procedure.
 
 Panoptikum stops to check for updates of a Podcast after 10 failed attempts. You can reset the counter (after login) by a successfull "Metadata Update" (more details at the section "Metadata Update").
 
@@ -42,13 +42,15 @@ Copy the QR-code for the subscription of YOUR podcast! The QR-code on the page o
 
 ### Recommendations
 
-For those of your listeners, who would like to post a recommendation for your podcast, but are fans of their privacy and therefor have no iTunes account, Panoptikum offers the recommendation function.
+For those of your listeners, who would like to post a recommendation for your podcast, but are fans of their privacy and would rather not use the big platforms for it, Panoptikum offers the recommendation function.
 
 Panoptikum is a project, that respects the privacy of its users. Please check out our [Privacy Policy](/privacy) for more details.
 
 ### API
 
-Panoptikum offers an API for other appilications. This gives you the possibility to retrieve data for your own project or homepage. The API adheres to [json:api](https://jsonapi.org/) standards. Currently all endpoints are available without throttling. Podcasts within a category, gigs by a persona and episodes for a podcast are paginated.
+Panoptikum offers an API for other appilications. This gives you the possibility to retrieve data for your own project or homepage. The API adheres to [json:api](https://jsonapi.org/) standards. Podcasts within a category, gigs by a persona and episodes for a podcast are paginated.
+
+The endpoints are available without throttling, with one exception: the update of a podcast (`trigger_update` and `trigger_episode_update`) can be asked for once every 5 minutes per podcast. An earlier request gets the status 429 ("Too many requests") with the number of seconds until the next update is possible.
 
 Using full text search your program can search in categories, podcasts, episodes and personas.
 
@@ -89,11 +91,34 @@ Benefits for registered podcasters:
 
 * Suggest your own podcast
 * Write recommendations
+* Claim your podcast and check its feed
 * Claim personas
 * Edit your persona page (URL, image, description)
 * Redirect and delegate personas
 
 Based on the contributors of podcasts personas are automatically created. These are listed under [Podcasters](https://panoptikum.social/personas) on the Panoptikum page.
+
+### Claim Your Podcast
+
+A podcast on Panoptikum can be managed by one registered user. As the one who manages your podcast you can check its feed (see "Check Your Feed" below). Your podcasts are listed under **Podcasts I manage** on **My Podcasts**. Claiming needs a verified email address.
+
+There are two ways to get there:
+
+* Automatically: when you open **My Podcasts**, Panoptikum assigns you all podcasts that nobody manages yet and whose feed lists your email address as the owner's address (for example in `itunes:owner`).
+* With **Claim this podcast** on the page of your podcast, if nobody manages it yet: Panoptikum sends a confirmation link to the owner address listed in the feed. Whoever reads the mails of that address opens the link and confirms; then you manage the podcast. The link is valid for 48 hours.
+
+If the feed lists no owner address, Panoptikum can't send the confirmation. If someone else manages your podcast by mistake, please write to <sonja@panoptikum.social>.
+
+### Check Your Feed
+
+**Check feed** on the page of your podcast shows a report on your feed. It is there for the one who manages the podcast, for the moderators and for the Panoptikum team. Panoptikum downloads a fresh copy of the feed for every check, so you can fix your feed and use **Check again** to see the result.
+
+The report checks the feed against the rule sets of RSS 2.0, Apple Podcasts and Podcasting 2.0, each with errors, warnings and hints, a link to the rule and where the problem is in your feed. The boxes at the top switch the rule sets on and off. Further sections show what Panoptikum reads from your feed anyway, although it isn't standard (other apps may not), and what Panoptikum reads from your feed at all: title, artwork, owner, categories, persons, episodes and more.
+
+Two buttons check more than the feed itself:
+
+* **Probe artwork and episodes** downloads the artwork and asks for the audio files of the newest 10 episodes, for example whether the artwork has the right size and whether the audio files can be reached.
+* **Probe audio** reads the first megabyte of the newest 3 episodes and checks format, sample rate, bit rate and loudness against Apple's audio requirements.
 
 ### Claim Personas
 
@@ -165,13 +190,15 @@ Panoptikum has its own update cycle regarding the podcasts feeds. It checks for 
 * Use the "Metadata Update" button
 ![A podcast page with the button Metadata Update](/media/manual-metadata-update.png)
 
+The button can be used once every 5 minutes per podcast. In between, the page tells you in how many seconds the next update is possible.
+
 With "Metadata Update" you can also reset the counter in Panoptikum, that sets a podcast in the status retired. Let's say you were busy (with other stuff) and after several months / years you publish the next episode - use the "Metadata Update" button to give Panoptikum the chance to find out that your feed is active again.
 ![The notice on the page of a retired podcast](/media/manual-retired-podcast.png) If your feed could be read successfully, the counter is reset to zero and the podcast will be rechecked regularly.
 
 
 ### Your Podcaster Profile in Panoptikum
 
-Stefan held a talk at the last subscribe about the possibilites of using Panoptikum for your podcaster profile. The title of the talk was "Deine Visitkarte ist zu klein" (Your Business Card is to small). You can find it at [youTube](https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC). The slides are listed on the [Talks](/talks) page.
+Stefan held a talk at Subscribe 9 in Munich (October 2017) about the possibilites of using Panoptikum for your podcaster profile. The title of the talk was "Deine Visitenkarte ist zu klein!" (Your Business Card is too small). You can find it at [youTube](https://www.youtube.com/watch?v=btZcOEppi4E&index=2&list=PL0171AA0693FD18FC). The slides are listed on the [Talks](/talks) page.
 
 ### Walkthrough: Claiming and Editing a Persona
 
@@ -243,17 +270,11 @@ Personas, that are only delegated and not used as a reference page, are not edit
 Panoptikum and other podcast platforms rely on correct metadata of your podcast. Metadata are those fields in your RSS feed, that provide additional information regarding your podcast and its episodes.
 
 * Use the matching categories to list your podcast in one or more branches of the Panoptikum category tree.
-* Add the names of all contributors to your feed. Based on the contributors in your feed Panoptikum automatically generates the personas and adds the gigs to an existing persona.
+* Add the names of all contributors to your feed. Based on the contributors in your feed Panoptikum automatically generates the personas and adds the gigs to an existing persona. Panoptikum reads the `podcast:person` tag of the [Podcasting 2.0 namespace](https://podcasting2.org/docs/podcast-namespace/tags/person), for the podcast and for single episodes, with the role of each person.
 
-Check out the documentation of your podcast publishing software to set the metadata in the best way possible.
+Check out the documentation of your podcast publishing software to set the metadata in the best way possible. "Check feed" shows you what Panoptikum reads from your feed (see "Check Your Feed" above).
 
 
 ### Tag new-feed-url in case of relocation
 
 The new-feed-url tag helps you change your podcast RSS feed address (URL), if your old hoster does not support a redirect. Just put the tag with the new url in your OLD RSS feed.
-
-### Tipp for Users of Podlove Publisher
-
-To ensure, that all contributors are listed in the feed, please fill the URI attribute for each contributor.
-
-Further details [Github](https://github.com/podlove/podlove-publisher/issues/939)

@@ -6,7 +6,7 @@ weight = 10
 redirect_from = ["/listener-manual"]
 +++
 
-(There is also a [Podcaster Manual](/manuals/podcaster-manual).)
+(There are also a [Podcaster Manual](/manuals/podcaster-manual), a [Moderator Manual](/manuals/moderator-manual) and a [Curator Manual](/manuals/curator-manual), see the [overview of all manuals](/manuals).)
 
 This manual describes the use of Panoptikum from the listener perspective.
 Panoptikum.social offers basic functionality plus additional functionality for
@@ -18,8 +18,8 @@ Basic functionality for listeners
 * Latest podcasts
 * Latest episodes
 * Top 10 subscribed podcasts
-* Top 5 liked podcasts
-* Podcast discovery: categories, random, search
+* Top 10 liked podcasts
+* Podcast discovery: categories, communities, random, search
 
 Panoptikum offers you the chance to discover new podcasts for your
 podcatcher.
@@ -63,7 +63,7 @@ With a click on ...
 Under latest episodes you find those podcast episodes, that were
 recently published. Panoptikum regularly checks the listed podcast
 feeds for new episodes and gets the episode information from the feed.
-You see the  title of the episode, the name of the podcast, the
+You see the title of the episode, the name of the podcast, the
 names of the contributors and date plus publishing time.
 
 With a click on ...
@@ -88,7 +88,7 @@ number of users that have subscribed to this podcast. With a click
 on the name of the podcast you reach the Panoptikum page of this
 podcast with further information.
 
-### Top 5 Liked Podcasts
+### Top 10 Liked Podcasts
 
 The registered users can like a podcast. This is independent from the
 subscription. A user can like a podcast without a subscription to it.
@@ -99,29 +99,52 @@ page of this podcast with further information.
 Rationale: You could still like a podcast, even if you don't find time to
 listen to it any more. There are just too many good podcasts out there :-)
 
-### Podcast Discovery: Categories, Random, Search
+### Podcast Discovery: The Sidebar
 
-In the sidebar of every page several symbols and a search field are
-displayed.
+The sidebar on the left of every page holds a search field and the menu:
 
-[Categories](https://panoptikum.social/categories): A podcast can be
-assigned to categories. Based on this information Panoptikum shows
-which listed podcasts are available in each category. There are top
-level categories and subcategories. With a click on a category you
-reach the Panoptikum page for this category and see the subcategories
-and all the listed podcasts (sorted by language) within this category.
+* [Categories](https://panoptikum.social/categories): A podcast can be
+  assigned to categories. Based on this information Panoptikum shows
+  which listed podcasts are available in each category. There are top
+  level categories and subcategories. With a click on a category you
+  reach the Panoptikum page for this category and see the subcategories
+  and all the listed podcasts (sorted by language) within this category.
+* [Communities](https://panoptikum.social/communities): curated groups of
+  podcasts and podcasters around a shared theme, each with its own
+  moderators and members. The page of a community lets you browse its
+  podcasts, follow the latest episodes of its podcasts as a timeline, see
+  its podcasts sorted by their other categories, and lists its moderators
+  and members.
+* **New Podcasts** and **New Episodes**: the latest podcasts and episodes,
+  as on the start page, with more of them.
+* [Random Recommendation](https://panoptikum.social/recommendations/random):
+  Panoptikum offers many structured ways to discover new podcasts. You can
+  use recommendations, latest podcasts, latest episodes, top subscribed,
+  top liked and the category tree. With random you discover a new
+  podcast per chance. With a click on "Random Recommendation" Fortuna
+  decides which of the podcasts listed in Panoptikum is presented with an
+  episode.
+* **Latest Recommendations**: the latest recommendations of all users.
+* **About**, **Blog** and **Manuals**: the Panoptikum website with news and
+  these manuals.
+* [Podcasters](https://panoptikum.social/personas): the people behind the
+  podcasts, see the [Podcaster Manual](/manuals/podcaster-manual).
+* **Users**: the registered users of Panoptikum.
 
-[Random](https://panoptikum.social/recommendations/random): Panoptikum
-offers many structured ways to discover new podcasts. You can use
-recommendations, latest podcasts, latest episodes, top subscribed,
-top liked and the category tree. With random you discover a new
-podcast per chance. With a click on "Random" Fortuna decides which
-of the podcasts listed in Panoptikum is presented with an episode.
+The button with the two arrows next to the Panoptikum logo folds the
+sidebar in and out.
 
 Search: Just enter one or more terms in the search field and
-Panoptikum will show you all results in podcasts, episodes and
-personas ordered by relevance.
-[Example](https://panoptikum.social/search?search[searchstring]=Stefan&page=1)
+Panoptikum will show you the results in episodes, ordered by relevance.
+The tabs above the results switch to podcasts, personas and categories.
+[Example: personas with "Stefan" in the name](https://panoptikum.social/search/personas/Stefan)
+
+### Light and Dark Mode
+
+The three buttons at the bottom of the sidebar choose how Panoptikum looks:
+the sun for light, the moon for dark and the monitor in between to follow
+the setting of your system, which is also the default. Your browser
+remembers the choice.
 
 ### Listen to Episode
 
@@ -150,7 +173,7 @@ Files: You can download the audio file of the episode.
 Panoptikum offers a great overview with its
 [categories](https://panoptikum.social/categories) page. For those among
 us who just love figures and want to know exactly how many podcasts
-are in one categorie there are the hidden statistics. Try it out
+are in one category there are the hidden statistics. Try it out
 [https://panoptikum.social/categories/stats](https://panoptikum.social/categories/stats).
 The number of podcasts per category are added to the update view of
 the categories page. It also works within the category. For example within
@@ -170,7 +193,7 @@ Panoptikum offers additional functionality after the log in:
 
 ### Sign up
 
-In the sidebar of all non-documentation pages you find a link to log
+In the sidebar of every page you find a link to log
 in. You can [Sign Up](https://panoptikum.social/users/new) on the log in
 page and become a registered user.
 
@@ -188,13 +211,18 @@ stores and publishes your reviews, comments and likes.
 
 ## Additional Functionality After Log In
 
-In the sidebar of all non-documentation pages you find a link to
+In the sidebar of every page you find a link to
 [Log In](https://panoptikum.social/sessions/new). After log in you see your
-user name in the sidebar of the non-documentation pages (in the example
+user name in the sidebar (in the example
 below the user name is demo). Below your user name you find a menu with
 the following functionalities:
 
 ![The personal menu in the sidebar](/media/manual-user-menu.png)
+
+Moderators and curators of a community find two more entries there, **My
+Moderations** and **My Curations**, see the
+[Moderator Manual](/manuals/moderator-manual) and the
+[Curator Manual](/manuals/curator-manual).
 
 ### My Profile
 
@@ -218,6 +246,9 @@ and get suggestions for new podcasts based on this information
 * Listeners of the podcasts you listen to, also listen to
 * Users, who like the same podcasts as you, also like
 * The categories my podcasts are assigned to
+
+Podcasters also find the podcasts they manage there, see the
+[Podcaster Manual](/manuals/podcaster-manual).
 
 ### My Recommendations
 
