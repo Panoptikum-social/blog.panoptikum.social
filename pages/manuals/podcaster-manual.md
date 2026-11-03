@@ -38,6 +38,8 @@ The listing on Panoptikum gives your podcast the chance to get discovered by lis
 
 The interested listener can become your regular listener by using the subscribe button or the QR-code on the page of your podcast on Panoptikum easily.
 
+![The QR code and the subscribe button on the page of a podcast](/media/manual-pod-qr.png)
+
 Copy the QR-code for the subscription of YOUR podcast! The QR-code on the page of your podcast at Panoptikum does not only make it easier for interested people to subscribe your podcast. You can also use it! Just copy the QR-image to your own site, stickers, business cards. What ever you use to spread the news about your podcast, the subscription to your podcast is just a scan away.
 
 ### Recommendations
@@ -73,6 +75,8 @@ Within the Panoptikum universe each person can have different roles. There is th
 Based on the contributors of podcasts personas are automatically created. These are listed under the menu item [Podcasters](https://panoptikum.social/personas).
 Use the search on the [personas page](https://panoptikum.social/personas) to find your persona(s). The search results are updated with each key stroke while you enter the search string. Often you don't need to enter a complete search term to find your persona.
 
+![Searching the personas: names starting with "Demo Pod"](/media/manual-pod-persona-search.png)
+
 Two examples:
 * Mathilda is a podcast listener. She is no podcaster and has no persona.
 * Stefan is a listener and a podcaster. He produces a podcast together with Matthias
@@ -107,11 +111,15 @@ There are two ways to get there:
 * Automatically: when you open **My Podcasts**, Panoptikum assigns you all podcasts that nobody manages yet and whose feed lists your email address as the owner's address (for example in `itunes:owner`).
 * With **Claim this podcast** on the page of your podcast, if nobody manages it yet: Panoptikum sends a confirmation link to the owner address listed in the feed. Whoever reads the mails of that address opens the link and confirms; then you manage the podcast. The link is valid for 48 hours.
 
+![The button Claim this podcast, below Metadata Update](/media/manual-pod-claim.png)
+
 If the feed lists no owner address, Panoptikum can't send the confirmation. If someone else manages your podcast by mistake, please write to <sonja@panoptikum.social>.
 
 ### Check Your Feed
 
 **Check feed** on the page of your podcast shows a report on your feed. It is there for the one who manages the podcast, for the moderators and for the Panoptikum team. Panoptikum downloads a fresh copy of the feed for every check, so you can fix your feed and use **Check again** to see the result.
+
+![The beginning of the feed check of Aua-uff-Code!](/media/manual-pod-check-feed.png)
 
 The report checks the feed against the rule sets of RSS 2.0, Apple Podcasts and Podcasting 2.0, each with errors, warnings and hints, a link to the rule and where the problem is in your feed. The boxes at the top switch the rule sets on and off. Further sections show what Panoptikum reads from your feed anyway, although it isn't standard (other apps may not), and what Panoptikum reads from your feed at all: title, artwork, owner, categories, persons, episodes and more.
 

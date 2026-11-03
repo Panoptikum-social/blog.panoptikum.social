@@ -29,6 +29,8 @@ podcatcher.
 The start page of Panoptikum offers you a wide range of possibilities
 to discover new podcasts.
 
+![The start page with the sidebar on the left](/media/manual-lis-start.png)
+
 ### Latest Recommendations
 
 Registered users can write personal recommendations for podcasts. Under
@@ -131,6 +133,10 @@ The sidebar on the left of every page holds a search field and the menu:
   podcasts, see the [Podcaster Manual](/manuals/podcaster-manual).
 * **Users**: the registered users of Panoptikum.
 
+![The category tree](/media/manual-lis-categories.png)
+
+![The communities](/media/manual-lis-communities.png)
+
 The button with the two arrows next to the Panoptikum logo folds the
 sidebar in and out.
 
@@ -138,6 +144,8 @@ Search: Just enter one or more terms in the search field and
 Panoptikum will show you the results in episodes, ordered by relevance.
 The tabs above the results switch to podcasts, personas and categories.
 [Example: personas with "Stefan" in the name](https://panoptikum.social/search/personas/Stefan)
+
+![The podcasts found for "Geschichte"](/media/manual-lis-search.png)
 
 ### Light and Dark Mode
 
@@ -250,6 +258,8 @@ and get suggestions for new podcasts based on this information
 Podcasters also find the podcasts they manage there, see the
 [Podcaster Manual](/manuals/podcaster-manual).
 
+![My Podcasts of the demo user](/media/manual-lis-my-podcasts.png)
+
 ### My Recommendations
 
 You see your podcast recommendations and can recommend subscribed
@@ -283,6 +293,8 @@ to new podcasts based on your current subscriptions and likes.
 JSON-File with a Download button and shows you all your stored data. You can
 check what is stored the different areas and delete it per area. In the
 area itself you can either delete all entries or just individual entries.
+
+![The top of My Data](/media/manual-lis-my-data.png)
 
 Areas and possibilities
 
@@ -325,6 +337,10 @@ After log in you have additional possibilities on the different pages
 * Podcast: recommend, like and follow
 * Episode: recommend and like
 * Chapters of an episode: recommend
+
+On the page of a podcast the buttons show how many users like, follow and subscribe to the podcast; a click likes, follows or subscribes, or takes it back.
+
+![Like, follow and subscribe on a podcast page, all three taken already](/media/manual-lis-podcast-buttons.png)
 
 On the page of a podcast you write your recommendation into the field
 "Your recommendation" and send it with <kbd>Recommend</kbd>.
