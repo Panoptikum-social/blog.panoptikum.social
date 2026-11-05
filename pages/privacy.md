@@ -56,6 +56,10 @@ after 30 days. It keeps you logged in after you have closed your browser. You ca
 time by logging out or by deleting the cookie in your browser. If you do not tick the box, this
 cookie is not set.
 
+If you switch the language of Panoptikum, a cookie called `locale` is set. It contains only the
+chosen language (`en` or `de`) and expires after one year. If you are logged in, the chosen
+language is also stored in your account.
+
 Another cookie is set by the Podlove Webplayer on the episode show page to remember the play
 position in case you stop listening, leave the page and come back later. This cookie is not
 processed by the server.

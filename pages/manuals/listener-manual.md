@@ -154,6 +154,14 @@ the sun for light, the moon for dark and the monitor in between to follow
 the setting of your system, which is also the default. Your browser
 remembers the choice.
 
+### Language
+
+The buttons EN and DE below choose the language of Panoptikum: English or
+German. Without a choice, Panoptikum follows the language of your browser.
+If you are logged in, the choice is stored in your account and applies on
+all your devices. Content written by people – podcast and episode data,
+recommendations, texts of communities – stays in its language.
+
 ### Listen to Episode
 
 Panoptikum is using the
@@ -241,7 +249,7 @@ Moderations** and **My Curations**, see the
 ### My Profile
 
 You can see and edit your data (name, username, email, podcaster y/n,
-share followings y/n, share subscriptions y/n).
+share followings y/n, share subscriptions y/n) and the languages you speak.
 
 ### Change Password
 
