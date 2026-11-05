@@ -10,6 +10,9 @@ profiles = ["https://fosstodon.org/@panoptikum"]
 [dark]
 theme = "catppuccin-mocha"
 
+[languages.de]
+title = "Panoptikum.social"
+
 [[main_menu]]
 page = ""
 title = "About"
