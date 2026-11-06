@@ -7,9 +7,9 @@ redirect_from = ["/2016/12/18/automatic_import.html"]
 
 Thanks to the new automatic import of episodes the alpha test site is now up-to-date!
 
-This week a great next milestone within the Panoptikum.social projects was passed sucessfuly, the automatic import of new episodes is now working! You can immediatly see the change on [Alpha](https://panoptikum.social/).
+This week a great next milestone within the Panoptikum projects was passed sucessfuly, the automatic import of new episodes is now working! You can immediatly see the change on [Alpha](https://panoptikum.social/).
 
-And yes - time travel is possible with Panoptikum.social. You can see episodes from the future. But we have to admit this is no feature of Panoptikum.social, it just displays the meta-information of each episode and does not check or change anything. So if you are a podcaster maybe you should check if the meta-data of your podcast is published correctly.
+And yes - time travel is possible with Panoptikum. You can see episodes from the future. But we have to admit this is no feature of Panoptikum, it just displays the meta-information of each episode and does not check or change anything. So if you are a podcaster maybe you should check if the meta-data of your podcast is published correctly.
 
 Claim your account, if you are own a podcast producer, who's podcast is already in Panoptikum:
 ![claim](/media/claim-account.jpg)

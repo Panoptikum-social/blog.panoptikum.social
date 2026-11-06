@@ -6,7 +6,7 @@ redirect_from = ["/meta/2016/09/15/about-panoptikum.html", "/2016/09/15/about-pa
 +++
 
 Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and I am the creator
-and lead developer of Panoptikum.social.
+and lead developer of Panoptikum.
 Panoptikum, the project this very site has been created for, aims to be a site for
 easy and pleasant discovery for new podcasts, as well as a site for communication with other
 podcast listeners and podcasters.
@@ -46,11 +46,11 @@ It would be also nice to have a quick chat to other users, that are currently on
 * For you as a podcast listener: it's a chance to share your opinions and recommendations and
   get other listener's opinions, thoughts and recommendations.
 
-## Will Panoptikum.social always be free?
+## Will Panoptikum always be free?
 
 Yes and no.
 
-All the software, that has been written and will be written for Panoptikum.social is free and open
+All the software, that has been written and will be written for Panoptikum is free and open
 source software and is licensed under the AGPL license.
 
 For podcast listeners, access to the full functionality of the site will be free forever.

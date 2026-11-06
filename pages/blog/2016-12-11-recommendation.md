@@ -8,7 +8,7 @@ redirect_from = ["/2016/12/11/recommendation.html"]
 Login to see proposals based on subscribed podcasts and likes.
 
 At last one of the core features (in my humble opinion) arrived.
-Panoptikum.social shows two brand new lists:
+Panoptikum shows two brand new lists:
 
 * Listeners of the podcasts you listen to, also listen to
 * Users, who like the same podcasts as you, also like

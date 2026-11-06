@@ -5,7 +5,7 @@ authors = ["Sonja"]
 redirect_from = ["/2016/11/20/alpha-updates2.html"]
 +++
 
-Panoptikum.social now offers its first social network functionalities.
+Panoptikum now offers its first social network functionalities.
 
 Podcasts, Categories und Episodes can be liked. Categories and Podcasts can be followed. These are the manual basics, before the automatic recommendation algorithm. After your login you see additional buttons.
 
