@@ -120,7 +120,7 @@ Nennt der Feed keine Eigentümer:innen-Adresse, kann Panoptikum keine Bestätigu
 
 ![Der Anfang der Feed-Prüfung von Aua-uff-Code!](/media/manual-pod-check-feed-de.png)
 
-Der Bericht prüft den Feed nach den Regelwerken von RSS 2.0, Apple Podcasts und Podcasting 2.0, jeweils mit Fehlern, Warnungen und Hinweisen, einem Link zur Regel und der Stelle in Ihrem Feed. Die Regeltexte selbst sind englisch. Mit den Kästchen oben schalten Sie die Regelwerke ein und aus. Weitere Abschnitte zeigen, was Panoptikum aus Ihrem Feed trotzdem liest, obwohl es nicht dem Standard entspricht (andere Apps vielleicht nicht), und was Panoptikum überhaupt aus Ihrem Feed liest: Titel, Artwork, Eigentümer:in, Kategorien, Personen, Episoden und mehr.
+Der Bericht prüft den Feed nach den Regelwerken von RSS 2.0, Apple Podcasts und Podcasting 2.0, jeweils mit Fehlern, Warnungen und Hinweisen, einem Link zur Regel und der Stelle in Ihrem Feed. Mit den Kästchen oben schalten Sie die Regelwerke ein und aus. Weitere Abschnitte zeigen, was Panoptikum aus Ihrem Feed trotzdem liest, obwohl es nicht dem Standard entspricht (andere Apps vielleicht nicht), und was Panoptikum überhaupt aus Ihrem Feed liest: Titel, Artwork, Eigentümer:in, Kategorien, Personen, Episoden und mehr.
 
 Zwei Buttons prüfen mehr als den Feed selbst:
 
