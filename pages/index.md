@@ -91,10 +91,10 @@ We are also interested in your feedback, especially which features you miss at o
 
 ### ... as a developer
 
-If you are a web developer, interested in this project, and in coding in Elixir and Phoenix, get in touch via Twitter [@panoptikumIO](https://twitter.com/panoptikumio),
-Email: <stefan@panoptikum.social> or visit our [Github page](https://github.com/panoptikumio).
+If you are a web developer, interested in this project, and in coding in Elixir and Phoenix, get in touch in the fediverse at [@panoptikum@fosstodon.org](https://fosstodon.org/@panoptikum),
+Email: <stefan@panoptikum.social> or visit our [Github page](https://github.com/Panoptikum-social).
 
-There you will find the [source code](https://github.com/PanoptikumIO/panoptikum.social) for this marketing page (that is written using Jekyll and [jekyll-Octopod](https://jekyll-octopod.github.io/)), but more important the Panoptikum web application itself in the [Panrepository](https://github.com/PanoptikumIO/pan). Panoptikum is [free and open source](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) software.
+There you will find the [source code](https://github.com/Panoptikum-social/blog.panoptikum.social) for this documentation site (made with q.e.d.), but more important the Panoptikum web application itself in the [Pan repository](https://github.com/Panoptikum-social/pan). Panoptikum is [free and open source](https://github.com/Panoptikum-social/pan/blob/master/LICENSE) software.
 
 ## The Team
 

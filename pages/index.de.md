@@ -89,10 +89,10 @@ Uns interessiert auch Ihr Feedback, besonders welche Funktionen Sie auf anderen 
 
 ### ... als Entwickler:in
 
-Wenn Sie Webentwickler:in sind, sich für dieses Projekt interessieren und gerne in Elixir und Phoenix programmieren, melden Sie sich über Twitter [@panoptikumIO](https://twitter.com/panoptikumio),
-per E-Mail an <stefan@panoptikum.social> oder besuchen Sie unsere [Github-Seite](https://github.com/panoptikumio).
+Wenn Sie Webentwickler:in sind, sich für dieses Projekt interessieren und gerne in Elixir und Phoenix programmieren, melden Sie sich im Fediverse bei [@panoptikum@fosstodon.org](https://fosstodon.org/@panoptikum),
+per E-Mail an <stefan@panoptikum.social> oder besuchen Sie unsere [Github-Seite](https://github.com/Panoptikum-social).
 
-Dort finden Sie den [Quellcode](https://github.com/PanoptikumIO/panoptikum.social) dieser Informationsseite (geschrieben mit Jekyll und [jekyll-Octopod](https://jekyll-octopod.github.io/)), vor allem aber die Panoptikum-Webanwendung selbst im [Pan-Repository](https://github.com/PanoptikumIO/pan). Panoptikum ist [freie, quelloffene](https://github.com/PanoptikumIO/pan/blob/master/LICENSE) Software.
+Dort finden Sie den [Quellcode](https://github.com/Panoptikum-social/blog.panoptikum.social) dieser Dokumentations-Website (gemacht mit q.e.d.), vor allem aber die Panoptikum-Webanwendung selbst im [Pan-Repository](https://github.com/Panoptikum-social/pan). Panoptikum ist [freie, quelloffene](https://github.com/Panoptikum-social/pan/blob/master/LICENSE) Software.
 
 ## Das Team
 

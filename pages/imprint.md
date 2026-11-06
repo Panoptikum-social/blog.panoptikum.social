@@ -12,7 +12,7 @@ Vorgartenstraße 145/2/3
 1020 Wien  
 Austria
 
-Twitter: [@panoptikumIO](https://www.twitter.com/panoptikumio)  
+Fediverse: [@panoptikum@fosstodon.org](https://fosstodon.org/@panoptikum)  
 Email: <stefan@panoptikum.social>
 
 ## License
