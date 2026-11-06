@@ -1,6 +1,6 @@
 +++
 title = "Impressum"
-description = "Medieninhaber, Lizenz und Hosting von Panoptikum.social."
+description = "Medieninhaber, Lizenz und Hosting von Panoptikum."
 menu = "footer"
 weight = 80
 +++
@@ -22,4 +22,4 @@ Dieses Werk ist lizenziert unter einer
 
 ## Hosting
 
-Panoptikum.social wird gehostet von [Informatom EDV-Dienstleistungen e.U.](https://www.informatom.com)
+Panoptikum wird gehostet von [Informatom EDV-Dienstleistungen e.U.](https://www.informatom.com)

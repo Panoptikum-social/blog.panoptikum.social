@@ -7,12 +7,12 @@ hide_title = true
 +++
 
 ::: hero
-headline = "Panoptikum.social"
+headline = "Panoptikum"
 text = "Podcast discovery and community"
 :::
 
 Hi! This is Stefan speaking, a freelance web developer from Vienna, Austria, and
-I am the creator and lead developer of Panoptikum.social.
+I am the creator and lead developer of Panoptikum.
 
 Panoptikum, the project this very site has been created for, aims to be three things
 
@@ -59,11 +59,11 @@ on the site.
 * For you as a podcast listener: it's a chance to share your opinions and
   recommendations and get other listener's opinions, thoughts and recommendations.
 
-## Will Panoptikum.social always be free?
+## Will Panoptikum always be free?
 
 Yes.
 
-All the software, that has been written and will be written for Panoptikum.social is
+All the software, that has been written and will be written for Panoptikum is
 free and open source software and is licensed under the AGPL license.
 
 * For podcast listeners, access to the full functionality of the site will be

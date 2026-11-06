@@ -8,7 +8,7 @@ weight = 10
 (Es gibt auch ein [Handbuch für Podcaster:innen](/manuals/podcaster-manual), ein [Handbuch für Moderator:innen](/manuals/moderator-manual) und ein [Handbuch für Kurator:innen](/manuals/curator-manual), siehe die [Übersicht aller Handbücher](/manuals).)
 
 Dieses Handbuch beschreibt Panoptikum aus Sicht der Hörer:innen.
-Panoptikum.social bietet Grundfunktionen und für registrierte Benutzer:innen
+Panoptikum bietet Grundfunktionen und für registrierte Benutzer:innen
 weitere Funktionen.
 
 Die Bilder zeigen noch die englische Oberfläche.

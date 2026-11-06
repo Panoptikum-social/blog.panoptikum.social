@@ -7,12 +7,12 @@ hide_title = true
 +++
 
 ::: hero
-headline = "Panoptikum.social"
+headline = "Panoptikum"
 text = "Podcasts entdecken und gemeinsam darüber reden"
 :::
 
 Hallo! Hier schreibt Stefan, freiberuflicher Webentwickler aus Wien, und ich
-habe Panoptikum.social ins Leben gerufen und entwickle es hauptsächlich.
+habe Panoptikum ins Leben gerufen und entwickle es hauptsächlich.
 
 Panoptikum, das Projekt, für das diese Seite gemacht wurde, möchte drei Dinge sein:
 
@@ -58,11 +58,11 @@ Schön wäre auch ein kurzer Plausch mit anderen, die gerade auf der Seite sind.
 * Für Sie als Hörer:in: Es ist eine Gelegenheit, Ihre Meinungen und Empfehlungen
   zu teilen und die Meinungen, Gedanken und Empfehlungen anderer zu lesen.
 
-## Bleibt Panoptikum.social immer kostenlos?
+## Bleibt Panoptikum immer kostenlos?
 
 Ja.
 
-Die gesamte Software, die für Panoptikum.social geschrieben wurde und wird, ist
+Die gesamte Software, die für Panoptikum geschrieben wurde und wird, ist
 freie, quelloffene Software unter der AGPL-Lizenz.
 
 * Für Hörer:innen bleibt der volle Funktionsumfang der Seite für immer kostenlos.

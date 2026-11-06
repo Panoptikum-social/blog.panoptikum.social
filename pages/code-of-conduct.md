@@ -1,6 +1,6 @@
 +++
 title = "Code of Conduct"
-description = "The Berlin Code of Conduct, which Panoptikum.social follows."
+description = "The Berlin Code of Conduct, which Panoptikum follows."
 menu = "footer"
 weight = 40
 hide_title = true

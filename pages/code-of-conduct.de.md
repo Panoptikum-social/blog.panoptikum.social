@@ -1,6 +1,6 @@
 +++
 title = "Verhaltenskodex"
-description = "Der Berliner Verhaltenskodex (Berlin Code of Conduct), dem Panoptikum.social folgt."
+description = "Der Berliner Verhaltenskodex (Berlin Code of Conduct), dem Panoptikum folgt."
 menu = "footer"
 weight = 40
 hide_title = true

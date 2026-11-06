@@ -1,6 +1,6 @@
 +++
 title = "Privacy"
-description = "How Panoptikum.social processes your data."
+description = "How Panoptikum processes your data."
 menu = "footer"
 weight = 50
 +++
@@ -10,8 +10,8 @@ weight = 50
 We process your data only according to law regulations (DSGVO, TKG2003). In this privacy policy we
 inform you about the most important aspects of data processing within our website.
 
-Panoptikum.social tries to store as much data as necessary and as little data as possible about you.
-All the data collected is required to offer the service. Panoptikum.social does not intend to collect
+Panoptikum tries to store as much data as necessary and as little data as possible about you.
+All the data collected is required to offer the service. Panoptikum does not intend to collect
 demographic data or to identify single persons.
 
 ## Communication with Us
@@ -100,9 +100,9 @@ Both are only accessible to the operator of Panoptikum.
 
 ## Collected Data
 
-Beside the information provided during registration, Panoptikum.social uses your uploaded subscription
-list (OPML file) to add podcasts to the Panoptikum.social podcast list. It stores and publishes that
-you are a subscriber of the podcast. Panoptikum.social stores and publishes your reviews, comments and
+Beside the information provided during registration, Panoptikum uses your uploaded subscription
+list (OPML file) to add podcasts to the Panoptikum podcast list. It stores and publishes that
+you are a subscriber of the podcast. Panoptikum stores and publishes your reviews, comments and
 likes.
 
 Panoptikum also stores the date of your last login. It is used to find accounts that are not used

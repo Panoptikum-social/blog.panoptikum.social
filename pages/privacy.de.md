@@ -1,6 +1,6 @@
 +++
 title = "Datenschutz"
-description = "Wie Panoptikum.social Ihre Daten verarbeitet."
+description = "Wie Panoptikum Ihre Daten verarbeitet."
 menu = "footer"
 weight = 50
 +++
@@ -10,8 +10,8 @@ weight = 50
 Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In dieser
 Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung auf unserer Website.
 
-Panoptikum.social speichert so viele Daten über Sie wie nötig und so wenige wie möglich.
-Alle erhobenen Daten sind für das Angebot des Dienstes erforderlich. Panoptikum.social möchte weder
+Panoptikum speichert so viele Daten über Sie wie nötig und so wenige wie möglich.
+Alle erhobenen Daten sind für das Angebot des Dienstes erforderlich. Panoptikum möchte weder
 demografische Daten sammeln noch einzelne Personen identifizieren.
 
 ## Kommunikation mit uns
@@ -101,9 +101,9 @@ Probleme finden zu können. Beides ist nur für den Betreiber von Panoptikum zug
 
 ## Erhobene Daten
 
-Neben den Angaben bei der Registrierung verwendet Panoptikum.social Ihre hochgeladene
-Abonnementliste (OPML-Datei), um Podcasts in die Podcast-Liste von Panoptikum.social aufzunehmen. Es
-speichert und veröffentlicht, dass Sie den Podcast abonniert haben. Panoptikum.social speichert und
+Neben den Angaben bei der Registrierung verwendet Panoptikum Ihre hochgeladene
+Abonnementliste (OPML-Datei), um Podcasts in die Podcast-Liste von Panoptikum aufzunehmen. Es
+speichert und veröffentlicht, dass Sie den Podcast abonniert haben. Panoptikum speichert und
 veröffentlicht Ihre Bewertungen, Kommentare und Likes.
 
 Panoptikum speichert außerdem das Datum Ihrer letzten Anmeldung. Damit werden Konten gefunden, die

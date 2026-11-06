@@ -1,6 +1,6 @@
 +++
 title = "Blog"
-description = "News about the development of Panoptikum.social and its community."
+description = "News about the development of Panoptikum and its community."
 menu = "main"
 weight = 90
 +++

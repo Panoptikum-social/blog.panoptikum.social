@@ -1,6 +1,6 @@
 +++
 title = "Imprint"
-description = "Media owner, license and hosting of Panoptikum.social."
+description = "Media owner, license and hosting of Panoptikum."
 menu = "footer"
 weight = 80
 +++
@@ -22,4 +22,4 @@ This work is licensed under a
 
 ## Hosting
 
-Panoptikum.social is hosted by [Informatom EDV-Dienstleistungen e.U.](https://www.informatom.com)
+Panoptikum is hosted by [Informatom EDV-Dienstleistungen e.U.](https://www.informatom.com)

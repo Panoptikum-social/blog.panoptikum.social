@@ -9,7 +9,7 @@ redirect_from = ["/listener-manual"]
 (There are also a [Podcaster Manual](/manuals/podcaster-manual), a [Moderator Manual](/manuals/moderator-manual) and a [Curator Manual](/manuals/curator-manual), see the [overview of all manuals](/manuals).)
 
 This manual describes the use of Panoptikum from the listener perspective.
-Panoptikum.social offers basic functionality plus additional functionality for
+Panoptikum offers basic functionality plus additional functionality for
 registered users.
 
 Basic functionality for listeners
