@@ -69,15 +69,15 @@ Wählen Sie einen Podcast mit dem Kästchen am Anfang seiner Zeile aus und klick
 
 ### Einen Podcast bearbeiten
 
-Mit **✏️ Podcast bearbeiten** ändern Sie Titel, Website, Beschreibung, Zusammenfassung, Bildtitel, Bild-URL, Titel und URL des Zahlungslinks und die Angabe „explicit“. Das Formular bietet außerdem drei Einstellungen für die Aktualisierungen (die Feldnamen sind englisch):
+Mit **✏️ Podcast bearbeiten** ändern Sie Titel, Website, Beschreibung, Zusammenfassung, Bildtitel, Bild-URL, Titel und URL des Zahlungslinks und die Angabe **Explizit**. Das Formular bietet außerdem drei Einstellungen für die Aktualisierungen:
 
-* **Update paused**: Panoptikum prüft den Feed nicht mehr auf Aktualisierungen.
-* **Update intervall**: die Zahl der Stunden zwischen zwei Prüfungen des Feeds. Panoptikum passt sie selbst an: Nach jeder Prüfung ohne neue Episode kommt eine Stunde dazu (bis zu einer Woche), und bei einer neuen Episode geht es zurück auf 10 Stunden.
-* **Retired**: Panoptikum prüft den Feed nicht mehr, meist weil er 10 Mal hintereinander nicht gelesen werden konnte.
+* **Aktualisierung pausiert**: Panoptikum prüft den Feed nicht mehr auf Aktualisierungen.
+* **Aktualisierungsintervall (Stunden)**: die Zahl der Stunden zwischen zwei Prüfungen des Feeds. Panoptikum passt sie selbst an: Nach jeder Prüfung ohne neue Episode kommt eine Stunde dazu (bis zu einer Woche), und bei einer neuen Episode geht es zurück auf 10 Stunden.
+* **Stillgelegt**: Panoptikum prüft den Feed nicht mehr, meist weil er 10 Mal hintereinander nicht gelesen werden konnte.
 
 ![Das Formular zum Bearbeiten eines Podcasts](/media/manual-mod-edit-podcast-de.png)
 
-Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Die nächste Aktualisierung aus dem Feed überschreibt Ihre Änderungen. Um sie zu behalten, kreuzen Sie **Update paused** an. Die regelmäßigen Aktualisierungen überspringen pausierte und stillgelegte Podcasts, aber „Metadaten aktualisieren“ auf der Seite des Podcasts nimmt die Aktualisierungen wieder auf und liest den Feed erneut. Wo es geht, bitten Sie lieber die Podcaster:in, den Feed zu korrigieren: Dann bleiben die Daten dauerhaft richtig.
+Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Die nächste Aktualisierung aus dem Feed überschreibt Ihre Änderungen. Um sie zu behalten, kreuzen Sie **Aktualisierung pausiert** an. Die regelmäßigen Aktualisierungen überspringen pausierte und stillgelegte Podcasts, aber „Metadaten aktualisieren“ auf der Seite des Podcasts nimmt die Aktualisierungen wieder auf und liest den Feed erneut. Wo es geht, bitten Sie lieber die Podcaster:in, den Feed zu korrigieren: Dann bleiben die Daten dauerhaft richtig.
 
 ### Eine Episode bearbeiten
 
@@ -87,7 +87,7 @@ Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Di
 
 ### Einen Feed bearbeiten
 
-**🔍 Liste der Feeds** zeigt die Feeds des ausgewählten Podcasts. Mit **✏️ Feed bearbeiten** ändern Sie die Adresse des Feeds (self link URL) und seinen Titel, zum Beispiel wenn ein Podcast umgezogen ist und sein alter Hoster nicht weiterleitet.
+**🔍 Liste der Feeds** zeigt die Feeds des ausgewählten Podcasts. Mit **✏️ Feed bearbeiten** ändern Sie die Adresse des Feeds (**Feed-URL**) und seinen Titel (**Feed-Titel**), zum Beispiel wenn ein Podcast umgezogen ist und sein alter Hoster nicht weiterleitet.
 
 Hatte der Feed früher andere Adressen, bietet **Eine frühere URL wiederherstellen** sie mit dem Datum an, an dem Panoptikum sie vermerkt hat. Wählen Sie eine aus und klicken Sie auf **Wiederherstellen**; Panoptikum fragt nach, bevor es sie wieder zur Feed-Adresse macht.
 

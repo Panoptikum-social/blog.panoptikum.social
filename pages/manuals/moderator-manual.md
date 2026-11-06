@@ -72,7 +72,7 @@ Select a podcast in the table with the box at the start of its row, then use one
 **✏️ Edit Podcast** lets you change the title, website, description, summary, image title, image URL, payment link title and URL, and explicit. It also offers three settings for the updates:
 
 * **Update paused**: Panoptikum doesn't check the feed for updates any more.
-* **Update intervall**: the number of hours between two checks of the feed. Panoptikum adjusts it by itself: it adds an hour after every check without a new episode (up to a week) and goes back to 10 hours when a new episode turns up.
+* **Update interval (hours)**: the number of hours between two checks of the feed. Panoptikum adjusts it by itself: it adds an hour after every check without a new episode (up to a week) and goes back to 10 hours when a new episode turns up.
 * **Retired**: Panoptikum doesn't check the feed any more, usually because it couldn't be read for 10 times in a row.
 
 ![The form to edit a podcast](/media/manual-mod-edit-podcast.png)
@@ -87,7 +87,7 @@ Please note: Most of the podcast's data comes from its feed. The next update fro
 
 ### Editing a Feed
 
-**🔍 List of Feeds** shows the feeds of the selected podcast. **✏️ Edit Feed** lets you change the feed's address (self link URL) and its title, for example when a podcast moved and its old hoster doesn't redirect.
+**🔍 List of Feeds** shows the feeds of the selected podcast. **✏️ Edit Feed** lets you change the feed's address (**Feed URL**) and its title (**Feed title**), for example when a podcast moved and its old hoster doesn't redirect.
 
 If the feed had other addresses before, **Restore a previous URL** offers them with the date Panoptikum noted them. Choose one and use **Restore**; Panoptikum asks before it makes it the feed address again.
 
