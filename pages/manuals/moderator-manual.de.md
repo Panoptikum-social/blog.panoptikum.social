@@ -20,7 +20,7 @@ Was Moderator:innen tun:
 * Die Kuratierungen ihrer Community lesen und Podcasts als erledigt markieren
 * Die Pads ihrer Community anlegen und verwalten
 
-Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod. Nur die Bilder der API-Fehler und der Kurator:innen-Seite zeigen noch die englische Oberfläche.
+Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod. Nur das Bild der Kurator:innen-Seite zeigt noch die englische Oberfläche.
 
 ## Moderator:in werden
 
@@ -105,7 +105,7 @@ Die Spalten:
 * **Status**, **Fehlgeschlagen** (wie oft in den letzten 24 Stunden) und **Letzter Fehler**.
 * **Endpunkte**: welche Anfragen fehlgeschlagen sind. „show“ liest die Daten des Podcasts, „trigger_episode_update“ bittet Panoptikum, neue Episoden zu holen.
 
-![Die API-Fehler von Wisspod, die Namen der Podcasts unkenntlich gemacht](/media/manual-mod-api-errors.png)
+![Die API-Fehler von Wisspod, die Namen der Podcasts unkenntlich gemacht](/media/manual-mod-api-errors-de.png)
 
 ## Kurator:innen
 
