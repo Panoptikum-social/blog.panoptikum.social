@@ -55,7 +55,7 @@ Es gibt zwei Wege, einen Podcast zu Ihrer Community hinzuzufügen:
 
 ### Die Podcast-Tabelle
 
-Die Tabelle „Podcasts“ zeigt die Podcasts Ihrer Community mit vielen Spalten, darunter die Zahl der Episoden, Follower:innen, Likes und Abonnements, ob Aktualisierungen pausiert sind, ob der Podcast stillgelegt ist, wie viele Aktualisierungen hintereinander fehlgeschlagen sind und die letzte Fehlermeldung. Die Spaltennamen sind englisch. Sie können in der Tabelle suchen, sortieren und blättern.
+Die Tabelle „Podcasts“ zeigt die Podcasts Ihrer Community mit vielen Spalten, darunter die Zahl der Episoden, Follower:innen, Likes und Abonnements, ob Aktualisierungen pausiert sind, ob der Podcast stillgelegt ist, wie viele Aktualisierungen hintereinander fehlgeschlagen sind und die letzte Fehlermeldung. Sie können in der Tabelle suchen, sortieren und blättern.
 
 Wählen Sie einen Podcast mit dem Kästchen am Anfang seiner Zeile aus und klicken Sie dann auf einen der Buttons:
 
