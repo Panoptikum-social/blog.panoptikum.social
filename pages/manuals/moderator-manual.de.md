@@ -20,7 +20,7 @@ Was Moderator:innen tun:
 * Die Kuratierungen ihrer Community lesen und Podcasts als erledigt markieren
 * Die Pads ihrer Community anlegen und verwalten
 
-Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod. Nur das Bild der Kurator:innen-Seite zeigt noch die englische Oberfläche.
+Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod.
 
 ## Moderator:in werden
 
@@ -115,7 +115,7 @@ Kurator:innen bewerten die Podcasts einer Community, siehe das [Handbuch für Ku
 * **Zur Kurator:in machen und zuweisen**: Geben Sie den genauen Benutzernamen einer beliebigen Panoptikum-Benutzer:in ein. Damit wird sie in einem Schritt zur Kurator:in und der Community zugewiesen.
 * **Entfernen** neben einer Kurator:in entfernt sie nach einer Rückfrage aus der Community. Ihre Kuratierungen bleiben erhalten. Die Kurator:innen-Rolle ganz entziehen können nur Admins.
 
-![Die Kurator:innen von Wisspod, mit den Feldern zum Zuweisen einer weiteren](/media/manual-mod-curators.png)
+![Die Kurator:innen von Wisspod, mit den Feldern zum Zuweisen einer weiteren](/media/manual-mod-curators-de.png)
 
 ## Kuratierungen
 
