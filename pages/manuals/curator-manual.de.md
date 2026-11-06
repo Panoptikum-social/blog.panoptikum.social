@@ -13,7 +13,7 @@ Die [Communitys](https://panoptikum.social/communities) von Panoptikum sind kura
 
 Kuratierungen sind nicht öffentlich. Lesen können sie nur die Kurator:innen und Moderator:innen der Community und die Admins von Panoptikum, nie die Podcaster:innen oder andere Benutzer:innen. Sie erscheinen auch nicht in der Suche oder in der API. Ein Podcast, der zu mehreren Communitys gehört, wird in jeder davon getrennt kuratiert und kann dort unterschiedliche Bewertungen bekommen.
 
-Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Kurator:in der Community Wisspod, mit Beispiel-Kuratierungen. Sie zeigen noch die englische Oberfläche.
+Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Kurator:in der Community Wisspod, mit Beispiel-Kuratierungen.
 
 ## Kurator:in werden
 
@@ -21,13 +21,13 @@ Eine Moderator:in der Community macht Sie zur Kurator:in und weist Sie der Commu
 
 Als Kurator:in finden Sie den Eintrag **Meine Kuratierungen** im Menü unter Ihrem Benutzernamen in der Seitenleiste.
 
-![Das persönliche Menü mit „Meine Kuratierungen“](/media/manual-cur-user-menu.png)
+![Das persönliche Menü mit „Meine Kuratierungen“](/media/manual-cur-user-menu-de.png)
 
 ## Meine Kuratierungen
 
 **Meine Kuratierungen** listet die Communitys, die Sie kuratieren. Ein Klick auf eine Community öffnet ihre Kuratierungen.
 
-![„Meine Kuratierungen“ mit der Community Wisspod](/media/manual-cur-my-curations.png)
+![„Meine Kuratierungen“ mit der Community Wisspod](/media/manual-cur-my-curations-de.png)
 
 ## Die Kuratierungen einer Community
 
@@ -37,7 +37,7 @@ Die Seite „Kuratierungen in“ mit dem Namen der Community listet die Podcasts
 * **Bewertungen**: die bisherigen Bewertungen des Podcasts, zum Beispiel „2× empfohlen“ und „1× neutral“.
 * **Von mir kuratiert**: ein ✓, wenn Sie den Podcast schon kuratiert haben.
 
-![Die offenen Podcasts von Wisspod mit „Podcast“ im Titel](/media/manual-cur-community.png)
+![Die offenen Podcasts von Wisspod mit „Podcast“ im Titel](/media/manual-cur-community-de.png)
 
 Neue Podcasts einer Community sind von Anfang an zur Kuratierung offen. Wenn die Moderator:innen entscheiden, dass ein Podcast genug kuratiert ist, markieren sie ihn als erledigt, und er verschwindet aus Ihrer Liste.
 
@@ -53,11 +53,11 @@ Unter **Meine Kuratierung** schreiben Sie Ihre eigene:
 * **Text (Markdown)**: warum Sie den Podcast so bewertet haben. Der Text kann Markdown enthalten, zum Beispiel **Fettdruck**, Listen, Tabellen und Links. Bilder werden nicht angezeigt, nur ihr Alternativtext.
 * **Speichern** speichert Ihre Kuratierung.
 
-![Das ausgefüllte Formular für Ihre Kuratierung](/media/manual-cur-podcast-form.png)
+![Das ausgefüllte Formular für Ihre Kuratierung](/media/manual-cur-podcast-form-de.png)
 
 Nach dem Speichern erscheint Ihre Kuratierung über dem Formular:
 
-![Die gespeicherte Kuratierung](/media/manual-cur-podcast-saved.png)
+![Die gespeicherte Kuratierung](/media/manual-cur-podcast-saved-de.png)
 
 Sie haben pro Podcast in jeder Community eine Kuratierung. Öffnen Sie die Seite erneut, zeigt das Formular Ihre Kuratierung, und **Speichern** ersetzt sie durch Ihre Änderungen. Kuratierungen lassen sich nicht löschen, aber Sie können sie ändern, solange der Podcast zur Kuratierung offen ist.
 
@@ -70,6 +70,6 @@ Moderator:innen einer Community können unter **Meine Kuratierungen** alle ihre 
 * **offen – als erledigt markieren** markiert den Podcast nach einer Rückfrage als erledigt. Er verschwindet aus der Liste der Kurator:innen.
 * **erledigt – wieder öffnen** macht ihn wieder zur Kuratierung offen.
 
-![Die Kuratierungen von Wisspod aus Sicht der Moderator:innen, alle Podcasts mit „Digital“ im Titel](/media/manual-mod-curations.png)
+![Die Kuratierungen von Wisspod aus Sicht der Moderator:innen, alle Podcasts mit „Digital“ im Titel](/media/manual-mod-curations-de.png)
 
 Um selbst Kuratierungen zu schreiben, weisen sich Moderator:innen als Kurator:innen der Community zu, siehe das [Handbuch für Moderator:innen](/manuals/moderator-manual).

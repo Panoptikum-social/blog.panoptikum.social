@@ -20,7 +20,7 @@ Was Moderator:innen tun:
 * Die Kuratierungen ihrer Community lesen und Podcasts als erledigt markieren
 * Die Pads ihrer Community anlegen und verwalten
 
-Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod. Sie zeigen noch die englische Oberfläche.
+Die Bilder zeigen einen Demo-Account, „Demo Podcaster“, als Moderator:in der Community Wisspod. Nur die Bilder der API-Fehler und der Kurator:innen-Seite zeigen noch die englische Oberfläche.
 
 ## Moderator:in werden
 
@@ -28,13 +28,13 @@ Moderator:innen werden vom Panoptikum-Team ernannt. Wenn Sie eine Community mode
 
 Als Moderator:in finden Sie im Menü unter Ihrem Benutzernamen in der Seitenleiste zwei weitere Einträge: **Meine Moderationen** und **Meine Kuratierungen**.
 
-![Das persönliche Menü mit „Meine Moderationen“ und „Meine Kuratierungen“](/media/manual-mod-user-menu.png)
+![Das persönliche Menü mit „Meine Moderationen“ und „Meine Kuratierungen“](/media/manual-mod-user-menu-de.png)
 
 ## Meine Moderationen
 
 **Meine Moderationen** listet die Communitys, die Sie moderieren. Ein Klick auf eine Community öffnet ihre Moderationsseite.
 
-![„Meine Moderationen“ mit der Community Wisspod](/media/manual-mod-my-moderations.png)
+![„Meine Moderationen“ mit der Community Wisspod](/media/manual-mod-my-moderations-de.png)
 
 Die Pads einer Community können nur ihre Follower:innen sehen, bearbeiten und anlegen, auch Moderator:innen. Folgen Sie nicht allen Communitys, die Sie moderieren, listet ein Hinweis diese Communitys mit Links, damit Sie ihnen folgen können.
 
@@ -51,7 +51,7 @@ Es gibt zwei Wege, einen Podcast zu Ihrer Community hinzuzufügen:
 * **Feed hinzufügen**: Fügen Sie die Adresse eines Podcast-Feeds in das erste Feld ein und klicken Sie auf **Feed hinzufügen**. Kennt Panoptikum den Feed noch nicht, importiert es den Podcast und fügt ihn Ihrer Community hinzu. Kennt es den Feed, fügt es den Podcast hinzu und aktualisiert ihn sofort aus dem Feed.
 * **Suche**: Tippen Sie mindestens zwei Buchstaben eines Podcast-Titels in das zweite Feld. Panoptikum zeigt die passenden Podcasts, die es kennt. Klicken Sie neben dem gewünschten auf **➕ Hinzufügen**. Podcasts, die schon in Ihrer Community sind, sind mit „Schon in Ihrer Moderation“ markiert.
 
-![Suche nach Podcasts mit „Wissenschaft“ im Titel](/media/manual-mod-search.png)
+![Suche nach Podcasts mit „Wissenschaft“ im Titel](/media/manual-mod-search-de.png)
 
 ### Die Podcast-Tabelle
 
@@ -65,7 +65,7 @@ Wählen Sie einen Podcast mit dem Kästchen am Anfang seiner Zeile aus und klick
 * **🔍 Liste der Feeds**: listet die Feeds des Podcasts.
 * **🗑️ Aus der Moderation entfernen**: entfernt den Podcast nach einer Rückfrage aus Ihrer Community. Der Podcast bleibt auf Panoptikum, er gehört nur nicht mehr zur Community.
 
-![Die Moderationsseite mit dem ersten Podcast ausgewählt](/media/manual-mod-moderation.png)
+![Die Moderationsseite mit dem ersten Podcast ausgewählt](/media/manual-mod-moderation-de.png)
 
 ### Einen Podcast bearbeiten
 
@@ -75,7 +75,7 @@ Mit **✏️ Podcast bearbeiten** ändern Sie Titel, Website, Beschreibung, Zusa
 * **Update intervall**: die Zahl der Stunden zwischen zwei Prüfungen des Feeds. Panoptikum passt sie selbst an: Nach jeder Prüfung ohne neue Episode kommt eine Stunde dazu (bis zu einer Woche), und bei einer neuen Episode geht es zurück auf 10 Stunden.
 * **Retired**: Panoptikum prüft den Feed nicht mehr, meist weil er 10 Mal hintereinander nicht gelesen werden konnte.
 
-![Das Formular zum Bearbeiten eines Podcasts](/media/manual-mod-edit-podcast.png)
+![Das Formular zum Bearbeiten eines Podcasts](/media/manual-mod-edit-podcast-de.png)
 
 Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Die nächste Aktualisierung aus dem Feed überschreibt Ihre Änderungen. Um sie zu behalten, kreuzen Sie **Update paused** an. Die regelmäßigen Aktualisierungen überspringen pausierte und stillgelegte Podcasts, aber „Metadaten aktualisieren“ auf der Seite des Podcasts nimmt die Aktualisierungen wieder auf und liest den Feed erneut. Wo es geht, bitten Sie lieber die Podcaster:in, den Feed zu korrigieren: Dann bleiben die Daten dauerhaft richtig.
 
@@ -83,7 +83,7 @@ Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Di
 
 **🔍 Liste der Episoden** zeigt die Episoden des ausgewählten Podcasts. Sie können darin suchen, eine mit **🔍 Auf der Website zeigen** öffnen oder mit **✏️ Episode bearbeiten** korrigieren: Titel, Link, Veröffentlichungsdatum, Beschreibung, Shownotes, Titel und URL des Zahlungslinks, Deeplink, Dauer, Untertitel, Zusammenfassung, Bildtitel und Bild-URL. Wie bei Podcasts überschreibt die nächste Aktualisierung aus dem Feed diese Änderungen.
 
-![Die Episoden eines Podcasts, die erste ausgewählt](/media/manual-mod-episodes.png)
+![Die Episoden eines Podcasts, die erste ausgewählt](/media/manual-mod-episodes-de.png)
 
 ### Einen Feed bearbeiten
 
@@ -91,7 +91,7 @@ Bitte beachten Sie: Die meisten Daten eines Podcasts stammen aus seinem Feed. Di
 
 Hatte der Feed früher andere Adressen, bietet **Eine frühere URL wiederherstellen** sie mit dem Datum an, an dem Panoptikum sie vermerkt hat. Wählen Sie eine aus und klicken Sie auf **Wiederherstellen**; Panoptikum fragt nach, bevor es sie wieder zur Feed-Adresse macht.
 
-![Das Formular zum Bearbeiten eines Feeds, mit „Eine frühere URL wiederherstellen“](/media/manual-mod-edit-feed.png)
+![Das Formular zum Bearbeiten eines Feeds, mit „Eine frühere URL wiederherstellen“](/media/manual-mod-edit-feed-de.png)
 
 ## API-Fehler
 
@@ -121,7 +121,7 @@ Kurator:innen bewerten die Podcasts einer Community, siehe das [Handbuch für Ku
 
 Als Moderator:in können Sie unter **Meine Kuratierungen** alle Kuratierungen Ihrer Communitys lesen, auch wenn Sie selbst keine Kurator:in sind. Außerdem entscheiden Sie, welche Podcasts noch zur Kuratierung offen sind: In der Übersicht einer Community können Sie nach „offen zur Kuratierung“, „erledigt“ und „alle“ filtern und einen Podcast als erledigt markieren oder wieder öffnen. Das [Handbuch für Kurator:innen](/manuals/curator-manual) beschreibt diese Seiten.
 
-![Die Kuratierungen von Wisspod aus Sicht der Moderator:innen, alle Podcasts mit „Digital“ im Titel](/media/manual-mod-curations.png)
+![Die Kuratierungen von Wisspod aus Sicht der Moderator:innen, alle Podcasts mit „Digital“ im Titel](/media/manual-mod-curations-de.png)
 
 Um selbst Kuratierungen zu schreiben, weisen Sie sich als Kurator:in der Community zu.
 
@@ -131,13 +131,13 @@ Pads sind Markdown-Dokumente, die die Follower:innen einer Community gemeinsam s
 
 * **Neues Pad**: Geben Sie auf der Seite der Community einen Titel ein und klicken Sie auf **Neues Pad**. Der Titel muss in der Community eindeutig sein.
 
-![Die Pads auf der Seite der Community, mit dem Feld für ein neues Pad](/media/manual-mod-new-pad.png)
+![Die Pads auf der Seite der Community, mit dem Feld für ein neues Pad](/media/manual-mod-new-pad-de.png)
 
 * **Dieses Pad verwalten**, auf der Seite des Pads:
   * **Schreibschutz setzen** friert das Pad für alle ein, auch für Moderator:innen. **Bearbeitbar machen** hebt das wieder auf.
   * **Umbenennen** ändert den Titel. Damit ändert sich auch die Adresse des Pads, alte Links funktionieren dann nicht mehr.
   * **Pad löschen** entfernt das Pad und alle seine gespeicherten Versionen, nach einer Rückfrage.
 
-![„Dieses Pad verwalten“ auf der Seite eines Pads](/media/manual-mod-pad-manage.png)
+![„Dieses Pad verwalten“ auf der Seite eines Pads](/media/manual-mod-pad-manage-de.png)
 
 Die Moderation allein gibt keinen Zugang zu den Pads: Folgen Sie der Community, um mit ihnen zu arbeiten.

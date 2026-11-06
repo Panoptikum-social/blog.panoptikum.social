@@ -11,8 +11,6 @@ Dieses Handbuch beschreibt Panoptikum aus Sicht der Hörer:innen.
 Panoptikum bietet Grundfunktionen und für registrierte Benutzer:innen
 weitere Funktionen.
 
-Die Bilder zeigen noch die englische Oberfläche.
-
 Grundfunktionen für Hörer:innen
 
 * Neueste Empfehlungen
@@ -30,7 +28,7 @@ zu entdecken.
 Die Startseite von Panoptikum bietet Ihnen viele Möglichkeiten, neue Podcasts
 zu entdecken.
 
-![Die Startseite mit der Seitenleiste links](/media/manual-lis-start.png)
+![Die Startseite mit der Seitenleiste links](/media/manual-lis-start-de.png)
 
 ### Neueste Empfehlungen
 
@@ -129,9 +127,9 @@ Die Seitenleiste links auf jeder Seite enthält ein Suchfeld und das Menü:
   Podcasts, siehe das [Handbuch für Podcaster:innen](/manuals/podcaster-manual).
 * **Benutzer:innen**: die registrierten Benutzer:innen von Panoptikum.
 
-![Der Kategorienbaum](/media/manual-lis-categories.png)
+![Der Kategorienbaum](/media/manual-lis-categories-de.png)
 
-![Die Communitys](/media/manual-lis-communities.png)
+![Die Communitys](/media/manual-lis-communities-de.png)
 
 Der Button mit den zwei Pfeilen neben dem Panoptikum-Logo klappt die Seitenleiste
 ein und aus.
@@ -141,7 +139,7 @@ Panoptikum zeigt Ihnen die Treffer in Episoden, nach Relevanz sortiert.
 Die Links über den Treffern wechseln zu Podcasts, Personas und Kategorien.
 [Beispiel: Personas mit „Stefan“ im Namen](https://panoptikum.social/search/personas/Stefan)
 
-![Die Podcasts, die für „Geschichte“ gefunden wurden](/media/manual-lis-search.png)
+![Die Podcasts, die für „Geschichte“ gefunden wurden](/media/manual-lis-search-de.png)
 
 ### Heller und dunkler Modus
 
@@ -166,18 +164,18 @@ mehrere Funktionen, um eine Episode direkt auf der Panoptikum-Seite anzuhören:
 
 Kapitel: Mit den Kapiteln können Sie direkt im Web Player navigieren. Das Kapitel,
 das Sie gerade hören, ist markiert.
-![Der Kapitel-Reiter des Web Players](/media/manual-podlove-chapters.png)
+![Der Kapitel-Reiter des Web Players](/media/manual-podlove-chapters-de.png)
 Geschwindigkeit und Lautstärke: Sie können die Geschwindigkeit erhöhen oder
 verringern (der Button 1.0x links von den Steuerelementen) und die Lautstärke
 anpassen (der Lautsprecher rechts von den Steuerelementen), siehe das Bild oben.
 
 Episode teilen: Sie können die ganze Episode teilen.
-![Der Teilen-Reiter des Web Players](/media/manual-podlove-share.png)
+![Der Teilen-Reiter des Web Players](/media/manual-podlove-share-de.png)
 Ab einer Stelle teilen: Kreuzen Sie „Aktuelle Position teilen“ an, um die Episode ab
 der Stelle zu teilen, an der Sie gerade hören.
-![Die Episode ab Minute 22:30 teilen](/media/manual-podlove-share-position.png)
+![Die Episode ab Minute 22:30 teilen](/media/manual-podlove-share-position-de.png)
 Dateien: Sie können die Audiodatei der Episode herunterladen.
-![Der Dateien-Reiter des Web Players](/media/manual-podlove-files.png)
+![Der Dateien-Reiter des Web Players](/media/manual-podlove-files-de.png)
 
 ### Statistik
 
@@ -213,7 +211,7 @@ einem Benutzernamen (für Ihre Bewertungen, Kommentare und Likes) und einem Pass
 nicht vergeben ist. Das Formular fragt außerdem nach Ihrem Namen, ob Sie Podcaster:in
 sind, und stellt eine kleine Frage, die Menschen von Bots unterscheidet.
 
-![Das Registrierungsformular](/media/manual-lis-signup.png)
+![Das Registrierungsformular](/media/manual-lis-signup-de.png)
 
 Nach **Konto anlegen** schickt Ihnen Panoptikum eine E-Mail mit einem Link, um Ihre
 E-Mail-Adresse zu bestätigen. Sobald Sie diesen Link genutzt haben, können Sie sich
@@ -232,7 +230,7 @@ In der Seitenleiste jeder Seite finden Sie einen Link zum
 Benutzernamen in der Seitenleiste (im Beispiel unten ist der Benutzername „demo“).
 Unter Ihrem Benutzernamen finden Sie ein Menü mit diesen Funktionen:
 
-![Das persönliche Menü in der Seitenleiste](/media/manual-user-menu.png)
+![Das persönliche Menü in der Seitenleiste](/media/manual-user-menu-de.png)
 
 Moderator:innen und Kurator:innen einer Community finden dort zwei weitere Einträge,
 **Meine Moderationen** und **Meine Kuratierungen**, siehe das
@@ -266,7 +264,7 @@ und bekommen daraus Vorschläge für neue Podcasts
 Podcaster:innen finden dort auch die Podcasts, die sie verwalten, siehe das
 [Handbuch für Podcaster:innen](/manuals/podcaster-manual).
 
-![„Meine Podcasts“ des Demo-Accounts](/media/manual-lis-my-podcasts.png)
+![„Meine Podcasts“ des Demo-Accounts](/media/manual-lis-my-podcasts-de.png)
 
 ### Meine Empfehlungen
 
@@ -302,7 +300,7 @@ Sie können prüfen, was in den einzelnen Bereichen gespeichert ist, und es pro 
 löschen. Im Bereich selbst können Sie entweder alle Einträge oder einzelne Einträge
 löschen.
 
-![Der Anfang von „Meine Daten“](/media/manual-lis-my-data.png)
+![Der Anfang von „Meine Daten“](/media/manual-lis-my-data-de.png)
 
 Bereiche und Möglichkeiten
 
@@ -350,18 +348,18 @@ Nach der Anmeldung haben Sie auf den verschiedenen Seiten weitere Möglichkeiten
 
 Auf der Seite eines Podcasts zeigen die Buttons, wie vielen Benutzer:innen der Podcast gefällt, wie viele ihm folgen und ihn abonniert haben; ein Klick liked, folgt oder abonniert – oder nimmt das zurück.
 
-![Liken, Folgen und Abonnieren auf der Seite eines Podcasts, alle drei schon gewählt](/media/manual-lis-podcast-buttons.png)
+![Liken, Folgen und Abonnieren auf der Seite eines Podcasts, alle drei schon gewählt](/media/manual-lis-podcast-buttons-de.png)
 
 Auf der Seite eines Podcasts schreiben Sie Ihre Empfehlung in das Feld
 „Ihre Empfehlung“ und schicken sie mit <kbd>Empfehlen</kbd> ab.
-![Das Empfehlungsformular auf der Seite eines Podcasts](/media/manual-recommend-form.png)
+![Das Empfehlungsformular auf der Seite eines Podcasts](/media/manual-recommend-form-de.png)
 
 Sie haben eine großartige Empfehlung für Ihren Lieblingspodcast geschrieben und
 möchten sie auch außerhalb von Panoptikum verbreiten?
 
 Unter Ihrem Namen, neben Ihrer Empfehlung auf Panoptikum, warten zwei Buttons darauf,
 Ihre Empfehlung zu tweeten oder per E-Mail zu verschicken.
-![Ihre Empfehlung mit den Buttons „tweeten“ und „E-Mail“](/media/manual-recommendation-buttons.png)
+![Ihre Empfehlung mit den Buttons „tweeten“ und „E-Mail“](/media/manual-recommendation-buttons-de.png)
 
 ### Twitter
 
@@ -375,8 +373,8 @@ Podcast und Ihre Empfehlung, der Text der E-Mail den Link zum empfohlenen Podcas
 Beides können Sie vor dem Senden bearbeiten. Für die Empfehlung oben sieht das so aus:
 
 ```
-Subject: 👍 Aua-uff-Code!
-         💬 Two developers build a computer from logic gates up to a compiler, great to listen along to while reading the book.
+Betreff: 👍 Aua-uff-Code!
+         💬 Zwei Entwickler bauen einen Computer von Logikgattern bis zum Compiler, wunderbar zum Mithören beim Lesen des Buchs.
          🔊
 
 https://panoptikum.social/podcasts/104

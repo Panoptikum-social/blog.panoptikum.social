@@ -9,8 +9,6 @@ weight = 20
 
 Dieses [Handbuch für Podcaster:innen](/manuals/podcaster-manual) beschreibt Panoptikum aus Sicht der Podcaster:innen. Lesen Sie bitte vorher das [Handbuch für Hörer:innen](/manuals/listener-manual). Panoptikum erkennt Mitwirkende anhand der Metadaten in den RSS-Feeds und zeigt Informationen über diese Personen. Podcaster:innen können ihre automatisch erstellten Visitenkarten kostenlos ergänzen und verwalten.
 
-Die Bilder zeigen noch die englische Oberfläche.
-
 ## Funktionen unabhängig von einer Registrierung
 
 Grundfunktionen für Podcaster:innen:
@@ -39,7 +37,7 @@ Durch die Listung auf Panoptikum kann Ihr Podcast von Hörer:innen entdeckt werd
 
 Aus Interessierten werden ganz einfach regelmäßige Hörer:innen: über den Abonnieren-Button oder den QR-Code auf der Seite Ihres Podcasts auf Panoptikum.
 
-![Der QR-Code und der Abonnieren-Button auf der Seite eines Podcasts](/media/manual-pod-qr.png)
+![Der QR-Code und der Abonnieren-Button auf der Seite eines Podcasts](/media/manual-pod-qr-de.png)
 
 Kopieren Sie den QR-Code zum Abonnieren IHRES Podcasts! Der QR-Code auf der Seite Ihres Podcasts auf Panoptikum macht es nicht nur Interessierten leichter, Ihren Podcast zu abonnieren. Sie können ihn auch selbst verwenden! Kopieren Sie das QR-Bild einfach auf Ihre eigene Website, auf Sticker oder Visitenkarten. Womit auch immer Sie auf Ihren Podcast aufmerksam machen: Das Abo ist nur einen Scan entfernt.
 
@@ -76,7 +74,7 @@ Im Panoptikum-Universum kann jede Person verschiedene Rollen haben. Da ist die r
 Aus den Mitwirkenden von Podcasts werden automatisch Personas angelegt. Sie sind unter dem Menüpunkt [Podcaster:innen](https://panoptikum.social/personas) gelistet.
 Nutzen Sie die Suche auf der [Seite der Personas](https://panoptikum.social/personas), um Ihre Persona(s) zu finden. Die Suchergebnisse werden mit jedem Tastendruck aktualisiert, während Sie den Suchbegriff eingeben. Oft müssen Sie gar nicht den ganzen Begriff eingeben, um Ihre Persona zu finden.
 
-![Suche nach Personas: Namen, die mit „Demo Pod“ beginnen](/media/manual-pod-persona-search.png)
+![Suche nach Personas: Namen, die mit „Demo Pod“ beginnen](/media/manual-pod-persona-search-de.png)
 
 Zwei Beispiele:
 * Mathilda hört Podcasts. Sie ist keine Podcasterin und hat keine Persona.
@@ -112,7 +110,7 @@ Es gibt zwei Wege dorthin:
 * Automatisch: Wenn Sie **Meine Podcasts** öffnen, ordnet Panoptikum Ihnen alle Podcasts zu, die noch niemand verwaltet und deren Feed Ihre E-Mail-Adresse als Adresse der Eigentümer:in nennt (zum Beispiel in `itunes:owner`).
 * Mit **Verwaltung beantragen** auf der Seite Ihres Podcasts, wenn ihn noch niemand verwaltet: Panoptikum schickt einen Bestätigungslink an die Eigentümer:innen-Adresse aus dem Feed. Wer die E-Mails dieser Adresse liest, öffnet den Link und bestätigt; dann verwalten Sie den Podcast. Der Link ist 48 Stunden gültig.
 
-![Der Button „Verwaltung beantragen“ unter „Metadaten aktualisieren“](/media/manual-pod-claim.png)
+![Der Button „Verwaltung beantragen“ unter „Metadaten aktualisieren“](/media/manual-pod-claim-de.png)
 
 Nennt der Feed keine Eigentümer:innen-Adresse, kann Panoptikum keine Bestätigung schicken. Verwaltet versehentlich jemand anderes Ihren Podcast, schreiben Sie bitte an <sonja@panoptikum.social>.
 
@@ -120,7 +118,7 @@ Nennt der Feed keine Eigentümer:innen-Adresse, kann Panoptikum keine Bestätigu
 
 **Feed prüfen** auf der Seite Ihres Podcasts zeigt einen Bericht über Ihren Feed. Er steht der Person zur Verfügung, die den Podcast verwaltet, den Moderator:innen und dem Panoptikum-Team. Panoptikum lädt für jede Prüfung eine frische Kopie des Feeds herunter, so können Sie Ihren Feed korrigieren und mit **Erneut prüfen** das Ergebnis sehen.
 
-![Der Anfang der Feed-Prüfung von Aua-uff-Code!](/media/manual-pod-check-feed.png)
+![Der Anfang der Feed-Prüfung von Aua-uff-Code!](/media/manual-pod-check-feed-de.png)
 
 Der Bericht prüft den Feed nach den Regelwerken von RSS 2.0, Apple Podcasts und Podcasting 2.0, jeweils mit Fehlern, Warnungen und Hinweisen, einem Link zur Regel und der Stelle in Ihrem Feed. Die Regeltexte selbst sind englisch. Mit den Kästchen oben schalten Sie die Regelwerke ein und aus. Weitere Abschnitte zeigen, was Panoptikum aus Ihrem Feed trotzdem liest, obwohl es nicht dem Standard entspricht (andere Apps vielleicht nicht), und was Panoptikum überhaupt aus Ihrem Feed liest: Titel, Artwork, Eigentümer:in, Kategorien, Personen, Episoden und mehr.
 
@@ -136,8 +134,8 @@ Die Übernahme einer Persona beruht normalerweise auf ihrer E-Mail-Adresse.
 * Persona mit E-Mail-Adresse: Sie können der Eigentümer:in dieser Persona eine E-Mail schicken und um Erlaubnis bitten, als Manifestation dieser Persona hinzugefügt zu werden. Ihr Name, Benutzername und Ihre E-Mail-Adresse werden in der E-Mail mitgeschickt, damit die Eigentümer:in Sie kontaktieren kann.
 
 * Persona ohne E-Mail-Adresse: Wenn Sie auf „Übernahme starten“ klicken, erscheint eine Warnung. Machen Sie weiter, erhalten Sie Zugriff auf diese Persona, und Ihre E-Mail-Adresse wird ihr hinzugefügt. An sie gehen E-Mails, wenn andere Benutzer:innen diese Persona ebenfalls übernehmen möchten. Ihr Konto wird dauerhaft mit dieser Persona verbunden. Diese Lösung beruht auf Vertrauen – wir vertrauen darauf, dass Sie sie verantwortungsvoll nutzen und keine Personas übernehmen, die nicht zu Ihnen gehören. Im unwahrscheinlichen Fall schweren Missbrauchs müssten wir diese Funktion wieder entfernen.
-![Eine Persona ohne E-Mail-Adresse, mit dem Button „Übernahme starten“](/media/manual-persona-without-email.png)
-![Die Warnung vor der Übernahme einer Persona ohne E-Mail-Adresse](/media/manual-claim-warning.png)
+![Eine Persona ohne E-Mail-Adresse, mit dem Button „Übernahme starten“](/media/manual-persona-without-email-de.png)
+![Die Warnung vor der Übernahme einer Persona ohne E-Mail-Adresse](/media/manual-claim-warning-de.png)
 
 ### Ihre Persona-Seite bearbeiten
 
@@ -181,11 +179,11 @@ Panoptikum gibt diesen vergessenen Mitwirkenden einen Weg, ihre Mitwirkung an ei
 * Suchen Sie die Episode mit Ihrer (noch nicht angezeigten) Mitwirkung.
 * Tragen Sie Ihre Mitwirkung auf der Detailseite der Episode mit einem Klick ein.
 
-![Eine Episodenseite mit den Buttons zum Eintragen einer Mitwirkung](/media/manual-add-contribution.png)
+![Eine Episodenseite mit den Buttons zum Eintragen einer Mitwirkung](/media/manual-add-contribution-de.png)
 
 Damit stehen Sie in der Liste der Mitwirkenden.
 
-![Die Episodenseite nach dem Eintragen der Mitwirkung](/media/manual-added-contribution.png)
+![Die Episodenseite nach dem Eintragen der Mitwirkung](/media/manual-added-contribution-de.png)
 
 Beachten Sie das (i) nach Ihrem Namen. Es zeigt, dass die Mitwirkung von Hand von der Mitwirkenden eingetragen wurde und nicht aus dem Feed stammt. Wollen Sie Ihre Mitwirkung an dieser Episode wieder entfernen (vielleicht war es ein Irrtum), ziehen Sie sie mit einem weiteren Klick zurück: Nach dem Eintragen zeigt der Button eine Person mit einem Minus (siehe das Bild oben).
 
@@ -196,12 +194,12 @@ Panoptikum hat einen eigenen Rhythmus, in dem es die Feeds der Podcasts aktualis
 * Melden Sie sich bei Panoptikum an.
 * Gehen Sie auf die Seite Ihres Podcasts.
 * Klicken Sie auf „Metadaten aktualisieren“.
-![Eine Podcast-Seite mit dem Button „Metadaten aktualisieren“](/media/manual-metadata-update.png)
+![Eine Podcast-Seite mit dem Button „Metadaten aktualisieren“](/media/manual-metadata-update-de.png)
 
 Der Button lässt sich einmal alle 5 Minuten pro Podcast nutzen. Dazwischen zeigt die Seite, in wie vielen Sekunden die nächste Aktualisierung möglich ist.
 
 Mit „Metadaten aktualisieren“ können Sie auch den Zähler zurücksetzen, nach dem Panoptikum einen Podcast stilllegt. Angenommen, Sie waren (mit anderem) beschäftigt und veröffentlichen nach Monaten oder Jahren die nächste Episode – nutzen Sie dann „Metadaten aktualisieren“, damit Panoptikum merkt, dass Ihr Feed wieder aktiv ist.
-![Der Hinweis auf der Seite eines stillgelegten Podcasts](/media/manual-retired-podcast.png) Konnte Ihr Feed erfolgreich gelesen werden, wird der Zähler auf null gesetzt, und der Podcast wird wieder regelmäßig geprüft.
+![Der Hinweis auf der Seite eines stillgelegten Podcasts](/media/manual-retired-podcast-de.png) Konnte Ihr Feed erfolgreich gelesen werden, wird der Zähler auf null gesetzt, und der Podcast wird wieder regelmäßig geprüft.
 
 
 ### Ihr Podcaster:innen-Profil auf Panoptikum
@@ -214,29 +212,29 @@ Gehen wir das Übernehmen und Bearbeiten einer Persona am Beispiel eines Demo-Ac
 
 Nach der Anmeldung können Sie Ihr Profil unter **Mein Profil** ansehen
 
-![Mein Profil, einfaches Konto](/media/manual-my-profile.png)
+![Mein Profil, einfaches Konto](/media/manual-my-profile-de.png)
 
 und mit **Ihre Daten bearbeiten** ändern.
 
-![Profil aktualisieren](/media/manual-update-profile.png)
+![Profil aktualisieren](/media/manual-update-profile-de.png)
 
 Weil ich „Ich bin Podcaster:in“ angekreuzt habe, hat Panoptikum bei meiner ersten Anmeldung eine Persona mit meinem vollen Namen, Demo Podcaster, angelegt. Es kann noch weitere Personas geben (aus den Angaben in Podcast-Feeds), die Sie als Manifestationen von sich erkennen, aber das weiß die Welt nicht. Sie müssen eine Manifestation in Panoptikum übernehmen, um diese Verbindung sichtbar zu machen.
 
 Mein nächster Schritt ist also eine Suche nach Personas mit „Demo“ im Namen, und neben vielen anderen finde ich die Persona Demo Co-Host. Sie hat eine E-Mail-Adresse, also klicke ich im Bereich „Übernahme“ neben der Persona auf **Übernehmen**.
 
-![Persona übernehmen](/media/manual-claim-panel-2.png)
+![Persona übernehmen](/media/manual-claim-panel-2-de.png)
 
 Damit wird eine E-Mail verschickt, und Panoptikum bestätigt, dass sie gesendet wurde.
 
 Ist Ihre Adresse für diese Persona gespeichert (ebenfalls aus dem Podcast-Feed), bekommen Sie eine E-Mail mit dem Betreff „Panoptikum - Anfrage zur Übernahme einer Persona“ (oder auf Englisch „Persona manifestation confirmation request“, je nach Sprache der Podcasts der Persona). Finden Sie die E-Mail nicht im Posteingang, schauen Sie im Spam-Ordner nach. Für Demo Co-Host geht die E-Mail an demo-cohost@example.com, eine weitere Adresse von mir.
 
-![Übernahme-Anfrage](/media/manual-claim-request-mail.png)
+![Übernahme-Anfrage](/media/manual-claim-request-mail-de.png)
 
 Nachdem Sie den Link **Zugriff gewähren** in der E-Mail genutzt haben, hat sich Ihr Profil verändert. Die übernommene Persona wird angezeigt. Ich habe auch D. Podcaster übernommen, eine Persona ohne E-Mail-Adresse (siehe „Personas übernehmen“ oben), daher listet „Mein Profil“ jetzt drei Personas.
-![Mein Profil mit übernommenen Personas](/media/manual-profile-persona-expanded.png)
+![Mein Profil mit übernommenen Personas](/media/manual-profile-persona-expanded-de.png)
 
 Mit **Persona bearbeiten** lassen sich die Angaben ändern.
-![Persona bearbeiten – Ausgangszustand](/media/manual-edit-persona-1.png)
+![Persona bearbeiten – Ausgangszustand](/media/manual-edit-persona-1-de.png)
 
 Änderungen
 * Panoptikum-ID: vom Standardwert auf demo-podcaster – die neue URL der Persona ist also panoptikum.social/demo-podcaster
@@ -247,9 +245,9 @@ Mit **Persona bearbeiten** lassen sich die Angaben ändern.
 
 URI (ein Link zu Ihrer eigenen Website, auf der Persona-Seite angezeigt) und Fediverse-Adresse (experimentell, noch nicht angezeigt) bleiben, wie sie sind.
 
-![Persona bearbeiten – geändert](/media/manual-edit-persona-2.png)
+![Persona bearbeiten – geändert](/media/manual-edit-persona-2-de.png)
 
-Nach einem Klick auf **Absenden** ist die Persona unter https://panoptikum.social/demo-podcaster erreichbar und sieht so aus: ![Persona – Änderungen gespeichert](/media/manual-persona-public.png)
+Nach einem Klick auf **Absenden** ist die Persona unter https://panoptikum.social/demo-podcaster erreichbar und sieht so aus: ![Persona – Änderungen gespeichert](/media/manual-persona-public-de.png)
 
 Das ist jetzt eine Seite, die ich als Anlaufstelle für alle meine Podcast-Aktivitäten nutzen kann.
 
@@ -257,13 +255,13 @@ Finde ich weitere Personas, die ich übernehmen möchte, gehe ich genauso vor. I
 
 In meinem Fall habe ich 3 Personas. Ich bestimme „demo-podcaster“ zur Haupt-Persona und delegiere die beiden anderen, D. Podcaster und Demo Co-Host, an sie: Unter „Mein Profil“ öffne ich jede davon und klicke neben Demo Podcaster auf **Delegieren**.
 
-![D. Podcaster, an Demo Podcaster delegiert](/media/manual-persona-entry-1.png)
+![D. Podcaster, an Demo Podcaster delegiert](/media/manual-persona-entry-1-de.png)
 
-![Demo Co-Host, an Demo Podcaster delegiert](/media/manual-persona-entry-2.png)
+![Demo Co-Host, an Demo Podcaster delegiert](/media/manual-persona-entry-2-de.png)
 
 Die Haupt-Persona hat selbst keine Delegierung.
 
-![Demo Podcaster, die Haupt-Persona](/media/manual-persona-entry-0.png)
+![Demo Podcaster, die Haupt-Persona](/media/manual-persona-entry-0-de.png)
 
 Personas, die nur delegiert und nicht als Anlaufstelle genutzt werden, werden nicht weiter verschönert. Um sie auszublenden, könnte ich sie auf die Haupt-Persona weiterleiten.
 
