@@ -16,29 +16,36 @@ title = "Panoptikum.social"
 [[main_menu]]
 page = ""
 title = "About"
+titles = { de = "Über" }
 
 [[main_menu]]
 title = "Manuals"
+titles = { de = "Handbücher" }
 
 [[main_menu.items]]
 page = "manuals"
 title = "Overview"
+titles = { de = "Übersicht" }
 
 [[main_menu.items]]
 page = "manuals/listener-manual"
 title = "... for Listeners"
+titles = { de = "... für Hörer:innen" }
 
 [[main_menu.items]]
 page = "manuals/podcaster-manual"
 title = "... for Podcasters"
+titles = { de = "... für Podcaster:innen" }
 
 [[main_menu.items]]
 page = "manuals/moderator-manual"
 title = "... for Moderators"
+titles = { de = "... für Moderator:innen" }
 
 [[main_menu.items]]
 page = "manuals/curator-manual"
 title = "... for Curators"
+titles = { de = "... für Kurator:innen" }
 
 [[main_menu]]
 page = "api"
@@ -52,3 +59,4 @@ page = "blog"
 [[main_menu]]
 title = "Back to panoptikum.social"
 link = "https://panoptikum.social"
+titles = { de = "Zurück zu panoptikum.social" }
